@@ -34,34 +34,34 @@ Během zajišťování používá služba RMS účty popsané v následující 
 <td style="border:1px solid black;"><p>Účet přihlášeného uživatele</p></td>
 <td style="border:1px solid black;"><p>Vytvoří virtuální adresáře a fondy aplikací. Služba IIS vyžaduje ověřování systému Windows a služba RMS představuje přihlášeného uživatele, který musí být přihlášen místně.</p></td>
 <td style="border:1px solid black;"><p>Úplné řízení (přihlášený uživatel musí být místním správcem)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Systémový účet</p></td>
 <td style="border:1px solid black;"><p>Vytvoří dočasné sestavení pro serializaci.</p></td>
 <td style="border:1px solid black;"><p>Oprávnění pro čtení a zápis pro dočasnou složku systému Windows C:\Windows\Temp.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Účet ASPNET</p></td>
 <td style="border:1px solid black;"><p>Vytvoří dočasné sestavení souborů *.aspx.</p></td>
 <td style="border:1px solid black;"><p>Přístup k dočasnému adresáři mezipaměti sestavení C:\Windows\Microsoft.NET\Framework\v1.1.4322\Dočasné soubory ASP.NET (ve výchozím nastavení).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Účet Síťové služby</p></td>
 <td style="border:1px solid black;"><p>Registruje spojovací bod služby v rámci služby Active Directory.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Oprávnění pouze pro čtení pro web zajišťování (obvykle C:\Inetpub\Wwwroot\Provisioning).<br />  
-<br />  
-</li>  
-<li>Oprávnění ke čtení a zápisu pro klíč registru <strong>DRMS</strong>. Oprávnění jsou udělena instalačním programem služby RMS, který zároveň vytvoří následující klíč registru.<br />  
-<br />  
-Počítače s 32bitovou verzí systému Windows Server 2003<br />  
-<br />  
-<code>HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0</code><br />  
-<br />  
-Počítače s 64bitovou verzí systému Windows Server 2003<br />  
-<br />  
-<code>HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0</code><br />  
-<br />  
+<li>Oprávnění pouze pro čtení pro web zajišťování (obvykle C:\Inetpub\Wwwroot\Provisioning).<br />
+<br />
+</li>
+<li>Oprávnění ke čtení a zápisu pro klíč registru <strong>DRMS</strong>. Oprávnění jsou udělena instalačním programem služby RMS, který zároveň vytvoří následující klíč registru.<br />
+<br />
+Počítače s 32bitovou verzí systému Windows Server 2003<br />
+<br />
+<code>HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0</code><br />
+<br />
+Počítače s 64bitovou verzí systému Windows Server 2003<br />
+<br />
+<code>HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0</code><br />
+<br />
 </li>
 </ul></td>
 </tr>

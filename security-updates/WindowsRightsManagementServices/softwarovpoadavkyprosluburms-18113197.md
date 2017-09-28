@@ -29,34 +29,34 @@ Softwarové požadavky pro servery používající službu RMS jsou uvedeny v n
 <tr class="odd">
 <td style="border:1px solid black;"><p>Operační systém</p></td>
 <td style="border:1px solid black;"><p>Kterékoli vydání systému Microsoft Windows Server® 2003 kromě verze Web Edition.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Systém souborů</p></td>
 <td style="border:1px solid black;"><p>Je doporučen systém souborů NTFS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Součásti operačního systému</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Služba Řízení front zpráv (známá také jako MSMQ) s povolenou integrací adresářové služby Active Directory®<br />  
-<br />  
-</li>  
-<li>Internetová informační služba (IIS) s povolenými službami ASP.NET.<br />  
-<br />  
-</li>  
-<li>Rozhraní Microsoft .NET Framework 1.1<br />  
-<br />  
+<li>Služba Řízení front zpráv (známá také jako MSMQ) s povolenou integrací adresářové služby Active Directory®<br />
+<br />
+</li>
+<li>Internetová informační služba (IIS) s povolenými službami ASP.NET.<br />
+<br />
+</li>
+<li>Rozhraní Microsoft .NET Framework 1.1<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Adresářová služba Active Directory®</p></td>
 <td style="border:1px solid black;"><p>Službu RMS je nutné nainstalovat v doméně služby Active Directory s řadiči systému Windows Server 2000 s aktualizací Service Pack 3 (SP3) nebo vyšší. Všichni uživatelé a skupiny využívající službu RMS k získávání a publikování obsahu musí mít e-mailovou adresu konfigurovanou ve službě Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Databázový server</p></td>
 <td style="border:1px solid black;"><p>K provádění operací vyžaduje služba RMS databázi a uložené procedury. Můžete použít Microsoft SQL Server 2000 s aktualizací SP3a nebo novější či Microsoft SQL Server 2005. Pro testování nebo nasazení v jednom počítači lze použít Microsoft SQL Server Desktop Engine (MSDE 2000) s aktualizací SP3 nebo Microsoft SQL Server 2005 Express Edition.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Pokud nasazujete službu RMS do prostředí s více doménovými strukturami služby Active Directory, je třeba použít univerzální skupiny služby Active Directory, aby bylo členství ve skupinách replikováno do všech globálních katalogů. Chcete-li vytvořit univerzální skupiny, musí být úroveň funkčnosti domény nastavena nejméně na nativní režim systému Windows 2000 a úroveň funkčnosti doménové struktury musí být zvýšena na Windows Server 2003.

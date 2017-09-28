@@ -184,20 +184,20 @@ Je nutné, aby server WSUS 3.0 splňoval požadavky uvedené v tomto seznamu dř
 <tr class="even">
 <td style="border:1px solid black;"><p>Balíček Microsoft .NET Framework verze 2.0 Redistributable Package (x86)</p></td>
 <td style="border:1px solid black;"><p>Viz Balíček Microsoft .NET Framework verze 2.0 Redistributable Package (x86) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=68935">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=68935). V případě 64bitové platformy viz Balíček Microsoft .NET Framework verze 2.0 Redistributable Package (x64) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70637">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70637)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003</p></td>
 <td style="border:1px solid black;"><p>Tato součást je nutná k používání uživatelského rozhraní služby WSUS 3.0. Viz Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003 (KB907265) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70412">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70412). V případě 64bitové platformy viz Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003 x64 Edition (KB907265) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70638">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70638).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Prohlížeč Microsoft Report Viewer</p></td>
 <td style="border:1px solid black;"><p>Tato součást je nutná k používání uživatelského rozhraní služby WSUS 3.0. Viz Microsoft Report Viewer Redistributable 2005 na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70410">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70410).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SQL Server 2005 (nepovinné)</p></td>
 <td style="border:1px solid black;"><p>Pokud ještě není kompatibilní verze serveru SQL Server nainstalována, nainstaluje aktualizace WSUS 3.0 databázi služby Interní databáze systému Windows. Pokud plánujete použití úplné databáze serveru SQL Server, je nutné v systému Windows Server 2003 použít (minimálně) verzi SQL Server 2005 SP1 (dostupná ve službě <a href="http://go.microsoft.com/fwlink/?linkid=66143">Stažení softwaru</a> na adrese http://go.microsoft.com/fwlink/?LinkId=66143) a v systému Windows Server 2008 verzi SQL Server 2005 SP2 (dostupná ve službě <a href="http://go.microsoft.com/fwlink/?linkid=84823">Stažení softwaru</a> na adrese http://go.microsoft.com/fwlink/?LinkId=84823).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc708491.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                             |  
@@ -248,39 +248,39 @@ Pomocí parametrů příkazového řádku služby WSUS lze provést bezobslužno
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parametr</th>  
-<th>Popis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/q</strong></p></td>
 <td style="border:1px solid black;"><p>Provede tichou instalaci.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/u</strong></p></td>
 <td style="border:1px solid black;"><p>Odinstaluje daný produkt. Pokud je nainstalována instance Interní databáze systému Windows, bude také odinstalována.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/p</strong></p></td>
 <td style="border:1px solid black;"><p>Provede pouze kontrolu nezbytných předpokladů. Neinstaluje produkt, pouze zkontroluje systém a ohlásí případné chybějící předpoklady.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
 <td style="border:1px solid black;"><p>Zobrazení parametrů příkazového řádku a jejich popisů.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/g</strong></p></td>
 <td style="border:1px solid black;"><p>Upgrade z verze 2.0 služby WSUS. Jediným platným parametrem této možnosti je /q (tichá instalace). Jedinou platnou vlastností této možnosti je DEFAULT_WEBSITE.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Následující tabulka uvádí vlastnosti příkazového řádku pro službu WSUS 3.0.
@@ -288,79 +288,79 @@ Následující tabulka uvádí vlastnosti příkazového řádku pro službu WSU
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Vlastnost</th>  
-<th>Popis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Vlastnost</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
 <td style="border:1px solid black;"><p>0 = obsah hostován místně, 1 = obsah na serveru Microsoft Update</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
 <td style="border:1px solid black;"><p>Cesta k adresáři s obsahem. Výchozí cesta je <em>WSUSInstallationDrive</em><strong>\WSUS\WSUSContent</strong>, kde <em>WSUSInstallationDrive</em> je místní jednotka s největším množstvím volného místa.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
 <td style="border:1px solid black;"><p>Cesta k adresáři dat databáze Interní databáze systému Windows.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
 <td style="border:1px solid black;"><p>Tento název by měl být ve formátu <em>Nazev_serveru</em>\<em>Nazev_instance_SQL</em>. Pokud je instance databáze v místním počítači, použijte proměnnou prostředí %COMPUTERNAME%. Pokud není k dispozici existující instance, výchozí hodnota je %COMPUTERNAME%\WSUS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
 <td style="border:1px solid black;"><p>0=port 8530, 1=port 80</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
 <td style="border:1px solid black;"><p>Cesta k souboru protokolu a název tohoto souboru</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
 <td style="border:1px solid black;"><p>0=instalovat server služby WSUS, 1=instalovat pouze konzolu</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
 <td style="border:1px solid black;"><p>0 = neinstalovat funkce inventarizace, 1 = instalovat funkce inventarizace</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0 = zachovat databázi, 1 = odebrat databázi</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
 <td style="border:1px solid black;"><p>0 = zachovat soubory obsahu, 1 = odebrat soubory obsahu</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
 <td style="border:1px solid black;"><p>0=zachovat soubory protokolu, 1=odebrat soubory protokolu (použití s přepínačem instalace /u).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0 = použít aktuální databázi, 1 = vytvořit databázi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
 <td style="border:1px solid black;"><p>Popisovač okna vracející zprávy instalační služby MSI o průběhu</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
 <td style="border:1px solid black;"><p>1 = zapojit se do programu zlepšování služby Microsoft Update, 0 = nezapojovat se</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
 <td style="border:1px solid black;"><p>1=nezapisovat umístění obsahu do databáze, 0=zapisovat umístění obsahu do databáze (pro službu Vyrovnávání zatížení sítě)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Příklad použití
@@ -557,40 +557,40 @@ Služba WSUS 3.0 podporuje 32bitové a 64bitové verze systému Windows Server 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Požadavek</th>  
-<th>Podrobnosti</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Požadavek</th>
+<th>Podrobnosti</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Internetová informační služba (IIS)</p></td>
 <td style="border:1px solid black;"><p>Instalujte z operačního systému. Zkontrolujte, zda jsou povolené následující součásti:</p>
-<p>Ověřování systému Windows</p>  
-<p>Statický obsah</p>  
-<p>ASP.NET</p>  
+<p>Ověřování systému Windows</p>
+<p>Statický obsah</p>
+<p>ASP.NET</p>
 <p>Kompatibilita správy služby IIS 6.0</p>
 <p>Kompatibilita metabáze služby IIS</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Balíček Microsoft .NET Framework verze 2.0 Redistributable Package (x86)</p></td>
 <td style="border:1px solid black;"><p>V systému Windows Server 2008 není nutné, již nainstalováno jako součást operačního systému.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Konzola Microsoft Management Console 3.0</p></td>
 <td style="border:1px solid black;"><p>V systému Windows Server 2008 není nutné, již nainstalováno jako součást operačního systému.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Prohlížeč sestav společnosti Microsoft</p></td>
 <td style="border:1px solid black;"><p>Tato součást je nutná k používání uživatelského rozhraní služby WSUS. Viz Microsoft Report Viewer Redistributable 2005 na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70410">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70410).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Problém 1: Před spuštěním služby WSUS 3.0 musí být aktualizován konfigurační soubor Internetové informační služby 7.0.

@@ -59,77 +59,77 @@ Hardware and database software requirements are driven by the number of client c
 <td style="border:1px solid black;"><p>1.5 GHz or faster</p></td>
 <td style="border:1px solid black;"><p>3 GHz hyper threaded processor, x64 hardware</p></td>
 <td style="border:1px solid black;"><p>3 GHz hyper threaded dual processor</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Graphics card</p></td>
 <td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
 <td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
 <td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
 <td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RAM</p></td>
 <td style="border:1px solid black;"><p>1 GB</p></td>
 <td style="border:1px solid black;"><p>2 GB</p></td>
 <td style="border:1px solid black;"><p>2 GB</p></td>
 <td style="border:1px solid black;"><p>4 GB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Page file</p></td>
 <td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
 <td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
 <td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
 <td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>I/O subsystem</p></td>
 <td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
 <td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
 <td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
 <td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Network card</p></td>
 <td style="border:1px solid black;"><p>10 MB</p></td>
 <td style="border:1px solid black;"><p>100 MB</p></td>
 <td style="border:1px solid black;"><p>1 GB</p></td>
 <td style="border:1px solid black;"><p>1 GB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hard drive—system partition</p></td>
 <td style="border:1px solid black;"><p>1 GB</p></td>
 <td style="border:1px solid black;"><p>1 GB</p></td>
 <td style="border:1px solid black;"><p>1 GB</p></td>
 <td style="border:1px solid black;"><p>1 GB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Hard drive—content storage</p></td>
 <td style="border:1px solid black;"><p>20 GB</p></td>
 <td style="border:1px solid black;"><p>30 GB</p></td>
 <td style="border:1px solid black;"><p>30 GB</p></td>
 <td style="border:1px solid black;"><p>30 GB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hard drive—SQL Server installation</p></td>
 <td style="border:1px solid black;"><p>2 GB</p></td>
 <td style="border:1px solid black;"><p>2 GB</p></td>
 <td style="border:1px solid black;"><p>2 GB</p></td>
 <td style="border:1px solid black;"><p>2 GB</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><img src="images/Cc708483.note(WS.10).gif" />Poznámka</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/Cc708483.note(WS.10).gif" />Poznámka</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;">These guidelines assume that WSUS clients are synchronizing with the server every eight hours (for the high-end configuration) or every two hours (for the super high-end configuration). If they synchronize more often, there will be a corresponding increment in the server load. For example, if clients synchronize twice a day, the load will be twice as much as if they synchronize once a day.
 <p></p></td>

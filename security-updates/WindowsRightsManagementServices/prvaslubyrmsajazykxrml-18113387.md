@@ -29,52 +29,52 @@ V následující tabulce je uvedeno, jakým způsobem práva, která můžete v
 <tr class="odd">
 <td style="border:1px solid black;"><p>Úplné řízení</p></td>
 <td style="border:1px solid black;"><p>OWNER</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zobrazit práva</p></td>
 <td style="border:1px solid black;"><p>VIEWRIGHT</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Exportovat (Uložit jako)</p></td>
 <td style="border:1px solid black;"><p>EXPORT</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Uložit</p></td>
 <td style="border:1px solid black;"><p>EDIT</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zobrazit</p></td>
 <td style="border:1px solid black;"><p>VIEW</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tisk</p></td>
 <td style="border:1px solid black;"><p>PRINT</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Extrahovat</p></td>
 <td style="border:1px solid black;"><p>EXTRACT</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Úpravy</p></td>
 <td style="border:1px solid black;"><p>DOCEDIT</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Povolit makra</p></td>
 <td style="border:1px solid black;"><p>OBJMODEL</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Předat dál</p></td>
 <td style="border:1px solid black;"><p>FORWARD</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Odpovědět</p></td>
 <td style="border:1px solid black;"><p>REPLY</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Odpovědět všem</p></td>
 <td style="border:1px solid black;"><p>REPLYALL</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Klientská aplikace služby RMS může rovněž poskytovat uživatelské rozhraní, takže autoři mohou vybrat konkrétní práva pro chráněný obsah, aniž by bylo nutné používat šablony. V takovém případě aplikace určuje, jakým způsobem budou jednotlivá práva zobrazena uživatelům a jak zobrazené volby odpovídají prvkům XrML.

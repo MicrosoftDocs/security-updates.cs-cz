@@ -29,7 +29,7 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění, kter�
 <tr class="odd">
 <td style="border:1px solid black;"><p>Instalace služby RMS</p></td>
 <td style="border:1px solid black;"><p>Přihlaste se pomocí doménového účtu, který je členem místní skupiny Administrators.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zajištění služby RMS</p></td>
 <td style="border:1px solid black;"><p>Přihlaste se pomocí doménového účtu, který je členem místní skupiny Administrators. Použitý účet musí mít navíc u databáze serveru SQL Server udělenu roli pro přihlášení k serveru SQL jako správce systému, aby mohla služba RMS zřizovat databáze.</p>
@@ -39,8 +39,8 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění, kter�
 <tr class="odd">
 <td style="border:1px solid black;"><p>Správa služby RMS</p></td>
 <td style="border:1px solid black;"><p>Přihlaste se pomocí doménového účtu, který je členem místní skupiny Administrators. Pro účely správy přístupu k webovým stránkám správy lze přizpůsobit nastavení zabezpečení.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720178.note(WS.10).gif)Poznámka                                                                                                                                                                                                         |  

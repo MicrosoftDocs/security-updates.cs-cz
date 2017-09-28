@@ -29,14 +29,14 @@ V následující tabulce jsou uvedeny čítače výkonu, které jsou k dispozi
 <tr class="odd">
 <td style="border:1px solid black;"><p>SubEnroll Failures</p></td>
 <td style="border:1px solid black;"><p>Celkový počet požadavků na dílčí zápis, které nebyly úplně zpracovány.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SubEnroll Processing Time</p></td>
 <td style="border:1px solid black;"><p>Průměrná doba zpracování v mikrosekundách na jeden požadavek na dílčí zápis.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SubEnroll Requests</p></td>
 <td style="border:1px solid black;"><p>Celkový počet požadavků na dílčí zápis, které byly přijaty službou zápisu.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

@@ -43,24 +43,24 @@ V následující tabulce je popsána syntaxe jednotlivých příkazů.
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/I MSDrmClient.msi</strong> nebo <strong>/I RMClientBackCompat.msi</strong></p></td>
 <td style="border:1px solid black;"><p>Povinný parametr. Určuje produkt, který má být nainstalován.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/qn</strong></p></td>
 <td style="border:1px solid black;"><p>Nepovinný parametr. Určuje tichou instalaci, bez interakce s uživatelem.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/lei</strong> <em>logfile.log</em></p></td>
 <td style="border:1px solid black;"><p>Nepovinný parametr. Určuje soubor, do kterého budou protokolovány chybové zprávy a zprávy o stavu.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>DISPLAYPAGE=”NO”</strong></p></td>
 <td style="border:1px solid black;"><p>Nepovinný parametr. Určuje, že po dokončení instalace nebude zobrazena stránka <strong>Globální správa</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>TARGETDIR=c:\</strong><em>umístění_instalace</em></p></td>
 <td style="border:1px solid black;"><p>Nepovinný parametr. Určuje adresář, do kterého má být služba RMS s aktualizací Service Pack 2 nainstalována. Pokud umístění nezadáte, bude použito výchozí umístění instalace.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747733.note(WS.10).gif)Poznámka                                                                                                                                                   |  

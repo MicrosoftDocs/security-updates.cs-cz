@@ -38,16 +38,16 @@ Hardwarové požadavky na spuštění služby RMS s aktualizací SP2 jsou uvede
 <tr class="odd">
 <td style="border:1px solid black;"><p>Počítač s jedním procesorem Pentium III (800 MHz nebo rychlejší)</p></td>
 <td style="border:1px solid black;"><p>Počítač se dvěma procesory Pentium 4 (1500 MHz nebo rychlejší)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>256 MB paměti RAM</p></td>
 <td style="border:1px solid black;"><p>512 MB paměti RAM</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>20 GB volného místa na pevném disku</p></td>
 <td style="border:1px solid black;"><p>40 GB volného místa na pevném disku</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                |  
@@ -59,41 +59,41 @@ Softwarové požadavky pro servery používající službu RMS s aktualizací S
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Součást</th>  
-<th>Požadavek</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Součást</th>
+<th>Požadavek</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Operační systém</p></td>
 <td style="border:1px solid black;"><p>Microsoft Windows Server® 2003, s výjimkou verze Web Edition, pro službu RMS s aktualizací SP2.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Služba Správa přístupových práv s aktualizací SP2</p></td>
 <td style="border:1px solid black;"><p>Před upgradem na službu RMS s aktualizací SP2 musí být nainstalována služba RMS s aktualizací Service Pack 1 (SP1). Pro klienta RMS s aktualizací SP2 tento požadavek neplatí.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Systém souborů</p></td>
 <td style="border:1px solid black;"><p>Je doporučen systém souborů NTFS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Požadované součásti</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Řízení front zpráv (označované také jako MSMQ) s povolenou integrací adresářové služby Active Directory®.<br />  
-<br />  
-</li>  
-<li>Internetová informační služba (IIS) s povolenými službami ASP.NET.<br />  
-<br />  
-</li>  
-<li>Rozhraní Microsoft .NET Framework 1.1<br />  
-<br />  
+<li>Řízení front zpráv (označované také jako MSMQ) s povolenou integrací adresářové služby Active Directory®.<br />
+<br />
+</li>
+<li>Internetová informační služba (IIS) s povolenými službami ASP.NET.<br />
+<br />
+</li>
+<li>Rozhraní Microsoft .NET Framework 1.1<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -125,12 +125,12 @@ Požadavky na infrastrukturu pro servery používající službu RMS s aktualiz
 <tr class="odd">
 <td style="border:1px solid black;"><p>Adresářové služby</p></td>
 <td style="border:1px solid black;"><p>Služba Active Directory na řadičích domény se systémem Windows Server 2000 s aktualizací Service Pack 3 (SP3) nebo novějším, která patří do stejné domény jako služba RMS. Všichni uživatelé a skupiny využívající službu RMS k získávání licencí a k publikování obsahu musí mít e-mailovou adresu konfigurovanou ve službě Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Databázový server</p></td>
 <td style="border:1px solid black;"><p>K provádění operací vyžaduje služba RMS s aktualizací SP2 databázi a uložené procedury. Můžete použít Microsoft SQL Server™ 2000 s aktualizací SP3 nebo novější či Microsoft SQL Server 2005. Pro testování nebo nasazení v jednom počítači lze použít Microsoft SQL Server Desktop Engine (MSDE 2000) verze A nebo Microsoft SQL Server 2005 Express Edition.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Služba RMS je navržena a testována pro databázové servery používající Microsoft SQL Server 2000 a Microsoft SQL Server 2005. Službu RMS lze spustit na jiných databázových serverech, pokud splňují následující kritéria:
@@ -149,43 +149,43 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění poža
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Činnost</th>  
-<th>Požadavky na účet</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Činnost</th>
+<th>Požadavky na účet</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Instalace služby RMS</p></td>
 <td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zajišťování kořenového clusteru služby RMS</p></td>
 <td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače a s oprávněními k vyhledávání a zápisu do služby Active Directory</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zajišťování vyhrazeného clusteru pro správu licencí služby RMS</p></td>
 <td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače a s oprávněními k vyhledávání ve službě Active Directory</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zajišťování při používání nové konfigurační databáze</p></td>
 <td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače a s oprávněními ke čtení, zápisu a vytváření v počítači se serverem SQL Server</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zajišťování při používání existující konfigurační databáze</p></td>
 <td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače a s oprávněními ke čtení a zápisu v počítači s databázovým serverem</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Správa služby RMS</p></td>
 <td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                 |  
@@ -197,31 +197,31 @@ Používáte-li Službu správy přístupových práv při nasazení clusterů, 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Situace</th>  
-<th>Doporučení</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Situace</th>
+<th>Doporučení</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Velký počet počítačů využívajících Službu správy přístupových práv</p></td>
 <td style="border:1px solid black;"><p>K instalaci klientů RMS s aktualizací SP2 použijte server SMS nebo zásady skupiny.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Velký počet požadavků klientů</p></td>
 <td style="border:1px solid black;"><p>Použijte server pro vyrovnávání zatížení, službu Vyrovnávání zatížení sítě operačního systému Windows Server nebo hardwarové vyrovnávání zatížení a rozdělte požadavky klientů do celého clusteru.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Dva síťové adaptéry, které používají virtuální IP adresování ke zpracování požadavků z extranetu i intranetu</p></td>
 <td style="border:1px solid black;"><p>Zajistěte, aby každá registrace DNS (Domain Name System), která vystavuje svou virtuální IP adresu do extranetu, tuto adresu vystavila také do intranetu.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747637.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                                                                                                                                                                                                                 |  
@@ -246,7 +246,7 @@ Služba RMS s aktualizací SP2 obsahuje několik nových funkcí:
 -   [Větší velikost dávek na serveru](#bkmk_cif3)  
 -   [Kompatibilita se serverem Microsoft SQL Server 2005](#bkmk_cif4)
   
-<span id="BKMK_CIF1"></span>  
+<span id="BKMK_CIF1"></span>
 #### Zdokonalené rozšiřování skupin mezi doménovými strukturami
   
 #### K čemu tato funkce slouží?
@@ -279,7 +279,7 @@ Nový kanál rozšíření skupiny služby RMS je ve výchozím nastavení služ
   
 Do služby RMS s aktualizací SP2 byly přidány nové události informující o problémových zprávách, které nebyly přidány do služby Řízení front zpráv. Tyto nové protokoly událostí zahrnují události, které vás upozorní, pokud zprávu nelze digitálně podepsat nebo pokud zprávu nelze ověřit. Mezi příklady problémů s ověřením patří chybně vytvořené zprávy, chybějící algoritmus hash či podpis nebo nesprávný algoritmus hash či podpis.
   
-<span id="BKMK_CIF2"></span>  
+<span id="BKMK_CIF2"></span>
 #### Změny protokolování databáze
   
 #### K čemu tato funkce slouží?
@@ -302,7 +302,7 @@ Ve službě RMS s aktualizací SP2 je u zpráv odesílaných clusterem RMS pomo
   
 Do služby RMS s aktualizací SP2 byly přidány nové události informující o problémových zprávách, které nebyly přidány do fronty služby Řízení front zpráv. Tyto nové událostí jsou zapsány do aplikačního protokolu a zahrnují zprávy, které nelze digitálně podepsat nebo jejichž digitální podpisy nelze ověřit. Mezi příklady problémů s ověřením patří chybně vytvořené zprávy, chybějící algoritmus hash či podpis nebo nesprávný algoritmus hash či podpis.
   
-<span id="BKMK_CIF3"></span>  
+<span id="BKMK_CIF3"></span>
 #### Větší velikost dávek na serveru
   
 #### K čemu tato funkce slouží?
@@ -327,7 +327,7 @@ Ve verzích předcházejících službě RMS s aktualizací SP2 podporoval clus
   
 Zasílání zpráv o chybách bylo ve službě RMS s aktualizací SP2 zdokonaleno tak, aby zahrnovalo dávkové požadavky. Pokud například odešlete dávku deseti požadavků a druhý a třetí požadavek je chybný, bude do protokolu událostí zapsána událost pro každou chybu.
   
-<span id="BKMK_CIF4"></span>  
+<span id="BKMK_CIF4"></span>
 #### Kompatibilita se serverem Microsoft SQL Server 2005
   
 #### K čemu tato funkce slouží?

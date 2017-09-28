@@ -34,16 +34,16 @@ Existují tři události, které služba RMS odešle do protokolu systémových 
 <td style="border:1px solid black;"><p>16</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiresInOneMonthEvent</p></td>
 <td style="border:1px solid black;"><p>Upozornění. Služba nadále funguje normálně.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiresInOneWeekEvent</p></td>
 <td style="border:1px solid black;"><p>Upozornění. Služba nadále funguje normálně.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>18</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiredEvent</p></td>
 <td style="border:1px solid black;"><p>Chyba. Služba je zakázána.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

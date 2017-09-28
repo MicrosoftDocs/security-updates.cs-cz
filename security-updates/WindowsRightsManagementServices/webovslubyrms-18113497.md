@@ -38,36 +38,36 @@ Webové služby RMS jsou popsány v následující tabulce.
 <tr class="odd">
 <td style="border:1px solid black;"><p>Dílčí zápis</p></td>
 <td style="border:1px solid black;"><p>Poskytuje podřízené serverové certifikáty pro vystavování licencí serverům v clusterech vyhrazených pro správu licencí. Tyto certifkáty umožňují clusteru vyhrazenému pro správu licencí vystavovat licence k publikování a k použití.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certifikace účtu</p></td>
 <td style="border:1px solid black;"><p>Zajišťuje pro uživatele certifikáty účtů práv. Tyto certifikáty potřebují uživatelé k tomu, aby mohli získat licence k publikování a používání za účelem vytváření a používání obsahu chráněného právy.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Služba Activation Proxy</p></td>
 <td style="border:1px solid black;"><p>Tato služba byla zachována z důvodu kompatibility s klientem RMS verze 1. Předává požadavky na aktivaci počítače službě Microsoft Activation Service a vrací bezpečnostní moduly a certifikáty počítače RMS klientům RMS verze 1. Tato služba se nepoužívá klienty RMS s aktualizací Service Pack 1 (SP1) nebo vyšší.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Publikování</p></td>
 <td style="border:1px solid black;"><p>Vystavuje licence k publikování, které umožňují autorům vytvářet a distribuovat obsah chráněný právy. Také vystavuje klientské certifikáty pro vystavování licencí, které umožňují uživatelům publikovat obsah chráněný právy, aniž by byli připojeni k interní síti hostující služby RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Licence</p></td>
 <td style="border:1px solid black;"><p>Vystavuje licence k použití, které uživatele opravňují k používání obsahu chráněného právy.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Správa</p></td>
 <td style="border:1px solid black;"><p>Umožňuje správci spravovat služby RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DrmRemote</p></td>
 <td style="border:1px solid black;"><p>Umožňuje webovým službám komunikovat spolu a s dalšími součástmi systému RMS prostřednictvím technologie .NET Remoting.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Vyřazování z provozu</p></td>
 <td style="border:1px solid black;"><p>Zruší ochranu pomocí práv u obsahu a vrátí obsah klientovi. Tuto službu instaluje instalační program služby RMS, ale služba nemá odpovídající virtuální kořen v Internetové informační službě, dokud ji nepovolí správce. Povolením této služby zakážete všechny ostatní služby.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Kromě webových služeb nainstaluje služba RMS také službu naslouchání protokolování. Každá webová služba odesílá protokolovaná data do fronty zpráv protokolování. Služba naslouchání protokolování potom přenese zaprotokolovaná data z fronty zpráv do databáze protokolování.

@@ -37,18 +37,18 @@ V následující tabulce je znázorněn výchozí seznam řízení přístupu k
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrators</p></td>
 <td style="border:1px solid black;"><p>Úplné řízení</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RMS Service Group</p></td>
 <td style="border:1px solid black;"><p>Čtení a spouštění</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SYSTEM</p></td>
 <td style="border:1px solid black;"><p>Úplné řízení</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Users</p></td>
 <td style="border:1px solid black;"><p>Čtení a spouštění</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

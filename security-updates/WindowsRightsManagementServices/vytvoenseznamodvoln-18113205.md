@@ -183,20 +183,20 @@ Parametry příkazu zadejte na základě následujících informací:
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>vstupní_soubor</em></p></td>
 <td style="border:1px solid black;"><p>Název připraveného souboru seznamu odvolání, který vyhovuje syntaxi jazyka XrML</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>soubor_klíčů</em></p></td>
 <td style="border:1px solid black;"><p>Název souboru obsahujícího generovaný privátní a veřejný klíč</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>název_kontejneru</em></p></td>
 <td style="border:1px solid black;"><p>Název kontejneru klíče</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>výstupní_soubor</em></p></td>
 <td style="border:1px solid black;"><p>Název podepsaného souboru seznamu odvolání, který nástroj vytvoří</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720208.note(WS.10).gif)Poznámka |  
@@ -215,47 +215,47 @@ Nástroj RLsigner.exe v návratovém kódu vrací informace o základních chyb�
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Návratový kód</th>  
-<th>Popis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Návratový kód</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>0</p></td>
 <td style="border:1px solid black;"><p>Úspěšné provedení</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-1</p></td>
 <td style="border:1px solid black;"><p>Nelze číst zdrojový soubor</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-2</p></td>
 <td style="border:1px solid black;"><p>Nelze číst soubor klíčů</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-3</p></td>
 <td style="border:1px solid black;"><p>Neplatný soubor klíčů</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-4</p></td>
 <td style="border:1px solid black;"><p>Neplatný zdrojový soubor</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-5</p></td>
 <td style="border:1px solid black;"><p>Nelze zapisovat do cílového souboru</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-6</p></td>
 <td style="border:1px solid black;"><p>Neznámá chyba</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Podepisování seznamů odvolání je vhodné naplánovat na základě intervalu aktualizace, který byl pro server určen.

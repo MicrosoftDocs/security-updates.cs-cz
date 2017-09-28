@@ -43,20 +43,20 @@ Při plánování kapacity můžete k odhadu požadavků na systém RMS z hledis
 <td style="border:1px solid black;"><p>Opakovaně pro každého uživatele a každou položku obsahu</p></td>
 <td style="border:1px solid black;"><p>64</p></td>
 <td style="border:1px solid black;"><p>18</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certifikace účtu práv</p></td>
 <td style="border:1px solid black;"><p>Pouze počáteční tok dat služby RMS</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Zápis klienta</p></td>
 <td style="border:1px solid black;"><p>Pouze počáteční tok dat služby RMS</p></td>
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Propustnost sítě může být dále ovlivněna tokem dat souvisejícím s dotazy služby Active Directory. Tímto vlivem se však obvykle není nutné zabývat, pokud servery RMS nasazujete v těsné blízkosti serverů globálního katalogu. Výjimkou by byl případ, kdy by selhání všech serverů globálního katalogu na webu způsobilo převzetí služeb jiným webem prostřednictvím připojení, které nepodporuje stejnou kapacitu.
@@ -66,31 +66,31 @@ Následující tabulka obsahuje základní data týkající se využití šířk
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Transakce</th>  
-<th>Využití šířky pásma na trase služba RMS-globální katalog (bajty)</th>  
-<th>Využití šířky pásma na trase globálního katalog-služba RMS (bajty)</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transakce</th>
+<th>Využití šířky pásma na trase služba RMS-globální katalog (bajty)</th>
+<th>Využití šířky pásma na trase globálního katalog-služba RMS (bajty)</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Vytvoření připojení služby RMS (ldap_bind)</p></td>
 <td style="border:1px solid black;"><p>1600</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Vyhodnocení členství ve skupinách služby RMS (ldap_search)</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
 <td style="border:1px solid black;"><p>100</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Při práci s referenčními tabulkami aplikujte čísla na obsah daného nasazení. Pokud je například uživatel členem 15 skupin, bude požadavek služby RMS na vyhledávání vyžadovat 200 bajtů a odpověď globálního katalogu bude vyžadovat 1 500 bajtů (100 bajtů x 15).

@@ -44,98 +44,98 @@ V následující tabulce je uveden seznam virtuálních adresářů, které jso
 <td style="border:1px solid black;"><p>_wmcs</p></td>
 <td style="border:1px solid black;"><p>Toto je virtuální adresář správy clusteru RMS.</p></td>
 <td style="border:1px solid black;"><p>Není k dispozici</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certification</p></td>
 <td style="border:1px solid black;"><p>Tento virtuální adresář obsahuje služby, které podporují certifikaci RMS.</p></td>
 <td style="border:1px solid black;"><p>Není k dispozici</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Aktivační server proxy</p></td>
 <td style="border:1px solid black;"><p>Activation.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Certifikace účtu</p></td>
 <td style="border:1px solid black;"><p>Certification.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Předběžná certifikace</p></td>
 <td style="border:1px solid black;"><p>Precertification.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Lokátor služeb</p></td>
 <td style="border:1px solid black;"><p>ServiceLocator.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Server</p></td>
 <td style="border:1px solid black;"><p>Server.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Certifikace serverů</p></td>
 <td style="border:1px solid black;"><p>ServerCertification.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Certifikace mobilních zařízení</p></td>
 <td style="border:1px solid black;"><p>MobileDeviceCertfication.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Zápis</p></td>
 <td style="border:1px solid black;"><p>SubEnrollService.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Správa licencí</p></td>
 <td style="border:1px solid black;"><p>Tento virtuální adresář obsahuje služby, které podporují správu licencí RMS</p></td>
 <td style="border:1px solid black;"><p>Není k dispozici</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Správa licencí</p></td>
 <td style="border:1px solid black;"><p>License.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Publikování</p></td>
 <td style="border:1px solid black;"><p>Publish.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Server</p></td>
 <td style="border:1px solid black;"><p>Server.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Lokátor služeb</p></td>
 <td style="border:1px solid black;"><p>ServiceLocator.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Admin</p></td>
 <td style="border:1px solid black;"><p>Tento virtuální adresář obsahuje služby, které podporují správu RMS.</p></td>
 <td style="border:1px solid black;"><p>Není k dispozici</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Správa</p></td>
 <td style="border:1px solid black;"><p>AdminSvc.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Služba DrmRemote</p></td>
 <td style="border:1px solid black;"><p>Rozhraní .NET Remoting</p></td>
 <td style="border:1px solid black;"><p>Není k dispozici</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DirectoryServices</p></td>
 <td style="border:1px solid black;"><p>Jedná se o podadresář služby DrmRemote.</p></td>
 <td style="border:1px solid black;"><p>Není k dispozici</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747649.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |  

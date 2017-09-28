@@ -110,12 +110,12 @@ Vzhledem k tomu, že služba RMS s aktualizací SP2 nabízí mnoho zdokonalenýc
 <p>Offline dílčí zápis serveru.</p>
 <p>Nejsou k dispozici klienti s vlastní aktivací.</p></td>
 <td style="border:1px solid black;"><p>Všechny funkce verze s aktualizací SP1.</p>
-<p>Offline dílčí zápis serveru.</p>  
-<p>Klienti s vlastní aktivací.</p>  
+<p>Offline dílčí zápis serveru.</p>
+<p>Klienti s vlastní aktivací.</p>
 <p>Bezpečnostní modul serveru.</p>
 <p>Microsoft SQL Server™ 2005 je podporován ve výchozím nastavení.</p></td>
 <td style="border:1px solid black;"><p>Všechny předchozí funkce a funkce verze s aktualizací SP2.</p>
-<p>Offline dílčí zápis serveru.</p>  
+<p>Offline dílčí zápis serveru.</p>
 <p>U verze s aktualizací SP2 se klienti aktivují sami.</p>
 <p>U verze 1 se klienti musí aktivovat prostřednictvím Internetu.</p></td>
 </tr>

@@ -45,38 +45,38 @@ V následující tabulce jsou uvedeny položky, které řídí chování mezipa
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>Maximální počet zaregistrovaných objektů zabezpečení a jejich e-mailových adres a identifikátorů SID, které lze uložit v mezipaměti.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>Doba platnosti informací uložených v mezipaměti pro zaregistrované objekty zabezpečení.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupIDCacheMax</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>Maximální počet skupin a jejich e-mailových adres a identifikátorů SID, které lze uložit v mezipaměti.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupIDCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>Doba platnosti informací uložených v mezipaměti pro členství ve skupinách.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupMembershipCacheMax</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>Maximální počet kontaktů, které jsou členy skupiny, již lze uložit v mezipaměti.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupMembershipCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>Doba platnosti informací uložených v mezipaměti pro kontakty, které jsou členy skupiny.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747586.Caution(WS.10).gif)Upozornění                                                                                                  |  

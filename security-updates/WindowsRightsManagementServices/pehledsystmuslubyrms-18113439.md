@@ -31,57 +31,57 @@ V následující tabulce jsou uvedeny typy serverů zahrnutých do nasazení sl
 <tr class="odd">
 <td style="border:1px solid black;"><p>Kořenová certifikace</p></td>
 <td style="border:1px solid black;"><p>Spustí následující služby RMS:</p>
-<ul>  
-<li><strong>Dílčí zápis</strong>. Provede dílčí zápis serverů správy licencí.<br />  
-<br />  
-</li>  
-<li><strong>Aktivační server proxy</strong>. Funguje jako internetový server proxy pro požadavky klientů na bezpečnostní moduly a certifikáty počítače RMS.<br />  
-<br />  
-</li>  
-<li><strong>Certifikace</strong>. Vydává certifikáty účtů práv.<br />  
-<br />  
-</li>  
-<li><strong>Publikování</strong>. Vydává licence k publikování.<br />  
-<br />  
-</li>  
-<li><strong>Licencování</strong>. Vydává licence k použití.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Dílčí zápis</strong>. Provede dílčí zápis serverů správy licencí.<br />
+<br />
+</li>
+<li><strong>Aktivační server proxy</strong>. Funguje jako internetový server proxy pro požadavky klientů na bezpečnostní moduly a certifikáty počítače RMS.<br />
+<br />
+</li>
+<li><strong>Certifikace</strong>. Vydává certifikáty účtů práv.<br />
+<br />
+</li>
+<li><strong>Publikování</strong>. Vydává licence k publikování.<br />
+<br />
+</li>
+<li><strong>Licencování</strong>. Vydává licence k použití.<br />
+<br />
+</li>
 </ul>
 <p>Každá implementace musí obsahovat alespoň jeden server nebo cluster kořenové certifikace. V každé síti Active Directory může být pouze jeden cluster kořenové certifikace.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Licencování (nepovinné)</p></td>
 <td style="border:1px solid black;"><p>Spustí následující služby RMS:</p>
-<ul>  
-<li><strong>Publikování</strong>. Vydává licence k publikování.<br />  
-<br />  
-</li>  
-<li><strong>Licencování</strong>. Vydává licence k použití.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Publikování</strong>. Vydává licence k publikování.<br />
+<br />
+</li>
+<li><strong>Licencování</strong>. Vydává licence k použití.<br />
+<br />
+</li>
 </ul>
 <p>Servery správy licencí jsou často implementovány za účelem podpory jednotlivých oddělení nebo snížení zátěže požadavků na licencování na clusteru kořenové certifikace. Servery správy licencí jsou nepovinné.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Databázový server, například SQL Server</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Provozuje konfigurační databáze, databáze protokolování a databáze adresářových služeb služby RMS.<br />  
-<br />  
-</li>  
-<li>Ukládá certifikáty účtů práv do konfigurační databáze clusteru kořenové certifikace.<br />  
-<br />  
+<li>Provozuje konfigurační databáze, databáze protokolování a databáze adresářových služeb služby RMS.<br />
+<br />
+</li>
+<li>Ukládá certifikáty účtů práv do konfigurační databáze clusteru kořenové certifikace.<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Řadič domény a globální katalog</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Zajišťuje ověření uživatelů a adresářové služby.<br />  
-<br />  
-</li>  
-<li>Ukládá umístění zjišťování služeb pro cluster kořenové certifikace.<br />  
-<br />  
+<li>Zajišťuje ověření uživatelů a adresářové služby.<br />
+<br />
+</li>
+<li>Ukládá umístění zjišťování služeb pro cluster kořenové certifikace.<br />
+<br />
 </li>
 </ul></td>
 </tr>

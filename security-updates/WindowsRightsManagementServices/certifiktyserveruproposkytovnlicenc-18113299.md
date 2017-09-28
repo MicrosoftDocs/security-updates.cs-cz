@@ -36,28 +36,28 @@ Seznam práv, které jsou uděleny serverům certifikáty poskytovatele licence 
 <td style="border:1px solid black;"><p>Certifikáty účtů práv</p></td>
 <td style="border:1px solid black;"><p>Ano</p></td>
 <td style="border:1px solid black;"><p>Ne</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Licence k publikování</p></td>
 <td style="border:1px solid black;"><p>Ano</p></td>
 <td style="border:1px solid black;"><p>Ano</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Licence k použití</p></td>
 <td style="border:1px solid black;"><p>Ano</p></td>
 <td style="border:1px solid black;"><p>Ano</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Podřízené certifikáty serveru pro poskytování licencí</p></td>
 <td style="border:1px solid black;"><p>Ano</p></td>
 <td style="border:1px solid black;"><p>Ne</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Klientské certifikáty pro poskytování licencí</p></td>
 <td style="border:1px solid black;"><p>Ano</p></td>
 <td style="border:1px solid black;"><p>Ano</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720184.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |  

@@ -62,13 +62,13 @@ Následující tabulka uvádí položky, které můžete přidat za účelem kon
 <td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
 <td style="border:1px solid black;"><p>Řetězec</p></td>
 <td style="border:1px solid black;"><p>http(nebo https)://<em>název_serveru</em>/_wmcs/certification/subenrollservice.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GicURL</p></td>
 <td style="border:1px solid black;"><p>Řetězec</p></td>
 <td style="border:1px solid black;"><p>http(nebo https)://<em>název_serveru</em>/_wmcs/certification/certification.asmx</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Konfigurace jiného nastavení zjišťování služby na straně klienta pro publikování  
@@ -99,36 +99,36 @@ Následující tabulka uvádí klíče registru, které můžete přidat do klie
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Název</th>  
-<th>Typ</th>  
-<th>Hodnota</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Název</th>
+<th>Typ</th>
+<th>Hodnota</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation</p></td>
 <td style="border:1px solid black;"><p>Řetězec</p></td>
 <td style="border:1px solid black;"><p>http(nebo https)://<em>název_clusteru_RMS</em>/_wmcs/Certification, kde <em>název_clusteru_RMS</em> je název vašeho clusteru RMS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
 <td style="border:1px solid black;"><p>Řetězec</p></td>
 <td style="border:1px solid black;"><p>http(nebo https)://<em>název_clusteru_RMS</em>/_wmcs/Licensing, kde <em>název_clusteru_RMS</em> je název vašeho clusteru RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CloudPublishing</p></td>
 <td style="border:1px solid black;"><p>Řetězec</p></td>
 <td style="border:1px solid black;"><p>http(nebo https)://<em>plně kvalifikovaný název domény_clusteru</em>/_wmcs/Licensing, kde <em>plně kvalifikovaný název domény_clusteru</em> je plně kvalifikovaný název domény vašeho clusteru RMS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Doporučujeme implementovat tyto položky registru buď pomocí serveru SMS (Systems Management Server) nebo pomocí zásad skupiny, a zajistit tak, aby všichni klienti ve vašem podniku používali správné servery pro publikování.

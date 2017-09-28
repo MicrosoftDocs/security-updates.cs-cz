@@ -230,22 +230,22 @@ Následující tabulka uvádí požadovaný software pro jednotlivé podporovan�
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
 <td style="border:1px solid black;"><p>Databázový software, který je stoprocentně kompatibilní se serverem Microsoft SQL</p></td>
 <td style="border:1px solid black;"><p>Neuvedeno</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Databázový software, který je stoprocentně kompatibilní se serverem Microsoft SQL</p></td>
 <td style="border:1px solid black;"><p>Pokud nepoužíváte Microsoft SQL Server 2000, můžete nainstalovat službu MSDE 2000 (Microsoft SQL Server 2000 Desktop Engine). Tento postup sestává z několika kroků. Další informace získáte v následující části Instalace služby MSDE v systému Windows 2000.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Microsoft Internet Explorer 6.0 Service Pack 1</p></td>
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Microsoft .NET Framework Version 1.1 Redistributable Package</p></td>
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47369">Microsoft .NET Framework Version 1.1 Redistributable Package</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Microsoft .NET Framework 1.1 Service Pack 1</p></td>

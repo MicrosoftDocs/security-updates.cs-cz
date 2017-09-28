@@ -103,7 +103,7 @@ Tato část popisuje softwarové a hardwarové požadavky pro instalaci aktualiz
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2008 R2 vyžaduje službu WSUS 3.0 SP2. Pokud instalujete Windows Server 2008 R2, měli byste nainstalovat službu WSUS 3.0 SP2. Do systému Windows Server 2008 R2 neinstalujte službu WSUS 3.0 SP1.
-<p></p>  
+<p></p>
 U služby WSUS 3.0 SP2 není podporováno použití s Terminálovou službou na front-end serveru ve vzdálené konfiguraci SQL.
 <p></p></td>
 </tr>
@@ -182,7 +182,7 @@ Aby bylo možné úspěšně nainstalovat službu WSUS 3.0 SP2, bude pravděpodo
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Uvedený postup může způsobit, že počítač nebo síť budou náchylnější k útokům uživatelů se zlými úmysly nebo k útokům škodlivého softwaru, například virů. Společnost Microsoft toto řešení nedoporučuje, ale poskytuje tuto informaci, aby mohlo být toto řešení použito podle vlastního uvážení. Používejte toto řešení pouze na vlastní riziko.
-<p></p>  
+<p></p>
 Antivirový software pomáhá chránit počítač proti virům. V době, kdy je antivirový program zakázaný, nestahujte nebo neotevírejte soubory ze zdrojů, kterým nedůvěřujete, a neotevírejte e-mailové přílohy.
 <p></p></td>
 </tr>
@@ -334,24 +334,24 @@ Pomocí instalačního programu služby WSUS s příkazovým řádkem lze prová
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/q</strong></p></td>
 <td style="border:1px solid black;"><p>Tichá instalace</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/u</strong></p></td>
 <td style="border:1px solid black;"><p>Odinstalace</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/p</strong></p></td>
 <td style="border:1px solid black;"><p>Kontrola předpokladů Zkontroluje systém a ohlásí případné chybějící předpoklady.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
 <td style="border:1px solid black;"><p>Zobrazení parametrů příkazového řádku a jejich popisů</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/g</strong></p></td>
 <td style="border:1px solid black;"><p>Upgrade z předchozí verze služby WSUS (Aktualizace ze služby SUS 1.0 nejsou podporovány.) Jediným platným parametrem této možnosti je /q (tichá instalace). Jedinou platnou vlastností této možnosti je DEFAULT_WEBSITE.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Následující tabulka uvádí vlastnosti příkazového řádku pro aktualizaci WSUS 3.0 SP2.
@@ -359,79 +359,79 @@ Následující tabulka uvádí vlastnosti příkazového řádku pro aktualizaci
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Vlastnost</th>  
-<th>Popis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Vlastnost</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
 <td style="border:1px solid black;"><p>0 = obsah hostován místně, 1 = obsah na serveru Microsoft Update</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
 <td style="border:1px solid black;"><p>Cesta k adresáři obsahu. Výchozí cesta je <em>Instalační_jednotka_WSUS\WSUS\WSUSContent</em>, kde <em>Instalační_jednotka_WSUS</em> je místní jednotka s největším množstvím volného místa.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
 <td style="border:1px solid black;"><p>Cesta k adresáři interní databáze systému Windows</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
 <td style="border:1px solid black;"><p>Tento název by měl být ve formátu <em>Nazev_serveru</em>\<em>Nazev_instance_SQL</em>. Pokud je instance databáze v místním počítači, použijte proměnnou prostředí %COMPUTERNAME%. Pokud není k dispozici existující instance, výchozí hodnota je %COMPUTERNAME%\WSUS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
 <td style="border:1px solid black;"><p>0=port 8530, 1=port 80</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
 <td style="border:1px solid black;"><p>Cesta k souboru protokolu a název tohoto souboru</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
 <td style="border:1px solid black;"><p>0 = instalovat server služby WSUS, 1 = instalovat pouze konzolu</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
 <td style="border:1px solid black;"><p>0 = neinstalovat funkce inventarizace, 1 = instalovat funkce inventarizace</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0 = zachovat databázi, 1 = odebrat databázi</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
 <td style="border:1px solid black;"><p>0 = zachovat soubory obsahu, 1 = odebrat soubory obsahu</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
 <td style="border:1px solid black;"><p>0 = zachovat soubory protokolu, 1 = odebrat soubory protokolu (použití s přepínačem instalace /u)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0 = použít aktuální databázi, 1 = vytvořit databázi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
 <td style="border:1px solid black;"><p>Popisovač okna vracející zprávy o průběhu Instalační služby systému Windows</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
 <td style="border:1px solid black;"><p>1 = zapojit se do programu zlepšování služby Microsoft Update, 0 = nezapojit se do programu zlepšování služby Microsoft Update</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
 <td style="border:1px solid black;"><p>1 = nezapisovat umístění obsahu do databáze, 0 = zapisovat umístění obsahu do databáze (pro službu Vyrovnávání zatížení sítě)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Příklad použití
@@ -440,16 +440,16 @@ Následující tabulka uvádí vlastnosti příkazového řádku pro aktualizaci
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalovat v tichém režimu s použitím portu 8530) WSUSSetup.exe /q /u (odinstalovat službu WSUS)  
 ```
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Pokud instalujete aktualizaci WSUS 3.0 SP2 v tichém režimu (/q) a v počítači nejsou nainstalovány všechny nezbytné předpoklady, vygeneruje se v průběhu instalace soubor WSUSPreReqCheck.xml a uloží se do adresáře %TEMP%.
 <p></p></td>

@@ -70,12 +70,12 @@ Následující kroky jsou uvedeny jako příklad některých položek, které by
 <td style="border:1px solid black;"><p>Provozní</p></td>
 <td style="border:1px solid black;"><p>Jestliže používáte hardwarový modul zabezpečení, nainstalujte jej a obnovte jeho konfiguraci ze zálohy vytvořené na pilotním serveru.</p></td>
 <td style="border:1px solid black;"><p>Vytvoří pověření požadovaná k dešifrování soukromého klíče služby RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Provozní</p></td>
 <td style="border:1px solid black;"><p>Nainstalujte službu RMS.</p></td>
 <td style="border:1px solid black;"><p>Služba RMS ověří, zda jsou nainstalovány a správně nakonfigurovány všechny požadované služby.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Provozní</p></td>
 <td style="border:1px solid black;"><p>Zajistěte službu RMS pomocí nového soukromého klíče. Pokud používáte zápis online, bude server zapsán během procesu zajišťování, a to připojením ke službě Microsoft Enrollment Services prostřednictvím Internetu. Jestliže na tomto serveru není připojení k Internetu k dispozici, je nutné použít zápis offline.</p></td>
@@ -92,17 +92,17 @@ Následující kroky jsou uvedeny jako příklad některých položek, které by
 <td style="border:1px solid black;"><p>Provozní</p></td>
 <td style="border:1px solid black;"><p>Naimportujte soubor s důvěryhodnou doménou publikování, který jste vyexportovali v kroku 3.</p></td>
 <td style="border:1px solid black;"><p>Účet služby RMS musí mít oprávnění ke čtení v umístění, ve kterém je soubor uložen. V opačném případě jej nebude možné úspěšně naimportovat.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Provozní</p></td>
 <td style="border:1px solid black;"><p>Podepište znovu každou šablonu, kterou jste naimportovali společně s důvěryhodnou doménou publikování.</p></td>
 <td style="border:1px solid black;"><p>Šablony jsou podepsány pomocí soukromého klíče serveru. Vzhledem k tomu, že tento server má nový soukromý klíč, je nutné šablony znovu podepsat, aby byly platné. Další informace získáte v této sadě dokumentace v části Podpis šablony zásad práv tématu Provoz serveru RMS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Provozní</p></td>
 <td style="border:1px solid black;"><p>Proveďte opětovnou distribuci šablon do klientských počítačů, které se zúčastnily pilotního projektu.</p></td>
 <td style="border:1px solid black;"><p>Staré šablony je nutné odebrat a nahradit šablonami podepsanými tímto serverem.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Provozní</p></td>
 <td style="border:1px solid black;"><p>Naimportujte soubor s důvěryhodnou doménou uživatelů, který jste vyexportovali v kroku 4.</p></td>

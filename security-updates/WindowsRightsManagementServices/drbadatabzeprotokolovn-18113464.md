@@ -57,23 +57,23 @@ Následuje názorný příklad postupu určení odhadované velikosti: Představ
 <td style="border:1px solid black;"><p>Úspěšné zajištění serveru RMS</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Zápis 5 000 zaměstnanců (5000*0,06)</p></td>
 <td style="border:1px solid black;"><p>300 MB</p></td>
 <td style="border:1px solid black;"><p>301,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Přístup k chráněné e-mailové zprávě (25000*0,19)</p></td>
 <td style="border:1px solid black;"><p>4 750 MB</p></td>
 <td style="border:1px solid black;"><p>5 051,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Přístup k chráněným dokumentům (15000*0,19)</p></td>
 <td style="border:1px solid black;"><p>2 850 MB</p></td>
 <td style="border:1px solid black;"><p>7 901,7 MB</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Z toho vyplývá, že po zápisu je statická velikost databáze protokolování přibližně 300 MB. Denní nárůst v tomto příkladu je však 7,6 GB, což se blíží hodnotě 8 GB, která představuje limit výchozí instalace služby Řízení front zpráv. Jestliže nebude databáze protokolování k dispozici po dobu delší než jeden den, začne docházet ke ztrátám položek protokolu.

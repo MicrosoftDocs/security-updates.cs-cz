@@ -39,28 +39,28 @@ V následující tabulce jsou popsány entity, které lze uvést v seznamu odvol
 <tr class="odd">
 <td style="border:1px solid black;"><p>Skupina licencí nebo certifikátů</p></td>
 <td style="border:1px solid black;"><p>Veřejný klíč nebo ID vydavatele</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Skupina manifestů aplikace</p></td>
 <td style="border:1px solid black;"><p>Veřejný klíč nebo ID vydavatele</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Specifická licence nebo certifikát</p></td>
 <td style="border:1px solid black;"><p>Hodnota hash nebo ID licence</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Specifický manifest aplikace</p></td>
 <td style="border:1px solid black;"><p>Hodnota hash nebo ID licence</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Specifický zaregistrovaný objekt</p></td>
 <td style="border:1px solid black;"><p>Veřejný klíč nebo ID zaregistrovaného objektu</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Specifická část obsahu</p></td>
 <td style="border:1px solid black;"><p>ID obsahu</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720287.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |  
@@ -72,33 +72,33 @@ Seznamy odvolání jsou ve formě souborů XrML, které určují následující 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parametr</th>  
-<th>Popis</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
 <td style="border:1px solid black;"><p>Systémový čas v okamžiku vytvoření souboru XrML. Tento parametr používá podmínka REFRESH, pomocí které je v licenci k použití určeno stáří seznamu odvolání.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ISSUER</p></td>
 <td style="border:1px solid black;"><p>Jméno, ID a adresa vydavatele seznamu odvolání.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PUBLICKEY</p></td>
 <td style="border:1px solid black;"><p>Veřejný klíč vydavatele seznamu odvolání.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
 <td style="border:1px solid black;"><p>Název, typ a ID každé odvolané entity.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

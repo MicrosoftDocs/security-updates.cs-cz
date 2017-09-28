@@ -29,34 +29,34 @@ V následující tabulce jsou uvedeny klíče používané v systému služby 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Serverové klíče</p></td>
 <td style="border:1px solid black;"><p><strong>Veřejný klíč</strong></p>
-<p>Šifruje klíč obsahu v licenci k publikování, takže pouze server RMS může načíst klíč obsahu a na základě dané licence k publikování vydávat licence k použití.</p>  
+<p>Šifruje klíč obsahu v licenci k publikování, takže pouze server RMS může načíst klíč obsahu a na základě dané licence k publikování vydávat licence k použití.</p>
 <p><strong>Soukromý klíč</strong></p>
 <p>Podepisuje všechny certifikáty a licence, které jsou vydány daným serverem.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Klíče počítače</p></td>
 <td style="border:1px solid black;"><p><strong>Veřejný klíč</strong></p>
-<p>Šifruje soukromý klíč certifikátu účtu práv.</p>  
+<p>Šifruje soukromý klíč certifikátu účtu práv.</p>
 <p><strong>Soukromý klíč</strong></p>
 <p>Dešifruje certifikát účtu práv.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Klíče klientských certifikátů pro poskytování licencí</p></td>
 <td style="border:1px solid black;"><p><strong>Veřejný klíč</strong></p>
-<p>Šifruje symetrický klíč obsahu ve vydávané licenci k publikování.</p>  
+<p>Šifruje symetrický klíč obsahu ve vydávané licenci k publikování.</p>
 <p><strong>Soukromý klíč</strong></p>
 <p>Podepisuje licence k publikování, které jsou vydány lokálně v situaci, kdy uživatel není připojen k síti.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Klíče uživatele</p></td>
 <td style="border:1px solid black;"><p><strong>Veřejný klíč</strong></p>
-<p>Šifruje klíč obsahu v licenci k použití, takže pomocí této licence může využít obsah chráněný službou RMS pouze určitý uživatel.</p>  
+<p>Šifruje klíč obsahu v licenci k použití, takže pomocí této licence může využít obsah chráněný službou RMS pouze určitý uživatel.</p>
 <p><strong>Soukromý klíč</strong></p>
 <p>Umožňuje uživateli využívat obsah chráněný službou RMS.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Klíče obsahu</p></td>
 <td style="border:1px solid black;"><p>Šifruje obsah chráněný službou RMS při publikování autorem.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

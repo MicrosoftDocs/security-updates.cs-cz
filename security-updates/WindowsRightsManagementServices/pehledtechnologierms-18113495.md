@@ -29,12 +29,12 @@ Součást systému služby RMS tvoří technologie pro servery i klienty. V ná
 <tr class="odd">
 <td style="border:1px solid black;"><p>Webové služby RMS</p></td>
 <td style="border:1px solid black;"><p>Zajišťují základní funkce serverů, provádějí funkce certifikace účtů, správy licencí, dílčího zápisu a správy služby RMS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Technologie klientů RMS</p></td>
 <td style="border:1px solid black;"><p>Umožňují uživatelům systému vytvářet, publikovat a využívat obsah chráněný službou RMS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 V tomto oddílu je uveden přehled technologií a popis jejich vzájemné spolupráce.

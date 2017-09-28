@@ -33,70 +33,70 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupName: alias pro skupinu<br />  
-<br />  
-</li>  
-<li>GroupID: jedinečný ID pro tuto skupinu<br />  
-<br />  
+<li>GroupName: alias pro skupinu<br />
+<br />
+</li>
+<li>GroupID: jedinečný ID pro tuto skupinu<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupDN: rozlišující název adresářových služeb pro tuto skupinu<br />  
-<br />  
-</li>  
-<li>GroupID: jedinečný ID pro tuto skupinu<br />  
-<br />  
-</li>  
-<li>Expiration: datum a čas vypršení údajů, které jsou uloženy pro tuto skupinu<br />  
-<br />  
+<li>GroupDN: rozlišující název adresářových služeb pro tuto skupinu<br />
+<br />
+</li>
+<li>GroupID: jedinečný ID pro tuto skupinu<br />
+<br />
+</li>
+<li>Expiration: datum a čas vypršení údajů, které jsou uloženy pro tuto skupinu<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupMembership</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupID: jedinečný ID pro tuto skupinu<br />  
-<br />  
-</li>  
-<li>ParentID: jedinečný ID pro skupinu, jejímž členem je tato skupina<br />  
-<br />  
+<li>GroupID: jedinečný ID pro tuto skupinu<br />
+<br />
+</li>
+<li>ParentID: jedinečný ID pro skupinu, jejímž členem je tato skupina<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalName: název aliasu pro zaregistrovaný objekt<br />  
-<br />  
-</li>  
-<li>PrincipalID: jedinečný ID pro tento zaregistrovaný objekt<br />  
-<br />  
+<li>PrincipalName: název aliasu pro zaregistrovaný objekt<br />
+<br />
+</li>
+<li>PrincipalID: jedinečný ID pro tento zaregistrovaný objekt<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalID: jedinečný ID pro tento zaregistrovaný objekt<br />  
-<br />  
-</li>  
-<li>Expiration: datum a čas vypršení údajů, které jsou uloženy pro tento zaregistrovaný objekt<br />  
-<br />  
+<li>PrincipalID: jedinečný ID pro tento zaregistrovaný objekt<br />
+<br />
+</li>
+<li>Expiration: datum a čas vypršení údajů, které jsou uloženy pro tento zaregistrovaný objekt<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalMembership</p></td>
 <td style="border:1px solid black;"><p>Každý řádek této tabulky obsahuje jedinečný ID zaregistrovaného objektu a jedinečný ID skupiny, jejímž členem je tento objekt.</p>
-<ul>  
-<li>PrincipalID: jedinečný ID pro tento zaregistrovaný objekt<br />  
-<br />  
-</li>  
-<li>ParentID: jedinečný ID skupiny, jejímž členem je zaregistrovaný objekt<br />  
-<br />  
+<ul>
+<li>PrincipalID: jedinečný ID pro tento zaregistrovaný objekt<br />
+<br />
+</li>
+<li>ParentID: jedinečný ID skupiny, jejímž členem je zaregistrovaný objekt<br />
+<br />
 </li>
 </ul></td>
 </tr>
