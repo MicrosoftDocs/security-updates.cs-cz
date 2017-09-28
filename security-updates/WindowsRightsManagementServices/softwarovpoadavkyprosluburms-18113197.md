@@ -13,7 +13,7 @@ Softwarové požadavky pro servery používající službu RMS jsou uvedeny v n
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,15 +27,15 @@ Softwarové požadavky pro servery používající službu RMS jsou uvedeny v n
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operační systém</p></td>
-<td style="border:1px solid black;"><p>Kterékoli vydání systému Microsoft Windows Server® 2003 kromě verze Web Edition.</p></td>
+<td style="border:1px solid black;">Operační systém</td>
+<td style="border:1px solid black;">Kterékoli vydání systému Microsoft Windows Server® 2003 kromě verze Web Edition.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Systém souborů</p></td>
-<td style="border:1px solid black;"><p>Je doporučen systém souborů NTFS.</p></td>
+<td style="border:1px solid black;">Systém souborů</td>
+<td style="border:1px solid black;">Je doporučen systém souborů NTFS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Součásti operačního systému</p></td>
+<td style="border:1px solid black;">Součásti operačního systému</td>
 <td style="border:1px solid black;"><ul>
 <li>Služba Řízení front zpráv (známá také jako MSMQ) s povolenou integrací adresářové služby Active Directory®<br />
 <br />
@@ -49,12 +49,12 @@ Softwarové požadavky pro servery používající službu RMS jsou uvedeny v n
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Adresářová služba Active Directory®</p></td>
-<td style="border:1px solid black;"><p>Službu RMS je nutné nainstalovat v doméně služby Active Directory s řadiči systému Windows Server 2000 s aktualizací Service Pack 3 (SP3) nebo vyšší. Všichni uživatelé a skupiny využívající službu RMS k získávání a publikování obsahu musí mít e-mailovou adresu konfigurovanou ve službě Active Directory.</p></td>
+<td style="border:1px solid black;">Adresářová služba Active Directory®</td>
+<td style="border:1px solid black;">Službu RMS je nutné nainstalovat v doméně služby Active Directory s řadiči systému Windows Server 2000 s aktualizací Service Pack 3 (SP3) nebo vyšší. Všichni uživatelé a skupiny využívající službu RMS k získávání a publikování obsahu musí mít e-mailovou adresu konfigurovanou ve službě Active Directory.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Databázový server</p></td>
-<td style="border:1px solid black;"><p>K provádění operací vyžaduje služba RMS databázi a uložené procedury. Můžete použít Microsoft SQL Server 2000 s aktualizací SP3a nebo novější či Microsoft SQL Server 2005. Pro testování nebo nasazení v jednom počítači lze použít Microsoft SQL Server Desktop Engine (MSDE 2000) s aktualizací SP3 nebo Microsoft SQL Server 2005 Express Edition.</p></td>
+<td style="border:1px solid black;">Databázový server</td>
+<td style="border:1px solid black;">K provádění operací vyžaduje služba RMS databázi a uložené procedury. Můžete použít Microsoft SQL Server 2000 s aktualizací SP3a nebo novější či Microsoft SQL Server 2005. Pro testování nebo nasazení v jednom počítači lze použít Microsoft SQL Server Desktop Engine (MSDE 2000) s aktualizací SP3 nebo Microsoft SQL Server 2005 Express Edition.</td>
 </tr>
 </tbody>
 </table>

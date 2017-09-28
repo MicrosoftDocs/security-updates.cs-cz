@@ -13,7 +13,7 @@ V následující tabulce jsou uvedeny čítače výkonu, které jsou k dispozi
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,68 +27,68 @@ V následující tabulce jsou uvedeny čítače výkonu, které jsou k dispozi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification AddNewUser Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba zpracování v mikrosekundách, kterou služba certifikace účtů využívá při aktualizaci databáze na základě informací o novém uživateli.</p></td>
+<td style="border:1px solid black;">Certification AddNewUser Processing Time</td>
+<td style="border:1px solid black;">Doba zpracování v mikrosekundách, kterou služba certifikace účtů využívá při aktualizaci databáze na základě informací o novém uživateli.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification AssociateUserAndMachine Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba zpracování v mikrosekundách, kterou služba certifikace účtů využívá při propojování uživatele s databází počítače.</p></td>
+<td style="border:1px solid black;">Certification AssociateUserAndMachine Processing Time</td>
+<td style="border:1px solid black;">Doba zpracování v mikrosekundách, kterou služba certifikace účtů využívá při propojování uživatele s databází počítače.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba v mikrosekundách, která je použita ke zpracování nezdařených požadavků na certifikaci.</p></td>
+<td style="border:1px solid black;">Certification Failure Processing Time</td>
+<td style="border:1px solid black;">Doba v mikrosekundách, která je použita ke zpracování nezdařených požadavků na certifikaci.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification GetUser Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba zpracování v mikrosekundách, kterou služba certifikace účtů využívá při načítání informací o uživatelských klíčích z databáze.</p></td>
+<td style="border:1px solid black;">Certification GetUser Processing Time</td>
+<td style="border:1px solid black;">Doba zpracování v mikrosekundách, kterou služba certifikace účtů využívá při načítání informací o uživatelských klíčích z databáze.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Quota Extension Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba v mikrosekundách, kterou služba certifikace účtů využívá ke zpracování nezdařených požadavků na další certifikáty účtů práv nad stanovený limit.</p></td>
+<td style="border:1px solid black;">Certification Quota Extension Failure Processing Time</td>
+<td style="border:1px solid black;">Doba v mikrosekundách, kterou služba certifikace účtů využívá ke zpracování nezdařených požadavků na další certifikáty účtů práv nad stanovený limit.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Quota Extension Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba v mikrosekundách, kterou služba certifikace účtů využívá ke zpracování požadavků na další certifikáty účtů práv nad stanovený limit.</p></td>
+<td style="border:1px solid black;">Certification Quota Extension Total Processing Time</td>
+<td style="border:1px solid black;">Doba v mikrosekundách, kterou služba certifikace účtů využívá ke zpracování požadavků na další certifikáty účtů práv nad stanovený limit.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Failures</p></td>
-<td style="border:1px solid black;"><p>Celkový počet požadavků odeslaných službě certifikace účtů, které neobdržely certifikáty účtů práv.</p></td>
+<td style="border:1px solid black;">Certification Failures</td>
+<td style="border:1px solid black;">Celkový počet požadavků odeslaných službě certifikace účtů, které neobdržely certifikáty účtů práv.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Requests</p></td>
-<td style="border:1px solid black;"><p>Celkový počet požadavků na certifikát účtu práv odeslaných serveru certifikace.</p></td>
+<td style="border:1px solid black;">Certification Requests</td>
+<td style="border:1px solid black;">Celkový počet požadavků na certifikát účtu práv odeslaných serveru certifikace.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba v mikrosekundách, která je použita ke zpracování požadavků na certifikaci.</p></td>
+<td style="border:1px solid black;">Certification Total Processing Time</td>
+<td style="border:1px solid black;">Doba v mikrosekundách, která je použita ke zpracování požadavků na certifikaci.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification Update Quota Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba v mikrosekundách, která je použita k aktualizaci databáze kvót.</p></td>
+<td style="border:1px solid black;">Certification Update Quota Processing Time</td>
+<td style="border:1px solid black;">Doba v mikrosekundách, která je použita k aktualizaci databáze kvót.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certification User Certificate Enabling Bits Addition Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba zpracování v mikrosekundách, která je využívána při vytváření bitů povolení pro certifikát uživatele XrML v rámci certifikace.</p></td>
+<td style="border:1px solid black;">Certification User Certificate Enabling Bits Addition Processing Time</td>
+<td style="border:1px solid black;">Doba zpracování v mikrosekundách, která je využívána při vytváření bitů povolení pro certifikát uživatele XrML v rámci certifikace.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification User Certificate Generation Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba v mikrosekundách, která je využívána při vytváření certifikátu uživatele.</p></td>
+<td style="border:1px solid black;">Certification User Certificate Generation Processing Time</td>
+<td style="border:1px solid black;">Doba v mikrosekundách, která je využívána při vytváření certifikátu uživatele.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Precertification Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Celková doba v mikrosekundách, která je použita ke zpracování nezdařených požadavků na předběžnou certifikaci.</p></td>
+<td style="border:1px solid black;">Precertification Failure Processing Time</td>
+<td style="border:1px solid black;">Celková doba v mikrosekundách, která je použita ke zpracování nezdařených požadavků na předběžnou certifikaci.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Precertification Service Failures</p></td>
-<td style="border:1px solid black;"><p>Celkový počet požadavků, které byly provedeny v rámci služby předběžné certifikace.</p></td>
+<td style="border:1px solid black;">Precertification Service Failures</td>
+<td style="border:1px solid black;">Celkový počet požadavků, které byly provedeny v rámci služby předběžné certifikace.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Precertification Requests</p></td>
-<td style="border:1px solid black;"><p>Celkový počet požadavků, které byly provedeny v rámci služby předběžné certifikace.</p></td>
+<td style="border:1px solid black;">Precertification Requests</td>
+<td style="border:1px solid black;">Celkový počet požadavků, které byly provedeny v rámci služby předběžné certifikace.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Precertification Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba v mikrosekundách, která byla využita při zpracování požadavků na předběžnou certifikaci.</p></td>
+<td style="border:1px solid black;">Precertification Total Processing Time</td>
+<td style="border:1px solid black;">Doba v mikrosekundách, která byla využita při zpracování požadavků na předběžnou certifikaci.</td>
 </tr>
 </tbody>
 </table>

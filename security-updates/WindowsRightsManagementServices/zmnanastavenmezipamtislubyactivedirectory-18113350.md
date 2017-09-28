@@ -23,7 +23,7 @@ V následující tabulce jsou uvedeny položky, které řídí chování mezipa
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -41,40 +41,40 @@ V následující tabulce jsou uvedeny položky, které řídí chování mezipa
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrincipalCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>Maximální počet zaregistrovaných objektů zabezpečení a jejich e-mailových adres a identifikátorů SID, které lze uložit v mezipaměti.</p></td>
+<td style="border:1px solid black;">PrincipalCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">Maximální počet zaregistrovaných objektů zabezpečení a jejich e-mailových adres a identifikátorů SID, které lze uložit v mezipaměti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>Doba platnosti informací uložených v mezipaměti pro zaregistrované objekty zabezpečení.</p></td>
+<td style="border:1px solid black;">PrincipalCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">Doba platnosti informací uložených v mezipaměti pro zaregistrované objekty zabezpečení.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupIDCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>Maximální počet skupin a jejich e-mailových adres a identifikátorů SID, které lze uložit v mezipaměti.</p></td>
+<td style="border:1px solid black;">GroupIDCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">Maximální počet skupin a jejich e-mailových adres a identifikátorů SID, které lze uložit v mezipaměti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupIDCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>Doba platnosti informací uložených v mezipaměti pro členství ve skupinách.</p></td>
+<td style="border:1px solid black;">GroupIDCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">Doba platnosti informací uložených v mezipaměti pro členství ve skupinách.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupMembershipCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>Maximální počet kontaktů, které jsou členy skupiny, již lze uložit v mezipaměti.</p></td>
+<td style="border:1px solid black;">GroupMembershipCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">Maximální počet kontaktů, které jsou členy skupiny, již lze uložit v mezipaměti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupMembershipCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>Doba platnosti informací uložených v mezipaměti pro kontakty, které jsou členy skupiny.</p></td>
+<td style="border:1px solid black;">GroupMembershipCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">Doba platnosti informací uložených v mezipaměti pro kontakty, které jsou členy skupiny.</td>
 </tr>
 </tbody>
 </table>

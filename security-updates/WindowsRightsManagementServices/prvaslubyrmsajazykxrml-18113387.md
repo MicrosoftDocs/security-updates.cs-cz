@@ -13,7 +13,7 @@ V následující tabulce je uvedeno, jakým způsobem práva, která můžete v
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,52 +27,52 @@ V následující tabulce je uvedeno, jakým způsobem práva, která můžete v
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Úplné řízení</p></td>
-<td style="border:1px solid black;"><p>OWNER</p></td>
+<td style="border:1px solid black;">Úplné řízení</td>
+<td style="border:1px solid black;">OWNER</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zobrazit práva</p></td>
-<td style="border:1px solid black;"><p>VIEWRIGHT</p></td>
+<td style="border:1px solid black;">Zobrazit práva</td>
+<td style="border:1px solid black;">VIEWRIGHT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Exportovat (Uložit jako)</p></td>
-<td style="border:1px solid black;"><p>EXPORT</p></td>
+<td style="border:1px solid black;">Exportovat (Uložit jako)</td>
+<td style="border:1px solid black;">EXPORT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Uložit</p></td>
-<td style="border:1px solid black;"><p>EDIT</p></td>
+<td style="border:1px solid black;">Uložit</td>
+<td style="border:1px solid black;">EDIT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zobrazit</p></td>
-<td style="border:1px solid black;"><p>VIEW</p></td>
+<td style="border:1px solid black;">Zobrazit</td>
+<td style="border:1px solid black;">VIEW</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tisk</p></td>
-<td style="border:1px solid black;"><p>PRINT</p></td>
+<td style="border:1px solid black;">Tisk</td>
+<td style="border:1px solid black;">PRINT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Extrahovat</p></td>
-<td style="border:1px solid black;"><p>EXTRACT</p></td>
+<td style="border:1px solid black;">Extrahovat</td>
+<td style="border:1px solid black;">EXTRACT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Úpravy</p></td>
-<td style="border:1px solid black;"><p>DOCEDIT</p></td>
+<td style="border:1px solid black;">Úpravy</td>
+<td style="border:1px solid black;">DOCEDIT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Povolit makra</p></td>
-<td style="border:1px solid black;"><p>OBJMODEL</p></td>
+<td style="border:1px solid black;">Povolit makra</td>
+<td style="border:1px solid black;">OBJMODEL</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Předat dál</p></td>
-<td style="border:1px solid black;"><p>FORWARD</p></td>
+<td style="border:1px solid black;">Předat dál</td>
+<td style="border:1px solid black;">FORWARD</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Odpovědět</p></td>
-<td style="border:1px solid black;"><p>REPLY</p></td>
+<td style="border:1px solid black;">Odpovědět</td>
+<td style="border:1px solid black;">REPLY</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Odpovědět všem</p></td>
-<td style="border:1px solid black;"><p>REPLYALL</p></td>
+<td style="border:1px solid black;">Odpovědět všem</td>
+<td style="border:1px solid black;">REPLYALL</td>
 </tr>
 </tbody>
 </table>

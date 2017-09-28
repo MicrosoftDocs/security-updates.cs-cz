@@ -13,7 +13,7 @@ Součást systému služby RMS tvoří technologie pro servery i klienty. V ná
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,12 +27,12 @@ Součást systému služby RMS tvoří technologie pro servery i klienty. V ná
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Webové služby RMS</p></td>
-<td style="border:1px solid black;"><p>Zajišťují základní funkce serverů, provádějí funkce certifikace účtů, správy licencí, dílčího zápisu a správy služby RMS.</p></td>
+<td style="border:1px solid black;">Webové služby RMS</td>
+<td style="border:1px solid black;">Zajišťují základní funkce serverů, provádějí funkce certifikace účtů, správy licencí, dílčího zápisu a správy služby RMS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Technologie klientů RMS</p></td>
-<td style="border:1px solid black;"><p>Umožňují uživatelům systému vytvářet, publikovat a využívat obsah chráněný službou RMS.</p></td>
+<td style="border:1px solid black;">Technologie klientů RMS</td>
+<td style="border:1px solid black;">Umožňují uživatelům systému vytvářet, publikovat a využívat obsah chráněný službou RMS.</td>
 </tr>
 </tbody>
 </table>

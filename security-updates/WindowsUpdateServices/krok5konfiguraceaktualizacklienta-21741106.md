@@ -52,7 +52,7 @@ První dva postupy budou provedeny na vámi zvoleném objektu GPO založeném na
 
 2.  Klikněte na přepínač **Povoleno** a zadejte adresu HTTP URL stejného serveru WSUS do pole **Nastavení intranetového serveru pro zjišťování aktualizací** a do pole **Nastavení intranetového serveru pro statistiku**. Do obou polí zadejte například *http://název\_serveru* a potom klikněte na tlačítko **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -65,11 +65,11 @@ První dva postupy budou provedeny na vámi zvoleném objektu GPO založeném na
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Používáte-li místní objekt zásad skupiny ke směrování počítače na server WSUS, projeví se toto nastavení ihned a tento počítač po krátké době zobrazí v konzole pro správu služby WSUS. Tento proces je možné zrychlit ručním spuštěním cyklu rozpoznávání.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Poté, co klientský počítač nastavíte, bude trvat několik minut, než se zobrazí na stránce **Počítače** v konzole pro správu služby WSUS. V případě klientských počítačů konfigurovaných pomocí objektu zásad skupiny založeného na doméně bude aktualizace zásad skupiny (tedy použití jakýchkoli nových nastavení zásad v klientském počítači) trvat asi 20 minut. Při výchozím nastavení se zásady skupiny aktualizují na pozadí každých 90 minut s náhodným posunem od 0 do 30 minut. Pokud chcete aktualizovat zásady skupiny dříve, můžete v klientském počítači přejít do příkazového řádku a zadat příkaz **gpupdate /force**.
 

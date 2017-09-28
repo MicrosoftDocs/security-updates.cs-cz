@@ -15,7 +15,7 @@ Velikost typické položky protokolu je zhruba 300 bajtů. Popis zaznamenaných 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,72 +29,72 @@ Velikost typické položky protokolu je zhruba 300 bajtů. Popis zaznamenaných 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HostMachineName</p></td>
-<td style="border:1px solid black;"><p>Počítač, který zpracovával požadavek.</p></td>
+<td style="border:1px solid black;">HostMachineName</td>
+<td style="border:1px solid black;">Počítač, který zpracovával požadavek.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HostMachineRequestId</p></td>
-<td style="border:1px solid black;"><p>Jedinečný identifikátor požadavku v tomto počítači. Kombinace hodnot z polí HostMachineName a HostMachineRequestId jednoznačně identifikuje požadavek v rámci clusteru.</p></td>
+<td style="border:1px solid black;">HostMachineRequestId</td>
+<td style="border:1px solid black;">Jedinečný identifikátor požadavku v tomto počítači. Kombinace hodnot z polí HostMachineName a HostMachineRequestId jednoznačně identifikuje požadavek v rámci clusteru.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestTime</p></td>
-<td style="border:1px solid black;"><p>Čas přijetí požadavku (střední čas, GMT).</p></td>
+<td style="border:1px solid black;">RequestTime</td>
+<td style="border:1px solid black;">Čas přijetí požadavku (střední čas, GMT).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RequestPath</p></td>
-<td style="border:1px solid black;"><p>Relativní adresa URL souboru s příponou ASMX, například: /_wmcs/licensing/License.asmx.</p></td>
+<td style="border:1px solid black;">RequestPath</td>
+<td style="border:1px solid black;">Relativní adresa URL souboru s příponou ASMX, například: /_wmcs/licensing/License.asmx.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestType</p></td>
-<td style="border:1px solid black;"><p>Název spuštěné webové metody, například: AcquireLicense.</p></td>
+<td style="border:1px solid black;">RequestType</td>
+<td style="border:1px solid black;">Název spuštěné webové metody, například: AcquireLicense.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RequestUserAddress</p></td>
-<td style="border:1px solid black;"><p>Adresa IP zdroje žadatele.</p></td>
+<td style="border:1px solid black;">RequestUserAddress</td>
+<td style="border:1px solid black;">Adresa IP zdroje žadatele.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestUserAgent</p></td>
-<td style="border:1px solid black;"><p>Hodnota identifikačního řetězce prohlížeče v hlavičce protokolu HTTP.</p></td>
+<td style="border:1px solid black;">RequestUserAgent</td>
+<td style="border:1px solid black;">Hodnota identifikačního řetězce prohlížeče v hlavičce protokolu HTTP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthenticatedState</p></td>
-<td style="border:1px solid black;"><p>Informace o tom, zda bylo připojení HTTP ověřeno (True/False).</p></td>
+<td style="border:1px solid black;">AuthenticatedState</td>
+<td style="border:1px solid black;">Informace o tom, zda bylo připojení HTTP ověřeno (True/False).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SecureConnectionState</p></td>
-<td style="border:1px solid black;"><p>Informace o tom, zda se jedná o připojení SSL (True/False).</p></td>
+<td style="border:1px solid black;">SecureConnectionState</td>
+<td style="border:1px solid black;">Informace o tom, zda se jedná o připojení SSL (True/False).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthenticatedId</p></td>
-<td style="border:1px solid black;"><p>Přihlašovací jméno pro ověřené požadavky. Pokud AuthenticatedState=False, je toto pole prázdné.</p></td>
+<td style="border:1px solid black;">AuthenticatedId</td>
+<td style="border:1px solid black;">Přihlašovací jméno pro ověřené požadavky. Pokud AuthenticatedState=False, je toto pole prázdné.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ReceivedXrMLDocument</p></td>
-<td style="border:1px solid black;"><p>Dokument XrML přijatý od žadatele.</p></td>
+<td style="border:1px solid black;">ReceivedXrMLDocument</td>
+<td style="border:1px solid black;">Dokument XrML přijatý od žadatele.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ReceivedXrMLDocumentIssuerChain</p></td>
-<td style="border:1px solid black;"><p>Řetězec vydavatele pro přijatý dokument XrML.</p></td>
+<td style="border:1px solid black;">ReceivedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">Řetězec vydavatele pro přijatý dokument XrML.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IssuedXrMLDocument</p></td>
-<td style="border:1px solid black;"><p>Dokument XrML vrácený žadateli.</p></td>
+<td style="border:1px solid black;">IssuedXrMLDocument</td>
+<td style="border:1px solid black;">Dokument XrML vrácený žadateli.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IssuedXrMLDocumentIssuerChain</p></td>
-<td style="border:1px solid black;"><p>Řetězec vydavatele pro vydaný dokument XrML.</p></td>
+<td style="border:1px solid black;">IssuedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">Řetězec vydavatele pro vydaný dokument XrML.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SuccessOrFailure</p></td>
-<td style="border:1px solid black;"><p>Informace o tom, zda byl požadavek úspěšný či nikoli (Succeeded/Failed).</p></td>
+<td style="border:1px solid black;">SuccessOrFailure</td>
+<td style="border:1px solid black;">Informace o tom, zda byl požadavek úspěšný či nikoli (Succeeded/Failed).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Metadata</p></td>
-<td style="border:1px solid black;"><p>Pole metadat.</p></td>
+<td style="border:1px solid black;">Metadata</td>
+<td style="border:1px solid black;">Pole metadat.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ErrorInformation</p></td>
-<td style="border:1px solid black;"><p>Zpráva s popisem chyby, došlo-li k chybě.</p></td>
+<td style="border:1px solid black;">ErrorInformation</td>
+<td style="border:1px solid black;">Zpráva s popisem chyby, došlo-li k chybě.</td>
 </tr>
 </tbody>
 </table>

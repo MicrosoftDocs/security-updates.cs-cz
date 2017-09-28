@@ -76,7 +76,7 @@ Vzhledem k tomu, že aktualizace RMS SP1 nabízí řadu vylepšení výkonu i ce
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -94,34 +94,34 @@ Vzhledem k tomu, že aktualizace RMS SP1 nabízí řadu vylepšení výkonu i ce
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1.0</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce</p>
-<p>Bez offline zápisu serveru Server se musí zapsat přes Internet.</p>
-<p>Bez automatické aktivace klientů</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce</p>
-<p>Bez offline zápisu serveru</p>
-<p>Automatické aktivace klientů</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce</p>
-<p>V případě klientů SP1 se klienti automaticky aktivují.</p>
-<p>V případě klientů v1 je nutné klienty aktivovat přes Internet.</p></td>
+<td style="border:1px solid black;">1.0</td>
+<td style="border:1px solid black;">Všechny předchozí funkce
+Bez offline zápisu serveru Server se musí zapsat přes Internet.
+Bez automatické aktivace klientů</td>
+<td style="border:1px solid black;">Všechny předchozí funkce
+Bez offline zápisu serveru
+Automatické aktivace klientů</td>
+<td style="border:1px solid black;">Všechny předchozí funkce
+V případě klientů SP1 se klienti automaticky aktivují.
+V případě klientů v1 je nutné klienty aktivovat přes Internet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SP1</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce</p>
-<p>Offline zápis serveru</p>
-<p>Bez automatické aktivace klientů</p></td>
-<td style="border:1px solid black;"><p>Všechny funkce SP1</p>
-<p>Offline zápis serveru</p>
-<p>Automatické aktivace klientů</p>
-<p>Bezpečnostní modul serveru</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce a navíc funkce aktualizace SP1</p>
-<p>Offline zápis serveru</p>
-<p>V případě klientů SP1 se klienti automaticky aktivují.</p>
-<p>V případě klientů v1 je nutné klienty aktivovat přes Internet.</p></td>
+<td style="border:1px solid black;">SP1</td>
+<td style="border:1px solid black;">Všechny předchozí funkce
+Offline zápis serveru
+Bez automatické aktivace klientů</td>
+<td style="border:1px solid black;">Všechny funkce SP1
+Offline zápis serveru
+Automatické aktivace klientů
+Bezpečnostní modul serveru</td>
+<td style="border:1px solid black;">Všechny předchozí funkce a navíc funkce aktualizace SP1
+Offline zápis serveru
+V případě klientů SP1 se klienti automaticky aktivují.
+V případě klientů v1 je nutné klienty aktivovat přes Internet.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_6"></span>
 Odebrání služby RMS s aktualizací SP1

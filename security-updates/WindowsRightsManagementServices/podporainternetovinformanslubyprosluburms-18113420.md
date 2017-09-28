@@ -25,7 +25,7 @@ V následující tabulce je uveden seznam virtuálních adresářů, které jso
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -41,99 +41,99 @@ V následující tabulce je uveden seznam virtuálních adresářů, které jso
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>_wmcs</p></td>
-<td style="border:1px solid black;"><p>Toto je virtuální adresář správy clusteru RMS.</p></td>
-<td style="border:1px solid black;"><p>Není k dispozici</p></td>
+<td style="border:1px solid black;">_wmcs</td>
+<td style="border:1px solid black;">Toto je virtuální adresář správy clusteru RMS.</td>
+<td style="border:1px solid black;">Není k dispozici</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certification</p></td>
-<td style="border:1px solid black;"><p>Tento virtuální adresář obsahuje služby, které podporují certifikaci RMS.</p></td>
-<td style="border:1px solid black;"><p>Není k dispozici</p></td>
+<td style="border:1px solid black;">Certification</td>
+<td style="border:1px solid black;">Tento virtuální adresář obsahuje služby, které podporují certifikaci RMS.</td>
+<td style="border:1px solid black;">Není k dispozici</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Aktivační server proxy</p></td>
-<td style="border:1px solid black;"><p>Activation.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Aktivační server proxy</td>
+<td style="border:1px solid black;">Activation.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Certifikace účtu</p></td>
-<td style="border:1px solid black;"><p>Certification.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Certifikace účtu</td>
+<td style="border:1px solid black;">Certification.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Předběžná certifikace</p></td>
-<td style="border:1px solid black;"><p>Precertification.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Předběžná certifikace</td>
+<td style="border:1px solid black;">Precertification.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Lokátor služeb</p></td>
-<td style="border:1px solid black;"><p>ServiceLocator.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Lokátor služeb</td>
+<td style="border:1px solid black;">ServiceLocator.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Server</p></td>
-<td style="border:1px solid black;"><p>Server.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Server</td>
+<td style="border:1px solid black;">Server.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Certifikace serverů</p></td>
-<td style="border:1px solid black;"><p>ServerCertification.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Certifikace serverů</td>
+<td style="border:1px solid black;">ServerCertification.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Certifikace mobilních zařízení</p></td>
-<td style="border:1px solid black;"><p>MobileDeviceCertfication.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Certifikace mobilních zařízení</td>
+<td style="border:1px solid black;">MobileDeviceCertfication.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Zápis</p></td>
-<td style="border:1px solid black;"><p>SubEnrollService.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Zápis</td>
+<td style="border:1px solid black;">SubEnrollService.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Správa licencí</p></td>
-<td style="border:1px solid black;"><p>Tento virtuální adresář obsahuje služby, které podporují správu licencí RMS</p></td>
-<td style="border:1px solid black;"><p>Není k dispozici</p></td>
+<td style="border:1px solid black;">Správa licencí</td>
+<td style="border:1px solid black;">Tento virtuální adresář obsahuje služby, které podporují správu licencí RMS</td>
+<td style="border:1px solid black;">Není k dispozici</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Správa licencí</p></td>
-<td style="border:1px solid black;"><p>License.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Správa licencí</td>
+<td style="border:1px solid black;">License.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Publikování</p></td>
-<td style="border:1px solid black;"><p>Publish.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Publikování</td>
+<td style="border:1px solid black;">Publish.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Server</p></td>
-<td style="border:1px solid black;"><p>Server.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Server</td>
+<td style="border:1px solid black;">Server.asmx</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Lokátor služeb</p></td>
-<td style="border:1px solid black;"><p>ServiceLocator.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Lokátor služeb</td>
+<td style="border:1px solid black;">ServiceLocator.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Admin</p></td>
-<td style="border:1px solid black;"><p>Tento virtuální adresář obsahuje služby, které podporují správu RMS.</p></td>
-<td style="border:1px solid black;"><p>Není k dispozici</p></td>
+<td style="border:1px solid black;">Admin</td>
+<td style="border:1px solid black;">Tento virtuální adresář obsahuje služby, které podporují správu RMS.</td>
+<td style="border:1px solid black;">Není k dispozici</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Správa</p></td>
-<td style="border:1px solid black;"><p>AdminSvc.asmx</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Správa</td>
+<td style="border:1px solid black;">AdminSvc.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Služba DrmRemote</p></td>
-<td style="border:1px solid black;"><p>Rozhraní .NET Remoting</p></td>
-<td style="border:1px solid black;"><p>Není k dispozici</p></td>
+<td style="border:1px solid black;">Služba DrmRemote</td>
+<td style="border:1px solid black;">Rozhraní .NET Remoting</td>
+<td style="border:1px solid black;">Není k dispozici</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DirectoryServices</p></td>
-<td style="border:1px solid black;"><p>Jedná se o podadresář služby DrmRemote.</p></td>
-<td style="border:1px solid black;"><p>Není k dispozici</p></td>
+<td style="border:1px solid black;">DirectoryServices</td>
+<td style="border:1px solid black;">Jedná se o podadresář služby DrmRemote.</td>
+<td style="border:1px solid black;">Není k dispozici</td>
 </tr>
 </tbody>
 </table>

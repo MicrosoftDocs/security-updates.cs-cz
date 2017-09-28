@@ -18,7 +18,7 @@ V následující tabulce je uvedena položka pro každý záznam protokolován�
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,106 +36,106 @@ V následující tabulce je uvedena položka pro každý záznam protokolován�
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_LogID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Jedinečné ID pro tento záznam protokolování</p></td>
+<td style="border:1px solid black;">i_LogID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Jedinečné ID pro tento záznam protokolování</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_HostMachineName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Server, který vytvořil tento záznam</p></td>
+<td style="border:1px solid black;">s_HostMachineName</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Server, který vytvořil tento záznam</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_HostMachineRequestId</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>ID požadavku</p></td>
+<td style="border:1px solid black;">s_HostMachineRequestId</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">ID požadavku</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_RequestTime</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Datum a čas požadavku</p></td>
+<td style="border:1px solid black;">dt_RequestTime</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Datum a čas požadavku</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_RequestPath</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Cesta URL požadavku</p></td>
+<td style="border:1px solid black;">s_RequestPath</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Cesta URL požadavku</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_RequestType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Typ požadavku</p></td>
+<td style="border:1px solid black;">s_RequestType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Typ požadavku</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_RequestUserAddress</p></td>
-<td style="border:1px solid black;"><p>nvarchar(32)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Adresa IP klienta</p></td>
+<td style="border:1px solid black;">s_RequestUserAddress</td>
+<td style="border:1px solid black;">nvarchar(32)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Adresa IP klienta</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_RequestUserAgent</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Záhlaví identifikačního řetězce prohlížeče klienta</p></td>
+<td style="border:1px solid black;">s_RequestUserAgent</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Záhlaví identifikačního řetězce prohlížeče klienta</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_AuthenticatedState</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Stav ověření požadavku</p></td>
+<td style="border:1px solid black;">s_AuthenticatedState</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Stav ověření požadavku</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_SecureConnectionState</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Ochrana SSL požadavku</p></td>
+<td style="border:1px solid black;">s_SecureConnectionState</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Ochrana SSL požadavku</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_AuthenticatedId</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>ID ověřeného uživatele</p></td>
+<td style="border:1px solid black;">s_AuthenticatedId</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">ID ověřeného uživatele</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_ReceivedXrML</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Kód XrML přijatý v rámci požadavku od klienta</p></td>
+<td style="border:1px solid black;">s_ReceivedXrML</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Kód XrML přijatý v rámci požadavku od klienta</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_IssuedXrML</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Licence XrML vydaná v požadavku</p></td>
+<td style="border:1px solid black;">s_IssuedXrML</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Licence XrML vydaná v požadavku</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Metadata</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Metadata</p></td>
+<td style="border:1px solid black;">s_Metadata</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Metadata</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_SuccessOrFailure</p></td>
-<td style="border:1px solid black;"><p>nvarchar(32)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Úspěch nebo neúspěch požadavku</p></td>
+<td style="border:1px solid black;">s_SuccessOrFailure</td>
+<td style="border:1px solid black;">nvarchar(32)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Úspěch nebo neúspěch požadavku</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_ErrorInformation</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Údaje o chybě</p></td>
+<td style="border:1px solid black;">s_ErrorInformation</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Údaje o chybě</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_LogCreateTime</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Čas vytvoření protokolu</p></td>
+<td style="border:1px solid black;">dt_LogCreateTime</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Čas vytvoření protokolu</td>
 </tr>
 </tbody>
 </table>
@@ -147,7 +147,7 @@ V následující tabulce jsou uvedena další data pro záznam protokolování.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -165,28 +165,28 @@ V následující tabulce jsou uvedena další data pro záznam protokolování.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_LogDetailID</p></td>
-<td style="border:1px solid black;"><p>int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1)</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_LogDetailID</td>
+<td style="border:1px solid black;">int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1)</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_LogID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL (FK)</p></td>
-<td style="border:1px solid black;"><p>ID nadřazeného záznamu protokolování</p></td>
+<td style="border:1px solid black;">i_LogID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL (FK)</td>
+<td style="border:1px solid black;">ID nadřazeného záznamu protokolování</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_Name</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Název vlastnosti</p></td>
+<td style="border:1px solid black;">s_Name</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Název vlastnosti</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Value</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Hodnota vlastnosti</p></td>
+<td style="border:1px solid black;">s_Value</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Hodnota vlastnosti</td>
 </tr>
 </tbody>
 </table>
@@ -198,7 +198,7 @@ V následující tabulce jsou uvedena pole, která zaznamenává služba naslou
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -216,28 +216,28 @@ V následující tabulce jsou uvedena pole, která zaznamenává služba naslou
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_ID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_ID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_FieldName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(255)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Název pole</p></td>
+<td style="border:1px solid black;">s_FieldName</td>
+<td style="border:1px solid black;">nvarchar(255)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Název pole</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_FieldDescription</p></td>
-<td style="border:1px solid black;"><p>nvarchar(1024)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Popis pole</p></td>
+<td style="border:1px solid black;">s_FieldDescription</td>
+<td style="border:1px solid black;">nvarchar(1024)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Popis pole</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_IsIncluded</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Určení, zda je pole protokolováno</p></td>
+<td style="border:1px solid black;">i_IsIncluded</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Určení, zda je pole protokolováno</td>
 </tr>
 </tbody>
 </table>

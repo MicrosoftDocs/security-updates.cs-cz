@@ -23,7 +23,7 @@ V následující tabulce jsou popsány entity, které lze uvést v seznamu odvol
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -37,28 +37,28 @@ V následující tabulce jsou popsány entity, které lze uvést v seznamu odvol
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Skupina licencí nebo certifikátů</p></td>
-<td style="border:1px solid black;"><p>Veřejný klíč nebo ID vydavatele</p></td>
+<td style="border:1px solid black;">Skupina licencí nebo certifikátů</td>
+<td style="border:1px solid black;">Veřejný klíč nebo ID vydavatele</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Skupina manifestů aplikace</p></td>
-<td style="border:1px solid black;"><p>Veřejný klíč nebo ID vydavatele</p></td>
+<td style="border:1px solid black;">Skupina manifestů aplikace</td>
+<td style="border:1px solid black;">Veřejný klíč nebo ID vydavatele</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Specifická licence nebo certifikát</p></td>
-<td style="border:1px solid black;"><p>Hodnota hash nebo ID licence</p></td>
+<td style="border:1px solid black;">Specifická licence nebo certifikát</td>
+<td style="border:1px solid black;">Hodnota hash nebo ID licence</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Specifický manifest aplikace</p></td>
-<td style="border:1px solid black;"><p>Hodnota hash nebo ID licence</p></td>
+<td style="border:1px solid black;">Specifický manifest aplikace</td>
+<td style="border:1px solid black;">Hodnota hash nebo ID licence</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Specifický zaregistrovaný objekt</p></td>
-<td style="border:1px solid black;"><p>Veřejný klíč nebo ID zaregistrovaného objektu</p></td>
+<td style="border:1px solid black;">Specifický zaregistrovaný objekt</td>
+<td style="border:1px solid black;">Veřejný klíč nebo ID zaregistrovaného objektu</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Specifická část obsahu</p></td>
-<td style="border:1px solid black;"><p>ID obsahu</p></td>
+<td style="border:1px solid black;">Specifická část obsahu</td>
+<td style="border:1px solid black;">ID obsahu</td>
 </tr>
 </tbody>
 </table>
@@ -71,7 +71,7 @@ Seznamy odvolání jsou ve formě souborů XrML, které určují následující 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -85,20 +85,20 @@ Seznamy odvolání jsou ve formě souborů XrML, které určují následující 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
-<td style="border:1px solid black;"><p>Systémový čas v okamžiku vytvoření souboru XrML. Tento parametr používá podmínka REFRESH, pomocí které je v licenci k použití určeno stáří seznamu odvolání.</p></td>
+<td style="border:1px solid black;">ISSUEDTIME</td>
+<td style="border:1px solid black;">Systémový čas v okamžiku vytvoření souboru XrML. Tento parametr používá podmínka REFRESH, pomocí které je v licenci k použití určeno stáří seznamu odvolání.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ISSUER</p></td>
-<td style="border:1px solid black;"><p>Jméno, ID a adresa vydavatele seznamu odvolání.</p></td>
+<td style="border:1px solid black;">ISSUER</td>
+<td style="border:1px solid black;">Jméno, ID a adresa vydavatele seznamu odvolání.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>Veřejný klíč vydavatele seznamu odvolání.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">Veřejný klíč vydavatele seznamu odvolání.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
-<td style="border:1px solid black;"><p>Název, typ a ID každé odvolané entity.</p></td>
+<td style="border:1px solid black;">REVOCATIONLIST</td>
+<td style="border:1px solid black;">Název, typ a ID každé odvolané entity.</td>
 </tr>
 </tbody>
 </table>

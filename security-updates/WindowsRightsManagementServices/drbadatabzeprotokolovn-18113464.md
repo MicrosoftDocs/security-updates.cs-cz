@@ -38,7 +38,7 @@ Následuje názorný příklad postupu určení odhadované velikosti: Představ
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -54,24 +54,24 @@ Následuje názorný příklad postupu určení odhadované velikosti: Představ
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Úspěšné zajištění serveru RMS</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
+<td style="border:1px solid black;">Úspěšné zajištění serveru RMS</td>
+<td style="border:1px solid black;">1,7 MB</td>
+<td style="border:1px solid black;">1,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zápis 5 000 zaměstnanců (5000*0,06)</p></td>
-<td style="border:1px solid black;"><p>300 MB</p></td>
-<td style="border:1px solid black;"><p>301,7 MB</p></td>
+<td style="border:1px solid black;">Zápis 5 000 zaměstnanců (5000*0,06)</td>
+<td style="border:1px solid black;">300 MB</td>
+<td style="border:1px solid black;">301,7 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Přístup k chráněné e-mailové zprávě (25000*0,19)</p></td>
-<td style="border:1px solid black;"><p>4 750 MB</p></td>
-<td style="border:1px solid black;"><p>5 051,7 MB</p></td>
+<td style="border:1px solid black;">Přístup k chráněné e-mailové zprávě (25000*0,19)</td>
+<td style="border:1px solid black;">4 750 MB</td>
+<td style="border:1px solid black;">5 051,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Přístup k chráněným dokumentům (15000*0,19)</p></td>
-<td style="border:1px solid black;"><p>2 850 MB</p></td>
-<td style="border:1px solid black;"><p>7 901,7 MB</p></td>
+<td style="border:1px solid black;">Přístup k chráněným dokumentům (15000*0,19)</td>
+<td style="border:1px solid black;">2 850 MB</td>
+<td style="border:1px solid black;">7 901,7 MB</td>
 </tr>
 </tbody>
 </table>

@@ -13,7 +13,7 @@ V následující tabulce jsou uvedeny minimální hardwarové požadavky a dopo
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,20 +27,20 @@ V následující tabulce jsou uvedeny minimální hardwarové požadavky a dopo
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Osobní počítač s jedním procesorem Pentium III (800 MHz nebo rychlejší)</p></td>
-<td style="border:1px solid black;"><p>Osobní počítač se dvěma procesory Pentium 4 (1500 MHz nebo rychlejší)</p></td>
+<td style="border:1px solid black;">Osobní počítač s jedním procesorem Pentium III (800 MHz nebo rychlejší)</td>
+<td style="border:1px solid black;">Osobní počítač se dvěma procesory Pentium 4 (1500 MHz nebo rychlejší)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>256 MB paměti RAM</p></td>
-<td style="border:1px solid black;"><p>512 MB paměti RAM</p></td>
+<td style="border:1px solid black;">256 MB paměti RAM</td>
+<td style="border:1px solid black;">512 MB paměti RAM</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>20 GB volného místa na pevném disku</p></td>
-<td style="border:1px solid black;"><p>40 GB volného místa na pevném disku</p></td>
+<td style="border:1px solid black;">20 GB volného místa na pevném disku</td>
+<td style="border:1px solid black;">40 GB volného místa na pevném disku</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Jeden síťový adaptér</p></td>
-<td style="border:1px solid black;"><p>Jeden síťový adaptér</p></td>
+<td style="border:1px solid black;">Jeden síťový adaptér</td>
+<td style="border:1px solid black;">Jeden síťový adaptér</td>
 </tr>
 </tbody>
 </table>

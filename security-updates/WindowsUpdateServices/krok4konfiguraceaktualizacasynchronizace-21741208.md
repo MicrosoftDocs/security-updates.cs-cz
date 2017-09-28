@@ -68,7 +68,7 @@ V postupech kroku 3 jste dokončili konfiguraci nadřazeného serveru a proxy se
 
 4.  Klikněte na tlačítko **Dokončit**.
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
@@ -81,11 +81,11 @@ V postupech kroku 3 jste dokončili konfiguraci nadřazeného serveru a proxy se
     <tbody>
     <tr class="odd">
     <td style="border:1px solid black;">Změny konfigurace provedené během synchronizace serveru nelze uložit. Počkejte na dokončení synchronizace a poté proveďte změny.
-    <p></p></td>
+    </td>
     </tr>
     </tbody>
     </table>
-<p> </p>
+ 
 
 Použití konzoly pro správu služby WSUS
 --------------------------------------

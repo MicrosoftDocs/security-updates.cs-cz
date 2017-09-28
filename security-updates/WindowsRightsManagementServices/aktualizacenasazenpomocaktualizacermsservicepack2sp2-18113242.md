@@ -75,7 +75,7 @@ Vzhledem k tomu, že služba RMS s aktualizací SP2 nabízí mnoho zdokonalenýc
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -93,35 +93,35 @@ Vzhledem k tomu, že služba RMS s aktualizací SP2 nabízí mnoho zdokonalenýc
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1.0</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce.</p>
-<p>Není k dispozici offline dílčí zápis serveru. Dílčí zápis serveru je nutné provést prostřednictvím Internetu.</p>
-<p>Nejsou k dispozici klienti s vlastní aktivací.</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce.</p>
-<p>Není k dispozici offline dílčí zápis serveru.</p>
-<p>Klienti s vlastní aktivací.</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce.</p>
-<p>U verze s aktualizací SP2 se klienti aktivují sami.</p>
-<p>U verze 1 se klienti musí aktivovat prostřednictvím Internetu.</p></td>
+<td style="border:1px solid black;">1.0</td>
+<td style="border:1px solid black;">Všechny předchozí funkce.
+Není k dispozici offline dílčí zápis serveru. Dílčí zápis serveru je nutné provést prostřednictvím Internetu.
+Nejsou k dispozici klienti s vlastní aktivací.</td>
+<td style="border:1px solid black;">Všechny předchozí funkce.
+Není k dispozici offline dílčí zápis serveru.
+Klienti s vlastní aktivací.</td>
+<td style="border:1px solid black;">Všechny předchozí funkce.
+U verze s aktualizací SP2 se klienti aktivují sami.
+U verze 1 se klienti musí aktivovat prostřednictvím Internetu.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SP2</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce.</p>
-<p>Offline dílčí zápis serveru.</p>
-<p>Nejsou k dispozici klienti s vlastní aktivací.</p></td>
-<td style="border:1px solid black;"><p>Všechny funkce verze s aktualizací SP1.</p>
-<p>Offline dílčí zápis serveru.</p>
-<p>Klienti s vlastní aktivací.</p>
-<p>Bezpečnostní modul serveru.</p>
-<p>Microsoft SQL Server™ 2005 je podporován ve výchozím nastavení.</p></td>
-<td style="border:1px solid black;"><p>Všechny předchozí funkce a funkce verze s aktualizací SP2.</p>
-<p>Offline dílčí zápis serveru.</p>
-<p>U verze s aktualizací SP2 se klienti aktivují sami.</p>
-<p>U verze 1 se klienti musí aktivovat prostřednictvím Internetu.</p></td>
+<td style="border:1px solid black;">SP2</td>
+<td style="border:1px solid black;">Všechny předchozí funkce.
+Offline dílčí zápis serveru.
+Nejsou k dispozici klienti s vlastní aktivací.</td>
+<td style="border:1px solid black;">Všechny funkce verze s aktualizací SP1.
+Offline dílčí zápis serveru.
+Klienti s vlastní aktivací.
+Bezpečnostní modul serveru.
+Microsoft SQL Server™ 2005 je podporován ve výchozím nastavení.</td>
+<td style="border:1px solid black;">Všechny předchozí funkce a funkce verze s aktualizací SP2.
+Offline dílčí zápis serveru.
+U verze s aktualizací SP2 se klienti aktivují sami.
+U verze 1 se klienti musí aktivovat prostřednictvím Internetu.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="bkmk_RemovingRMS"></span>
 Odebrání služby RMS s aktualizací SP2

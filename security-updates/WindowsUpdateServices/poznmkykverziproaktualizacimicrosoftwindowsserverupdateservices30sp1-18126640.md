@@ -141,7 +141,7 @@ Před spuštěním instalačního programu aktualizace WSUS 3.0 SP1 se ujistěte
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -155,24 +155,24 @@ Před spuštěním instalačního programu aktualizace WSUS 3.0 SP1 se ujistěte
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internetová informační služba (IIS) společnosti Microsoft</p></td>
-<td style="border:1px solid black;"><p>Instaluje se z operačního systému.</p></td>
+<td style="border:1px solid black;">Internetová informační služba (IIS) společnosti Microsoft</td>
+<td style="border:1px solid black;">Instaluje se z operačního systému.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Microsoft .NET Framework Version 2.0 Redistributable Package</p></td>
-<td style="border:1px solid black;"><p>Viz balíček Microsoft .NET Framework Version 2.0 Redistributable Package (x86) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=68935">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=68935). Pro 64bitové platformy viz balíček Microsoft .NET Framework Version 2.0 Redistributable Package (x64) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70637">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70637).</p></td>
+<td style="border:1px solid black;">Microsoft .NET Framework Version 2.0 Redistributable Package</td>
+<td style="border:1px solid black;">Viz balíček Microsoft .NET Framework Version 2.0 Redistributable Package (x86) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=68935">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=68935). Pro 64bitové platformy viz balíček Microsoft .NET Framework Version 2.0 Redistributable Package (x64) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70637">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70637).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Jedná se o nezbytný předpoklad pro použití uživatelského rozhraní aktualizace WSUS 3.0 SP1. Viz Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003 (KB907265) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70412">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70412). Pro 64bitové platformy viz Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003 x64 Edition (KB907265) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70638">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70638).</p></td>
+<td style="border:1px solid black;">Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003</td>
+<td style="border:1px solid black;">Jedná se o nezbytný předpoklad pro použití uživatelského rozhraní aktualizace WSUS 3.0 SP1. Viz Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003 (KB907265) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70412">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70412). Pro 64bitové platformy viz Konzola Microsoft Management Console 3.0 pro systém Windows Server 2003 x64 Edition (KB907265) na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70638">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70638).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Prohlížeč sestav společnosti Microsoft</p></td>
-<td style="border:1px solid black;"><p>Jedná se o nezbytný předpoklad pro použití uživatelského rozhraní aktualizace WSUS 3.0 SP1. Viz Microsoft Report Viewer Redistributable 2005 na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70410">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70410).</p></td>
+<td style="border:1px solid black;">Prohlížeč sestav společnosti Microsoft</td>
+<td style="border:1px solid black;">Jedná se o nezbytný předpoklad pro použití uživatelského rozhraní aktualizace WSUS 3.0 SP1. Viz Microsoft Report Viewer Redistributable 2005 na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70410">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70410).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SQL Server 2005 (nepovinné)</p></td>
-<td style="border:1px solid black;"><p>Pokud již není kompatibilní verze serveru SQL Server nainstalována, nainstaluje aktualizace WSUS 3.0 SP1 databázi služby Interní databáze systému Windows. Pokud plánujete použití úplné databáze serveru SQL Server, je nutné v systému Windows Server 2003 použít (minimálně) verzi SQL Server 2005 SP1 (k dispozici na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=66143">Stažení softwaru</a> na adrese http://go.microsoft.com/fwlink/?LinkId=66143) a v systému Windows Server 2008 verzi SQL Server 2005 SP2 (k dispozici na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=84823">Stažení softwaru</a> na adrese http://go.microsoft.com/fwlink/?LinkId=84823).</p></td>
+<td style="border:1px solid black;">SQL Server 2005 (nepovinné)</td>
+<td style="border:1px solid black;">Pokud již není kompatibilní verze serveru SQL Server nainstalována, nainstaluje aktualizace WSUS 3.0 SP1 databázi služby Interní databáze systému Windows. Pokud plánujete použití úplné databáze serveru SQL Server, je nutné v systému Windows Server 2003 použít (minimálně) verzi SQL Server 2005 SP1 (k dispozici na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=66143">Stažení softwaru</a> na adrese http://go.microsoft.com/fwlink/?LinkId=66143) a v systému Windows Server 2008 verzi SQL Server 2005 SP2 (k dispozici na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=84823">Stažení softwaru</a> na adrese http://go.microsoft.com/fwlink/?LinkId=84823).</td>
 </tr>
 </tbody>
 </table>
@@ -229,7 +229,7 @@ Pomocí příkazového řádku lze instalační program služby WSUS spustit v r
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -243,24 +243,24 @@ Pomocí příkazového řádku lze instalační program služby WSUS spustit v r
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/q</strong></p></td>
-<td style="border:1px solid black;"><p>Tichá instalace</p></td>
+<td style="border:1px solid black;"><strong>/q</strong></td>
+<td style="border:1px solid black;">Tichá instalace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/u</strong></p></td>
-<td style="border:1px solid black;"><p>Odinstalace produktu. Pokud je nainstalována databáze Interní databáze systému Windows, odinstaluje se také tato databáze.</p></td>
+<td style="border:1px solid black;"><strong>/u</strong></td>
+<td style="border:1px solid black;">Odinstalace produktu. Pokud je nainstalována databáze Interní databáze systému Windows, odinstaluje se také tato databáze.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/p</strong></p></td>
-<td style="border:1px solid black;"><p>Kontrola předpokladů. Neinstaluje produkt, pouze zkontroluje systém a ohlásí případné chybějící předpoklady.</p></td>
+<td style="border:1px solid black;"><strong>/p</strong></td>
+<td style="border:1px solid black;">Kontrola předpokladů. Neinstaluje produkt, pouze zkontroluje systém a ohlásí případné chybějící předpoklady.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
-<td style="border:1px solid black;"><p>Zobrazení parametrů příkazového řádku a jejich popisů.</p></td>
+<td style="border:1px solid black;"><strong>/?, /h</strong></td>
+<td style="border:1px solid black;">Zobrazení parametrů příkazového řádku a jejich popisů.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/g</strong></p></td>
-<td style="border:1px solid black;"><p>Upgrade z předchozí verze služby WSUS. (Nezkoušejte provést upgrade z verze SUS 1.0.) Jediným platným parametrem této možnosti je /q (tichá instalace). Jedinou platnou vlastností této možnosti je DEFAULT_WEBSITE.</p></td>
+<td style="border:1px solid black;"><strong>/g</strong></td>
+<td style="border:1px solid black;">Upgrade z předchozí verze služby WSUS. (Nezkoušejte provést upgrade z verze SUS 1.0.) Jediným platným parametrem této možnosti je /q (tichá instalace). Jedinou platnou vlastností této možnosti je DEFAULT_WEBSITE.</td>
 </tr>
 </tbody>
 </table>
@@ -269,7 +269,7 @@ Následující tabulka obsahuje vlastnosti příkazového řádku pro aktualizac
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -283,64 +283,64 @@ Následující tabulka obsahuje vlastnosti příkazového řádku pro aktualizac
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
-<td style="border:1px solid black;"><p>0=obsah hostován místně, 1=obsah na serveru Microsoft Update</p></td>
+<td style="border:1px solid black;">CONTENT_LOCAL</td>
+<td style="border:1px solid black;">0=obsah hostován místně, 1=obsah na serveru Microsoft Update</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
-<td style="border:1px solid black;"><p>Cesta k adresáři obsahu. Výchozí cesta je <em>WSUSInstallationDrive</em><strong>\WSUS\WSUSContent</strong>, kde <em>WSUSInstallationDrive</em> je místní jednotka s největším množstvím volného místa.</p></td>
+<td style="border:1px solid black;">CONTENT_DIR</td>
+<td style="border:1px solid black;">Cesta k adresáři obsahu. Výchozí cesta je <em>WSUSInstallationDrive</em><strong>\WSUS\WSUSContent</strong>, kde <em>WSUSInstallationDrive</em> je místní jednotka s největším množstvím volného místa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
-<td style="border:1px solid black;"><p>Cesta k adresáři dat databáze Interní databáze systému Windows.</p></td>
+<td style="border:1px solid black;">WYUKON_DATA_DIR</td>
+<td style="border:1px solid black;">Cesta k adresáři dat databáze Interní databáze systému Windows.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
-<td style="border:1px solid black;"><p>Název by měl být ve formátu <em>Název_serveru</em>\<em>Název_instance_SQL</em>. Pokud je instance databáze na místním počítači, použijte proměnnou prostředí %COMPUTERNAME%. Pokud se zde nevyskytuje existující instance, výchozí hodnota je %COMPUTERNAME%\WSUS.</p></td>
+<td style="border:1px solid black;">SQLINSTANCE_NAME</td>
+<td style="border:1px solid black;">Název by měl být ve formátu <em>Název_serveru</em>\<em>Název_instance_SQL</em>. Pokud je instance databáze na místním počítači, použijte proměnnou prostředí %COMPUTERNAME%. Pokud se zde nevyskytuje existující instance, výchozí hodnota je %COMPUTERNAME%\WSUS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
-<td style="border:1px solid black;"><p>0=port 8530, 1=port 80</p></td>
+<td style="border:1px solid black;">DEFAULT_WEBSITE</td>
+<td style="border:1px solid black;">0=port 8530, 1=port 80</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
-<td style="border:1px solid black;"><p>Cesta a název souboru pro soubor protokolu</p></td>
+<td style="border:1px solid black;">PREREQ_CHECK_LOG</td>
+<td style="border:1px solid black;">Cesta a název souboru pro soubor protokolu</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
-<td style="border:1px solid black;"><p>0=instalovat server služby WSUS, 1=instalovat pouze konzolu</p></td>
+<td style="border:1px solid black;">CONSOLE_INSTALL</td>
+<td style="border:1px solid black;">0=instalovat server služby WSUS, 1=instalovat pouze konzolu</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
-<td style="border:1px solid black;"><p>0=neinstalovat funkce inventáře, 1=instalovat funkce inventáře</p></td>
+<td style="border:1px solid black;">ENABLE_INVENTORY</td>
+<td style="border:1px solid black;">0=neinstalovat funkce inventáře, 1=instalovat funkce inventáře</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
-<td style="border:1px solid black;"><p>0=zachovat databázi, 1=odebrat databázi</p></td>
+<td style="border:1px solid black;">DELETE_DATABASE</td>
+<td style="border:1px solid black;">0=zachovat databázi, 1=odebrat databázi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
-<td style="border:1px solid black;"><p>0=zachovat soubory obsahu, 1=odebrat soubory obsahu</p></td>
+<td style="border:1px solid black;">DELETE_CONTENT</td>
+<td style="border:1px solid black;">0=zachovat soubory obsahu, 1=odebrat soubory obsahu</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
-<td style="border:1px solid black;"><p>0=zachovat soubory protokolu, 1=odebrat soubory protokolu (použití s přepínačem instalace /u).</p></td>
+<td style="border:1px solid black;">DELETE_LOGS</td>
+<td style="border:1px solid black;">0=zachovat soubory protokolu, 1=odebrat soubory protokolu (použití s přepínačem instalace /u).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
-<td style="border:1px solid black;"><p>0=použít aktuální databázi, 1=vytvořit databázi</p></td>
+<td style="border:1px solid black;">CREATE_DATABASE</td>
+<td style="border:1px solid black;">0=použít aktuální databázi, 1=vytvořit databázi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
-<td style="border:1px solid black;"><p>Popisovač okna pro vracení zpráv služby MSI o průběhu instalace</p></td>
+<td style="border:1px solid black;">PROGRESS_WINDOW_HANDLE</td>
+<td style="border:1px solid black;">Popisovač okna pro vracení zpráv služby MSI o průběhu instalace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
-<td style="border:1px solid black;"><p>1=zapojit se do programu zlepšování služby Microsoft Update, 0=nezapojit se do programu zlepšování služby Microsoft Update</p></td>
+<td style="border:1px solid black;">MU_ROLLUP</td>
+<td style="border:1px solid black;">1=zapojit se do programu zlepšování služby Microsoft Update, 0=nezapojit se do programu zlepšování služby Microsoft Update</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
-<td style="border:1px solid black;"><p>1=nezapsat umístění obsahu do databáze, 0=zapsat umístění obsahu do databáze (pro službu NLB)</p></td>
+<td style="border:1px solid black;">FRONTEND_SETUP</td>
+<td style="border:1px solid black;">1=nezapsat umístění obsahu do databáze, 0=zapsat umístění obsahu do databáze (pro službu NLB)</td>
 </tr>
 </tbody>
 </table>
@@ -521,7 +521,7 @@ Aktualizace WSUS 3.0 SP1 podporuje systém Windows Server 2008 v 32bitové i 6
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -535,8 +535,8 @@ Aktualizace WSUS 3.0 SP1 podporuje systém Windows Server 2008 v 32bitové i 6
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internetová informační služba (IIS) společnosti Microsoft</p></td>
-<td style="border:1px solid black;"><p>Instaluje se z operačního systému. Ujistěte se, že jsou povoleny následující součásti:</p>
+<td style="border:1px solid black;">Internetová informační služba (IIS) společnosti Microsoft</td>
+<td style="border:1px solid black;">Instaluje se z operačního systému. Ujistěte se, že jsou povoleny následující součásti:
 <ul>
 <li>Ověřování systému Windows,<br />
 <br />
@@ -556,16 +556,16 @@ Aktualizace WSUS 3.0 SP1 podporuje systém Windows Server 2008 v 32bitové i 6
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Microsoft .NET Framework Version 2.0 Redistributable Package (x86)</p></td>
-<td style="border:1px solid black;"><p>V systému Windows Server 2008 není nutné instalovat, je nainstalována jako součást operačního systému.</p></td>
+<td style="border:1px solid black;">Microsoft .NET Framework Version 2.0 Redistributable Package (x86)</td>
+<td style="border:1px solid black;">V systému Windows Server 2008 není nutné instalovat, je nainstalována jako součást operačního systému.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Konzola Microsoft Management Console 3.0</p></td>
-<td style="border:1px solid black;"><p>V systému Windows Server 2008 není nutné instalovat, je nainstalována jako součást operačního systému.</p></td>
+<td style="border:1px solid black;">Konzola Microsoft Management Console 3.0</td>
+<td style="border:1px solid black;">V systému Windows Server 2008 není nutné instalovat, je nainstalována jako součást operačního systému.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Prohlížeč sestav společnosti Microsoft</p></td>
-<td style="border:1px solid black;"><p>Jedná se o nezbytný předpoklad pro použití uživatelského rozhraní služby WSUS. Viz Microsoft Report Viewer Redistributable 2005 na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70410">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70410).</p></td>
+<td style="border:1px solid black;">Prohlížeč sestav společnosti Microsoft</td>
+<td style="border:1px solid black;">Jedná se o nezbytný předpoklad pro použití uživatelského rozhraní služby WSUS. Viz Microsoft Report Viewer Redistributable 2005 na webu služby <a href="http://go.microsoft.com/fwlink/?linkid=70410">Stažení softwaru</a> (http://go.microsoft.com/fwlink/?LinkId=70410).</td>
 </tr>
 </tbody>
 </table>

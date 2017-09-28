@@ -21,7 +21,7 @@ Před začátkem procesu konfigurace je třeba znát odpovědi na následující
 
 Ve výchozím nastavení je aktualizace WSUS 3.0 SP2 nakonfigurována tak, že místem pro získávání aktualizací je web Microsoft Update. Pokud máte v síti proxy server, můžete aktualizaci WSUS 3.0 SP2 nakonfigurovat tak, aby používala proxy server. Je-li mezi serverem WSUS a Internetem podniková brána firewall, měli byste ji pravděpodobně nakonfigurovat tak, aby služba WSUS mohla získávat aktualizace.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -34,11 +34,11 @@ Ve výchozím nastavení je aktualizace WSUS 3.0 SP2 nakonfigurována tak, že m
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">I když stahování aktualizací z webu Microsoft Update vyžaduje připojení k Internetu, služba WSUS nabízí možnost importovat aktualizace do sítí, které nejsou připojeny k Internetu.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Krok 3 obsahuje následující postupy:
 
@@ -63,7 +63,7 @@ Krok 3 obsahuje následující postupy:
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -76,11 +76,11 @@ Krok 3 obsahuje následující postupy:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Tyto pokyny pro konfiguraci brány firewall jsou určeny pro podnikovou bránu firewall umístěnou mezi serverem WSUS a Internetem. Protože server WSUS spouští veškeré síťové přenosy, není nutné konfigurovat bránu Windows Firewall na serveru WSUS.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Ačkoli připojení webu Microsoft Update a serveru WSUS vyžaduje, aby byly porty 80 a 443 otevřené, můžete konfigurovat několik serverů WSUS a synchronizovat je s vlastním portem.
 
@@ -111,7 +111,7 @@ V následujících dvou postupech se předpokládá, že při konfiguraci použ�
 **Spuštění konzoly pro správu služby WSUS**
 -   Chcete-li spustit konzolu pro správu služby WSUS, přejděte v nabídce **Start** na příkaz **Všechny programy**, přejděte na příkaz **Nástroje pro správu** a potom klikněte na možnost **Microsoft Windows Server Update Services 3.0**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -124,11 +124,11 @@ V následujících dvou postupech se předpokládá, že při konfiguraci použ�
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Chcete-li používat všechny funkce konzoly, přihlaste se jako člen skupiny Administrators služby WSUS nebo místní skupiny zabezpečení Administrators na serveru, na kterém je nainstalována služba WSUS. Členové skupiny zabezpečení Reporters služby WSUS mají ke konzole přístup jen pro čtení.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Zadání zdroje aktualizací a serveru proxy**
 1.  V konzole WSUS klikněte na možnost **Možnosti** pod názvem tohoto serveru v levém podokně a pak klikněte na možnost **Zdroj aktualizací a proxy server** ve středním podokně.

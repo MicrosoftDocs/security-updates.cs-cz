@@ -23,7 +23,7 @@ V následující tabulce jsou uvedeny položky, které lze použít k potlače
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -43,94 +43,94 @@ V následující tabulce jsou uvedeny položky, které lze použít k potlače
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GC</p></td>
-<td style="border:1px solid black;"><p>String</p></td>
-<td style="border:1px solid black;"><p>název-1, ..., název-n</p></td>
-<td style="border:1px solid black;"><p>Seznam globálních katalogů (využívající názvy DNS), oddělený čárkami. Tento klíč omezuje použití globálních katalogů v rámci služby RMS pouze na zadané katalogy.</p></td>
-<td style="border:1px solid black;"><p>Pokud nechcete, aby služba RMS vytvořila seznam dotazů, zadejte pomocí tohoto nastavení globální katalogy, které mají být použity.</p></td>
+<td style="border:1px solid black;">GC</td>
+<td style="border:1px solid black;">String</td>
+<td style="border:1px solid black;">název-1, ..., název-n</td>
+<td style="border:1px solid black;">Seznam globálních katalogů (využívající názvy DNS), oddělený čárkami. Tento klíč omezuje použití globálních katalogů v rámci služby RMS pouze na zadané katalogy.</td>
+<td style="border:1px solid black;">Pokud nechcete, aby služba RMS vytvořila seznam dotazů, zadejte pomocí tohoto nastavení globální katalogy, které mají být použity.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MinGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Minimální počet globálních katalogů, které musí být k dispozici ještě před spuštěním služby RMS.</p></td>
+<td style="border:1px solid black;">MinGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Minimální počet globálních katalogů, které musí být k dispozici ještě před spuštěním služby RMS.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MaxGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>15</p></td>
-<td style="border:1px solid black;"><p>Maximální počet globálních katalogů, které algoritmus pro zjišťování topologie přidá do seznamu dotazů.</p></td>
+<td style="border:1px solid black;">MaxGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">15</td>
+<td style="border:1px solid black;">Maximální počet globálních katalogů, které algoritmus pro zjišťování topologie přidá do seznamu dotazů.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ThreshHoldAlive</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Minimální počet funkčních připojení, než služba DiscoveryServices začne vyhledávat další globální katalogy, které je možné přidat do seznamu dotazů, aby mohla služba RMS přijímat požadavky.</p></td>
+<td style="border:1px solid black;">ThreshHoldAlive</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Minimální počet funkčních připojení, než služba DiscoveryServices začne vyhledávat další globální katalogy, které je možné přidat do seznamu dotazů, aby mohla služba RMS přijímat požadavky.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RetryDown</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Počet pokusů o opakování připojení, než bude deklarováno, že připojení není funkční.</p></td>
+<td style="border:1px solid black;">RetryDown</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Počet pokusů o opakování připojení, než bude deklarováno, že připojení není funkční.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TimeRetryDown</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>300</p></td>
-<td style="border:1px solid black;"><p>Počet sekund, po které je třeba počkat před opakovaným pokusem o připojení.</p></td>
-<td style="border:1px solid black;"><p>Toto výchozí nastavení by nemělo být nutné měnit, s výjimkou neobvyklých okolností.</p></td>
+<td style="border:1px solid black;">TimeRetryDown</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">300</td>
+<td style="border:1px solid black;">Počet sekund, po které je třeba počkat před opakovaným pokusem o připojení.</td>
+<td style="border:1px solid black;">Toto výchozí nastavení by nemělo být nutné měnit, s výjimkou neobvyklých okolností.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TimeRetrySlow</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>30</p></td>
-<td style="border:1px solid black;"><p>Počet sekund, po které je třeba počkat před opakovaným pokusem u pomalého připojení.</p></td>
-<td style="border:1px solid black;"><p>Toto výchozí nastavení by nemělo být nutné měnit, s výjimkou neobvyklých okolností.</p></td>
+<td style="border:1px solid black;">TimeRetrySlow</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">30</td>
+<td style="border:1px solid black;">Počet sekund, po které je třeba počkat před opakovaným pokusem u pomalého připojení.</td>
+<td style="border:1px solid black;">Toto výchozí nastavení by nemělo být nutné měnit, s výjimkou neobvyklých okolností.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WtRoundRobin</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Váha kruhového dotazování (round robin) při vyrovnávání zatížení.</p></td>
-<td style="border:1px solid black;"><p>Relativní důležitost kruhového dotazování v rámci vyrovnávání zatížení. Hodnota 1 je nejnižší.</p></td>
+<td style="border:1px solid black;">WtRoundRobin</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Váha kruhového dotazování (round robin) při vyrovnávání zatížení.</td>
+<td style="border:1px solid black;">Relativní důležitost kruhového dotazování v rámci vyrovnávání zatížení. Hodnota 1 je nejnižší.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WtThreadCount</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
-<td style="border:1px solid black;"><p>Váha počtu podprocesů na jedno připojení při vyrovnávání zatížení.</p></td>
-<td style="border:1px solid black;"><p>Relativní důležitost nízkého počtu podprocesů.</p></td>
+<td style="border:1px solid black;">WtThreadCount</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">100</td>
+<td style="border:1px solid black;">Váha počtu podprocesů na jedno připojení při vyrovnávání zatížení.</td>
+<td style="border:1px solid black;">Relativní důležitost nízkého počtu podprocesů.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WtSlow</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>Váha pomalého připojení při vyrovnávání zatížení.</p></td>
-<td style="border:1px solid black;"><p>Relativní důležitost toho, že připojení není pomalé.</p></td>
+<td style="border:1px solid black;">WtSlow</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">Váha pomalého připojení při vyrovnávání zatížení.</td>
+<td style="border:1px solid black;">Relativní důležitost toho, že připojení není pomalé.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TimeOutForGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Počet sekund před vypršením časového limitu požadavku na přidání globálního katalogu k seznamu dotazů.</p></td>
+<td style="border:1px solid black;">TimeOutForGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Počet sekund před vypršením časového limitu požadavku na přidání globálního katalogu k seznamu dotazů.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LdapTimeOut</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Počet sekund před vypršením časového limitu rozhraní API LDAP.</p></td>
+<td style="border:1px solid black;">LdapTimeOut</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Počet sekund před vypršením časového limitu rozhraní API LDAP.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TopDownExpansionLDAPTimeOut</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>40</p></td>
-<td style="border:1px solid black;"><p>Počet sekund před vypršením časového limitu dotazů rozšíření služby LDAP.</p></td>
+<td style="border:1px solid black;">TopDownExpansionLDAPTimeOut</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">40</td>
+<td style="border:1px solid black;">Počet sekund před vypršením časového limitu dotazů rozšíření služby LDAP.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 </tbody>

@@ -27,7 +27,7 @@ V následující tabulce je popsána syntaxe jednotlivých příkazů.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -41,24 +41,24 @@ V následující tabulce je popsána syntaxe jednotlivých příkazů.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/I MSDrmClient.msi</strong> nebo <strong>/I RMClientBackCompat.msi</strong></p></td>
-<td style="border:1px solid black;"><p>Povinný parametr. Určuje produkt, který má být nainstalován.</p></td>
+<td style="border:1px solid black;"><strong>/I MSDrmClient.msi</strong> nebo <strong>/I RMClientBackCompat.msi</strong></td>
+<td style="border:1px solid black;">Povinný parametr. Určuje produkt, který má být nainstalován.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/qn</strong></p></td>
-<td style="border:1px solid black;"><p>Nepovinný parametr. Určuje tichou instalaci, bez interakce s uživatelem.</p></td>
+<td style="border:1px solid black;"><strong>/qn</strong></td>
+<td style="border:1px solid black;">Nepovinný parametr. Určuje tichou instalaci, bez interakce s uživatelem.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/lei</strong> <em>logfile.log</em></p></td>
-<td style="border:1px solid black;"><p>Nepovinný parametr. Určuje soubor, do kterého budou protokolovány chybové zprávy a zprávy o stavu.</p></td>
+<td style="border:1px solid black;"><strong>/lei</strong> <em>logfile.log</em></td>
+<td style="border:1px solid black;">Nepovinný parametr. Určuje soubor, do kterého budou protokolovány chybové zprávy a zprávy o stavu.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>DISPLAYPAGE=”NO”</strong></p></td>
-<td style="border:1px solid black;"><p>Nepovinný parametr. Určuje, že po dokončení instalace nebude zobrazena stránka <strong>Globální správa</strong>.</p></td>
+<td style="border:1px solid black;"><strong>DISPLAYPAGE=”NO”</strong></td>
+<td style="border:1px solid black;">Nepovinný parametr. Určuje, že po dokončení instalace nebude zobrazena stránka <strong>Globální správa</strong>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>TARGETDIR=c:\</strong><em>umístění_instalace</em></p></td>
-<td style="border:1px solid black;"><p>Nepovinný parametr. Určuje adresář, do kterého má být služba RMS s aktualizací Service Pack 2 nainstalována. Pokud umístění nezadáte, bude použito výchozí umístění instalace.</p></td>
+<td style="border:1px solid black;"><strong>TARGETDIR=c:\</strong><em>umístění_instalace</em></td>
+<td style="border:1px solid black;">Nepovinný parametr. Určuje adresář, do kterého má být služba RMS s aktualizací Service Pack 2 nainstalována. Pokud umístění nezadáte, bude použito výchozí umístění instalace.</td>
 </tr>
 </tbody>
 </table>

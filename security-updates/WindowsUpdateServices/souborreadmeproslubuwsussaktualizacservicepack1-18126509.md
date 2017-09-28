@@ -193,7 +193,7 @@ Následující tabulka uvádí požadovaný software pro jednotlivé podporovan�
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -209,52 +209,52 @@ Následující tabulka uvádí požadovaný software pro jednotlivé podporovan�
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Všechny operační systémy</p></td>
-<td style="border:1px solid black;"><p>Internetová informační služba (IIS) 5.0</p></td>
-<td style="border:1px solid black;"><p>Instalace z operačního systému.</p>
-<p>Viz Problém 1: Musí být instalována služba IIS.</p></td>
+<td style="border:1px solid black;">Všechny operační systémy</td>
+<td style="border:1px solid black;">Internetová informační služba (IIS) 5.0</td>
+<td style="border:1px solid black;">Instalace z operačního systému.
+Viz Problém 1: Musí být instalována služba IIS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Všechny operační systémy</p></td>
-<td style="border:1px solid black;"><p>Služba inteligentního přenosu na pozadí (BITS) 2.0</p></td>
-<td style="border:1px solid black;"><p>Informace týkající se operačních systémů Windows Server 2003 získáte v článcích Aktualizace na Službu inteligentního přenosu na pozadí (BITS) 2.0 a WinHTTP 5.1 Windows Server 2003 (KB842773) na webu služby Stažení softwaru (<a href="http://go.microsoft.com/fwlink/?linkid=47251">http://go.microsoft.com/fwlink/?LinkId=47251</a>).</p>
-<p>Informace týkající se operačních systémů Windows Server 2000 získáte v článcích Aktualizace na Službu inteligentního přenosu na pozadí (BITS) 2.0 a WinHTTP 5.1 Windows 2000 (KB842773) na webu služby Stažení softwaru (<a href="http://go.microsoft.com/fwlink/?linkid=46794">http://go.microsoft.com/fwlink/?LinkId=46794</a>).</p></td>
+<td style="border:1px solid black;">Všechny operační systémy</td>
+<td style="border:1px solid black;">Služba inteligentního přenosu na pozadí (BITS) 2.0</td>
+<td style="border:1px solid black;">Informace týkající se operačních systémů Windows Server 2003 získáte v článcích Aktualizace na Službu inteligentního přenosu na pozadí (BITS) 2.0 a WinHTTP 5.1 Windows Server 2003 (KB842773) na webu služby Stažení softwaru (<a href="http://go.microsoft.com/fwlink/?linkid=47251">http://go.microsoft.com/fwlink/?LinkId=47251</a>).
+Informace týkající se operačních systémů Windows Server 2000 získáte v článcích Aktualizace na Službu inteligentního přenosu na pozadí (BITS) 2.0 a WinHTTP 5.1 Windows 2000 (KB842773) na webu služby Stažení softwaru (<a href="http://go.microsoft.com/fwlink/?linkid=46794">http://go.microsoft.com/fwlink/?LinkId=46794</a>).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Systém Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Aktualizace Microsoft .NET Framework 1.1 Service Pack 1 pro systém Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47358">Aktualizace Microsoft .NET Framework 1.1 Service Pack 1 pro systém Windows Server 2003</a></p>
-<p>Případně přejděte na web služby <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> a vyhledejte důležité aktualizace a aktualizace Service Packs; instalace služby Microsoft .NET Framework 1.1 Service Pack 1 pro systém Windows Server 2003.</p></td>
+<td style="border:1px solid black;">Systém Windows Server 2003</td>
+<td style="border:1px solid black;">Aktualizace Microsoft .NET Framework 1.1 Service Pack 1 pro systém Windows Server 2003</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47358">Aktualizace Microsoft .NET Framework 1.1 Service Pack 1 pro systém Windows Server 2003</a>
+Případně přejděte na web služby <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> a vyhledejte důležité aktualizace a aktualizace Service Packs; instalace služby Microsoft .NET Framework 1.1 Service Pack 1 pro systém Windows Server 2003.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Databázový software, který je stoprocentně kompatibilní se serverem Microsoft SQL</p></td>
-<td style="border:1px solid black;"><p>Neuvedeno</p></td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">Databázový software, který je stoprocentně kompatibilní se serverem Microsoft SQL</td>
+<td style="border:1px solid black;">Neuvedeno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Databázový software, který je stoprocentně kompatibilní se serverem Microsoft SQL</p></td>
-<td style="border:1px solid black;"><p>Pokud nepoužíváte Microsoft SQL Server 2000, můžete nainstalovat službu MSDE 2000 (Microsoft SQL Server 2000 Desktop Engine). Tento postup sestává z několika kroků. Další informace získáte v následující části Instalace služby MSDE v systému Windows 2000.</p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Databázový software, který je stoprocentně kompatibilní se serverem Microsoft SQL</td>
+<td style="border:1px solid black;">Pokud nepoužíváte Microsoft SQL Server 2000, můžete nainstalovat službu MSDE 2000 (Microsoft SQL Server 2000 Desktop Engine). Tento postup sestává z několika kroků. Další informace získáte v následující části Instalace služby MSDE v systému Windows 2000.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Microsoft Internet Explorer 6.0 Service Pack 1</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Microsoft Internet Explorer 6.0 Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Microsoft .NET Framework Version 1.1 Redistributable Package</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47369">Microsoft .NET Framework Version 1.1 Redistributable Package</a></p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Microsoft .NET Framework Version 1.1 Redistributable Package</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47369">Microsoft .NET Framework Version 1.1 Redistributable Package</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Microsoft .NET Framework 1.1 Service Pack 1</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47368">Microsoft .NET Framework 1.1 Service Pack 1</a></p>
-<p>Případně přejděte na web služby <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> a vyhledejte důležité aktualizace a aktualizace Service Pack; nainstalujte rozhraní Microsoft .NET Framework 1.1 Service Pack 1 pro systém Windows Server 2000.</p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Microsoft .NET Framework 1.1 Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47368">Microsoft .NET Framework 1.1 Service Pack 1</a>
+Případně přejděte na web služby <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> a vyhledejte důležité aktualizace a aktualizace Service Pack; nainstalujte rozhraní Microsoft .NET Framework 1.1 Service Pack 1 pro systém Windows Server 2000.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Kromě těchto požadavků může služba WSUS v případě potřeby na serveru instalovat nebo konfigurovat rozhraní ASP.NET verze 1.1. (Instalační program služby WSUS konfiguruje rozhraní ASP.NET.)
 

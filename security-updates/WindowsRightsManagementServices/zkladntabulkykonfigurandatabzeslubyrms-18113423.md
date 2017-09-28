@@ -18,7 +18,7 @@ V následující tabulce jsou uvedeny informace o vyloučených aplikacích.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,82 +36,82 @@ V následující tabulce jsou uvedeny informace o vyloučených aplikacích.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Název</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Název aplikace</p></td>
+<td style="border:1px solid black;">Název</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Název aplikace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMinMajor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Minimální hlavní číslo verze aplikace</p></td>
+<td style="border:1px solid black;">VersionMinMajor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Minimální hlavní číslo verze aplikace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMinMinor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Minimální dílčí číslo verze aplikace</p></td>
+<td style="border:1px solid black;">VersionMinMinor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Minimální dílčí číslo verze aplikace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMinBuild</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Minimální číslo verze sestavení aplikace</p></td>
+<td style="border:1px solid black;">VersionMinBuild</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Minimální číslo verze sestavení aplikace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMinRevision</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Minimální číslo verze revize aplikace</p></td>
+<td style="border:1px solid black;">VersionMinRevision</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Minimální číslo verze revize aplikace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMaxMajor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Maximální hlavní číslo verze aplikace</p></td>
+<td style="border:1px solid black;">VersionMaxMajor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Maximální hlavní číslo verze aplikace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMaxMinor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Maximální dílčí číslo verze aplikace</p></td>
+<td style="border:1px solid black;">VersionMaxMinor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Maximální dílčí číslo verze aplikace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMaxBuild</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Maximální číslo verze sestavení aplikace</p></td>
+<td style="border:1px solid black;">VersionMaxBuild</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Maximální číslo verze sestavení aplikace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMaxRevision</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Maximální číslo verze revize aplikace</p></td>
+<td style="border:1px solid black;">VersionMaxRevision</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Maximální číslo verze revize aplikace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Popis</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Popis aplikace</p></td>
+<td style="border:1px solid black;">Popis</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Popis aplikace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -123,7 +123,7 @@ V následující tabulce jsou uvedeny informace o frontě zpráv.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -141,28 +141,28 @@ V následující tabulce jsou uvedeny informace o frontě zpráv.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AsyncQueueID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">AsyncQueueID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>QueueName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Cesta k frontě zpráv</p></td>
+<td style="border:1px solid black;">QueueName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Cesta k frontě zpráv</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +174,7 @@ V následující tabulce jsou uvedeny informace o typu certifikátu vydaného k
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -192,28 +192,28 @@ V následující tabulce jsou uvedeny informace o typu certifikátu vydaného k
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>ID certifikátu</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">ID certifikátu</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Desktop, MobileDevice nebo Server</p></td>
+<td style="border:1px solid black;">TypeName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Desktop, MobileDevice nebo Server</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -225,7 +225,7 @@ V následující tabulce jsou uvedeny informace o aktuálním certifikátu serv
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -243,22 +243,22 @@ V následující tabulce jsou uvedeny informace o aktuálním certifikátu serv
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CurrentLicensorCertID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Aktivní certifikát serveru pro poskytování licencí</p></td>
+<td style="border:1px solid black;">CurrentLicensorCertID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Aktivní certifikát serveru pro poskytování licencí</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -270,7 +270,7 @@ V následující tabulce jsou uvedeny informace o umístěních, ve kterých js
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -288,34 +288,34 @@ V následující tabulce jsou uvedeny informace o umístěních, ve kterých js
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PolicyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>ID zásady</p></td>
+<td style="border:1px solid black;">PolicyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">ID zásady</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PolicyName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Název zásady</p></td>
+<td style="border:1px solid black;">PolicyName</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Název zásady</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PolicyData</p></td>
-<td style="border:1px solid black;"><p>sql_variant</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Data zásady</p></td>
+<td style="border:1px solid black;">PolicyData</td>
+<td style="border:1px solid black;">sql_variant</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Data zásady</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -327,7 +327,7 @@ V následující tabulce jsou uvedeny informace o serverech, které jsou v clus
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -345,28 +345,28 @@ V následující tabulce jsou uvedeny informace o serverech, které jsou v clus
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ServerID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>ID serveru</p></td>
+<td style="border:1px solid black;">ServerID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">ID serveru</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ServerName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nezadáno</p></td>
-<td style="border:1px solid black;"><p>Název počítače serveru</p></td>
+<td style="border:1px solid black;">ServerName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nezadáno</td>
+<td style="border:1px solid black;">Název počítače serveru</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -378,7 +378,7 @@ V následující tabulce jsou uvedeny informace o vyloučených certifikátech 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -396,46 +396,46 @@ V následující tabulce jsou uvedeny informace o vyloučených certifikátech 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PublicKeyIndex</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">PublicKeyIndex</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Bajty veřejného klíče</p></td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Bajty veřejného klíče</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UserID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Index ID uživatele</p></td>
+<td style="border:1px solid black;">UserID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Index ID uživatele</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ExpirationDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Datum vypršení platnosti certifikátu účtu práv</p></td>
+<td style="border:1px solid black;">ExpirationDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Datum vypršení platnosti certifikátu účtu práv</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Popis</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>NÁZEV přidružený k tomuto klíči vyloučeného certifikátu účtu práv</p></td>
+<td style="border:1px solid black;">Popis</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">NÁZEV přidružený k tomuto klíči vyloučeného certifikátu účtu práv</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -447,7 +447,7 @@ V následující tabulce jsou uvedeny informace o aktivním certifikátu server
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -465,40 +465,40 @@ V následující tabulce jsou uvedeny informace o aktivním certifikátu server
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>ID zásady</p></td>
+<td style="border:1px solid black;">i_CertID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">ID zásady</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Typ ID páru klíčů</p></td>
+<td style="border:1px solid black;">s_CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Typ ID páru klíčů</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Identifikátor GUID páru klíčů</p></td>
+<td style="border:1px solid black;">s_CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Identifikátor GUID páru klíčů</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Ukazatel na skutečný certifikát</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Ukazatel na skutečný certifikát</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -510,7 +510,7 @@ Následující tabulka obsahuje informace o soukromém klíči aktivního certif
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -528,64 +528,64 @@ Následující tabulka obsahuje informace o soukromém klíči aktivního certif
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrivateKeyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">PrivateKeyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Typ ID páru klíčů</p></td>
+<td style="border:1px solid black;">CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Typ ID páru klíčů</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Identifikátor GUID páru klíčů</p></td>
+<td style="border:1px solid black;">CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Identifikátor GUID páru klíčů</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrivateKey</p></td>
-<td style="border:1px solid black;"><p>varbinary(2048)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Binární reprezentace klíče</p></td>
+<td style="border:1px solid black;">PrivateKey</td>
+<td style="border:1px solid black;">varbinary(2048)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Binární reprezentace klíče</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CSP</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Název zprostředkovatele kryptografických služeb (CSP)</p></td>
+<td style="border:1px solid black;">CSP</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Název zprostředkovatele kryptografických služeb (CSP)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CSPType</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Typ zprostředkovatele CSP</p></td>
+<td style="border:1px solid black;">CSPType</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Typ zprostředkovatele CSP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyContainerName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>Nezadáno</p></td>
-<td style="border:1px solid black;"><p>Název kontejneru klíče</p></td>
+<td style="border:1px solid black;">KeyContainerName</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">Nezadáno</td>
+<td style="border:1px solid black;">Název kontejneru klíče</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>KeyNumber</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Číslo klíče</p></td>
+<td style="border:1px solid black;">KeyNumber</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Číslo klíče</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -597,7 +597,7 @@ V následující tabulce jsou uvedeny informace o účtech služby Microsoft® 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -615,28 +615,28 @@ V následující tabulce jsou uvedeny informace o účtech služby Microsoft® 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DenyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">DenyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DenyAddressPattern</p></td>
-<td style="border:1px solid black;"><p>nvarchar(500)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Uživatelské jméno/název domény</p></td>
+<td style="border:1px solid black;">DenyAddressPattern</td>
+<td style="border:1px solid black;">nvarchar(500)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Uživatelské jméno/název domény</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -648,7 +648,7 @@ V následující tabulce jsou uvedeny informace o modulech plug-in.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -666,76 +666,76 @@ V následující tabulce jsou uvedeny informace o modulech plug-in.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>Int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">Int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginTypeID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Typ modulu plug-in</p></td>
+<td style="border:1px solid black;">PluginTypeID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Typ modulu plug-in</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NameSpace</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Obor názvů tohoto modulu plug-in</p></td>
+<td style="border:1px solid black;">NameSpace</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Obor názvů tohoto modulu plug-in</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Název tohoto modulu plug-in</p></td>
+<td style="border:1px solid black;">PluginName</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Název tohoto modulu plug-in</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ordinal</p></td>
-<td style="border:1px solid black;"><p>Int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Číslo pořadí, v němž je modul plug-in spuštěn</p></td>
+<td style="border:1px solid black;">Ordinal</td>
+<td style="border:1px solid black;">Int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Číslo pořadí, v němž je modul plug-in spuštěn</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Cesta k souboru DLL</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Cesta k souboru DLL</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ObjectTypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(50)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Nepoužito</p></td>
+<td style="border:1px solid black;">ObjectTypeName</td>
+<td style="border:1px solid black;">nvarchar(50)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Nepoužito</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DebugMode</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Určuje, zda má být modul plug-in spuštěn v režimu ladění</p></td>
+<td style="border:1px solid black;">DebugMode</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Určuje, zda má být modul plug-in spuštěn v režimu ladění</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Veřejný klíč modulu plug-in</p></td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Veřejný klíč modulu plug-in</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Version</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Verze modulu plug-in</p></td>
+<td style="border:1px solid black;">Version</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Verze modulu plug-in</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -747,7 +747,7 @@ V následující tabulce jsou uvedeny informace o verzích modulu plug-in, kter
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -765,22 +765,22 @@ V následující tabulce jsou uvedeny informace o verzích modulu plug-in, kter
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RowID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">RowID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionInfo</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nezadáno</p></td>
-<td style="border:1px solid black;"><p>Verze modulu plug-in</p></td>
+<td style="border:1px solid black;">VersionInfo</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nezadáno</td>
+<td style="border:1px solid black;">Verze modulu plug-in</td>
 </tr>
 </tbody>
 </table>
@@ -792,7 +792,7 @@ V následující tabulce jsou uvedeny informace o vlastnostech modulu plug-in.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -810,40 +810,40 @@ V následující tabulce jsou uvedeny informace o vlastnostech modulu plug-in.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PropertyID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">PropertyID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>ID modulu plug-in, do něhož vlastnost patří</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">ID modulu plug-in, do něhož vlastnost patří</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PropertyName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Název vlastnosti pro tato konfigurační data</p></td>
+<td style="border:1px solid black;">PropertyName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Název vlastnosti pro tato konfigurační data</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PropertyValue</p></td>
-<td style="border:1px solid black;"><p>text</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Hodnota vlastnosti pro tato konfigurační data</p></td>
+<td style="border:1px solid black;">PropertyValue</td>
+<td style="border:1px solid black;">text</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Hodnota vlastnosti pro tato konfigurační data</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -855,7 +855,7 @@ V následující tabulce jsou uvedeny informace o typu modulu plug-in.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -873,28 +873,28 @@ V následující tabulce jsou uvedeny informace o typu modulu plug-in.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PluginTypeID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">PluginTypeID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginTypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Název tohoto modulu plug-in</p></td>
+<td style="border:1px solid black;">PluginTypeName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Název tohoto modulu plug-in</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -906,7 +906,7 @@ V následující tabulce jsou uvedeny informace o šablonách zásad práv.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -924,28 +924,28 @@ V následující tabulce jsou uvedeny informace o šablonách zásad práv.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Guid</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128) (PK)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Identifikátor GUID šablony zásad práv</p></td>
+<td style="border:1px solid black;">Guid</td>
+<td style="border:1px solid black;">nvarchar(128) (PK)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Identifikátor GUID šablony zásad práv</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TemplateData</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Toto pole obsahuje data šablony XrML.</p></td>
+<td style="border:1px solid black;">TemplateData</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Toto pole obsahuje data šablony XrML.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -957,7 +957,7 @@ V následující tabulce jsou uvedeny informace o důvěryhodných certifikačn
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -975,40 +975,40 @@ V následující tabulce jsou uvedeny informace o důvěryhodných certifikačn
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(1,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(1,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>ID certifikátu</p></td>
+<td style="border:1px solid black;">CertificateID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">ID certifikátu</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertificateGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Identifikátor GUID certifikátu</p></td>
+<td style="border:1px solid black;">CertificateGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Identifikátor GUID certifikátu</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CaTypeID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Typ certifikační autority</p></td>
+<td style="border:1px solid black;">CaTypeID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Typ certifikační autority</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -1020,7 +1020,7 @@ V následující tabulce jsou uvedeny informace o e-mailových doménách, kter
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1038,22 +1038,22 @@ V následující tabulce jsou uvedeny informace o e-mailových doménách, kter
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_TrustedIdentityDomainID</p></td>
-<td style="border:1px solid black;"><p>int (FK)t</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_TrustedIdentityDomainID</td>
+<td style="border:1px solid black;">int (FK)t</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_EmailDomainName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Seznam názvů e-mailových domén, které jsou platné pro důvěryhodnou doménu uživatelů.</p></td>
+<td style="border:1px solid black;">s_EmailDomainName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Seznam názvů e-mailových domén, které jsou platné pro důvěryhodnou doménu uživatelů.</td>
 </tr>
 </tbody>
 </table>
@@ -1065,7 +1065,7 @@ V následující tabulce jsou uvedeny informace o důvěryhodných doménách u
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1083,58 +1083,58 @@ V následující tabulce jsou uvedeny informace o důvěryhodných doménách u
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_TrustedIdentityDomainID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_TrustedIdentityDomainID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_DomainType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Typ domény</p></td>
+<td style="border:1px solid black;">s_DomainType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Typ domény</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Typ identifikátoru GUID certifikátu</p></td>
+<td style="border:1px solid black;">CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Typ identifikátoru GUID certifikátu</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Identifikátor GUID certifikátu</p></td>
+<td style="border:1px solid black;">CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Identifikátor GUID certifikátu</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>ID certifikátu</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">ID certifikátu</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_allowSID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Identifikátor SID domény</p></td>
+<td style="border:1px solid black;">i_allowSID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Identifikátor SID domény</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>S_friendlyname</p></td>
-<td style="border:1px solid black;"><p>nvarchar(255)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Popisný název certifikátu</p></td>
+<td style="border:1px solid black;">S_friendlyname</td>
+<td style="border:1px solid black;">nvarchar(255)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Popisný název certifikátu</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko aktualizace</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko aktualizace</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Časové razítko vytvoření</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Časové razítko vytvoření</td>
 </tr>
 </tbody>
 </table>
@@ -1146,7 +1146,7 @@ V následující tabulce jsou uvedeny informace o certifikátech serveru pro po
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1164,22 +1164,22 @@ V následující tabulce jsou uvedeny informace o certifikátech serveru pro po
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Ukazatel na skutečný certifikát</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Ukazatel na skutečný certifikát</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Certificate</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Ukazatel na skutečný certifikát</p></td>
+<td style="border:1px solid black;">s_Certificate</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Ukazatel na skutečný certifikát</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_ParentCertificateID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Ukazatel na skutečný certifikát</p></td>
+<td style="border:1px solid black;">i_ParentCertificateID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Ukazatel na skutečný certifikát</td>
 </tr>
 </tbody>
 </table>

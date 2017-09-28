@@ -15,7 +15,7 @@ V následující tabulce jsou uvedeny typy serverů zahrnutých do nasazení sl
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,8 +29,8 @@ V následující tabulce jsou uvedeny typy serverů zahrnutých do nasazení sl
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kořenová certifikace</p></td>
-<td style="border:1px solid black;"><p>Spustí následující služby RMS:</p>
+<td style="border:1px solid black;">Kořenová certifikace</td>
+<td style="border:1px solid black;">Spustí následující služby RMS:
 <ul>
 <li><strong>Dílčí zápis</strong>. Provede dílčí zápis serverů správy licencí.<br />
 <br />
@@ -48,11 +48,11 @@ V následující tabulce jsou uvedeny typy serverů zahrnutých do nasazení sl
 <br />
 </li>
 </ul>
-<p>Každá implementace musí obsahovat alespoň jeden server nebo cluster kořenové certifikace. V každé síti Active Directory může být pouze jeden cluster kořenové certifikace.</p></td>
+Každá implementace musí obsahovat alespoň jeden server nebo cluster kořenové certifikace. V každé síti Active Directory může být pouze jeden cluster kořenové certifikace.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licencování (nepovinné)</p></td>
-<td style="border:1px solid black;"><p>Spustí následující služby RMS:</p>
+<td style="border:1px solid black;">Licencování (nepovinné)</td>
+<td style="border:1px solid black;">Spustí následující služby RMS:
 <ul>
 <li><strong>Publikování</strong>. Vydává licence k publikování.<br />
 <br />
@@ -61,10 +61,10 @@ V následující tabulce jsou uvedeny typy serverů zahrnutých do nasazení sl
 <br />
 </li>
 </ul>
-<p>Servery správy licencí jsou často implementovány za účelem podpory jednotlivých oddělení nebo snížení zátěže požadavků na licencování na clusteru kořenové certifikace. Servery správy licencí jsou nepovinné.</p></td>
+Servery správy licencí jsou často implementovány za účelem podpory jednotlivých oddělení nebo snížení zátěže požadavků na licencování na clusteru kořenové certifikace. Servery správy licencí jsou nepovinné.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Databázový server, například SQL Server</p></td>
+<td style="border:1px solid black;">Databázový server, například SQL Server</td>
 <td style="border:1px solid black;"><ul>
 <li>Provozuje konfigurační databáze, databáze protokolování a databáze adresářových služeb služby RMS.<br />
 <br />
@@ -75,7 +75,7 @@ V následující tabulce jsou uvedeny typy serverů zahrnutých do nasazení sl
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Řadič domény a globální katalog</p></td>
+<td style="border:1px solid black;">Řadič domény a globální katalog</td>
 <td style="border:1px solid black;"><ul>
 <li>Zajišťuje ověření uživatelů a adresářové služby.<br />
 <br />
@@ -87,7 +87,7 @@ V následující tabulce jsou uvedeny typy serverů zahrnutých do nasazení sl
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Pomocí služeb Enrollment Services a Activation Service, jejichž hostitelem je společnost Microsoft, zajišťuje služba RMS pro svůj systém společný kořen důvěryhodnosti. Další informace získáte v tomto tématu později v části [Hierarchie důvěryhodnosti služby RMS](https://technet.microsoft.com/2d44182f-a653-4383-aba1-dade53f7cf9a).
 

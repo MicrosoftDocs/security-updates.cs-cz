@@ -21,7 +21,7 @@ V následující tabulce je znázorněn výchozí seznam řízení přístupu k
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -35,8 +35,8 @@ V následující tabulce je znázorněn výchozí seznam řízení přístupu k
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SYSTEM</p></td>
-<td style="border:1px solid black;"><p>Úplné řízení</p></td>
+<td style="border:1px solid black;">SYSTEM</td>
+<td style="border:1px solid black;">Úplné řízení</td>
 </tr>
 </tbody>
 </table>

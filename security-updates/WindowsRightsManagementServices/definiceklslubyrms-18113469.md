@@ -13,7 +13,7 @@ V následující tabulce jsou uvedeny klíče používané v systému služby 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,36 +27,36 @@ V následující tabulce jsou uvedeny klíče používané v systému služby 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Serverové klíče</p></td>
-<td style="border:1px solid black;"><p><strong>Veřejný klíč</strong></p>
-<p>Šifruje klíč obsahu v licenci k publikování, takže pouze server RMS může načíst klíč obsahu a na základě dané licence k publikování vydávat licence k použití.</p>
-<p><strong>Soukromý klíč</strong></p>
-<p>Podepisuje všechny certifikáty a licence, které jsou vydány daným serverem.</p></td>
+<td style="border:1px solid black;">Serverové klíče</td>
+<td style="border:1px solid black;"><strong>Veřejný klíč</strong>
+Šifruje klíč obsahu v licenci k publikování, takže pouze server RMS může načíst klíč obsahu a na základě dané licence k publikování vydávat licence k použití.
+<strong>Soukromý klíč</strong>
+Podepisuje všechny certifikáty a licence, které jsou vydány daným serverem.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Klíče počítače</p></td>
-<td style="border:1px solid black;"><p><strong>Veřejný klíč</strong></p>
-<p>Šifruje soukromý klíč certifikátu účtu práv.</p>
-<p><strong>Soukromý klíč</strong></p>
-<p>Dešifruje certifikát účtu práv.</p></td>
+<td style="border:1px solid black;">Klíče počítače</td>
+<td style="border:1px solid black;"><strong>Veřejný klíč</strong>
+Šifruje soukromý klíč certifikátu účtu práv.
+<strong>Soukromý klíč</strong>
+Dešifruje certifikát účtu práv.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Klíče klientských certifikátů pro poskytování licencí</p></td>
-<td style="border:1px solid black;"><p><strong>Veřejný klíč</strong></p>
-<p>Šifruje symetrický klíč obsahu ve vydávané licenci k publikování.</p>
-<p><strong>Soukromý klíč</strong></p>
-<p>Podepisuje licence k publikování, které jsou vydány lokálně v situaci, kdy uživatel není připojen k síti.</p></td>
+<td style="border:1px solid black;">Klíče klientských certifikátů pro poskytování licencí</td>
+<td style="border:1px solid black;"><strong>Veřejný klíč</strong>
+Šifruje symetrický klíč obsahu ve vydávané licenci k publikování.
+<strong>Soukromý klíč</strong>
+Podepisuje licence k publikování, které jsou vydány lokálně v situaci, kdy uživatel není připojen k síti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Klíče uživatele</p></td>
-<td style="border:1px solid black;"><p><strong>Veřejný klíč</strong></p>
-<p>Šifruje klíč obsahu v licenci k použití, takže pomocí této licence může využít obsah chráněný službou RMS pouze určitý uživatel.</p>
-<p><strong>Soukromý klíč</strong></p>
-<p>Umožňuje uživateli využívat obsah chráněný službou RMS.</p></td>
+<td style="border:1px solid black;">Klíče uživatele</td>
+<td style="border:1px solid black;"><strong>Veřejný klíč</strong>
+Šifruje klíč obsahu v licenci k použití, takže pomocí této licence může využít obsah chráněný službou RMS pouze určitý uživatel.
+<strong>Soukromý klíč</strong>
+Umožňuje uživateli využívat obsah chráněný službou RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Klíče obsahu</p></td>
-<td style="border:1px solid black;"><p>Šifruje obsah chráněný službou RMS při publikování autorem.</p></td>
+<td style="border:1px solid black;">Klíče obsahu</td>
+<td style="border:1px solid black;">Šifruje obsah chráněný službou RMS při publikování autorem.</td>
 </tr>
 </tbody>
 </table>

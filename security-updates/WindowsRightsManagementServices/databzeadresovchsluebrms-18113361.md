@@ -17,7 +17,7 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -31,7 +31,7 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupAliases</p></td>
+<td style="border:1px solid black;">GroupAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupName: alias pro skupinu<br />
 <br />
@@ -42,7 +42,7 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
+<td style="border:1px solid black;">GroupIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupDN: rozlišující název adresářových služeb pro tuto skupinu<br />
 <br />
@@ -56,7 +56,7 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupMembership</p></td>
+<td style="border:1px solid black;">GroupMembership</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupID: jedinečný ID pro tuto skupinu<br />
 <br />
@@ -67,7 +67,7 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalAliases</p></td>
+<td style="border:1px solid black;">PrincipalAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalName: název aliasu pro zaregistrovaný objekt<br />
 <br />
@@ -78,7 +78,7 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
+<td style="border:1px solid black;">PrincipalIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalID: jedinečný ID pro tento zaregistrovaný objekt<br />
 <br />
@@ -89,8 +89,8 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalMembership</p></td>
-<td style="border:1px solid black;"><p>Každý řádek této tabulky obsahuje jedinečný ID zaregistrovaného objektu a jedinečný ID skupiny, jejímž členem je tento objekt.</p>
+<td style="border:1px solid black;">PrincipalMembership</td>
+<td style="border:1px solid black;">Každý řádek této tabulky obsahuje jedinečný ID zaregistrovaného objektu a jedinečný ID skupiny, jejímž členem je tento objekt.
 <ul>
 <li>PrincipalID: jedinečný ID pro tento zaregistrovaný objekt<br />
 <br />

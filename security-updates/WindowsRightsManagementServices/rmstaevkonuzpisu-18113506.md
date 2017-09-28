@@ -13,7 +13,7 @@ V následující tabulce jsou uvedeny čítače výkonu, které jsou k dispozi
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,16 +27,16 @@ V následující tabulce jsou uvedeny čítače výkonu, které jsou k dispozi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnroll Failures</p></td>
-<td style="border:1px solid black;"><p>Celkový počet požadavků na dílčí zápis, které nebyly úplně zpracovány.</p></td>
+<td style="border:1px solid black;">SubEnroll Failures</td>
+<td style="border:1px solid black;">Celkový počet požadavků na dílčí zápis, které nebyly úplně zpracovány.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SubEnroll Processing Time</p></td>
-<td style="border:1px solid black;"><p>Průměrná doba zpracování v mikrosekundách na jeden požadavek na dílčí zápis.</p></td>
+<td style="border:1px solid black;">SubEnroll Processing Time</td>
+<td style="border:1px solid black;">Průměrná doba zpracování v mikrosekundách na jeden požadavek na dílčí zápis.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnroll Requests</p></td>
-<td style="border:1px solid black;"><p>Celkový počet požadavků na dílčí zápis, které byly přijaty službou zápisu.</p></td>
+<td style="border:1px solid black;">SubEnroll Requests</td>
+<td style="border:1px solid black;">Celkový počet požadavků na dílčí zápis, které byly přijaty službou zápisu.</td>
 </tr>
 </tbody>
 </table>

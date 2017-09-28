@@ -18,7 +18,7 @@ V následující tabulce jsou uvedeny informace o ID hardwaru pro všechny poč
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,22 +36,22 @@ V následující tabulce jsou uvedeny informace o ID hardwaru pro všechny poč
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_MachineId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(1,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_MachineId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(1,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_PubKeyHash</p></td>
-<td style="border:1px solid black;"><p>binary(20)</p></td>
-<td style="border:1px solid black;"><p>(20) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Hodnota hash ID hardwaru</p></td>
+<td style="border:1px solid black;">b_PubKeyHash</td>
+<td style="border:1px solid black;">binary(20)</td>
+<td style="border:1px solid black;">(20) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Hodnota hash ID hardwaru</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Datum a čas, kdy byla položka přidána do tabulky</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Datum a čas, kdy byla položka přidána do tabulky</td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ V následující tabulce jsou uvedeny informace o informacích služby Microsof
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -81,16 +81,16 @@ V následující tabulce jsou uvedeny informace o informacích služby Microsof
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i64_Puid</p></td>
-<td style="border:1px solid black;"><p>bigint</p></td>
-<td style="border:1px solid black;"><p>(50) NULL</p></td>
-<td style="border:1px solid black;"><p>ID uživatele služby .NET Passport</p></td>
+<td style="border:1px solid black;">i64_Puid</td>
+<td style="border:1px solid black;">bigint</td>
+<td style="border:1px solid black;">(50) NULL</td>
+<td style="border:1px solid black;">ID uživatele služby .NET Passport</td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +102,7 @@ V následující tabulce jsou certifikovaní uživatelé propojeni s odpovída
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -120,22 +120,22 @@ V následující tabulce jsou certifikovaní uživatelé propojeni s odpovída
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_MachineId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_MachineId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Datum a čas, kdy byla položka přidána do tabulky</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Datum a čas, kdy byla položka přidána do tabulky</td>
 </tr>
 </tbody>
 </table>
@@ -147,7 +147,7 @@ V následující tabulce jsou uvedeny informace o uživatelských datech.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -165,82 +165,82 @@ V následující tabulce jsou uvedeny informace o uživatelských datech.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(1,1) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(1,1) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_KeyData</p></td>
-<td style="border:1px solid black;"><p>varbinary(2000)</p></td>
-<td style="border:1px solid black;"><p>(2000) Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Šifrovaný veřejný/soukromý klíč uživatele</p></td>
+<td style="border:1px solid black;">b_KeyData</td>
+<td style="border:1px solid black;">varbinary(2000)</td>
+<td style="border:1px solid black;">(2000) Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Šifrovaný veřejný/soukromý klíč uživatele</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_KeyDataLength</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Délka nešifrovaného veřejného/soukromého klíče</p></td>
+<td style="border:1px solid black;">i_KeyDataLength</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Délka nešifrovaného veřejného/soukromého klíče</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Veřejný klíč uživatele</p></td>
+<td style="border:1px solid black;">b_PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Veřejný klíč uživatele</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_EncryptionDbId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Index certifikátu poskytovatele licence k šifrování páru veřejného a soukromého klíče</p></td>
+<td style="border:1px solid black;">i_EncryptionDbId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Index certifikátu poskytovatele licence k šifrování páru veřejného a soukromého klíče</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Certificate</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Nezadáno</p></td>
-<td style="border:1px solid black;"><p>Nepoužito</p></td>
+<td style="border:1px solid black;">s_Certificate</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Nezadáno</td>
+<td style="border:1px solid black;">Nepoužito</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_Expiration</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Datum vypršení platnosti uživatelského klíče</p></td>
+<td style="border:1px solid black;">dt_Expiration</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Datum vypršení platnosti uživatelského klíče</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_TemporaryExpiration</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Datum a čas vypršení platnosti dočasného použití klíče</p></td>
+<td style="border:1px solid black;">dt_TemporaryExpiration</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Datum a čas vypršení platnosti dočasného použití klíče</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>f_Modified</p></td>
-<td style="border:1px solid black;"><p>bit</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Nepoužito</p></td>
+<td style="border:1px solid black;">f_Modified</td>
+<td style="border:1px solid black;">bit</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Nepoužito</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_Quota</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Aktuální úroveň kvóty pro uživatele</p></td>
+<td style="border:1px solid black;">i_Quota</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Aktuální úroveň kvóty pro uživatele</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_WaitDays</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Počet dní do úspěšného splnění žádostí o další kvótu</p></td>
+<td style="border:1px solid black;">i_WaitDays</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Počet dní do úspěšného splnění žádostí o další kvótu</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_LastConsumption</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Datum a čas poslední dodatečné certifikace uživatele</p></td>
+<td style="border:1px solid black;">dt_LastConsumption</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Datum a čas poslední dodatečné certifikace uživatele</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Datum a čas, kdy byla položka přidána do tabulky</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Datum a čas, kdy byla položka přidána do tabulky</td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +252,7 @@ V následující tabulce jsou uvedena ID všech ověřených a certifikovaných
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -270,16 +270,16 @@ V následující tabulce jsou uvedena ID všech ověřených a certifikovaných
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>Interní index</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">Interní index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Sid</p></td>
-<td style="border:1px solid black;"><p>Sid</p></td>
-<td style="border:1px solid black;"><p>Nepovoleny hodnoty NULL</p></td>
-<td style="border:1px solid black;"><p>ID zabezpečení (SID) uživatele</p></td>
+<td style="border:1px solid black;">s_Sid</td>
+<td style="border:1px solid black;">Sid</td>
+<td style="border:1px solid black;">Nepovoleny hodnoty NULL</td>
+<td style="border:1px solid black;">ID zabezpečení (SID) uživatele</td>
 </tr>
 </tbody>
 </table>

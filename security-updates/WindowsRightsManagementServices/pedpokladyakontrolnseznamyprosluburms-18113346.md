@@ -50,7 +50,7 @@ Pro nasazení jediného serveru služby RMS použijte následující kontrolní 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -64,29 +64,29 @@ Pro nasazení jediného serveru služby RMS použijte následující kontrolní 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Posouzení informací o plánování a základních pojmů</p></td>
-<td style="border:1px solid black;"><p>Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Posouzení informací o plánování a základních pojmů</td>
+<td style="border:1px solid black;">Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kontrola požadavků na systém a ověření, zda je k dispozici veškerý požadovaný hardware a software</p></td>
-<td style="border:1px solid black;"><p>Předpoklady týkající se infrastruktury pro službu RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a></p>
-<p>Plánování infrastruktury databázového serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a></p></td>
+<td style="border:1px solid black;">Kontrola požadavků na systém a ověření, zda je k dispozici veškerý požadovaný hardware a software</td>
+<td style="border:1px solid black;">Předpoklady týkající se infrastruktury pro službu RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a>
+Plánování infrastruktury databázového serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nastavení infrastruktury včetně požadavků na hardware a software, účtů správce a podpory služby SMS nebo Zásad skupiny (podle potřeby)</p></td>
-<td style="border:1px solid black;"><p>Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Nastavení infrastruktury včetně požadavků na hardware a software, účtů správce a podpory služby SMS nebo Zásad skupiny (podle potřeby)</td>
+<td style="border:1px solid black;">Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Instalace a konfigurace služby RMS na serveru</p></td>
-<td style="border:1px solid black;"><p>Nastavení služby certifikace a správy licencí na prvním serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Instalace a konfigurace služby RMS na serveru</td>
+<td style="border:1px solid black;">Nastavení služby certifikace a správy licencí na prvním serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Testování implementace</p></td>
-<td style="border:1px solid black;"><p>Nastavení testovacího prostředí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Testování implementace</td>
+<td style="border:1px solid black;">Nastavení testovacího prostředí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Implementace služby RMS v provozním prostředí</p></td>
-<td style="border:1px solid black;"><p>Definování rozsahu implementace služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Implementace služby RMS v provozním prostředí</td>
+<td style="border:1px solid black;">Definování rozsahu implementace služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 </tbody>
 </table>
@@ -99,7 +99,7 @@ Pro nasazení clusterů kořenové certifikace a správy licencí použijte nás
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -113,43 +113,43 @@ Pro nasazení clusterů kořenové certifikace a správy licencí použijte nás
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Posouzení informací o plánování a základních pojmů</p></td>
-<td style="border:1px solid black;"><p>Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Posouzení informací o plánování a základních pojmů</td>
+<td style="border:1px solid black;">Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Kontrola požadavků na systém a ověření, zda je k dispozici veškerý požadovaný hardware a software</p></td>
-<td style="border:1px solid black;"><p>Předpoklady týkající se infrastruktury pro službu RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a></p>
-<p>Plánování infrastruktury databázového serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a></p></td>
+<td style="border:1px solid black;">Kontrola požadavků na systém a ověření, zda je k dispozici veškerý požadovaný hardware a software</td>
+<td style="border:1px solid black;">Předpoklady týkající se infrastruktury pro službu RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a>
+Plánování infrastruktury databázového serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Posouzení plánu implementace a seznámení se s topologií a instalovanými komponentami</p></td>
-<td style="border:1px solid black;"><p>Určení topologie služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a></p></td>
+<td style="border:1px solid black;">Posouzení plánu implementace a seznámení se s topologií a instalovanými komponentami</td>
+<td style="border:1px solid black;">Určení topologie služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=37537">Plánování nasazení služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nastavení infrastruktury včetně požadavků na hardware a software, účtů správce a podpory služby SMS nebo Zásad skupiny (podle potřeby)</p></td>
-<td style="border:1px solid black;"><p>Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Nastavení infrastruktury včetně požadavků na hardware a software, účtů správce a podpory služby SMS nebo Zásad skupiny (podle potřeby)</td>
+<td style="border:1px solid black;">Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Instalace a konfigurace služby RMS na serverech v clusteru kořenové certifikace</p></td>
-<td style="border:1px solid black;"><p>Nastavení služby certifikace a správy licencí na prvním serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p>
-<p>Přidání serverů pro podporu certifikace a správy licencí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Instalace a konfigurace služby RMS na serverech v clusteru kořenové certifikace</td>
+<td style="border:1px solid black;">Nastavení služby certifikace a správy licencí na prvním serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a>
+Přidání serverů pro podporu certifikace a správy licencí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Instalace a konfigurace služby RMS na serverech v clusterech správy licencí</p></td>
-<td style="border:1px solid black;"><p>Nastavení služby certifikace a správy licencí na prvním serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p>
-<p>Přidání serverů pro podporu certifikace a správy licencí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Instalace a konfigurace služby RMS na serverech v clusterech správy licencí</td>
+<td style="border:1px solid black;">Nastavení služby certifikace a správy licencí na prvním serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a>
+Přidání serverů pro podporu certifikace a správy licencí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nastavení vyrovnávání zatížení</p></td>
-<td style="border:1px solid black;"><p>Rozšíření základní infrastruktury na podporu správy clusterů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Nastavení vyrovnávání zatížení</td>
+<td style="border:1px solid black;">Rozšíření základní infrastruktury na podporu správy clusterů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Testování implementace</p></td>
-<td style="border:1px solid black;"><p>Nastavení testovacího prostředí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Testování implementace</td>
+<td style="border:1px solid black;">Nastavení testovacího prostředí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Implementace služby RMS v provozním prostředí</p></td>
-<td style="border:1px solid black;"><p>Definování rozsahu implementace služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Implementace služby RMS v provozním prostředí</td>
+<td style="border:1px solid black;">Definování rozsahu implementace služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 </tbody>
 </table>
@@ -162,7 +162,7 @@ Pro nasazení kořenové služby RMS v doménových strukturách použijte nás
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -176,16 +176,16 @@ Pro nasazení kořenové služby RMS v doménových strukturách použijte nás
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Posouzení informací o plánování a základních pojmů</p></td>
-<td style="border:1px solid black;"><p>Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Posouzení informací o plánování a základních pojmů</td>
+<td style="border:1px solid black;">Příprava nasazení služby RMS tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Konfigurace požadovaných oprávnění na základě modelu důvěryhodnosti</p></td>
-<td style="border:1px solid black;"><p>Nasazení služby RMS v doménových strukturách tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Konfigurace požadovaných oprávnění na základě modelu důvěryhodnosti</td>
+<td style="border:1px solid black;">Nasazení služby RMS v doménových strukturách tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nastavení odpovídajících atributů služby Active Directory pro doménové struktury</p></td>
-<td style="border:1px solid black;"><p>Nasazení služby RMS v doménových strukturách tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p></td>
+<td style="border:1px solid black;">Nastavení odpovídajících atributů služby Active Directory pro doménové struktury</td>
+<td style="border:1px solid black;">Nasazení služby RMS v doménových strukturách tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 </tbody>
 </table>
@@ -211,7 +211,7 @@ Pro implementaci šablony zásad práv použijte následující kontrolní sezna
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -225,21 +225,21 @@ Pro implementaci šablony zásad práv použijte následující kontrolní sezna
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nastudování příslušných základních pojmů</p></td>
-<td style="border:1px solid black;"><p>Šablony zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technické informace týkající se služby RMS</a></p></td>
+<td style="border:1px solid black;">Nastudování příslušných základních pojmů</td>
+<td style="border:1px solid black;">Šablony zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technické informace týkající se služby RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zadání umístění šablony zásad práv</p></td>
-<td style="border:1px solid black;"><p>Zadání umístění šablon zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Zadání umístění šablony zásad práv</td>
+<td style="border:1px solid black;">Zadání umístění šablon zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Vytvoření šablony zásad práv</p></td>
-<td style="border:1px solid black;"><p>Vytvoření a změna šablon zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p>
-<p>Přidání šablony zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Vytvoření šablony zásad práv</td>
+<td style="border:1px solid black;">Vytvoření a změna šablon zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a>
+Přidání šablony zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Distribuce šablony zásad práv</p></td>
-<td style="border:1px solid black;"><p>Distribuce šablon zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Distribuce šablony zásad práv</td>
+<td style="border:1px solid black;">Distribuce šablon zásad práv tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +252,7 @@ Pro nasazení nové verze klienta RMS použijte následující kontrolní seznam
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -266,13 +266,13 @@ Pro nasazení nové verze klienta RMS použijte následující kontrolní seznam
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nastudování příslušných základních pojmů</p></td>
-<td style="border:1px solid black;"><p>Plánování distribuce klientů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></p>
-<p>Vyloučení verzí bezpečnostního modulu tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Nastudování příslušných základních pojmů</td>
+<td style="border:1px solid black;">Plánování distribuce klientů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a>
+Vyloučení verzí bezpečnostního modulu tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Chcete-li u všech klientů vynutit upgrade na nejnovější verzi klienta, vylučte zastaralou verzi bezpečnostního modulu.</p></td>
-<td style="border:1px solid black;"><p>Vyloučení verzí bezpečnostního modulu tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Chcete-li u všech klientů vynutit upgrade na nejnovější verzi klienta, vylučte zastaralou verzi bezpečnostního modulu.</td>
+<td style="border:1px solid black;">Vyloučení verzí bezpečnostního modulu tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 </tbody>
 </table>
@@ -285,7 +285,7 @@ Pro přidání důvěryhodných domén uživatelů použijte následující kont
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -299,13 +299,13 @@ Pro přidání důvěryhodných domén uživatelů použijte následující kont
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nastudování příslušných základních pojmů</p></td>
-<td style="border:1px solid black;"><p>Důvěryhodné domény uživatelů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technické informace týkající se služby RMS</a></p>
-<p>Přidání a odebrání důvěryhodných domén uživatelů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Nastudování příslušných základních pojmů</td>
+<td style="border:1px solid black;">Důvěryhodné domény uživatelů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technické informace týkající se služby RMS</a>
+Přidání a odebrání důvěryhodných domén uživatelů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Získejte certifikát serveru pro poskytování licencí domény uživatelů, kterou chcete přidat (od správce instalace, která má být považována za důvěryhodnou). Potom tuto doménu uživatelů přidejte do své instalace.</p></td>
-<td style="border:1px solid black;"><p>Přidání důvěryhodné domény uživatelů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Získejte certifikát serveru pro poskytování licencí domény uživatelů, kterou chcete přidat (od správce instalace, která má být považována za důvěryhodnou). Potom tuto doménu uživatelů přidejte do své instalace.</td>
+<td style="border:1px solid black;">Přidání důvěryhodné domény uživatelů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 </tbody>
 </table>
@@ -318,7 +318,7 @@ Pro přidání důvěryhodných domén publikování použijte následující ko
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -332,13 +332,13 @@ Pro přidání důvěryhodných domén publikování použijte následující ko
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nastudování příslušných základních pojmů</p></td>
-<td style="border:1px solid black;"><p>Důvěryhodné domény publikování tématu <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technické informace týkající se služby RMS</a></p>
-<p>Přidání a odebrání důvěryhodných domén publikování tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Nastudování příslušných základních pojmů</td>
+<td style="border:1px solid black;">Důvěryhodné domény publikování tématu <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technické informace týkající se služby RMS</a>
+Přidání a odebrání důvěryhodných domén publikování tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Získání šifrovaného certifikátu serveru pro poskytování licencí a soukromého klíče požadované domény publikování a následné přidání domény publikování k instalaci</p></td>
-<td style="border:1px solid black;"><p>Přidání důvěryhodné domény publikování tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></p></td>
+<td style="border:1px solid black;">Získání šifrovaného certifikátu serveru pro poskytování licencí a soukromého klíče požadované domény publikování a následné přidání domény publikování k instalaci</td>
+<td style="border:1px solid black;">Přidání důvěryhodné domény publikování tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 </tbody>
 </table>

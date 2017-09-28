@@ -21,7 +21,7 @@ Při plánování kapacity můžete k odhadu požadavků na systém RMS z hledis
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -39,22 +39,22 @@ Při plánování kapacity můžete k odhadu požadavků na systém RMS z hledis
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Požadavek na licenci</p></td>
-<td style="border:1px solid black;"><p>Opakovaně pro každého uživatele a každou položku obsahu</p></td>
-<td style="border:1px solid black;"><p>64</p></td>
-<td style="border:1px solid black;"><p>18</p></td>
+<td style="border:1px solid black;">Požadavek na licenci</td>
+<td style="border:1px solid black;">Opakovaně pro každého uživatele a každou položku obsahu</td>
+<td style="border:1px solid black;">64</td>
+<td style="border:1px solid black;">18</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certifikace účtu práv</p></td>
-<td style="border:1px solid black;"><p>Pouze počáteční tok dat služby RMS</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Certifikace účtu práv</td>
+<td style="border:1px solid black;">Pouze počáteční tok dat služby RMS</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zápis klienta</p></td>
-<td style="border:1px solid black;"><p>Pouze počáteční tok dat služby RMS</p></td>
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Zápis klienta</td>
+<td style="border:1px solid black;">Pouze počáteční tok dat služby RMS</td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ Následující tabulka obsahuje základní data týkající se využití šířk
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -81,14 +81,14 @@ Následující tabulka obsahuje základní data týkající se využití šířk
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Vytvoření připojení služby RMS (ldap_bind)</p></td>
-<td style="border:1px solid black;"><p>1600</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
+<td style="border:1px solid black;">Vytvoření připojení služby RMS (ldap_bind)</td>
+<td style="border:1px solid black;">1600</td>
+<td style="border:1px solid black;">200</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Vyhodnocení členství ve skupinách služby RMS (ldap_search)</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
+<td style="border:1px solid black;">Vyhodnocení členství ve skupinách služby RMS (ldap_search)</td>
+<td style="border:1px solid black;">200</td>
+<td style="border:1px solid black;">100</td>
 </tr>
 </tbody>
 </table>

@@ -15,7 +15,7 @@ Během zajišťování používá služba RMS účty popsané v následující 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -31,23 +31,23 @@ Během zajišťování používá služba RMS účty popsané v následující 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Účet přihlášeného uživatele</p></td>
-<td style="border:1px solid black;"><p>Vytvoří virtuální adresáře a fondy aplikací. Služba IIS vyžaduje ověřování systému Windows a služba RMS představuje přihlášeného uživatele, který musí být přihlášen místně.</p></td>
-<td style="border:1px solid black;"><p>Úplné řízení (přihlášený uživatel musí být místním správcem)</p></td>
+<td style="border:1px solid black;">Účet přihlášeného uživatele</td>
+<td style="border:1px solid black;">Vytvoří virtuální adresáře a fondy aplikací. Služba IIS vyžaduje ověřování systému Windows a služba RMS představuje přihlášeného uživatele, který musí být přihlášen místně.</td>
+<td style="border:1px solid black;">Úplné řízení (přihlášený uživatel musí být místním správcem)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Systémový účet</p></td>
-<td style="border:1px solid black;"><p>Vytvoří dočasné sestavení pro serializaci.</p></td>
-<td style="border:1px solid black;"><p>Oprávnění pro čtení a zápis pro dočasnou složku systému Windows C:\Windows\Temp.</p></td>
+<td style="border:1px solid black;">Systémový účet</td>
+<td style="border:1px solid black;">Vytvoří dočasné sestavení pro serializaci.</td>
+<td style="border:1px solid black;">Oprávnění pro čtení a zápis pro dočasnou složku systému Windows C:\Windows\Temp.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Účet ASPNET</p></td>
-<td style="border:1px solid black;"><p>Vytvoří dočasné sestavení souborů *.aspx.</p></td>
-<td style="border:1px solid black;"><p>Přístup k dočasnému adresáři mezipaměti sestavení C:\Windows\Microsoft.NET\Framework\v1.1.4322\Dočasné soubory ASP.NET (ve výchozím nastavení).</p></td>
+<td style="border:1px solid black;">Účet ASPNET</td>
+<td style="border:1px solid black;">Vytvoří dočasné sestavení souborů *.aspx.</td>
+<td style="border:1px solid black;">Přístup k dočasnému adresáři mezipaměti sestavení C:\Windows\Microsoft.NET\Framework\v1.1.4322\Dočasné soubory ASP.NET (ve výchozím nastavení).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Účet Síťové služby</p></td>
-<td style="border:1px solid black;"><p>Registruje spojovací bod služby v rámci služby Active Directory.</p></td>
+<td style="border:1px solid black;">Účet Síťové služby</td>
+<td style="border:1px solid black;">Registruje spojovací bod služby v rámci služby Active Directory.</td>
 <td style="border:1px solid black;"><ul>
 <li>Oprávnění pouze pro čtení pro web zajišťování (obvykle C:\Inetpub\Wwwroot\Provisioning).<br />
 <br />
@@ -67,7 +67,7 @@ Počítače s 64bitovou verzí systému Windows Server 2003<br />
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Během zajišťování provádí služba RMS následující úlohy:
 

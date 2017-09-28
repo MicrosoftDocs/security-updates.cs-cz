@@ -15,7 +15,7 @@ V následující tabulce jsou uvedeny parametry zaznamenané pomocí značky REF
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,20 +29,20 @@ V následující tabulce jsou uvedeny parametry zaznamenané pomocí značky REF
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>ID seznamu odvolání.</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">ID seznamu odvolání.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ADDRESS</p></td>
-<td style="border:1px solid black;"><p>Adresa URL nebo cesta UNC, kde lze získat seznam odvolání.</p></td>
+<td style="border:1px solid black;">ADDRESS</td>
+<td style="border:1px solid black;">Adresa URL nebo cesta UNC, kde lze získat seznam odvolání.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>Veřejný klíč vydavatele seznamu odvolání. Tento veřejný klíč odpovídá soukromému klíči použitému k podpisu seznamu odvolání.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">Veřejný klíč vydavatele seznamu odvolání. Tento veřejný klíč odpovídá soukromému klíči použitému k podpisu seznamu odvolání.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>INTERVALTIME</p></td>
-<td style="border:1px solid black;"><p>Maximální stáří seznamu odvolání uvedené ve dnech. Pokud je seznam odvolání v mezipaměti starší než doba povolená hodnotou INTERVALTIME, získá klient RMS nejnovější seznam odvolání z adresy URL uvedené v hodnotě ADDRESS. Tímto způsobem je zajištěno použití aktuálního seznamu odvolání.</p></td>
+<td style="border:1px solid black;">INTERVALTIME</td>
+<td style="border:1px solid black;">Maximální stáří seznamu odvolání uvedené ve dnech. Pokud je seznam odvolání v mezipaměti starší než doba povolená hodnotou INTERVALTIME, získá klient RMS nejnovější seznam odvolání z adresy URL uvedené v hodnotě ADDRESS. Tímto způsobem je zajištěno použití aktuálního seznamu odvolání.</td>
 </tr>
 </tbody>
 </table>

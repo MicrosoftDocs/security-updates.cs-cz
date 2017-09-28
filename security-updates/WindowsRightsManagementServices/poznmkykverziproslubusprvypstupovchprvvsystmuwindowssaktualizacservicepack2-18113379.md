@@ -22,7 +22,7 @@ Hardwarové požadavky na spuštění služby RMS s aktualizací SP2 jsou uvede
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -36,16 +36,16 @@ Hardwarové požadavky na spuštění služby RMS s aktualizací SP2 jsou uvede
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Počítač s jedním procesorem Pentium III (800 MHz nebo rychlejší)</p></td>
-<td style="border:1px solid black;"><p>Počítač se dvěma procesory Pentium 4 (1500 MHz nebo rychlejší)</p></td>
+<td style="border:1px solid black;">Počítač s jedním procesorem Pentium III (800 MHz nebo rychlejší)</td>
+<td style="border:1px solid black;">Počítač se dvěma procesory Pentium 4 (1500 MHz nebo rychlejší)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>256 MB paměti RAM</p></td>
-<td style="border:1px solid black;"><p>512 MB paměti RAM</p></td>
+<td style="border:1px solid black;">256 MB paměti RAM</td>
+<td style="border:1px solid black;">512 MB paměti RAM</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>20 GB volného místa na pevném disku</p></td>
-<td style="border:1px solid black;"><p>40 GB volného místa na pevném disku</p></td>
+<td style="border:1px solid black;">20 GB volného místa na pevném disku</td>
+<td style="border:1px solid black;">40 GB volného místa na pevném disku</td>
 </tr>
 </tbody>
 </table>
@@ -58,7 +58,7 @@ Softwarové požadavky pro servery používající službu RMS s aktualizací S
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -72,19 +72,19 @@ Softwarové požadavky pro servery používající službu RMS s aktualizací S
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operační systém</p></td>
-<td style="border:1px solid black;"><p>Microsoft Windows Server® 2003, s výjimkou verze Web Edition, pro službu RMS s aktualizací SP2.</p></td>
+<td style="border:1px solid black;">Operační systém</td>
+<td style="border:1px solid black;">Microsoft Windows Server® 2003, s výjimkou verze Web Edition, pro službu RMS s aktualizací SP2.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Služba Správa přístupových práv s aktualizací SP2</p></td>
-<td style="border:1px solid black;"><p>Před upgradem na službu RMS s aktualizací SP2 musí být nainstalována služba RMS s aktualizací Service Pack 1 (SP1). Pro klienta RMS s aktualizací SP2 tento požadavek neplatí.</p></td>
+<td style="border:1px solid black;">Služba Správa přístupových práv s aktualizací SP2</td>
+<td style="border:1px solid black;">Před upgradem na službu RMS s aktualizací SP2 musí být nainstalována služba RMS s aktualizací Service Pack 1 (SP1). Pro klienta RMS s aktualizací SP2 tento požadavek neplatí.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Systém souborů</p></td>
-<td style="border:1px solid black;"><p>Je doporučen systém souborů NTFS.</p></td>
+<td style="border:1px solid black;">Systém souborů</td>
+<td style="border:1px solid black;">Je doporučen systém souborů NTFS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Požadované součásti</p></td>
+<td style="border:1px solid black;">Požadované součásti</td>
 <td style="border:1px solid black;"><ul>
 <li>Řízení front zpráv (označované také jako MSMQ) s povolenou integrací adresářové služby Active Directory®.<br />
 <br />
@@ -99,7 +99,7 @@ Softwarové požadavky pro servery používající službu RMS s aktualizací S
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 | ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Požadavky na infrastrukturu pro servery používající službu RMS s aktualiz
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -123,12 +123,12 @@ Požadavky na infrastrukturu pro servery používající službu RMS s aktualiz
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Adresářové služby</p></td>
-<td style="border:1px solid black;"><p>Služba Active Directory na řadičích domény se systémem Windows Server 2000 s aktualizací Service Pack 3 (SP3) nebo novějším, která patří do stejné domény jako služba RMS. Všichni uživatelé a skupiny využívající službu RMS k získávání licencí a k publikování obsahu musí mít e-mailovou adresu konfigurovanou ve službě Active Directory.</p></td>
+<td style="border:1px solid black;">Adresářové služby</td>
+<td style="border:1px solid black;">Služba Active Directory na řadičích domény se systémem Windows Server 2000 s aktualizací Service Pack 3 (SP3) nebo novějším, která patří do stejné domény jako služba RMS. Všichni uživatelé a skupiny využívající službu RMS k získávání licencí a k publikování obsahu musí mít e-mailovou adresu konfigurovanou ve službě Active Directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Databázový server</p></td>
-<td style="border:1px solid black;"><p>K provádění operací vyžaduje služba RMS s aktualizací SP2 databázi a uložené procedury. Můžete použít Microsoft SQL Server™ 2000 s aktualizací SP3 nebo novější či Microsoft SQL Server 2005. Pro testování nebo nasazení v jednom počítači lze použít Microsoft SQL Server Desktop Engine (MSDE 2000) verze A nebo Microsoft SQL Server 2005 Express Edition.</p></td>
+<td style="border:1px solid black;">Databázový server</td>
+<td style="border:1px solid black;">K provádění operací vyžaduje služba RMS s aktualizací SP2 databázi a uložené procedury. Můžete použít Microsoft SQL Server™ 2000 s aktualizací SP3 nebo novější či Microsoft SQL Server 2005. Pro testování nebo nasazení v jednom počítači lze použít Microsoft SQL Server Desktop Engine (MSDE 2000) verze A nebo Microsoft SQL Server 2005 Express Edition.</td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění poža
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -162,28 +162,28 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění poža
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Instalace služby RMS</p></td>
-<td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače</p></td>
+<td style="border:1px solid black;">Instalace služby RMS</td>
+<td style="border:1px solid black;">Uživatel domény s pověřeními správce místního počítače</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zajišťování kořenového clusteru služby RMS</p></td>
-<td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače a s oprávněními k vyhledávání a zápisu do služby Active Directory</p></td>
+<td style="border:1px solid black;">Zajišťování kořenového clusteru služby RMS</td>
+<td style="border:1px solid black;">Uživatel domény s pověřeními správce místního počítače a s oprávněními k vyhledávání a zápisu do služby Active Directory</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zajišťování vyhrazeného clusteru pro správu licencí služby RMS</p></td>
-<td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače a s oprávněními k vyhledávání ve službě Active Directory</p></td>
+<td style="border:1px solid black;">Zajišťování vyhrazeného clusteru pro správu licencí služby RMS</td>
+<td style="border:1px solid black;">Uživatel domény s pověřeními správce místního počítače a s oprávněními k vyhledávání ve službě Active Directory</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Zajišťování při používání nové konfigurační databáze</p></td>
-<td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače a s oprávněními ke čtení, zápisu a vytváření v počítači se serverem SQL Server</p></td>
+<td style="border:1px solid black;">Zajišťování při používání nové konfigurační databáze</td>
+<td style="border:1px solid black;">Uživatel domény s pověřeními správce místního počítače a s oprávněními ke čtení, zápisu a vytváření v počítači se serverem SQL Server</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zajišťování při používání existující konfigurační databáze</p></td>
-<td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače a s oprávněními ke čtení a zápisu v počítači s databázovým serverem</p></td>
+<td style="border:1px solid black;">Zajišťování při používání existující konfigurační databáze</td>
+<td style="border:1px solid black;">Uživatel domény s pověřeními správce místního počítače a s oprávněními ke čtení a zápisu v počítači s databázovým serverem</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Správa služby RMS</p></td>
-<td style="border:1px solid black;"><p>Uživatel domény s pověřeními správce místního počítače</p></td>
+<td style="border:1px solid black;">Správa služby RMS</td>
+<td style="border:1px solid black;">Uživatel domény s pověřeními správce místního počítače</td>
 </tr>
 </tbody>
 </table>
@@ -196,7 +196,7 @@ Používáte-li Službu správy přístupových práv při nasazení clusterů, 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -210,16 +210,16 @@ Používáte-li Službu správy přístupových práv při nasazení clusterů, 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Velký počet počítačů využívajících Službu správy přístupových práv</p></td>
-<td style="border:1px solid black;"><p>K instalaci klientů RMS s aktualizací SP2 použijte server SMS nebo zásady skupiny.</p></td>
+<td style="border:1px solid black;">Velký počet počítačů využívajících Službu správy přístupových práv</td>
+<td style="border:1px solid black;">K instalaci klientů RMS s aktualizací SP2 použijte server SMS nebo zásady skupiny.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Velký počet požadavků klientů</p></td>
-<td style="border:1px solid black;"><p>Použijte server pro vyrovnávání zatížení, službu Vyrovnávání zatížení sítě operačního systému Windows Server nebo hardwarové vyrovnávání zatížení a rozdělte požadavky klientů do celého clusteru.</p></td>
+<td style="border:1px solid black;">Velký počet požadavků klientů</td>
+<td style="border:1px solid black;">Použijte server pro vyrovnávání zatížení, službu Vyrovnávání zatížení sítě operačního systému Windows Server nebo hardwarové vyrovnávání zatížení a rozdělte požadavky klientů do celého clusteru.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dva síťové adaptéry, které používají virtuální IP adresování ke zpracování požadavků z extranetu i intranetu</p></td>
-<td style="border:1px solid black;"><p>Zajistěte, aby každá registrace DNS (Domain Name System), která vystavuje svou virtuální IP adresu do extranetu, tuto adresu vystavila také do intranetu.</p></td>
+<td style="border:1px solid black;">Dva síťové adaptéry, které používají virtuální IP adresování ke zpracování požadavků z extranetu i intranetu</td>
+<td style="border:1px solid black;">Zajistěte, aby každá registrace DNS (Domain Name System), která vystavuje svou virtuální IP adresu do extranetu, tuto adresu vystavila také do intranetu.</td>
 </tr>
 </tbody>
 </table>

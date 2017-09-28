@@ -15,7 +15,7 @@ Existují tři události, které služba RMS odešle do protokolu systémových 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -31,19 +31,19 @@ Existují tři události, které služba RMS odešle do protokolu systémových 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>16</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiresInOneMonthEvent</p></td>
-<td style="border:1px solid black;"><p>Upozornění. Služba nadále funguje normálně.</p></td>
+<td style="border:1px solid black;">16</td>
+<td style="border:1px solid black;">LicensorCertExpiresInOneMonthEvent</td>
+<td style="border:1px solid black;">Upozornění. Služba nadále funguje normálně.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiresInOneWeekEvent</p></td>
-<td style="border:1px solid black;"><p>Upozornění. Služba nadále funguje normálně.</p></td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">LicensorCertExpiresInOneWeekEvent</td>
+<td style="border:1px solid black;">Upozornění. Služba nadále funguje normálně.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>18</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiredEvent</p></td>
-<td style="border:1px solid black;"><p>Chyba. Služba je zakázána.</p></td>
+<td style="border:1px solid black;">18</td>
+<td style="border:1px solid black;">LicensorCertExpiredEvent</td>
+<td style="border:1px solid black;">Chyba. Služba je zakázána.</td>
 </tr>
 </tbody>
 </table>

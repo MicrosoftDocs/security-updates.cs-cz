@@ -13,7 +13,7 @@ Klientské počítače nasazení služby RMS využívají následující technol
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -31,47 +31,47 @@ Klientské počítače nasazení služby RMS využívají následující technol
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aplikace s podporou služby RMS</p></td>
-<td style="border:1px solid black;"><p>Jsou nezbytné k vytváření a publikování obsahu chráněného službou RMS. Je možné vytvořit aplikace určené přímo pro službu RMS nebo přepsat existující aplikace, tak aby s touto službou spolupracovaly.</p></td>
-<td style="border:1px solid black;"><p>Vývojáři jiných společností než Microsoft</p></td>
-<td style="border:1px solid black;"><p>Aplikace s podporou služby RMS</p></td>
+<td style="border:1px solid black;">Aplikace s podporou služby RMS</td>
+<td style="border:1px solid black;">Jsou nezbytné k vytváření a publikování obsahu chráněného službou RMS. Je možné vytvořit aplikace určené přímo pro službu RMS nebo přepsat existující aplikace, tak aby s touto službou spolupracovaly.</td>
+<td style="border:1px solid black;">Vývojáři jiných společností než Microsoft</td>
+<td style="border:1px solid black;">Aplikace s podporou služby RMS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certifikáty počítače RMS</p></td>
-<td style="border:1px solid black;"><p>Identifikují určitý počítač jako důvěryhodný pro službu RMS.</p></td>
-<td style="border:1px solid black;"><p>Služba Activation Service pro službu RMS verze 1.0. Získání certifikátu počítače ve verzi RMS SP1 nevyžaduje žádnou službu.</p></td>
-<td style="border:1px solid black;"><p>Certifikáty počítače RMS</p></td>
+<td style="border:1px solid black;">Certifikáty počítače RMS</td>
+<td style="border:1px solid black;">Identifikují určitý počítač jako důvěryhodný pro službu RMS.</td>
+<td style="border:1px solid black;">Služba Activation Service pro službu RMS verze 1.0. Získání certifikátu počítače ve verzi RMS SP1 nevyžaduje žádnou službu.</td>
+<td style="border:1px solid black;">Certifikáty počítače RMS</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Bezpečnostní moduly</p></td>
-<td style="border:1px solid black;"><p>Obsahují soukromý klíč počítače a odpovídající certifikát, který obsahuje veřejný klíč počítače.</p></td>
-<td style="border:1px solid black;"><p>Služba Activation Service pro službu RMS verze 1.0. Získání bezpečnostního modulu ve verzi RMS SP1 nevyžaduje žádnou službu. Vzhledem k tomu, že bezpečnostní modul obsahuje soukromý klíč počítače, je hlavním zaregistrovaným objektem zabezpečení pro šifrování a dešifrování.</p></td>
-<td style="border:1px solid black;"><p>Bezpečnostní moduly</p></td>
+<td style="border:1px solid black;">Bezpečnostní moduly</td>
+<td style="border:1px solid black;">Obsahují soukromý klíč počítače a odpovídající certifikát, který obsahuje veřejný klíč počítače.</td>
+<td style="border:1px solid black;">Služba Activation Service pro službu RMS verze 1.0. Získání bezpečnostního modulu ve verzi RMS SP1 nevyžaduje žádnou službu. Vzhledem k tomu, že bezpečnostní modul obsahuje soukromý klíč počítače, je hlavním zaregistrovaným objektem zabezpečení pro šifrování a dešifrování.</td>
+<td style="border:1px solid black;">Bezpečnostní moduly</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certifikáty účtů práv</p></td>
-<td style="border:1px solid black;"><p>Identifikují určitého uživatele jako důvěryhodného pro službu RMS.</p></td>
-<td style="border:1px solid black;"><p>Služba certifikace účtů práv</p></td>
-<td style="border:1px solid black;"><p>Certifikáty účtů práv</p></td>
+<td style="border:1px solid black;">Certifikáty účtů práv</td>
+<td style="border:1px solid black;">Identifikují určitého uživatele jako důvěryhodného pro službu RMS.</td>
+<td style="border:1px solid black;">Služba certifikace účtů práv</td>
+<td style="border:1px solid black;">Certifikáty účtů práv</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Klientské certifikáty pro poskytování licencí</p></td>
-<td style="border:1px solid black;"><p>Umožňuje uživatelům publikovat obsah chráněný službou RMS bez připojení k síti.</p>
-<p>(Nepovinné)</p></td>
-<td style="border:1px solid black;"><p>Služba publikování RMS</p></td>
-<td style="border:1px solid black;"><p>Klientské certifikáty pro poskytování licencí</p></td>
+<td style="border:1px solid black;">Klientské certifikáty pro poskytování licencí</td>
+<td style="border:1px solid black;">Umožňuje uživatelům publikovat obsah chráněný službou RMS bez připojení k síti.
+(Nepovinné)</td>
+<td style="border:1px solid black;">Služba publikování RMS</td>
+<td style="border:1px solid black;">Klientské certifikáty pro poskytování licencí</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licence k publikování</p></td>
-<td style="border:1px solid black;"><p>Definují práva využití části obsahu.</p></td>
-<td style="border:1px solid black;"><p>Tyto licence může vydávat služba publikování RMS nebo v případě publikování offline klientský certifikát pro poskytování licencí.</p></td>
-<td style="border:1px solid black;"><p>Licence k publikování</p></td>
+<td style="border:1px solid black;">Licence k publikování</td>
+<td style="border:1px solid black;">Definují práva využití části obsahu.</td>
+<td style="border:1px solid black;">Tyto licence může vydávat služba publikování RMS nebo v případě publikování offline klientský certifikát pro poskytování licencí.</td>
+<td style="border:1px solid black;">Licence k publikování</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licence k použití</p></td>
-<td style="border:1px solid black;"><p>Umožňují uživatelům využívat obsah chráněný službou RMS.</p></td>
-<td style="border:1px solid black;"><p>Služba správy licencí RMS</p></td>
-<td style="border:1px solid black;"><p>Licence k použití</p></td>
+<td style="border:1px solid black;">Licence k použití</td>
+<td style="border:1px solid black;">Umožňují uživatelům využívat obsah chráněný službou RMS.</td>
+<td style="border:1px solid black;">Služba správy licencí RMS</td>
+<td style="border:1px solid black;">Licence k použití</td>
 </tr>
 </tbody>
 </table>

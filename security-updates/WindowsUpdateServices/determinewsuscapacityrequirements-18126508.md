@@ -13,7 +13,7 @@ Rozsah platnosti: Windows Server 2003, Windows Server 2003 R2, Windows Server 20
 
 Hardware and database software requirements are driven by the number of client computers being updated in your organization. The following tables offer guidelines for server hardware and database software, based on the number of client computers being serviced. A WSUS server using the recommended hardware can support a maximum number of 30,000 clients. Both the system partition and the partition on which you install WSUS must be formatted with the NTFS file system.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -26,15 +26,15 @@ Hardware and database software requirements are driven by the number of client c
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">WSUS 3.0 cannot be installed on a compressed drive. Please check that the drive you choose is not compressed.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ### Minimum hardware recommendations
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -54,72 +54,72 @@ Hardware and database software requirements are driven by the number of client c
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>1 GHz</p></td>
-<td style="border:1px solid black;"><p>1.5 GHz or faster</p></td>
-<td style="border:1px solid black;"><p>3 GHz hyper threaded processor, x64 hardware</p></td>
-<td style="border:1px solid black;"><p>3 GHz hyper threaded dual processor</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">1 GHz</td>
+<td style="border:1px solid black;">1.5 GHz or faster</td>
+<td style="border:1px solid black;">3 GHz hyper threaded processor, x64 hardware</td>
+<td style="border:1px solid black;">3 GHz hyper threaded dual processor</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Graphics card</p></td>
-<td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
-<td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
-<td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
-<td style="border:1px solid black;"><p>16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</p></td>
+<td style="border:1px solid black;">Graphics card</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RAM</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>4 GB</p></td>
+<td style="border:1px solid black;">RAM</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">4 GB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Page file</p></td>
-<td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
-<td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
-<td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
-<td style="border:1px solid black;"><p>At least 1.5 times physical memory</p></td>
+<td style="border:1px solid black;">Page file</td>
+<td style="border:1px solid black;">At least 1.5 times physical memory</td>
+<td style="border:1px solid black;">At least 1.5 times physical memory</td>
+<td style="border:1px solid black;">At least 1.5 times physical memory</td>
+<td style="border:1px solid black;">At least 1.5 times physical memory</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>I/O subsystem</p></td>
-<td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
-<td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
-<td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
-<td style="border:1px solid black;"><p>Fast ATA/IDE 100 hard disk or equivalent SCSI drives</p></td>
+<td style="border:1px solid black;">I/O subsystem</td>
+<td style="border:1px solid black;">Fast ATA/IDE 100 hard disk or equivalent SCSI drives</td>
+<td style="border:1px solid black;">Fast ATA/IDE 100 hard disk or equivalent SCSI drives</td>
+<td style="border:1px solid black;">Fast ATA/IDE 100 hard disk or equivalent SCSI drives</td>
+<td style="border:1px solid black;">Fast ATA/IDE 100 hard disk or equivalent SCSI drives</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Network card</p></td>
-<td style="border:1px solid black;"><p>10 MB</p></td>
-<td style="border:1px solid black;"><p>100 MB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
+<td style="border:1px solid black;">Network card</td>
+<td style="border:1px solid black;">10 MB</td>
+<td style="border:1px solid black;">100 MB</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hard drive—system partition</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
-<td style="border:1px solid black;"><p>1 GB</p></td>
+<td style="border:1px solid black;">Hard drive—system partition</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
+<td style="border:1px solid black;">1 GB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hard drive—content storage</p></td>
-<td style="border:1px solid black;"><p>20 GB</p></td>
-<td style="border:1px solid black;"><p>30 GB</p></td>
-<td style="border:1px solid black;"><p>30 GB</p></td>
-<td style="border:1px solid black;"><p>30 GB</p></td>
+<td style="border:1px solid black;">Hard drive—content storage</td>
+<td style="border:1px solid black;">20 GB</td>
+<td style="border:1px solid black;">30 GB</td>
+<td style="border:1px solid black;">30 GB</td>
+<td style="border:1px solid black;">30 GB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hard drive—SQL Server installation</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
-<td style="border:1px solid black;"><p>2 GB</p></td>
+<td style="border:1px solid black;">Hard drive—SQL Server installation</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">2 GB</td>
+<td style="border:1px solid black;">2 GB</td>
 </tr>
 </tbody>
 </table>
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -132,13 +132,13 @@ Hardware and database software requirements are driven by the number of client c
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">These guidelines assume that WSUS clients are synchronizing with the server every eight hours (for the high-end configuration) or every two hours (for the super high-end configuration). If they synchronize more often, there will be a corresponding increment in the server load. For example, if clients synchronize twice a day, the load will be twice as much as if they synchronize once a day.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -151,7 +151,7 @@ Hardware and database software requirements are driven by the number of client c
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Increasing the number of languages will also increase the load. Supporting five languages rather than one language will approximately double the size of the content directory.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>

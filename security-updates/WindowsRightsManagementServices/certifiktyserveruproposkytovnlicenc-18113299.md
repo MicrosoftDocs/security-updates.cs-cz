@@ -17,7 +17,7 @@ Seznam práv, které jsou uděleny serverům certifikáty poskytovatele licence 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -33,29 +33,29 @@ Seznam práv, které jsou uděleny serverům certifikáty poskytovatele licence 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certifikáty účtů práv</p></td>
-<td style="border:1px solid black;"><p>Ano</p></td>
-<td style="border:1px solid black;"><p>Ne</p></td>
+<td style="border:1px solid black;">Certifikáty účtů práv</td>
+<td style="border:1px solid black;">Ano</td>
+<td style="border:1px solid black;">Ne</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licence k publikování</p></td>
-<td style="border:1px solid black;"><p>Ano</p></td>
-<td style="border:1px solid black;"><p>Ano</p></td>
+<td style="border:1px solid black;">Licence k publikování</td>
+<td style="border:1px solid black;">Ano</td>
+<td style="border:1px solid black;">Ano</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licence k použití</p></td>
-<td style="border:1px solid black;"><p>Ano</p></td>
-<td style="border:1px solid black;"><p>Ano</p></td>
+<td style="border:1px solid black;">Licence k použití</td>
+<td style="border:1px solid black;">Ano</td>
+<td style="border:1px solid black;">Ano</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Podřízené certifikáty serveru pro poskytování licencí</p></td>
-<td style="border:1px solid black;"><p>Ano</p></td>
-<td style="border:1px solid black;"><p>Ne</p></td>
+<td style="border:1px solid black;">Podřízené certifikáty serveru pro poskytování licencí</td>
+<td style="border:1px solid black;">Ano</td>
+<td style="border:1px solid black;">Ne</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Klientské certifikáty pro poskytování licencí</p></td>
-<td style="border:1px solid black;"><p>Ano</p></td>
-<td style="border:1px solid black;"><p>Ano</p></td>
+<td style="border:1px solid black;">Klientské certifikáty pro poskytování licencí</td>
+<td style="border:1px solid black;">Ano</td>
+<td style="border:1px solid black;">Ano</td>
 </tr>
 </tbody>
 </table>

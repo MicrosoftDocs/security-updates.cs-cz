@@ -43,7 +43,7 @@ Následující tabulka uvádí položky, které můžete přidat za účelem kon
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -59,14 +59,14 @@ Následující tabulka uvádí položky, které můžete přidat za účelem kon
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
-<td style="border:1px solid black;"><p>Řetězec</p></td>
-<td style="border:1px solid black;"><p>http(nebo https)://<em>název_serveru</em>/_wmcs/certification/subenrollservice.asmx</p></td>
+<td style="border:1px solid black;">SubEnrollmentURL</td>
+<td style="border:1px solid black;">Řetězec</td>
+<td style="border:1px solid black;">http(nebo https)://<em>název_serveru</em>/_wmcs/certification/subenrollservice.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GicURL</p></td>
-<td style="border:1px solid black;"><p>Řetězec</p></td>
-<td style="border:1px solid black;"><p>http(nebo https)://<em>název_serveru</em>/_wmcs/certification/certification.asmx</p></td>
+<td style="border:1px solid black;">GicURL</td>
+<td style="border:1px solid black;">Řetězec</td>
+<td style="border:1px solid black;">http(nebo https)://<em>název_serveru</em>/_wmcs/certification/certification.asmx</td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ Následující tabulka uvádí klíče registru, které můžete přidat do klie
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -114,19 +114,19 @@ Následující tabulka uvádí klíče registru, které můžete přidat do klie
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation</p></td>
-<td style="border:1px solid black;"><p>Řetězec</p></td>
-<td style="border:1px solid black;"><p>http(nebo https)://<em>název_clusteru_RMS</em>/_wmcs/Certification, kde <em>název_clusteru_RMS</em> je název vašeho clusteru RMS.</p></td>
+<td style="border:1px solid black;">Activation</td>
+<td style="border:1px solid black;">Řetězec</td>
+<td style="border:1px solid black;">http(nebo https)://<em>název_clusteru_RMS</em>/_wmcs/Certification, kde <em>název_clusteru_RMS</em> je název vašeho clusteru RMS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
-<td style="border:1px solid black;"><p>Řetězec</p></td>
-<td style="border:1px solid black;"><p>http(nebo https)://<em>název_clusteru_RMS</em>/_wmcs/Licensing, kde <em>název_clusteru_RMS</em> je název vašeho clusteru RMS.</p></td>
+<td style="border:1px solid black;">EnterprisePublishing</td>
+<td style="border:1px solid black;">Řetězec</td>
+<td style="border:1px solid black;">http(nebo https)://<em>název_clusteru_RMS</em>/_wmcs/Licensing, kde <em>název_clusteru_RMS</em> je název vašeho clusteru RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CloudPublishing</p></td>
-<td style="border:1px solid black;"><p>Řetězec</p></td>
-<td style="border:1px solid black;"><p>http(nebo https)://<em>plně kvalifikovaný název domény_clusteru</em>/_wmcs/Licensing, kde <em>plně kvalifikovaný název domény_clusteru</em> je plně kvalifikovaný název domény vašeho clusteru RMS.</p></td>
+<td style="border:1px solid black;">CloudPublishing</td>
+<td style="border:1px solid black;">Řetězec</td>
+<td style="border:1px solid black;">http(nebo https)://<em>plně kvalifikovaný název domény_clusteru</em>/_wmcs/Licensing, kde <em>plně kvalifikovaný název domény_clusteru</em> je plně kvalifikovaný název domény vašeho clusteru RMS.</td>
 </tr>
 </tbody>
 </table>

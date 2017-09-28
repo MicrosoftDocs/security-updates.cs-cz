@@ -13,7 +13,7 @@ V následující tabulce jsou uvedeny čítače výkonu, které jsou k dispozi
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,20 +27,20 @@ V následující tabulce jsou uvedeny čítače výkonu, které jsou k dispozi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba v mikrosekundách, která byla využita událostmi selhání aktivace.</p></td>
+<td style="border:1px solid black;">Activation Failure Processing Time</td>
+<td style="border:1px solid black;">Doba v mikrosekundách, která byla využita událostmi selhání aktivace.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Activation Failures</p></td>
-<td style="border:1px solid black;"><p>Počet požadavků na aktivaci, které se nezdařily.</p></td>
+<td style="border:1px solid black;">Activation Failures</td>
+<td style="border:1px solid black;">Počet požadavků na aktivaci, které se nezdařily.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation Requests</p></td>
-<td style="border:1px solid black;"><p>Celkový počet požadavků, které byly provedeny v rámci aktivační služby.</p></td>
+<td style="border:1px solid black;">Activation Requests</td>
+<td style="border:1px solid black;">Celkový počet požadavků, které byly provedeny v rámci aktivační služby.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Activation Total Processing Time</p></td>
-<td style="border:1px solid black;"><p>Doba zpracování v mikrosekundách, která byla použita aktivační službou.</p></td>
+<td style="border:1px solid black;">Activation Total Processing Time</td>
+<td style="border:1px solid black;">Doba zpracování v mikrosekundách, která byla použita aktivační službou.</td>
 </tr>
 </tbody>
 </table>

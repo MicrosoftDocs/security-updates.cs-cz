@@ -13,7 +13,7 @@ Následující tabulka obsahuje certifikáty a licence používané službou RMS
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -29,8 +29,8 @@ Následující tabulka obsahuje certifikáty a licence používané službou RMS
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certifikáty serveru pro poskytování licencí</p></td>
-<td style="border:1px solid black;"><p>Certifikát serveru pro poskytování licencí vydaný serverům správy licencí zajišťuje práva k vydání následujících objektů:</p>
+<td style="border:1px solid black;">Certifikáty serveru pro poskytování licencí</td>
+<td style="border:1px solid black;">Certifikát serveru pro poskytování licencí vydaný serverům správy licencí zajišťuje práva k vydání následujících objektů:
 <ul>
 <li>Licence k publikování<br />
 <br />
@@ -45,7 +45,7 @@ Následující tabulka obsahuje certifikáty a licence používané službou RMS
 <br />
 </li>
 </ul>
-<p>Certifikát serveru pro poskytování licencí vydaný clusteru kořenové certifikace zajišťuje práva k vydání následujících objektů:</p>
+Certifikát serveru pro poskytování licencí vydaný clusteru kořenové certifikace zajišťuje práva k vydání následujících objektů:
 <ul>
 <li>Certifikáty účtů práv pro klienty<br />
 <br />
@@ -54,33 +54,33 @@ Následující tabulka obsahuje certifikáty a licence používané službou RMS
 <br />
 </li>
 </ul></td>
-<td style="border:1px solid black;"><p>Certifikát serveru pro poskytování licencí vydaný serveru správy licencí obsahuje veřejný klíč serveru správy licencí.</p>
-<p>Certifikát serveru pro poskytování licencí vydaný serveru kořenové certifikace obsahuje veřejný klíč serveru kořenové certifikace.</p></td>
+<td style="border:1px solid black;">Certifikát serveru pro poskytování licencí vydaný serveru správy licencí obsahuje veřejný klíč serveru správy licencí.
+Certifikát serveru pro poskytování licencí vydaný serveru kořenové certifikace obsahuje veřejný klíč serveru kořenové certifikace.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Klientské certifikáty pro poskytování licencí</p></td>
-<td style="border:1px solid black;"><p>Udělují uživateli právo publikovat obsah chráněný službou RMS bez připojení k podnikové síti.</p></td>
-<td style="border:1px solid black;"><p>Obsahují veřejný klíč certifikátu a soukromý klíč certifikátu šifrovaný veřejným klíčem uživatele, který si certifikát vyžádal. Obsahují také veřejný klíč serveru, který vydal certifikát.</p></td>
+<td style="border:1px solid black;">Klientské certifikáty pro poskytování licencí</td>
+<td style="border:1px solid black;">Udělují uživateli právo publikovat obsah chráněný službou RMS bez připojení k podnikové síti.</td>
+<td style="border:1px solid black;">Obsahují veřejný klíč certifikátu a soukromý klíč certifikátu šifrovaný veřejným klíčem uživatele, který si certifikát vyžádal. Obsahují také veřejný klíč serveru, který vydal certifikát.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certifikáty počítače RMS</p></td>
-<td style="border:1px solid black;"><p>Určují počítač nebo zařízení, které jsou systémem služby RMS považovány za důvěryhodné.</p></td>
-<td style="border:1px solid black;"><p>Obsahují veřejný klíč aktivovaného počítače. Odpovídající soukromý klíč je obsažen v bezpečnostním modulu daného počítače.</p></td>
+<td style="border:1px solid black;">Certifikáty počítače RMS</td>
+<td style="border:1px solid black;">Určují počítač nebo zařízení, které jsou systémem služby RMS považovány za důvěryhodné.</td>
+<td style="border:1px solid black;">Obsahují veřejný klíč aktivovaného počítače. Odpovídající soukromý klíč je obsažen v bezpečnostním modulu daného počítače.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certifikáty účtů práv</p></td>
-<td style="border:1px solid black;"><p>Identifikují uživatele v kontextu určitého počítače nebo zařízení.</p></td>
-<td style="border:1px solid black;"><p>Obsahují veřejný klíč uživatele a soukromý klíč uživatele, které jsou šifrovány veřejným klíčem aktivovaného počítače.</p></td>
+<td style="border:1px solid black;">Certifikáty účtů práv</td>
+<td style="border:1px solid black;">Identifikují uživatele v kontextu určitého počítače nebo zařízení.</td>
+<td style="border:1px solid black;">Obsahují veřejný klíč uživatele a soukromý klíč uživatele, které jsou šifrovány veřejným klíčem aktivovaného počítače.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licence k publikování</p></td>
-<td style="border:1px solid black;"><p>Zadejte práva, která se vztahují na obsah chráněný službou RMS.</p></td>
-<td style="border:1px solid black;"><p>Obsahují symetrický klíč obsahu umožňující dešifrování obsahu šifrovaného pomocí veřejného klíče serveru, který danou licenci vydal.</p></td>
+<td style="border:1px solid black;">Licence k publikování</td>
+<td style="border:1px solid black;">Zadejte práva, která se vztahují na obsah chráněný službou RMS.</td>
+<td style="border:1px solid black;">Obsahují symetrický klíč obsahu umožňující dešifrování obsahu šifrovaného pomocí veřejného klíče serveru, který danou licenci vydal.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licence k použití</p></td>
-<td style="border:1px solid black;"><p>Zadejte práva, která se vztahují na daný obsah chráněný službou RMS v kontextu konkrétního ověřeného uživatele.</p></td>
-<td style="border:1px solid black;"><p>Obsahují symetrický klíč pro dešifrování obsahu, který je šifrován veřejným klíčem uživatele.</p></td>
+<td style="border:1px solid black;">Licence k použití</td>
+<td style="border:1px solid black;">Zadejte práva, která se vztahují na daný obsah chráněný službou RMS v kontextu konkrétního ověřeného uživatele.</td>
+<td style="border:1px solid black;">Obsahují symetrický klíč pro dešifrování obsahu, který je šifrován veřejným klíčem uživatele.</td>
 </tr>
 </tbody>
 </table>

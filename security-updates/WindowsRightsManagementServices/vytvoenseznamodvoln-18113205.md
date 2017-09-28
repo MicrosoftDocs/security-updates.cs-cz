@@ -167,7 +167,7 @@ Parametry příkazu zadejte na základě následujících informací:
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -181,20 +181,20 @@ Parametry příkazu zadejte na základě následujících informací:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>vstupní_soubor</em></p></td>
-<td style="border:1px solid black;"><p>Název připraveného souboru seznamu odvolání, který vyhovuje syntaxi jazyka XrML</p></td>
+<td style="border:1px solid black;"><em>vstupní_soubor</em></td>
+<td style="border:1px solid black;">Název připraveného souboru seznamu odvolání, který vyhovuje syntaxi jazyka XrML</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>soubor_klíčů</em></p></td>
-<td style="border:1px solid black;"><p>Název souboru obsahujícího generovaný privátní a veřejný klíč</p></td>
+<td style="border:1px solid black;"><em>soubor_klíčů</em></td>
+<td style="border:1px solid black;">Název souboru obsahujícího generovaný privátní a veřejný klíč</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>název_kontejneru</em></p></td>
-<td style="border:1px solid black;"><p>Název kontejneru klíče</p></td>
+<td style="border:1px solid black;"><em>název_kontejneru</em></td>
+<td style="border:1px solid black;">Název kontejneru klíče</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>výstupní_soubor</em></p></td>
-<td style="border:1px solid black;"><p>Název podepsaného souboru seznamu odvolání, který nástroj vytvoří</p></td>
+<td style="border:1px solid black;"><em>výstupní_soubor</em></td>
+<td style="border:1px solid black;">Název podepsaného souboru seznamu odvolání, který nástroj vytvoří</td>
 </tr>
 </tbody>
 </table>
@@ -214,7 +214,7 @@ Nástroj RLsigner.exe v návratovém kódu vrací informace o základních chyb�
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -228,32 +228,32 @@ Nástroj RLsigner.exe v návratovém kódu vrací informace o základních chyb�
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>Úspěšné provedení</p></td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">Úspěšné provedení</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-1</p></td>
-<td style="border:1px solid black;"><p>Nelze číst zdrojový soubor</p></td>
+<td style="border:1px solid black;">-1</td>
+<td style="border:1px solid black;">Nelze číst zdrojový soubor</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-2</p></td>
-<td style="border:1px solid black;"><p>Nelze číst soubor klíčů</p></td>
+<td style="border:1px solid black;">-2</td>
+<td style="border:1px solid black;">Nelze číst soubor klíčů</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-3</p></td>
-<td style="border:1px solid black;"><p>Neplatný soubor klíčů</p></td>
+<td style="border:1px solid black;">-3</td>
+<td style="border:1px solid black;">Neplatný soubor klíčů</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-4</p></td>
-<td style="border:1px solid black;"><p>Neplatný zdrojový soubor</p></td>
+<td style="border:1px solid black;">-4</td>
+<td style="border:1px solid black;">Neplatný zdrojový soubor</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-5</p></td>
-<td style="border:1px solid black;"><p>Nelze zapisovat do cílového souboru</p></td>
+<td style="border:1px solid black;">-5</td>
+<td style="border:1px solid black;">Nelze zapisovat do cílového souboru</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-6</p></td>
-<td style="border:1px solid black;"><p>Neznámá chyba</p></td>
+<td style="border:1px solid black;">-6</td>
+<td style="border:1px solid black;">Neznámá chyba</td>
 </tr>
 </tbody>
 </table>
