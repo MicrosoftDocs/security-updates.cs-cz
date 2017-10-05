@@ -202,9 +202,9 @@ Následující tabulka uvádí požadovaný software pro jednotlivé podporovan�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operační systém</th>
-<th>Požadavky</th>
-<th>Soubory ke stažení</th>
+<th style="border:1px solid black;" >Operační systém</th>
+<th style="border:1px solid black;" >Požadavky</th>
+<th style="border:1px solid black;" >Soubory ke stažení</th>
 </tr>
 </thead>
 <tbody>

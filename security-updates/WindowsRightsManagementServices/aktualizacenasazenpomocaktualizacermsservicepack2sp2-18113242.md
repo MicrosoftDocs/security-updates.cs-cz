@@ -85,10 +85,10 @@ Vzhledem k tomu, že služba RMS s aktualizací SP2 nabízí mnoho zdokonalenýc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Verze serveru RMS</th>
-<th>Funkce podporované klienty verze  1</th>
-<th>Funkce podporované klienty s aktualizací SP2</th>
-<th>Funkce podporované ve smíšeném prostředí klientů</th>
+<th style="border:1px solid black;" >Verze serveru RMS</th>
+<th style="border:1px solid black;" >Funkce podporované klienty verze  1</th>
+<th style="border:1px solid black;" >Funkce podporované klienty s aktualizací SP2</th>
+<th style="border:1px solid black;" >Funkce podporované ve smíšeném prostředí klientů</th>
 </tr>
 </thead>
 <tbody>

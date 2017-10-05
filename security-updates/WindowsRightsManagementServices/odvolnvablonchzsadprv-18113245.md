@@ -23,8 +23,8 @@ V následující tabulce jsou uvedeny parametry zaznamenané pomocí značky REF
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametr</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Parametr</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

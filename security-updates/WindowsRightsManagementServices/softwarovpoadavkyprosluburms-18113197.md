@@ -21,8 +21,8 @@ Softwarové požadavky pro servery používající službu RMS jsou uvedeny v n
 </colgroup>
 <thead>
 <tr class="header">
-<th>Software</th>
-<th>Požadavek</th>
+<th style="border:1px solid black;" >Software</th>
+<th style="border:1px solid black;" >Požadavek</th>
 </tr>
 </thead>
 <tbody>

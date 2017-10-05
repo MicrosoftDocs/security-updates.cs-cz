@@ -30,8 +30,8 @@ Webové služby RMS jsou popsány v následující tabulce.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Služba</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Služba</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

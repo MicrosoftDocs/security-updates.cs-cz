@@ -23,8 +23,8 @@ V následující tabulce jsou uvedeny typy serverů zahrnutých do nasazení sl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server nebo cluster</th>
-<th>Funkce</th>
+<th style="border:1px solid black;" >Server nebo cluster</th>
+<th style="border:1px solid black;" >Funkce</th>
 </tr>
 </thead>
 <tbody>

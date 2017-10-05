@@ -28,9 +28,9 @@ Následující kroky jsou uvedeny jako příklad některých položek, které by
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server</th>
-<th>Krok</th>
-<th>Poznámky</th>
+<th style="border:1px solid black;" >Server</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Poznámky</th>
 </tr>
 </thead>
 <tbody>

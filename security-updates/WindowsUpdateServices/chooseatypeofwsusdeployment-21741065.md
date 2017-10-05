@@ -23,7 +23,7 @@ The most basic WSUS deployment consists of a server inside the corporate firewal
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939820.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939820.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>
@@ -62,7 +62,7 @@ One benefit of creating computer groups is that it enables you to test updates. 
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939820.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939820.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>
@@ -104,7 +104,7 @@ When you set up a WSUS server hierarchy, you should point Automatic Updates on a
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939820.Important(WS.10).gif" />Důležité</th>
+<th style="border:1px solid black;" ><img src="images/Dd939820.Important(WS.10).gif" />Důležité</th>
 </tr>
 </thead>
 <tbody>

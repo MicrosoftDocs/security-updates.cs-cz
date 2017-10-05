@@ -21,8 +21,8 @@ V následující tabulce jsou uvedeny čítače výkonu, které jsou k dispozi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Čítač</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Čítač</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

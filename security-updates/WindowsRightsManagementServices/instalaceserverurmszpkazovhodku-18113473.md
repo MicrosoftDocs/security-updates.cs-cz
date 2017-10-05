@@ -35,8 +35,8 @@ V následující tabulce je popsána syntaxe jednotlivých příkazů.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametr</th>
-<th>Definice</th>
+<th style="border:1px solid black;" >Parametr</th>
+<th style="border:1px solid black;" >Definice</th>
 </tr>
 </thead>
 <tbody>

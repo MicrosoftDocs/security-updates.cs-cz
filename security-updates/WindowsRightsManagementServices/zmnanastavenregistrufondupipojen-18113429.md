@@ -34,11 +34,11 @@ V následující tabulce jsou uvedeny položky, které lze použít k potlače
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ</th>
-<th>Výchozí hodnota</th>
-<th>Popis</th>
-<th>Poznámky</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Výchozí hodnota</th>
+<th style="border:1px solid black;" >Popis</th>
+<th style="border:1px solid black;" >Poznámky</th>
 </tr>
 </thead>
 <tbody>

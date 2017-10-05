@@ -86,10 +86,10 @@ Vzhledem k tomu, že aktualizace RMS SP1 nabízí řadu vylepšení výkonu i ce
 </colgroup>
 <thead>
 <tr class="header">
-<th>Verze serveru RMS</th>
-<th>Funkce podporované u klientů v1</th>
-<th>Funkce podporované u klientů SP1</th>
-<th>Funkce podporované ve smíšeném prostředí klientů (v1 a SP1)</th>
+<th style="border:1px solid black;" >Verze serveru RMS</th>
+<th style="border:1px solid black;" >Funkce podporované u klientů v1</th>
+<th style="border:1px solid black;" >Funkce podporované u klientů SP1</th>
+<th style="border:1px solid black;" >Funkce podporované ve smíšeném prostředí klientů (v1 a SP1)</th>
 </tr>
 </thead>
 <tbody>

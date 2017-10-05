@@ -18,7 +18,7 @@ It is not usually necessary to uninstall Interní databáze systému Windows, wh
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939818.Important(WS.10).gif" />Důležité</th>
+<th style="border:1px solid black;" ><img src="images/Dd939818.Important(WS.10).gif" />Důležité</th>
 </tr>
 </thead>
 <tbody>
@@ -45,7 +45,7 @@ It is not usually necessary to uninstall Interní databáze systému Windows, wh
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939818.Important(WS.10).gif" />Důležité</th>
+<th style="border:1px solid black;" ><img src="images/Dd939818.Important(WS.10).gif" />Důležité</th>
 </tr>
 </thead>
 <tbody>

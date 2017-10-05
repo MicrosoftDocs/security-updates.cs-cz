@@ -30,8 +30,8 @@ Hardwarové požadavky na spuštění služby RMS s aktualizací SP2 jsou uvede
 </colgroup>
 <thead>
 <tr class="header">
-<th>Požadavek</th>
-<th>Doporučení</th>
+<th style="border:1px solid black;" >Požadavek</th>
+<th style="border:1px solid black;" >Doporučení</th>
 </tr>
 </thead>
 <tbody>
@@ -66,8 +66,8 @@ Softwarové požadavky pro servery používající službu RMS s aktualizací S
 </colgroup>
 <thead>
 <tr class="header">
-<th>Součást</th>
-<th>Požadavek</th>
+<th style="border:1px solid black;" >Součást</th>
+<th style="border:1px solid black;" >Požadavek</th>
 </tr>
 </thead>
 <tbody>
@@ -117,8 +117,8 @@ Požadavky na infrastrukturu pro servery používající službu RMS s aktualiz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Součást</th>
-<th>Požadavky</th>
+<th style="border:1px solid black;" >Součást</th>
+<th style="border:1px solid black;" >Požadavky</th>
 </tr>
 </thead>
 <tbody>
@@ -156,8 +156,8 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění poža
 </colgroup>
 <thead>
 <tr class="header">
-<th>Činnost</th>
-<th>Požadavky na účet</th>
+<th style="border:1px solid black;" >Činnost</th>
+<th style="border:1px solid black;" >Požadavky na účet</th>
 </tr>
 </thead>
 <tbody>
@@ -204,8 +204,8 @@ Používáte-li Službu správy přístupových práv při nasazení clusterů, 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Situace</th>
-<th>Doporučení</th>
+<th style="border:1px solid black;" >Situace</th>
+<th style="border:1px solid black;" >Doporučení</th>
 </tr>
 </thead>
 <tbody>

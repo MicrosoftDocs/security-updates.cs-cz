@@ -24,9 +24,9 @@ Během zajišťování používá služba RMS účty popsané v následující 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Účet</th>
-<th>Účel</th>
-<th>Oprávnění</th>
+<th style="border:1px solid black;" >Účet</th>
+<th style="border:1px solid black;" >Účel</th>
+<th style="border:1px solid black;" >Oprávnění</th>
 </tr>
 </thead>
 <tbody>

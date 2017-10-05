@@ -175,8 +175,8 @@ Parametry příkazu zadejte na základě následujících informací:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametr</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Parametr</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -222,8 +222,8 @@ Nástroj RLsigner.exe v návratovém kódu vrací informace o základních chyb�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Návratový kód</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Návratový kód</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

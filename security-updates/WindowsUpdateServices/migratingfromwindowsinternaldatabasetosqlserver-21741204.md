@@ -37,7 +37,7 @@ The topic presents the following scenarios:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939918.Warning(WS.10).gif" />Upozornění</th>
+<th style="border:1px solid black;" ><img src="images/Dd939918.Warning(WS.10).gif" />Upozornění</th>
 </tr>
 </thead>
 <tbody>
@@ -97,7 +97,7 @@ Use the following steps to migrate the WSUS database from a Interní databáze s
     </colgroup>
     <thead>
     <tr class="header">
-    <th><img src="images/Dd939918.note(WS.10).gif" />Poznámka</th>
+    <th style="border:1px solid black;" ><img src="images/Dd939918.note(WS.10).gif" />Poznámka</th>
     </tr>
     </thead>
     <tbody>
@@ -159,7 +159,7 @@ Back end server starting configuration:
         </colgroup>
         <thead>
         <tr class="header">
-        <th><img src="images/Dd939918.note(WS.10).gif" />Poznámka</th>
+        <th style="border:1px solid black;" ><img src="images/Dd939918.note(WS.10).gif" />Poznámka</th>
         </tr>
         </thead>
         <tbody>
@@ -185,7 +185,7 @@ Back end server starting configuration:
     </colgroup>
     <thead>
     <tr class="header">
-    <th><img src="images/Dd939918.note(WS.10).gif" />Poznámka</th>
+    <th style="border:1px solid black;" ><img src="images/Dd939918.note(WS.10).gif" />Poznámka</th>
     </tr>
     </thead>
     <tbody>

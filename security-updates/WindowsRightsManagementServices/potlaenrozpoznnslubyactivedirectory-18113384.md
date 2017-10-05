@@ -52,9 +52,9 @@ Následující tabulka uvádí položky, které můžete přidat za účelem kon
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ</th>
-<th>Hodnota</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Hodnota</th>
 </tr>
 </thead>
 <tbody>
@@ -107,9 +107,9 @@ Následující tabulka uvádí klíče registru, které můžete přidat do klie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ</th>
-<th>Hodnota</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Hodnota</th>
 </tr>
 </thead>
 <tbody>

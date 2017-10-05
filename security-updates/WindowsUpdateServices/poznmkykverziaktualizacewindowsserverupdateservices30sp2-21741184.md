@@ -62,7 +62,7 @@ Tato část popisuje softwarové a hardwarové požadavky pro instalaci aktualiz
         </colgroup>
         <thead>
         <tr class="header">
-        <th><img src="images/Dd939886.Warning(WS.10).gif" />Upozornění</th>
+        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Upozornění</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ Tato část popisuje softwarové a hardwarové požadavky pro instalaci aktualiz
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ V následujícím seznamu jsou uvedeny minimální hardwarové požadavky, kter�
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ Aby bylo možné úspěšně nainstalovat službu WSUS 3.0 SP2, bude pravděpodo
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Caution(WS.10).gif" />Upozornění</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Upozornění</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Pomocí instalačního programu služby WSUS s příkazovým řádkem lze prová
 </colgroup>
 <thead>
 <tr class="header">
-<th>Možnost</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Možnost</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -366,8 +366,8 @@ Následující tabulka uvádí vlastnosti příkazového řádku pro aktualizaci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vlastnost</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Vlastnost</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalovat v tichém režimu s použitím p
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
 </tr>
 </thead>
 <tbody>

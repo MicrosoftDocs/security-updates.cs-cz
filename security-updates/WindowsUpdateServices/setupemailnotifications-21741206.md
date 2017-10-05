@@ -41,7 +41,7 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939922.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939922.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>
@@ -75,7 +75,7 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
     </colgroup>
     <thead>
     <tr class="header">
-    <th><img src="images/Dd939922.note(WS.10).gif" />Poznámka</th>
+    <th style="border:1px solid black;" ><img src="images/Dd939922.note(WS.10).gif" />Poznámka</th>
     </tr>
     </thead>
     <tbody>

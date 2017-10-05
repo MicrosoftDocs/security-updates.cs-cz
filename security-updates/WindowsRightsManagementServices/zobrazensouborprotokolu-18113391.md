@@ -23,8 +23,8 @@ Velikost typické položky protokolu je zhruba 300 bajtů. Popis zaznamenaných 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pole</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Pole</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

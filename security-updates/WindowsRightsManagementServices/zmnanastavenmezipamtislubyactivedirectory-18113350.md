@@ -33,10 +33,10 @@ V následující tabulce jsou uvedeny položky, které řídí chování mezipa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ</th>
-<th>Výchozí hodnota</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ</th>
+<th style="border:1px solid black;" >Výchozí hodnota</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

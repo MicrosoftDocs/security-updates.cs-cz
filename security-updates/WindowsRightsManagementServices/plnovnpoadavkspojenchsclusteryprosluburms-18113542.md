@@ -21,8 +21,8 @@ Pokud službu RMS používáte v clusterovém nasazení, nezapomeňte určit zp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Situace</th>
-<th>Doporučení</th>
+<th style="border:1px solid black;" >Situace</th>
+<th style="border:1px solid black;" >Doporučení</th>
 </tr>
 </thead>
 <tbody>

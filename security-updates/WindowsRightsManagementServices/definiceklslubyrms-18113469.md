@@ -21,8 +21,8 @@ V následující tabulce jsou uvedeny klíče používané v systému služby 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Klíč</th>
-<th>Použití</th>
+<th style="border:1px solid black;" >Klíč</th>
+<th style="border:1px solid black;" >Použití</th>
 </tr>
 </thead>
 <tbody>

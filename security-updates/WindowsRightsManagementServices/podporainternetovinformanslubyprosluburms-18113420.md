@@ -34,9 +34,9 @@ V následující tabulce je uveden seznam virtuálních adresářů, které jso
 </colgroup>
 <thead>
 <tr class="header">
-<th>Virtuální adresář</th>
-<th>Služba</th>
-<th>Soubor webové služby</th>
+<th style="border:1px solid black;" >Virtuální adresář</th>
+<th style="border:1px solid black;" >Služba</th>
+<th style="border:1px solid black;" >Soubor webové služby</th>
 </tr>
 </thead>
 <tbody>

@@ -22,9 +22,9 @@ Následující tabulka obsahuje certifikáty a licence používané službou RMS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Certifikát nebo licence</th>
-<th>Účel</th>
-<th>Obsah</th>
+<th style="border:1px solid black;" >Certifikát nebo licence</th>
+<th style="border:1px solid black;" >Účel</th>
+<th style="border:1px solid black;" >Obsah</th>
 </tr>
 </thead>
 <tbody>

@@ -171,8 +171,8 @@ Je nutné, aby server WSUS 3.0 splňoval požadavky uvedené v tomto seznamu dř
 </colgroup>
 <thead>
 <tr class="header">
-<th>Požadavek</th>
-<th>Podrobnosti</th>
+<th style="border:1px solid black;" >Požadavek</th>
+<th style="border:1px solid black;" >Podrobnosti</th>
 </tr>
 </thead>
 <tbody>
@@ -255,8 +255,8 @@ Pomocí parametrů příkazového řádku služby WSUS lze provést bezobslužno
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametr</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Parametr</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -295,8 +295,8 @@ Následující tabulka uvádí vlastnosti příkazového řádku pro službu WSU
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vlastnost</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Vlastnost</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -564,8 +564,8 @@ Služba WSUS 3.0 podporuje 32bitové a 64bitové verze systému Windows Server 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Požadavek</th>
-<th>Podrobnosti</th>
+<th style="border:1px solid black;" >Požadavek</th>
+<th style="border:1px solid black;" >Podrobnosti</th>
 </tr>
 </thead>
 <tbody>

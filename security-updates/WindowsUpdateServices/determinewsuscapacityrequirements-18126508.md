@@ -20,7 +20,7 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Cc708483.Important(WS.10).gif" />Důležité</th>
+<th style="border:1px solid black;" ><img src="images/Cc708483.Important(WS.10).gif" />Důležité</th>
 </tr>
 </thead>
 <tbody>
@@ -45,11 +45,11 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Hardware</th>
-<th>Low-end500 or fewer clients</th>
-<th>Typical500–3,000 clients</th>
-<th>High-end3,000–20,000 clients, or rollup of 30,000 clients</th>
-<th>Super high-end10,000 clients, or rollup of 100,000 clients</th>
+<th style="border:1px solid black;" >Hardware</th>
+<th style="border:1px solid black;" >Low-end500 or fewer clients</th>
+<th style="border:1px solid black;" >Typical500–3,000 clients</th>
+<th style="border:1px solid black;" >High-end3,000–20,000 clients, or rollup of 30,000 clients</th>
+<th style="border:1px solid black;" >Super high-end10,000 clients, or rollup of 100,000 clients</th>
 </tr>
 </thead>
 <tbody>
@@ -126,7 +126,7 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Cc708483.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Cc708483.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>
@@ -145,7 +145,7 @@ Hardware and database software requirements are driven by the number of client c
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Cc708483.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Cc708483.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>

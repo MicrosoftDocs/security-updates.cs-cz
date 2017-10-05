@@ -27,8 +27,8 @@ V následující tabulce je znázorněn výchozí seznam řízení přístupu k
 </colgroup>
 <thead>
 <tr class="header">
-<th>Uživatel nebo skupina</th>
-<th>Výchozí oprávnění</th>
+<th style="border:1px solid black;" >Uživatel nebo skupina</th>
+<th style="border:1px solid black;" >Výchozí oprávnění</th>
 </tr>
 </thead>
 <tbody>

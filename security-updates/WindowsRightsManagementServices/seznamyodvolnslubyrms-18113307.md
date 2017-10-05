@@ -31,8 +31,8 @@ V následující tabulce jsou popsány entity, které lze uvést v seznamu odvol
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entita</th>
-<th>Identifikátor</th>
+<th style="border:1px solid black;" >Entita</th>
+<th style="border:1px solid black;" >Identifikátor</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ Seznamy odvolání jsou ve formě souborů XrML, které určují následující 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametr</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Parametr</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

@@ -21,8 +21,8 @@ Součást systému služby RMS tvoří technologie pro servery i klienty. V ná
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technologie</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Technologie</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

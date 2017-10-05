@@ -18,7 +18,7 @@ After installing WSUS 3.0 on a server, you can manage WSUS 3.0 from any computer
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939875.Important(WS.10).gif" />Důležité</th>
+<th style="border:1px solid black;" ><img src="images/Dd939875.Important(WS.10).gif" />Důležité</th>
 </tr>
 </thead>
 <tbody>
@@ -50,7 +50,7 @@ To install the WSUS 3.0 administration console, use the same installation packag
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939875.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939875.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>

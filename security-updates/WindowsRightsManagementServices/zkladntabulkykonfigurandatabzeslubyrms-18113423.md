@@ -28,10 +28,10 @@ V následující tabulce jsou uvedeny informace o vyloučených aplikacích.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -133,10 +133,10 @@ V následující tabulce jsou uvedeny informace o frontě zpráv.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -184,10 +184,10 @@ V následující tabulce jsou uvedeny informace o typu certifikátu vydaného k
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -235,10 +235,10 @@ V následující tabulce jsou uvedeny informace o aktuálním certifikátu serv
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -280,10 +280,10 @@ V následující tabulce jsou uvedeny informace o umístěních, ve kterých js
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -337,10 +337,10 @@ V následující tabulce jsou uvedeny informace o serverech, které jsou v clus
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -388,10 +388,10 @@ V následující tabulce jsou uvedeny informace o vyloučených certifikátech 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -457,10 +457,10 @@ V následující tabulce jsou uvedeny informace o aktivním certifikátu server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -520,10 +520,10 @@ Následující tabulka obsahuje informace o soukromém klíči aktivního certif
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -607,10 +607,10 @@ V následující tabulce jsou uvedeny informace o účtech služby Microsoft® 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -658,10 +658,10 @@ V následující tabulce jsou uvedeny informace o modulech plug-in.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -757,10 +757,10 @@ V následující tabulce jsou uvedeny informace o verzích modulu plug-in, kter
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -802,10 +802,10 @@ V následující tabulce jsou uvedeny informace o vlastnostech modulu plug-in.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -865,10 +865,10 @@ V následující tabulce jsou uvedeny informace o typu modulu plug-in.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -916,10 +916,10 @@ V následující tabulce jsou uvedeny informace o šablonách zásad práv.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -967,10 +967,10 @@ V následující tabulce jsou uvedeny informace o důvěryhodných certifikačn
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -1030,10 +1030,10 @@ V následující tabulce jsou uvedeny informace o e-mailových doménách, kter
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -1075,10 +1075,10 @@ V následující tabulce jsou uvedeny informace o důvěryhodných doménách u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -1156,10 +1156,10 @@ V následující tabulce jsou uvedeny informace o certifikátech serveru pro po
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

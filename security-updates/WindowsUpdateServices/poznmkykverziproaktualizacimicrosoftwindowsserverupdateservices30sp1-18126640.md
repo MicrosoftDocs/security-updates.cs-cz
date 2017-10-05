@@ -149,8 +149,8 @@ Před spuštěním instalačního programu aktualizace WSUS 3.0 SP1 se ujistěte
 </colgroup>
 <thead>
 <tr class="header">
-<th>Požadavky</th>
-<th>Podrobnosti</th>
+<th style="border:1px solid black;" >Požadavky</th>
+<th style="border:1px solid black;" >Podrobnosti</th>
 </tr>
 </thead>
 <tbody>
@@ -237,8 +237,8 @@ Pomocí příkazového řádku lze instalační program služby WSUS spustit v r
 </colgroup>
 <thead>
 <tr class="header">
-<th>Možnost</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Možnost</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -277,8 +277,8 @@ Následující tabulka obsahuje vlastnosti příkazového řádku pro aktualizac
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vlastnost</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Vlastnost</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -529,8 +529,8 @@ Aktualizace WSUS 3.0 SP1 podporuje systém Windows Server 2008 v 32bitové i 6
 </colgroup>
 <thead>
 <tr class="header">
-<th>Požadavky</th>
-<th>Podrobnosti</th>
+<th style="border:1px solid black;" >Požadavky</th>
+<th style="border:1px solid black;" >Podrobnosti</th>
 </tr>
 </thead>
 <tbody>

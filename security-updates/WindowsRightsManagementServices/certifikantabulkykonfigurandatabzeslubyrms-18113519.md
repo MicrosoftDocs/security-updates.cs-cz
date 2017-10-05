@@ -28,10 +28,10 @@ V následující tabulce jsou uvedeny informace o ID hardwaru pro všechny poč
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -73,10 +73,10 @@ V následující tabulce jsou uvedeny informace o informacích služby Microsof
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -112,10 +112,10 @@ V následující tabulce jsou certifikovaní uživatelé propojeni s odpovída
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ V následující tabulce jsou uvedeny informace o uživatelských datech.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -262,10 +262,10 @@ V následující tabulce jsou uvedena ID všech ověřených a certifikovaných
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>

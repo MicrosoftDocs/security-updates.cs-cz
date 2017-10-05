@@ -47,9 +47,9 @@ Následuje názorný příklad postupu určení odhadované velikosti: Představ
 </colgroup>
 <thead>
 <tr class="header">
-<th>Akce</th>
-<th>Nárůst protokolu</th>
-<th>Kumulativní velikost protokolu</th>
+<th style="border:1px solid black;" >Akce</th>
+<th style="border:1px solid black;" >Nárůst protokolu</th>
+<th style="border:1px solid black;" >Kumulativní velikost protokolu</th>
 </tr>
 </thead>
 <tbody>

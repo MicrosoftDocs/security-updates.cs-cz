@@ -21,8 +21,8 @@ V následující tabulce je uvedeno, jakým způsobem práva, která můžete v
 </colgroup>
 <thead>
 <tr class="header">
-<th>Práva</th>
-<th>Prvky XrML</th>
+<th style="border:1px solid black;" >Práva</th>
+<th style="border:1px solid black;" >Prvky XrML</th>
 </tr>
 </thead>
 <tbody>

@@ -31,10 +31,10 @@ Při plánování kapacity můžete k odhadu požadavků na systém RMS z hledis
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transakce</th>
-<th>Výskyt</th>
-<th>Využití šířky pásma na trase klient-server (kB)</th>
-<th>Využití šířky pásma na trase server-klient (kB)</th>
+<th style="border:1px solid black;" >Transakce</th>
+<th style="border:1px solid black;" >Výskyt</th>
+<th style="border:1px solid black;" >Využití šířky pásma na trase klient-server (kB)</th>
+<th style="border:1px solid black;" >Využití šířky pásma na trase server-klient (kB)</th>
 </tr>
 </thead>
 <tbody>
@@ -74,9 +74,9 @@ Následující tabulka obsahuje základní data týkající se využití šířk
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transakce</th>
-<th>Využití šířky pásma na trase služba RMS-globální katalog (bajty)</th>
-<th>Využití šířky pásma na trase globálního katalog-služba RMS (bajty)</th>
+<th style="border:1px solid black;" >Transakce</th>
+<th style="border:1px solid black;" >Využití šířky pásma na trase služba RMS-globální katalog (bajty)</th>
+<th style="border:1px solid black;" >Využití šířky pásma na trase globálního katalog-služba RMS (bajty)</th>
 </tr>
 </thead>
 <tbody>

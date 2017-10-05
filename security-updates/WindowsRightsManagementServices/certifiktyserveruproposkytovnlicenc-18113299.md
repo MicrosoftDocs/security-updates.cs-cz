@@ -26,9 +26,9 @@ Seznam práv, které jsou uděleny serverům certifikáty poskytovatele licence 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Objekt, pro jehož vydání jsou přidělena práva</th>
-<th>Certifikát poskytovatele licence serveru, který je vydán serveru kořenové certifikace</th>
-<th>Certifikát poskytovatele licence serveru, který je vydán serveru správy licencí</th>
+<th style="border:1px solid black;" >Objekt, pro jehož vydání jsou přidělena práva</th>
+<th style="border:1px solid black;" >Certifikát poskytovatele licence serveru, který je vydán serveru kořenové certifikace</th>
+<th style="border:1px solid black;" >Certifikát poskytovatele licence serveru, který je vydán serveru správy licencí</th>
 </tr>
 </thead>
 <tbody>

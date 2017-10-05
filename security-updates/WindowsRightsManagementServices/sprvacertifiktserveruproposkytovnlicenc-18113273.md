@@ -24,9 +24,9 @@ Existují tři události, které služba RMS odešle do protokolu systémových 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID události</th>
-<th>Název události</th>
-<th>Typ události</th>
+<th style="border:1px solid black;" >ID události</th>
+<th style="border:1px solid black;" >Název události</th>
+<th style="border:1px solid black;" >Typ události</th>
 </tr>
 </thead>
 <tbody>

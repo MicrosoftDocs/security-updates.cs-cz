@@ -25,7 +25,7 @@ Some clients have been affected by a known issue with Windows Server 2003 http.
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939857.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939857.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>
@@ -59,7 +59,7 @@ Ensure that the client connection to the WSUS server is working properly.
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939857.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939857.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>

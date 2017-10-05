@@ -21,8 +21,8 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění, kter�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Činnost</th>
-<th>Uživatelský účet a oprávnění</th>
+<th style="border:1px solid black;" >Činnost</th>
+<th style="border:1px solid black;" >Uživatelský účet a oprávnění</th>
 </tr>
 </thead>
 <tbody>

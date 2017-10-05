@@ -21,8 +21,8 @@ V následující tabulce jsou uvedeny minimální hardwarové požadavky a dopo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Požadavek</th>
-<th>Doporučení</th>
+<th style="border:1px solid black;" >Požadavek</th>
+<th style="border:1px solid black;" >Doporučení</th>
 </tr>
 </thead>
 <tbody>

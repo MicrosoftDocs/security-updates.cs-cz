@@ -28,7 +28,7 @@ Ve výchozím nastavení je aktualizace WSUS 3.0 SP2 nakonfigurována tak, že m
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ Krok 3 obsahuje následující postupy:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ V následujících dvou postupech se předpokládá, že při konfiguraci použ�
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>

@@ -25,8 +25,8 @@ Atributy adresářových služeb, které jsou uloženy v databázových tabulká
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabulka</th>
-<th>Atribut</th>
+<th style="border:1px solid black;" >Tabulka</th>
+<th style="border:1px solid black;" >Atribut</th>
 </tr>
 </thead>
 <tbody>

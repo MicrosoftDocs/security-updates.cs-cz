@@ -24,9 +24,9 @@ Po instalaci řadiče domény a databázových serverů (viz informace v předc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Součást infrastruktury</th>
-<th>Příprava serveru na instalaci služby RMS</th>
-<th>Poznámky pro nasazení v provozním prostředí</th>
+<th style="border:1px solid black;" >Součást infrastruktury</th>
+<th style="border:1px solid black;" >Příprava serveru na instalaci služby RMS</th>
+<th style="border:1px solid black;" >Poznámky pro nasazení v provozním prostředí</th>
 </tr>
 </thead>
 <tbody>

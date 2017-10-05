@@ -30,9 +30,9 @@ Pokud se rozhodnete jako databázový server používat součást MSDE 2000, mě
 </colgroup>
 <thead>
 <tr class="header">
-<th>Součást infrastruktury</th>
-<th>Kroky instalace řadiče domény a databázového serveru</th>
-<th>Poznámky pro nasazení v provozním prostředí</th>
+<th style="border:1px solid black;" >Součást infrastruktury</th>
+<th style="border:1px solid black;" >Kroky instalace řadiče domény a databázového serveru</th>
+<th style="border:1px solid black;" >Poznámky pro nasazení v provozním prostředí</th>
 </tr>
 </thead>
 <tbody>

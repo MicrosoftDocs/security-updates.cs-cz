@@ -59,7 +59,7 @@ První dva postupy budou provedeny na vámi zvoleném objektu GPO založeném na
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939830.note(WS.10).gif" />Poznámka</th>
+<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Poznámka</th>
 </tr>
 </thead>
 <tbody>

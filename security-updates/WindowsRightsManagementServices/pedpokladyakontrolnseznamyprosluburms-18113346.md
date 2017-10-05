@@ -58,8 +58,8 @@ Pro nasazení jediného serveru služby RMS použijte následující kontrolní 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Odkaz</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Odkaz</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ Pro nasazení clusterů kořenové certifikace a správy licencí použijte nás
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Odkaz</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Odkaz</th>
 </tr>
 </thead>
 <tbody>
@@ -170,8 +170,8 @@ Pro nasazení kořenové služby RMS v doménových strukturách použijte nás
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Odkaz</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Odkaz</th>
 </tr>
 </thead>
 <tbody>
@@ -219,8 +219,8 @@ Pro implementaci šablony zásad práv použijte následující kontrolní sezna
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Odkaz</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Odkaz</th>
 </tr>
 </thead>
 <tbody>
@@ -260,8 +260,8 @@ Pro nasazení nové verze klienta RMS použijte následující kontrolní seznam
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Odkaz</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Odkaz</th>
 </tr>
 </thead>
 <tbody>
@@ -293,8 +293,8 @@ Pro přidání důvěryhodných domén uživatelů použijte následující kont
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Odkaz</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Odkaz</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Pro přidání důvěryhodných domén publikování použijte následující ko
 </colgroup>
 <thead>
 <tr class="header">
-<th>Krok</th>
-<th>Odkaz</th>
+<th style="border:1px solid black;" >Krok</th>
+<th style="border:1px solid black;" >Odkaz</th>
 </tr>
 </thead>
 <tbody>

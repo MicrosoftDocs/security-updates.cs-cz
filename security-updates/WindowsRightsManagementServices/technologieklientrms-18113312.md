@@ -23,10 +23,10 @@ Klientské počítače nasazení služby RMS využívají následující technol
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technologie</th>
-<th>Popis</th>
-<th>Vydavatel</th>
-<th>Další informace</th>
+<th style="border:1px solid black;" >Technologie</th>
+<th style="border:1px solid black;" >Popis</th>
+<th style="border:1px solid black;" >Vydavatel</th>
+<th style="border:1px solid black;" >Další informace</th>
 </tr>
 </thead>
 <tbody>

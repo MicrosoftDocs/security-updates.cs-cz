@@ -28,10 +28,10 @@ V následující tabulce je uvedena položka pro každý záznam protokolován�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ V následující tabulce jsou uvedena další data pro záznam protokolování.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
@@ -208,10 +208,10 @@ V následující tabulce jsou uvedena pole, která zaznamenává služba naslou
 </colgroup>
 <thead>
 <tr class="header">
-<th>Název</th>
-<th>Typ dat</th>
-<th>Hodnoty NULL</th>
-<th>Popis</th>
+<th style="border:1px solid black;" >Název</th>
+<th style="border:1px solid black;" >Typ dat</th>
+<th style="border:1px solid black;" >Hodnoty NULL</th>
+<th style="border:1px solid black;" >Popis</th>
 </tr>
 </thead>
 <tbody>
