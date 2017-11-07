@@ -40,7 +40,7 @@ Obnovení certifikátu serveru pro poskytování licencí
 
 7.  Po uložení souboru s požadavkem na obnovení se zobrazí dialogové okno **Stahování dokončeno**. Klepnutím na tlačítko **Otevřít** můžete zobrazit kód XML v souboru, neprovádějte však žádné změny. Chcete-li otevřít složku, ve které je soubor uložen, klepněte na tlačítko **Otevřít složku**. Po kontrole souboru a ověření jeho umístění klepněte na tlačítko **Zavřít**.
 
-8.  Přesuňte soubor s požadavkem na obnovení ze serveru na počítač připojený k Internetu a přejděte na web služby [Enrollment Services]() (https://go.microsoft.com/fwlink/?LinkId=25828).
+8.  Přesuňte soubor s požadavkem na obnovení ze serveru na počítač připojený k Internetu a přejděte na web služby (https://go.microsoft.com/fwlink/?LinkId=25828).
 
 9.  Podle pokynů na tomto webu získejte certifikát serveru pro poskytování licencí.
 
