@@ -31,7 +31,9 @@ Přidání důvěryhodných domén uživatelů
 5.  Zvolte jednu z následujících možností:
 
     -   Chcete-li důvěřovat všem uživatelským účtům, které jsou členy této domény, vyberte možnost **Důvěřovat všem e-mailovým doménám**.
+
         –nebo-
+        
     -   Vyberte možnost **Důvěřovat pouze zadaným e-mailovým doménám**, zadejte název domény, která má být považována za důvěryhodnou, například priklad.com, a klepněte na tlačítko **Přidat**. Doména bude přidána do seznamu Důvěryhodné e-mailové domény. Chcete-li odebrat název ze seznamu, vyberte jej a klepněte na tlačítko **Odebrat**. Uvedením domény zahrnete i všechny její subdomény.
 
 6.  Používáte-li službu RMS v prostředí, v němž je nutné rozšířit členství ve skupinách mezi doménovými strukturami, zaškrtněte políčko **Důvěřovat správě licencí RM pro identifikátory zabezpečení (SID) této uživatelské domény**.

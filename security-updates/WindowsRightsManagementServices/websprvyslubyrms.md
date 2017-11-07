@@ -13,7 +13,7 @@ Každý kořenový cluster nebo cluster vyhrazený pro správu licencí je hosti
 
 Toto téma popisuje funkce webu správy. Pokyny pro správu služby RMS pomocí uvedeného webu získáte v této sadě dokumentace v částech Postupy pro službu RMS... a Správa služby RMS v tématu Provoz služby RMS v této sadě dokumentace.
 
-**Poznámka: **Konfigurace clusteru je globální. Konfiguraci clusteru je možné spravovat z webu správy libovolného serveru v daném clusteru.
+**Poznámka:** Konfigurace clusteru je globální. Konfiguraci clusteru je možné spravovat z webu správy libovolného serveru v daném clusteru.
 
 Otevřete stránku **Globální správa**, abyste mohli provést následující úkoly.
 

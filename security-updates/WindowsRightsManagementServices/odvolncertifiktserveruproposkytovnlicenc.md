@@ -36,7 +36,11 @@ Chcete-li získat certifikát serveru pro poskytování licencí instalace služ
 1.  Spusťte nástroj SQL Query Analyzer a připojte se ke konfigurační databázi serveru kořenové certifikace.
 2.  V nabídce **Query** (Dotaz) vyberte příkaz **Results in Text** (Výsledky v textu).
 3.  V nabídce **Tools** (Nástroje) vyberte příkaz **Options** (Možnosti). Zobrazí se dialogové okno **Options** (Možnosti). Klepněte na kartu **Results** (Výsledky) a nastavte možnost **Maximum characters per column** (Maximální počet znaků sloupce) na hodnotu **8 192**.
-        ```
+4.  V dialogovém okně Query (Dotaz) zadejte následující řetězce dotazu:
+```
+select DRMS_XrML_Certificate.s_certificate from DRMS_XrML_Certificate, DRMS_LicensorCertificate, DRMS_ClusterConfiguration where DRMS_ClusterConfiguration.CurrentLicensorCertID = DRMS_LicensorCertificate.i_CertID and DRMS_LicensorCertificate.i_CertificateID = DRMS_XrML_Certificate.i_CertificateID
+```
+
 1.  Zkopírujte výsledky z okna **Results** (Výsledky) a vložte je do textového editoru, například do programu Poznámkový blok. Výsledky uložte do souboru s příponou XML.
 
 Další informace týkající se práce s těmito informacemi v seznamech odvolání naleznete v tomto tématu v části [Vytvoření seznamů odvolání](https://technet.microsoft.com/1ef75199-3344-4225-84de-a863a777696a) uvedené již dříve.
