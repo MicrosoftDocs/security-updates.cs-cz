@@ -71,9 +71,8 @@ Při upgradu služby WSUS instalací aktualizace WSUS SP1 může být nutné zak
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Toto zástupné řešení může způsobit, že počítač nebo síť budou zranitelnější vůči útokům uživatelů se zlými úmysly nebo škodlivého softwaru, jako jsou viry. Toto zástupné řešení nedoporučujeme, ale uvádíme tuto informaci pro případ, že byste je chtěli použít. Toto zástupné řešení používáte na vlastní riziko. |
 
-| ![](images/Cc708486.note(WS.10).gif)Poznámka                                                                                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Antivirový program chrání počítač před viry. V době, kdy je antivirový program zakázán, nesmíte stahovat ani otevírat soubory z nedůvěryhodných zdrojů, navštěvovat nedůvěryhodné weby ani otevírat přílohy e-mailů. |
+> [!NOTE]
+> Antivirový program chrání počítač před viry. V době, kdy je antivirový program zakázán, nesmíte stahovat ani otevírat soubory z nedůvěryhodných zdrojů, navštěvovat nedůvěryhodné weby ani otevírat přílohy e-mailů. 
 
 #### Problém 6: Při použití proxy serveru může upgrade na aktualizaci SP1 smazat uživatelské jméno a heslo pro konfiguraci proxy serveru
 
@@ -148,9 +147,8 @@ Pokud změníte název počítače po instalaci služby WSUS RTM a před upgrade
 Pomocí následujícího skriptu odeberte a znovu přidejte skupiny Administrators pro ASPNET a WSUS. Pak znovu spusťte upgrade.
 
         ```
-| ![](images/Cc708486.note(WS.10).gif)Poznámka                                         |
-|-------------------------------------------------------------------------------------------------------------------|
-| Může být nutné nahradit hodnotu &lt;ContentDirectory&gt; na posledním řádku cestou ke skutečnému úložišti obsahu. |
+> [!NOTE]
+> Může být nutné nahradit hodnotu &lt;ContentDirectory&gt; na posledním řádku cestou ke skutečnému úložišti obsahu. 
 
 V následující části je uveden původní obsah souboru Readme pro službu WSUS
 --------------------------------------------------------------------------
@@ -340,9 +338,8 @@ Známé problémy
 
 Pokud Internetovou informační službu (IIS) provozujete v počítači se systémem Windows 2000 Server, nainstalujte nejnovější verzi Průvodce uzamčením zabezpečení služby IIS (která obsahuje program URLScan) ze stránky nástroje Lockdown služby IIS na webu Microsoft TechNet. Společnost Microsoft důrazně doporučuje instalaci tohoto nástroje, který vám pomůže zachovat zabezpečení serverů IIS. Průvodce uzamčením zabezpečení služby IIS funguje tak, že vypne nepotřebné funkce služby IIS a sníží tak riziko ohrožení zabezpečení.
 
-| ![](images/Cc708486.note(WS.10).gif)Poznámka                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Instalační program služby WSUS tyto součásti neinstaluje. Je třeba je nainstalovat ručně. Nástroj IIS Lockdown není nutné instalovat do počítačů se systémem Windows Server 2003, protože tato funkce je integrovaná. |
+> [!NOTE]
+> Instalační program služby WSUS tyto součásti neinstaluje. Je třeba je nainstalovat ručně. Nástroj IIS Lockdown není nutné instalovat do počítačů se systémem Windows Server 2003, protože tato funkce je integrovaná. 
 
 #### Problém 2: Změna konfigurace služby WSUS přímo v databázi není podporována.
 

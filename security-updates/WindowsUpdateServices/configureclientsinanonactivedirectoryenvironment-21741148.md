@@ -366,112 +366,91 @@ The following table shows the difference in behavior with **NoAutoRebootWithLogg
  
 <table style="border:1px solid black;">
 <tr>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Scenario following a scheduled installation  
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 With NoAutoRebootWithLoggedOnUsers enabled  
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 With NoAutoRebootWithLoggedOnUsers disabled or not configured  
 </th>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 No users logged on
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Automatic restart immediately following installation
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Automatic restart immediately following installation
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Single user with administrative privileges
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification allows user to start or postpone restart. This notification does not have a countdown timer. Therefore the user must initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification allows user to start or postpone restart. This notification has a 5 minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Single user with restart privileges but no other administrative privileges
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that allows user to initiate the restart but not to postpone it. This notification does not have a countdown timer. Therefore the user must initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that allows user to initiate the restart but not to postpone it. This notification has a 5-minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Single non-administrator without restart privilege
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification does not have a countdown timer. Therefore the user must wait for an authorized user to initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification has a 5-minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Administrator while other users are logged on
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart but does allow the user to postpone it. This notification does not have a countdown timer. Therefore the user must initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart but does allow the user to postpone it. This notification has a 5 minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Non-administrator with restart privilege while other users are logged on
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification does not have a countdown timer. Therefore the user must initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification has a 5 minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 Non-administrator without restart privilege while other users are logged on
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification does not have a countdown timer. Therefore, the user must wait for an authorized user to initiate the system restart.
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 Restart notification that does not allow the user to initiate the restart or postpone it. This notification has a 5 minute countdown timer. When the timer expires, the automatic restart begins.
-
 </td>
 </tr>
 </table>
