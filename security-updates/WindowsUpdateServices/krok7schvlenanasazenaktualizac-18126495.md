@@ -25,9 +25,8 @@ Krok 7 obsahuje následující postupy:
 
 4.  V seznamu **Skupinové nastavení schvalování pro vybrané aktualizace** klepněte ve sloupci **Schválení** pro testovací skupinu na položku **Nainstalovat** a potom klepněte na tlačítko **OK**.
 
-| ![](images/Cc720504.note(WS.10).gif)Poznámka                                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se schvalováním aktualizací souvisí mnoho možností, například nastavení termínů a odinstalace aktualizací. Informace o nich získáte v dokumentu White Paper Microsoft Windows Server Update Services Operations Guide (Průvodce operacemi služby Microsoft Windows Server Update Services). |
+> [!NOTE]
+> Se schvalováním aktualizací souvisí mnoho možností, například nastavení termínů a odinstalace aktualizací. Informace o nich získáte v dokumentu White Paper Microsoft Windows Server Update Services Operations Guide (Průvodce operacemi služby Microsoft Windows Server Update Services). 
 
 Po 24 hodinách můžete použít funkci vytváření zpráv serveru WSUS k zjištění, zda tyto aktualizace byly nasazeny do počítačů.
 

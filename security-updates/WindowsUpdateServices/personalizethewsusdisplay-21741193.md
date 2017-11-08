@@ -45,22 +45,8 @@ You can configure different aspects of the way WSUS server information is displa
 3.  Click **OK**.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939895.note(WS.10).gif" />Poznámka</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you choose this option, errors will appear as pop-up windows and not as links in the UI.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> If you choose this option, errors will appear as pop-up windows and not as links in the UI.
  
 
 **To display different information in the To Do section**

@@ -27,9 +27,8 @@ V tomto kroku schválíte aktualizaci pro jakékoli testovací klientské počí
 
 5.  Zobrazí se nové okno **Průběh schvalování**, ve kterém se zobrazuje průběh různých úloh, které mají vliv na schvalování aktualizací. Po dokončení schvalování zavřete toto okno klepnutím na tlačítko **Zavřít**.
 
-| ![](images/Cc708475.note(WS.10).gif)Poznámka                                  |
-|------------------------------------------------------------------------------------------------------------|
-| Se schvalováním aktualizací souvisí mnoho možností, například nastavení termínů a odinstalace aktualizací. |
+> [!NOTE]
+> Se schvalováním aktualizací souvisí mnoho možností, například nastavení termínů a odinstalace aktualizací. 
 
 Po 24 hodinách můžete použít funkci vytváření zpráv serveru WSUS ke zjištění, zda byly tyto aktualizace nasazeny do počítačů.
 

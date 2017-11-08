@@ -54,9 +54,8 @@ Následujících pět postupů popisuje konfiguraci aktualizací pomocí průvod
 
 Po dokončení všech uvedených kroků konfigurace vyberte v průvodci konfigurací stránku **Dokončeno**. Konzolu Správa služby WSUS lze spustit tím, že ponecháte zaškrtnuté políčko **Spustit modul snap-in Správa služby Windows Server Update Services**. První synchronizaci lze spustit tím, že ponecháte zaškrtnuté políčko **Spustit počáteční synchronizaci**.
 
-| ![](images/Cc708447.note(WS.10).gif)Poznámka                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Změny konfigurace provedené během synchronizace serveru nelze uložit. Počkejte na dokončení synchronizace a poté proveďte změny. |
+> [!NOTE]
+> Změny konfigurace provedené během synchronizace serveru nelze uložit. Počkejte na dokončení synchronizace a poté proveďte změny. 
 
 ![](images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
 
@@ -95,17 +94,15 @@ Po konfiguraci připojení k síti můžete stahovat aktualizace prostřednictv�
 
 Synchronizace zahrnuje kontaktování serveru Microsoft Update serverem WSUS. Po navázání kontaktu určí server WSUS, zda jsou od poslední synchronizace k dispozici nějaké nové aktualizace. Jelikož nyní jde o první synchronizaci serveru WSUS, jsou všechny aktualizace k dispozici a připraveny ke schválení pro instalaci. Počáteční synchronizace může trvat poměrně dlouho.
 
-| ![](images/Cc708447.note(WS.10).gif)Poznámka                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tento dokument popisuje synchronizaci s výchozím nastavením, ale služba WSUS zahrnuje možnosti, které umožňují minimalizovat použití šířky pásma během synchronizace. |
+> [!NOTE]
+> Tento dokument popisuje synchronizaci s výchozím nastavením, ale služba WSUS zahrnuje možnosti, které umožňují minimalizovat použití šířky pásma během synchronizace. 
 
 **Synchronizace serveru WSUS**
 1.  V konzole Správa služby WSUS vyberte možnost **Synchronizace**.
 
 2.  Klepněte pravým tlačítkem myši nebo přejděte do podokna **Akce** na pravé straně a potom klepněte na příkaz **Synchronizovat nyní**.
 
-| ![](images/Cc708447.note(WS.10).gif)Poznámka                                                                                                                      |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Není-li zobrazeno podokno **Akce** na pravé straně konzoly, klepněte na panelu nástrojů konzoly na položku **Zobrazit**, klepněte na příkaz **Vlastní** a zaškrtněte políčko **Podokno Akce**. |
+> [!NOTE]
+> Není-li zobrazeno podokno **Akce** na pravé straně konzoly, klepněte na panelu nástrojů konzoly na položku **Zobrazit**, klepněte na příkaz **Vlastní** a zaškrtněte políčko **Podokno Akce**. 
 
 Po dokončení synchronizace klepněte na tlačítko **Aktualizace** na levém panelu. Zobrazíte tak seznam aktualizací.
