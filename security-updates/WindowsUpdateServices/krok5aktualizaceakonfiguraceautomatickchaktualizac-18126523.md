@@ -11,9 +11,8 @@ Krok 5: Aktualizace a konfigurace automatických aktualizací
 
 Klientské počítače se službou WSUS vyžadují kompatibilní verzi automatických aktualizací. Instalace služby WSUS automaticky konfiguruje službu IIS na distribuci poslední verze automatických aktualizací do jednotlivých klientských počítačů, které kontaktují server WSUS.
 
-| ![](images/Cc720533.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| I když je možné většinu verzí automatických aktualizací směrovat na server WSUS a ty se budou automaticky samy aktualizovat na verzi kompatibilní se službou WSUS, nemůže se verze automatických aktualizací, která je součástí systému Windows XP, bez aktualizací Service Pack sama automaticky aktualizovat. Pokud máte systém Windows XP bez jakýchkoli aktualizací Service Pack ve vašem prostředí a nikdy jste nepoužívali službu Software Update Services (SUS), přečtěte si pokyny v dokumentu White Paper Deploying Microsoft Windows Server Update Services (Nasazení služby Microsoft Windows Server Update Services). |
+> [!NOTE]
+> I když je možné většinu verzí automatických aktualizací směrovat na server WSUS a ty se budou automaticky samy aktualizovat na verzi kompatibilní se službou WSUS, nemůže se verze automatických aktualizací, která je součástí systému Windows XP, bez aktualizací Service Pack sama automaticky aktualizovat. Pokud máte systém Windows XP bez jakýchkoli aktualizací Service Pack ve vašem prostředí a nikdy jste nepoužívali službu Software Update Services (SUS), přečtěte si pokyny v dokumentu White Paper Deploying Microsoft Windows Server Update Services (Nasazení služby Microsoft Windows Server Update Services). 
 
 Nejvhodnější způsob konfigurace automatických aktualizací závisí na vašem síťovém prostředí. V prostředí služby Active Directory je možné použít objekt zásad skupiny (GPO) založený na službě Active Directory. V prostředí jiném než Active Directory použijte objekt zásad místní skupiny. Ať používáte objekt zásad místní skupiny nebo objekt zásad skupiny uložený v řadiči domény, musíte směrovat klientské počítače na server WSUS a potom konfigurovat automatické aktualizace.
 
@@ -55,9 +54,8 @@ provedení dalších tří postupů u objektu zásad skupiny založeného na slu
 
 4.  Klepněte na tlačítko **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Poznámka                                                                                        |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nastavení **Povolit místnímu správci výběr nastavení** se zobrazí pouze tehdy, pokud automatické aktualizace aktualizují samy sebe na verzi kompatibilní s WSUS. |
+> [!NOTE]
+> Nastavení **Povolit místnímu správci výběr nastavení** se zobrazí pouze tehdy, pokud automatické aktualizace aktualizují samy sebe na verzi kompatibilní s WSUS. 
 
 **Směrování klientského počítače na server WSUS**
 1.  V editoru objektů zásad skupiny rozbalte položku **Konfigurace počítače**, dále položku **Šablony pro správu**, položku **Součásti systému Windows** a potom klepněte na položku **Windows Update**.
@@ -68,9 +66,8 @@ provedení dalších tří postupů u objektu zásad skupiny založeného na slu
 
 4.  Klepněte na tlačítko **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Poznámka                                                                                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Používáte-li objekt zásad místní skupiny ke směrování tohoto počítače na server WSUS, projeví se toto nastavení ihned a tento počítač by se měl zobrazit v konzole pro správu služby WSUS během 20 minut. Tento proces je možné zrychlit ručním spuštěním cyklu rozpoznávání. |
+> [!NOTE]
+> Používáte-li objekt zásad místní skupiny ke směrování tohoto počítače na server WSUS, projeví se toto nastavení ihned a tento počítač by se měl zobrazit v konzole pro správu služby WSUS během 20 minut. Tento proces je možné zrychlit ručním spuštěním cyklu rozpoznávání. 
 
 Poté, co klientský počítač nastavíte, bude trvat několik minut, než se zobrazí na stránce **Počítače** v konzole služby WSUS. Pro klientské počítače konfigurované s objektem skupiny zásad založeným na službě Active Directory bude trvat obnovení skupiny zásad skupiny (tedy použití jakéhokoli nového nastavení v klientském počítači) asi dvacet minut. Při výchozím nastavení se zásady skupiny obnoví na pozadí každých 90 minut s náhodným posunem od 0 do 30 minut. Pokud chcete obnovit zásady skupiny dříve, můžete přejít na příkazový řádek v klientském počítači a zadat následující příkaz: **gpupdate /force**.
 

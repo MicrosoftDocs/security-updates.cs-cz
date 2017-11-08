@@ -28,22 +28,8 @@ Stopping and Restarting BITS
 Often it is possible to resolve BITS issues simply by stopping the service and restarting it. The following procedure shows how to stop and restart the service from a Command Prompt.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.note(WS.10).gif" />Poznámka</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">To modify, stop, or restart BITS, log on as a local administrator.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> To modify, stop, or restart BITS, log on as a local administrator.
  
 
 **To stop and restart BITS**

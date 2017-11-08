@@ -81,17 +81,22 @@ With replica synchronization, updates, target groups, and approvals created by t
 
 Using the WSUS reports, administrators can monitor the following activity.
 
--   Update status
+-   Update status<br/><br/>
     Administrators can assess and monitor the level of update compliance for their client computers on an ongoing basis using the Status of Update report, which provides status for update approval and deployment per update, per computer, and per computer group, based on all events that are sent from the client computer.
--   Computer status
+
+-   Computer status<br/><br/>
     Administrators can assess the status of client computers with respect to the status of updates on those computers-for example, a summary of updates that have been installed or are needed for a particular computer.
 -   Computer compliance status
+
 -   Administrators can view or print a summary of compliance information for a specific computer, including software and hardware information, WSUS activity, and update status.
--   Update compliance status
+
+-   Update compliance status<br/><br/>
     Administrators can view or print a summary of compliance information for a specific update, including the update properties and cumulative status for each computer group.
--   Synchronization (or download) status
+
+-   Synchronization (or download) status<br/><br/>
     Administrators can monitor synchronization activity and status for a given time period, and view the latest updates that have been downloaded.
--   WSUS configuration settings
+
+-   WSUS configuration settings<br/><br/>
     Administrators can see a summary of options they have specified for their WSUS implementation. The report is in a printable format.
 
 #### Extensibility

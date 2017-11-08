@@ -23,6 +23,7 @@ Enable audit events to ensure that adequate logs are collected for system activi
 ### Audit policy settings
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -92,6 +93,7 @@ Configure Windows Server security settings to help ensure optional security and 
 ### Security options settings
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -430,22 +432,11 @@ Configure Windows Server security settings to help ensure optional security and 
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939800.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">The WSUS subdirectories UpdateServicesPackages, WsusContent, and WsusTemp created as shared directories (for WSUS Administrators and the Network Service account) as part of WSUS setup. These directories can be found by default under the WSUS directory at the root of the largest partition on the WSUS server. Sharing of these directories may be disabled if you are not using local publishing.
-</td>
-</tr>
-</tbody>
-</table>
+<p></p>
+
+> [!IMPORTANT]
+> The WSUS subdirectories UpdateServicesPackages, WsusContent, and WsusTemp created as shared directories (for WSUS Administrators and the Network Service account) as part of WSUS setup. These directories can be found by default under the WSUS directory at the root of the largest partition on the WSUS server. Sharing of these directories may be disabled if you are not using local publishing.
+
  
 
 ### Event log settings
@@ -455,6 +446,7 @@ Configure Event Log settings to help ensure an adequate level of activity monito
 ### Event log settings
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -531,6 +523,8 @@ Configure Event Log settings to help ensure an adequate level of activity monito
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 ### System services
   
@@ -539,6 +533,7 @@ Enable only services that are required for WSUS.
 ### Enabled operating system services
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -835,6 +830,8 @@ Enable only services that are required for WSUS.
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 ### TCP/IP hardening
   
@@ -843,6 +840,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ### TCP/IP registry key settings
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -894,6 +892,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 ### IIS security configuration
   
@@ -948,6 +948,8 @@ By default, IIS enables header extensions for HTTP requests. We recommend removi
   
 4.  On the **HTTP Headers** tab, select the **X-Powered-By: ASP.NET** check box, and then click **Remove**.
   
+
+
 SQL Server  
 ----------
   
@@ -959,9 +961,10 @@ Use access control permissions to secure the SQL Server registry keys.
   
 **HKLM\\SOFTWARE\\MICROSOFT\\MSSQLSERVER**
   
-###  
+
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -975,8 +978,8 @@ Use access control permissions to secure the SQL Server registry keys.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;">Administrators: Full Control
-SQL Service Account: Full Control
+<td style="border:1px solid black;">Administrators: Full Control<br/><br/>
+SQL Service Account: Full Control<br/><br/>
 System: Full Control</td>
 <td style="border:1px solid black;">These settings help ensure limited access to the application’s registry key to authorized administrators or system accounts.</td>
 </tr>
@@ -990,6 +993,7 @@ Remove all stored procedures that are unnecessary and that have the ability to c
 ### Unnecessary SQL Server 2005 stored procedures
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1005,8 +1009,8 @@ Remove all stored procedures that are unnecessary and that have the ability to c
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;">Delete stored procedures by using the following command:
-<strong>use master exec sp_dropextendedproc</strong> <em>stored procedure</em>
+<td style="border:1px solid black;">Delete stored procedures by using the following command:<br/><br/>
+<strong>use master exec sp_dropextendedproc</strong> <em>stored procedure</em><br/><br/>
 where <em>stored procedure</em> is the name of the stored procedure to be deleted.</td>
 <td style="border:1px solid black;"><ul>
 <li>Sp_OACreate<br />
