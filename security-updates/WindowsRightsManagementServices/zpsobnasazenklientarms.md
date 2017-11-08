@@ -33,10 +33,13 @@ kde &lt;cesta&gt; je cílový adresář, do kterého budete chtít uložit extra
 Spuštěním tohoto příkazu budou do zvoleného cílového adresáře extrahovány následující soubory:
 
 -   Bootstrap.exe
+
     Jedná se o soubor balíčku používaný spustitelným souborem k instalaci ostatních zahrnutých souborů. Nepoužívá se k instalaci klienta RMS s aktualizací SP2 pomocí serveru SMS nebo zásad skupiny.
 -   MSDrmClient.msi
+
     Jedná se o instalační soubor pro klienta RMS s aktualizací SP2. Odinstaluje všechny předchozí verze klienta RMS v počítači. Tento program je potřeba nejdříve nainstalovat do klientských počítačů.
 -   RMClientBackCompat.msi
+
     Jedná se o instalační soubor umožňující zjistit nového klienta RMS s aktualizací SP2 v aplikacích s podporou služby RMS (například v sadě Microsoft Office Professional 2003 nebo v systému Microsoft Office 2007), které jsou závislé na předchozí verzi klienta RMS, aby bylo možné místo něj použít klienta RMS s aktualizací SP2. Tento program by měl být nainstalován do klientských počítačů po úspěšné instalaci souboru MSDrmClient.msi.
 
 | ![](images/Cc747749.note(WS.10).gif)Poznámka                                                                                                                                                                                 |
@@ -71,6 +74,7 @@ Nasazení klienta RMS pomocí serveru SMS
     **Obecné**:
 
     -   Na **příkazový řádek** zadejte následující příkaz:
+
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
         | ![](images/Cc747749.note(WS.10).gif)Poznámka                                                                                               |
         |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -146,8 +150,30 @@ Následující postup je rychlým průvodcem pro správce, kteří nemají pří
 
 Upgrade z předchozí verze
 -------------------------
+Můžete použít metodu bezobslužné instalace v rámci skriptu, který zjistí, zda je nainstalován klient RMS s aktualizací SP2. Jestliže klient není nainstalován, skript upgraduje stávajícího klienta nebo nainstaluje klienta RMS s aktualizací SP2. Jedná se o následující skript:
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+Set objWindowsInstaller = Wscript.CreateObject("WindowsInstaller.Installer") 
+Set colProducts = objWindowsInstaller.Products 
 
-        ```
+For Each product In colProducts 
+strProductName = objWindowsInstaller.ProductInfo (product, "ProductName")
+
+if strProductName = "Windows Rights Management Client with Service Pack 2" then
+strInstallFlag = "False"
+Exit For
+else
+strInstallFlag = "True"
+end if
+Next
+
+if strInstallFlag = "True" then
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q "
+else
+wscript.echo "Instalace není nutná"
+end if
+```
+
 | ![](images/Cc747749.note(WS.10).gif)Poznámka                                    |
 |--------------------------------------------------------------------------------------------------------------|
 | Tento skript není funkční se systémem Windows Vista, protože klient RMS je integrován do operačního systému. |

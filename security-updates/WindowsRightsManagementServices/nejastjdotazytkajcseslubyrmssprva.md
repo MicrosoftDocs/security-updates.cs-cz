@@ -85,9 +85,16 @@ Trasování je možné implementovat, jestliže změníte soubor Web.config nebo
 
 **Povolení trasování**
 1.  Otevřete soubor Machine.config nebo Web.config a přidejte do něj v části &lt;system.diagnostics&gt; následující řádky:
-
-    
-        ```
+    ```
+    <system.diagnostics>
+    <switches>
+    <add name="Microsoft Windows Rights Management Services-Global" value="4" />
+    <add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
+    <add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
+    </switches>
+    <trace autoflush="false" indentsize="4"/>
+    </system.diagnostics>
+    ```
 2.  Restartujte službu IIS spuštěním příkazu IISRESET na příkazovém řádku.
 
 3.  Po shromáždění potřebných dat odeberte z příslušného souboru .config řádky, které jste do něj přidali v kroku 1.

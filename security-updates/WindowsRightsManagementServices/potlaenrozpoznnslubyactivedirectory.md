@@ -142,17 +142,19 @@ K importu správných klíčů registru na každém serveru v clusteru služby R
 **Import správných klíčů registru na každém serveru v clusteru služby RMS**  
 1.  Zkopírujte následující ukázkový soubor registru do Poznámkového bloku.
   
-    `Windows Registry Editor Version 5.00`
+    ```
+    Windows Registry Editor Version 5.00
+ 
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation]`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\Activation]`
+    @="http://<RMS_cluster_name>/_wmcs/certification"
   
-    `@="http://<RMS_cluster_name>/_wmcs/certification"`
+    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]
   
-    `[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSDRM\ServiceLocation\EnterprisePublishing]`
-  
-    `@="http://<RMS_cluster_name>/_wmcs/licensing"`
+    @="http://<RMS_cluster_name>/_wmcs/licensing"
+    ```
   
 2.  Proměnnou &lt;název\_clusteru\_RMS&gt; nahraďte názvem svého clusteru RMS.
   

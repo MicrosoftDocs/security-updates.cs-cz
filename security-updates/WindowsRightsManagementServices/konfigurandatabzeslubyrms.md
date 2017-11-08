@@ -15,4 +15,4 @@ Konfigurační databáze serveru nebo clusteru kořenové certifikace obsahuje s
 
 Skupina RMS Service Group má pro uložené procedury databáze oprávnění pro spuštění.
 
-**Důležité: **Součást MSDE 2000 je vhodné používat pouze pro podporu databází služby RMS v testovacích prostředích, protože tato součást nepodporuje žádná síťová rozhraní. V podmínkách používání součásti MSDE 2000 je navíc uvedeno, že pro obsluhu databáze MSDE 2000 nelze použít klientské nástroje serveru SQL Server. Vzhledem k tomuto omezení by nebylo možné zobrazit informace obsažené v protokolech a změnit data uložená v konfigurační databázi.
+**Důležité:** Součást MSDE 2000 je vhodné používat pouze pro podporu databází služby RMS v testovacích prostředích, protože tato součást nepodporuje žádná síťová rozhraní. V podmínkách používání součásti MSDE 2000 je navíc uvedeno, že pro obsluhu databáze MSDE 2000 nelze použít klientské nástroje serveru SQL Server. Vzhledem k tomuto omezení by nebylo možné zobrazit informace obsažené v protokolech a změnit data uložená v konfigurační databázi.
