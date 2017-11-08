@@ -29,7 +29,7 @@ More Documentation
 WSUS Server Error Codes
 -----------------------
 
-###  
+
 
  
 <table style="border:1px solid black;">
@@ -228,7 +228,7 @@ ALREADY_RUNNING</td>
 Windows Update Client Error Codes  
 ---------------------------------
   
-###  
+
 
  
 <table style="border:1px solid black;">
@@ -1431,7 +1431,7 @@ UNEXPECTED</td>
 BITS Error Codes  
 ----------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1625,8 +1625,8 @@ FILE_SIZE</td>
 <td style="border:1px solid black;">0x80070057</td>
 <td style="border:1px solid black;">2147942487</td>
 <td style="border:1px solid black;">E_INVALIDARG</td>
-<td style="border:1px solid black;">  If we see this error when BITS service is started or if there is an entry in the eventlog that says that BITS service could not be started because of this error code then it means that system-wide proxy settings configured using the proxycfg.exe tool are corrupted. 2. BITS 1.5 and below returned this error code when invalid proxy information is supplied. BITS 2.0 returns a more informative BG_E_INVALID_PROXY_INFO error. Any other API when called with incorrect parameters could give this error
-Workaround:
+<td style="border:1px solid black;">  If we see this error when BITS service is started or if there is an entry in the eventlog that says that BITS service could not be started because of this error code then it means that system-wide proxy settings configured using the proxycfg.exe tool are corrupted. 2. BITS 1.5 and below returned this error code when invalid proxy information is supplied. BITS 2.0 returns a more informative BG_E_INVALID_PROXY_INFO error. Any other API when called with incorrect parameters could give this error<br/><br/>
+Workaround:<br/><br/>
 1. Ensure the APIs are correctly called and the proxy information is correctly supplied. Upgrade to BITS 2.0</td>
 </tr>
 <tr class="even">
