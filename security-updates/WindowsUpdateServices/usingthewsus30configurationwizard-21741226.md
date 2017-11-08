@@ -29,22 +29,8 @@ The Configuration Wizard allows you to configure the following areas:
 -   [Configure the Synchronization Schedule](#bkmk_syncschedule)
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939915.note(WS.10).gif" />Poznámka</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You will need to configure the upstream server and proxy server before configuring the updates.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> You will need to configure the upstream server and proxy server before configuring the updates.
  
 
 <span id="BKMK_upstream"></span>
@@ -106,22 +92,8 @@ Connect to the upstream server
 3.  After the connection has completed successfully, click **Next**. If you have chosen to store updates locally, you will go to the **Choose Languages** page, or you can select a different page from the left pane.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939915.note(WS.10).gif" />Poznámka</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If the connection to your upstream WSUS server (either Microsoft Update or an intranet WSUS server) fails, you will see a message at the bottom of the screen. Typically it will say something like &quot;An HTTP error occurred.&quot; For more information, click the <strong>Details</strong> link.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> If the connection to your upstream WSUS server (either Microsoft Update or an intranet WSUS server) fails, you will see a message at the bottom of the screen. Typically it will say something like &quot;An HTTP error occurred.&quot; For more information, click the <strong>Details</strong> link.
  
 
 <span id="BKMK_languages"></span>
