@@ -18,22 +18,9 @@ Setting up WSUS for remote SQL is a three-step process:
 3.  Install WSUS 3.0 on the front-end computer, and configure it to use the database on the back-end computer.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939912.note(WS.10).gif" />Poznámka</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">For a remote SQL installation on WSUS 3.0, you install WSUS on the front-end computer only. You do not need to install WSUS on the back-end computer.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> For a remote SQL installation on WSUS 3.0, you install WSUS on the front-end computer only. You do not need to install WSUS on the back-end computer.
+
  
 
 Remote SQL Limitations and Requirements
@@ -66,7 +53,10 @@ Install a SQL Server 2005 database on the back-end computer and enable remote c
 
 2.  Choose **Surface Configuration for Services and Connections**.
 
-![](images/Dd939912.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif)**Enable Remote SQL Connections**
+![](images/Dd939912.942b1598-3235-48ad-af0d-362ccac97584(WS.10).gif)
+
+
+**Enable Remote SQL Connections**
 1.  In the left window, click the **Remote Connections** node.
 
 2.  Select **Local and remote connections** and then select **Using TCP/IP only**.
@@ -78,22 +68,9 @@ Install a SQL Server 2005 database on the back-end computer and enable remote c
 If you plan to run the SQL Server service remotely under a domain account, you will need to register a service principal name (SPN) for this server. For more information about adding an SPN, please see [How to make sure that you are using Kerberos authentication when you create a remote connection to an instance of SQL Server 2005](http://go.microsoft.com/fwlink/?linkid=85942) (http://go.microsoft.com/fwlink/?LinkId=85942).
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939912.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Running the SQL Server service under a local non-system account is not supported.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Running the SQL Server service under a local non-system account is not supported.
+
  
 
 Step 2: Check administrative permissions on SQL Server
@@ -129,19 +106,6 @@ Run WSUS Setup from the command line, using the **SQLINSTANCE\_NAME=***servernam
 2.  You will see the **Welcome** page of the installation wizard. Continue installing WSUS as in the procedure given in [Run WSUS 3.0 Server Setup](https://technet.microsoft.com/3bc2933c-8d26-4594-b989-e64b406f3147).
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939912.note(WS.10).gif" />Poznámka</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Optionally, after you have completed the WSUS 3.0 installation, you can delete the SQL Server account set up in Step 2.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> Optionally, after you have completed the WSUS 3.0 installation, you can delete the SQL Server account set up in Step 2.
+
