@@ -71,9 +71,8 @@ Během instalace aktualizace WSUS 3.0 SP1 bude pravděpodobně k úspěšnému 
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Uvedený postup může způsobit, že počítač nebo síť budou náchylnější k útokům uživatelů se zlými úmysly nebo k útokům škodlivého softwaru, například virů. Tento postup nedoporučujeme. Uvedené informace poskytujeme, aby uživatel daný postup použil podle vlastního uvážení. Uvedený postup používejte na vlastní nebezpečí. |
 
-| ![](images/Cc708525.note(WS.10).gif)Poznámka                                                                                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Antivirový program slouží k ochraně počítače před viry. V době, kdy je antivirový program zakázaný, nesmíte stahovat nebo otevírat soubory ze zdrojů, kterým nedůvěřujete, a otevírat e-mailové přílohy. |
+> [!NOTE]
+> Antivirový program slouží k ochraně počítače před viry. V době, kdy je antivirový program zakázaný, nesmíte stahovat nebo otevírat soubory ze zdrojů, kterým nedůvěřujete, a otevírat e-mailové přílohy. 
 
 #### Aktualizace WSUS 3.0 SP1 vyžaduje, aby na serveru SQL Server byla zapnuta možnost vnořených aktivačních událostí.
 

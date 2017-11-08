@@ -11,9 +11,8 @@ Soubor ReadMe pro službu Windows Server Update Services
 
 Tento dokument popisuje známé problémy ovlivňující službu Windows Server Update Services (WSUS). Obsahuje doporučení a požadavky na instalaci služby WSUS.
 
-| ![](images/Cc720505.note(WS.10).gif)Poznámka                                                                                                                |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kopie tohoto dokumentu je k dispozici ke stažení na webu služby Stažení softwaru na adrese [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126). |
+> [!NOTE]
+> Kopie tohoto dokumentu je k dispozici ke stažení na webu služby Stažení softwaru na adrese [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126). 
 
 Před zahájením
 --------------
@@ -200,9 +199,8 @@ Známé problémy
 
 Pokud Internetovou informační službu (IIS) provozujete v počítači se systémem Windows 2000 Server, nainstalujte nejnovější verzi Průvodce uzamčením zabezpečení služby IIS (která obsahuje program URLScan) ze stránky nástroje Lockdown služby IIS na webu Microsoft TechNet. Společnost Microsoft důrazně doporučuje instalaci tohoto nástroje, který vám pomůže zachovat zabezpečení serverů IIS. Průvodce uzamčením zabezpečení služby IIS funguje tak, že vypne nepotřebné funkce služby IIS a tímto způsobem sníží riziko ohrožení zabezpečení.
 
-| ![](images/Cc720505.note(WS.10).gif)Poznámka                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Instalační program služby WSUS tyto součásti neinstaluje. Je třeba je nainstalovat ručně. Nástroj Lockdown služby IIS není nutné instalovat do počítačů se systémem Windows Server 2003, protože tato funkce je integrovaná. |
+> [!NOTE]
+> Instalační program služby WSUS tyto součásti neinstaluje. Je třeba je nainstalovat ručně. Nástroj Lockdown služby IIS není nutné instalovat do počítačů se systémem Windows Server 2003, protože tato funkce je integrovaná. 
 
 #### Problém 2: Změna konfigurace služby WSUS přímo v databázi není podporována
 

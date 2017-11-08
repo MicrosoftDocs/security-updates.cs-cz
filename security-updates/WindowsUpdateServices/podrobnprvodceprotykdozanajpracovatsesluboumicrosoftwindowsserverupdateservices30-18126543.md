@@ -18,6 +18,5 @@ Služba Microsoft Windows Server Update Services (WSUS) 3.0 poskytuje úplné ř
 
 Ačkoli služba WSUS 3.0 představuje řešení správy aktualizací s velkou řadou funkcí, tato příručka nabízí vždy pouze jeden způsob provedení jednotlivých úloh. Tam, kde existuje možnost provedení úlohy různými způsoby, jsou tyto alternativní postupy zmíněny.
 
-| ![](images/Cc708519.note(WS.10).gif)Poznámka                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kopii tohoto dokumentu lze stáhnout z webu [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) (tato stránka může být v angličtině). |
+> [!NOTE]
+> Kopii tohoto dokumentu lze stáhnout z webu [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) (tato stránka může být v angličtině). 

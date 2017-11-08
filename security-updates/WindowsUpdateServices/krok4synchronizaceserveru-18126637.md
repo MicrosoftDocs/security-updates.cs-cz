@@ -13,9 +13,8 @@ Po konfiguraci síťového připojení můžete získat aktualizace. Při výcho
 
 Synchronizace zahrnuje kontaktování serveru Microsoft Update serverem WSUS. Po vytvoření kontaktu určí server WSUS, zda jsou od poslední synchronizace k dispozici nějaké nové aktualizace. Protože se jedná o první synchronizaci serveru WSUS, jsou všechny aktualizace k dispozici a připraveny ke schválení pro instalaci.
 
-| ![](images/Cc708523.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tento dokument popisuje synchronizaci pomocí výchozího nastavení, ale server WSUS zahrnuje možnosti, které umožňují minimalizovat během synchronizace použití šířky pásma. Další informace naleznete v dokumentu White Paper Deploying Microsoft Server Windows Update Services (Nasazení služby Microsoft Windows Server Update Services). |
+> [!NOTE]
+> Tento dokument popisuje synchronizaci pomocí výchozího nastavení, ale server WSUS zahrnuje možnosti, které umožňují minimalizovat během synchronizace použití šířky pásma. Další informace naleznete v dokumentu White Paper Deploying Microsoft Server Windows Update Services (Nasazení služby Microsoft Windows Server Update Services). 
 
 **Synchronizace serveru WSUS**
 1.  Na panelu nástrojů konzoly služby WSUS klepněte na tlačítko **Možnosti** a potom na odkaz **Možnosti synchronizace**.
