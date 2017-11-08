@@ -1,0 +1,32 @@
+---
+TOCTitle: Princip fungování služby RMS
+Title: Princip fungování služby RMS
+ms:assetid: 'd7ddcc38-b7e3-4a2a-9506-7db44f7cb56e'
+ms:contentKeyID: 18113520
+ms:mtpsurl: 'https://technet.microsoft.com/cs-cz/library/Cc747763(v=WS.10)'
+---
+
+Princip fungování služby RMS
+============================
+
+Termín Služba správy přístupových práv (RMS) v sobě zahrnuje všechny technologie pro servery i klienty nutné pro podporu správy přístupových práv k informacím v organizaci. Servery certifikace služby RMS a servery správy licencí v organizaci společně se službami RMS, jejichž hostitelem je společnost Microsoft (provozující služby zápisu, aktivace a certifikace účtů RMS), certifikují důvěryhodné entity v systému služby RMS. Servery správy licencí služby RMS v organizaci navíc vydávají licence k použití a k publikování, které určují, jakým způsobem budou obsah chráněný službou RMS používat klientské aplikace s podporou služby RMS. Technologie klientů RMS, včetně klienta služby RMS, bezpečnostního modulu a aplikací s podporou služby RMS, jsou spuštěny v klientských počítačích a umožňují uživatelům vytvářet, publikovat a používat obsah chráněný službou RMS.
+
+Různé technologie služby RMS pro servery i klienty fungují společně tak, aby podporovaly následující funkce:
+
+-   **Vytváření obsahu chráněného službou RMS** Uživatelé, kteří jsou v systému služby RMS považováni za důvěryhodné entity, mohou snadno vytvářet a spravovat chráněné soubory pomocí aplikací a nástrojů s integrovanými funkcemi technologie RMS. Aplikace s podporou služby RMS mohou navíc používat centrálně definované a oficiálně schválené šablony zásad práv, díky kterým mohou uživatelé efektivně aplikovat předdefinované podnikové zásady využití. Aplikace s podporou služby RMS jsou aplikace vyvíjené společností Microsoft a také jinými společnostmi zabývajícími se vývojem softwaru, které jsou určeny pro použití v instalaci služby RMS.
+
+-   **Licencování a distribuce obsahu chráněného službou RMS** Certifikáty vydávané servery v systému RMS slouží k identifikaci důvěryhodných entit, které mohou publikovat nebo používat obsah chráněný službou RMS. Uživatelé považovaní v systému RMS za důvěryhodné entity mohou přiřazovat práva a podmínky využití k obsahu, jehož jsou autory a který chtějí chránit. Tyto zásady využití specifikují, kdo může obsah použít a co s ním může dělat. Autoři mohou vyžadovat licence k publikování, které vážou zásady využití k zadanému obsahu. Mohou pak distribuovat obsah, například tak, že jej odešlou jiným uživatelům v rámci téže organizace, vystaví na interní servery pro použití v rámci podniku nebo distribuují důvěryhodným externím partnerům.
+
+    V procesu, který je pro uživatele transparentní, ověřuje systém služby RMS důvěryhodné entity v požadavku na licenci k publikování a následně vydá licenci obsahující specifická práva a podmínky využití pro daný obsah. Aplikace s podporou služby RMS potom vygeneruje symetrické klíče a zašifruje pomocí nich obsah. Jakmile je obsah tímto mechanismem chráněn, mohou ho dešifrovat a použít pouze uživatelé uvedení v licencích k publikování. Tito uživatelé musí také být důvěryhodnými entitami v systému služby RMS.
+
+-   **Získání licencí k dešifrování informací chráněných správou přístupových práv a vynucení zásad využití:** Příjemci, kteří jsou považováni za důvěryhodné entity, mohou obsah chráněný službou RMS používat pomocí důvěryhodných klientů. Těmito klienty jsou počítače a aplikace s podporou služby RMS umožňující uživatelům zobrazovat obsah chráněný službou RMS a pracovat s ním, zachovat integritu tohoto obsahu a vynutit zásady použití. Pokud se uživatelé pokusí získat přístup k obsahu chráněnému službou RMS, jsou na server RMS odeslány požadavky na vydání licencí k použití, aby mohl uživatel tento obsah používat.
+
+    V procesu, který je pro uživatele transparentní, vydá server RMS jedinečné licence k použití, které klient RMS dokáže číst a interpretovat. Klient služby RMS zkontroluje řetěz certifikátů obsahu a v případě potřeby zkontroluje seznam odvolání obsahu, aby bylo zajištěno, že jsou splněna všechna kritéria nastavující platnost obsahu. Klient RMS následně vynutí práva a podmínky využití zadané pro uživatele v licenci k publikování. Pokud jsou všechna práva a podmínky využití v pořádku, aplikace s podporou služby RMS pomocí klíče vydaného serverem RMS obsah dešifruje. Podmínky a práva využití jsou trvalé a mohou být vynuceny na libovolném místě, kde je obsah použit.
+
+-   Další informace o vytváření obsahu chráněného službou RMS naleznete v této sadě dokumentace v části Aplikace s podporou služby RMS tématu Technické informace týkající se služby RMS.
+
+-   Další informace o hierarchii důvěryhodných entit v systému služby RMS získáte v této sadě dokumentace v části Hierarchie důvěryhodnosti tématu Technické informace týkající se služby RMS.
+
+-   Další informace o publikování a použití obsahu chráněného službou RMS naleznete v této sadě dokumentace v části Publikování tématu Technické informace týkající se služby RMS.
+
+-   Další informace o procesu publikování a použití obsahu chráněného službou RMS naleznete v této sadě dokumentace v části Publikování tématu Technické informace týkající se služby RMS.
