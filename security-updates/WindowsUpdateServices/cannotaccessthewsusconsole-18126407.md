@@ -92,7 +92,7 @@ This occurs if IIS 6.0 and ASP.NET are installed on the server before the server
 
 3.  At the command prompt, type the following, and then press ENTER:
 
-    *drive:***\\windows\\microsoft .net\\framework\\v1.1.4322\\aspnet\_regiis -i**
+    *drive:* **\\windows\\microsoft .net\\framework\\v1.1.4322\\aspnet\_regiis -i**
 
     where *drive* is the drive letter of the disk on which you installed Windows.
 

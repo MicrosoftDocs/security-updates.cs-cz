@@ -70,24 +70,10 @@ The downstream server must always synchronize to an upstream server, as in the "
 When you set up a WSUS server hierarchy, you should point Automatic Updates on all WSUS servers to the farthest downstream WSUS server in the hierarchy. This shields the entire chain from server-to-server protocol-breaking changes, because the downstream WSUS server can be used to update the broken upstream WSUS servers via Automatic Updates.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939820.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Confirm that the system time on the upstream and downstream servers is the same. Downstream servers roll up information to their upstream server immediately after they synchronize. If there is difference in the system time between servers that is greater than one minute, the rollup will fail and the downstream server results will not be rolled up to the upstream server.
-
+> [!IMPORTANT]  
+> Confirm that the system time on the upstream and downstream servers is the same. Downstream servers roll up information to their upstream server immediately after they synchronize. If there is difference in the system time between servers that is greater than one minute, the rollup will fail and the downstream server results will not be rolled up to the upstream server.<br/><br/>
 Configure the downstream servers to synchronize at different times of day. If you have multiple downstream servers, you should not configure them to synchronize updates and roll up results at the same time of day. This may cause a high load on the upstream server, resulting in rollup failures.
-</td>
-</tr>
-</tbody>
-</table>
+
  
 
 Distributing updates in different languages within a server hierarchy
