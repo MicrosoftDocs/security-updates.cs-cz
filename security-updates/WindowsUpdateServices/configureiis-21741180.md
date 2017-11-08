@@ -58,14 +58,22 @@ After installing IIS 7.0 on Windows Server 2008, you will need to update the II
 
 3. In the `<system.webServer><modules>` tag, add `<remove name="CustomErrorModule">`.
 
-        ```
+The resulting tag should look like this:
+
+```
+<system.webServer>
+<modules>
+<remove name="CustomErrorModule">
+</modules>
+</system.webServer>
+```
 
 Client self-update
 ------------------
 
 WSUS uses IIS to update most client computers automatically to WSUS-compatible Automatic Updates software. To accomplish this, WSUS Setup creates a virtual directory named Selfupdate under the Web site running on port 80 of the WSUS server. This virtual directory, called the self-update tree, contains the WSUS-compatible Automatic Updates software.
 
-<span id="BKMK_WSUScustomWeb"></span>
+
 Using the WSUS custom Web site
 ------------------------------
 
