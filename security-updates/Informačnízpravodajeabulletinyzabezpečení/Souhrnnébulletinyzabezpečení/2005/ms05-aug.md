@@ -15,7 +15,7 @@ Publikováno: 9. srpna 2005
 
 **Verze:** 1.0
 
-**Vydáno:** 9. srpna 2005
+**Vydáno:** 9. srpna 2005  
 **Číslo verze:** 1.0
 
 Verze tohoto článku pro koncové uživatele je k dispozici na následujícím [webu](http://www.microsoft.com/security/default.mspx).
@@ -362,11 +362,11 @@ V této tabulce zjistíte, které aktualizace zabezpečení bude třeba nainsta
 </tbody>
 </table>
   
-**<sup>[1]</sup>** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace získáte v tabulce u postižené součásti (Microsoft Internet Explorer) a v příslušném bulletinu zabezpečení.
+**[1]** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace získáte v tabulce u postižené součásti (Microsoft Internet Explorer) a v příslušném bulletinu zabezpečení.
   
-**<sup>[2]</sup>** Kritické aktualizace zabezpečení pro tyto platformy jsou k dispozici jako součást tohoto bulletinu zabezpečení a lze je stáhnout z [webu Windows Update](http://go.microsoft.com/fwlink/?linkid=21130).
+**[2]** Kritické aktualizace zabezpečení pro tyto platformy jsou k dispozici jako součást tohoto bulletinu zabezpečení a lze je stáhnout z [webu Windows Update](http://go.microsoft.com/fwlink/?linkid=21130).
   
-**<sup>[3]</sup>** Tento operační systém je touto chybou zabezpečení postižen. Není však postižen kriticky. Pro tento operační systém nejsou obvykle vyvíjeny aktualizace zabezpečení pro nekritické potíže. Další informace o Zásadách společnosti Microsoft pro poskytování technické podpory pro operační systém naleznete na tomto [webu](http://go.microsoft.com/fwlink/?linkid=33327). Další informace získáte v příslušném bulletinu zabezpečení.
+**[3]** Tento operační systém je touto chybou zabezpečení postižen. Není však postižen kriticky. Pro tento operační systém nejsou obvykle vyvíjeny aktualizace zabezpečení pro nekritické potíže. Další informace o Zásadách společnosti Microsoft pro poskytování technické podpory pro operační systém naleznete na tomto [webu](http://go.microsoft.com/fwlink/?linkid=33327). Další informace získáte v příslušném bulletinu zabezpečení.
   
 Instalace  
 ---------
