@@ -41,10 +41,10 @@ Kritický (5)
 <span></span>
 | Identifikátor bulletinu              | Bulletin zabezpečení MS05-019                                                                                                                 |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| **Identifikátor bulletinu              | Bulletin zabezpečení MS05-020**                                                                                                                 |
-| **Identifikátor bulletinu              | Bulletin zabezpečení MS05-021**                                                                                                                 |
-| **Identifikátor bulletinu              | Bulletin zabezpečení MS05-022**                                                                                                                 |
-| **Identifikátor bulletinu              | Bulletin zabezpečení MS05-023**                                                                                                                 |
+| Identifikátor bulletinu              | Bulletin zabezpečení MS05-020                                                                                                                 |
+| Identifikátor bulletinu              | Bulletin zabezpečení MS05-021                                                                                                                 |
+| Identifikátor bulletinu              | Bulletin zabezpečení MS05-022                                                                                                                 |
+| Identifikátor bulletinu              | Bulletin zabezpečení MS05-023                                                                                                                 |
 | **Název bulletinu**                  | [Chyby zabezpečení v protokolu TCP/IP mohou způsobit vzdálené spuštění kódu a odmítnutí služby](http://go.microsoft.com/fwlink/?linkid=42645) |
 | **Základní shrnutí**                 | Systém Windows obsahuje chyby zabezpečení, které mohou umožnit útočníkovi převzít úplnou kontrolu nad postiženým systémem.                    |
 | **Stupeň maximální závažnosti**      | [Kritický](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                      |
@@ -77,8 +77,8 @@ Vysoký (3)
 <span></span>
 | Identifikátor bulletinu            | Bulletin zabezpečení MS05-016                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| **Identifikátor bulletinu            | Bulletin zabezpečení MS05-017**                                                                                                                |
-| **Identifikátor bulletinu            | Bulletin zabezpečení MS05-018 **                                                                                                               |
+| Identifikátor bulletinu            | Bulletin zabezpečení MS05-017                                                                                                                |
+| Identifikátor bulletinu            | Bulletin zabezpečení MS05-018                                                                                                                |
 | **Název bulletinu**                | [Chyba zabezpečení prostředí systému Windows může způsobit vzdálené spuštění kódu](http://go.microsoft.com/fwlink/?linkid=43001)             |
 | **Základní shrnutí**               | Systém Windows obsahuje tuto chybu zabezpečení, která může umožnit útočníkovi převzít úplnou kontrolu nad postiženým systémem.               |
 | **Stupeň maximální závažnosti**    | [Vysoký](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                       |
