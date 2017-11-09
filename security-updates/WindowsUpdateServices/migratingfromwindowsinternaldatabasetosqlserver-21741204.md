@@ -64,14 +64,22 @@ Use the following steps to migrate the WSUS database from a Interní databáze s
 
 5.  Run the following SQL command to detach the WSUS database (SUSDB) from the Interní databáze systému Windows instance, by using the **sqlcmd** utility. For more information about the **sqlcmd** utility, see [sqlcmd Utility](http://go.microsoft.com/fwlink/?linkid=81183) (http://go.microsoft.com/fwlink/?LinkId=81183).
 
-    
-        ```
+    ```
+    sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query
+    use master
+    alter database SUSDB set single_user with rollback immediate
+    go
+    sp_detach_db SUSDB
+    go
+    ```
 6.  In SQL Server Management Studio, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
 
 7.  In this step, you will verify that NT AUTHORITY\\NETWORK SERVICE has login permissions to the instance of SQL Server and to the WSUS database. If it does not, you will have to add it to both locations. This account should also be a member of the webService role on the WSUS database.
 
     -   To verify permissions on the instance of SQL Server, in SQL Server Management Studio, open the instance and select **Security**, and then **Logins**. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a login. If it is not, it should be added.
+
     -   To verify permissions on the database, right-click the database, select **Properties** and then click **Permissions**. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a login. If it is not, it should be added.
+
     -   To verify members of the webService role, under the WSUS database, select Roles, right-click webService, and then select Properties. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a member of this role. If it is not, it should be added.
 
 8.  In the **Attach Databases** box, under **Databases to attach**, locate the susdb.mdf file (by default, this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Interní databáze systému Windows), and then click **OK**.
@@ -79,7 +87,9 @@ Use the following steps to migrate the WSUS database from a Interní databáze s
 9.  In this step, you will edit the registry to both point WSUS to the instance of SQL server that now holds the WSUS database and recognize the new database for future WSUS updates. If you have not already done this, export the keys in the registry that you plan to edit, or back up the whole registry.
 
     1.  Click **Start**, click **Run**, type **regedit**, and then click **OK**.
+
     2.  Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlServerName**, and in the **Value** box, type **\[ServerName\]\\\[InstanceName\]**, and then click **OK**. If the instance name is the default instance, type **\[ServerName\].**
+
     3.  Find the following key: **HKLM\\Software\\Microsoft\\Update Services\\Server\\Setup\\wYukonInstalled**. In the **Value** box, type **0**, and then click **OK**.
 
 10. Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
@@ -137,17 +147,31 @@ Back end server starting configuration:
 1.  On the front end server: Install Microsoft SQL Server 2008 or SQL Server 2005 SP2 with the **Server and Client Tools** option. This step will enable you to use the SQL Server Enterprise Manager on the front end server.
 2.  On the front end server:
     1.  Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
+
     2.  Right-click **IIS Admin Service**, and then click **Stop**.
+
     3.  Right-click **Update Services**, and then click **Stop**.
 3.  On the front end server: Run the following SQL command to detach the WSUS database by using the **sqlcmd** utility. For more information about the **sqlcmd** utility, see [sqlcmd Utility](http://go.microsoft.com/fwlink/?linkid=81183) (http://go.microsoft.com/fwlink/?LinkId=81183).
     
-        ```
+    ```
+    sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query 
+    use master
+    alter database SUSDB set single_user with rollback immediate
+    go
+    sp_detach_db ‘SUSDB’
+    go
+    ```
+
+4. On the front end server: copy the SUSDB.mdf and SUSDB_log.ldf files from the front end server to the back end server.
+
 5.  On the back end server:
     1.  To attach **SUSDB** to the destination instance of SQL server, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
     2.  In the **Attach Databases** box, under **Databases to attach**, locate the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Interní databáze systému Windows), and then click **OK**.
 6.  On the back end server:
     -   To verify permissions on the instance of SQL Server, in SQL Server Management Studio, open the instance ,select **Security**, and then **Logins**. The front end server machine account should be listed as a login. If it is not, it should be added.
+
     -   To verify permissions on the database, right-click the database, select **Properties**, and then click **Permissions**. The front end server machine account should be listed as a login. If the server account is not listed, it should be added.
+
     -   To verify members of the webService role, under the WSUS database, select **Roles**, right-click **webService**, and then select **Properties**. The front end server machine account should be listed as a member of this role. If the server account is not listed, it should be added.
 7.  On the front end server: In this step, you will edit the registry to point WSUS to the destination instance of SQL and to recognize the new database for future WSUS updates. If you have not already done so, export the keys in the registry that you plan to edit, or back up the whole registry.
     1.  Click **Start**, click **Run**, type **regedit**, and then click **OK**.
@@ -179,24 +203,10 @@ Back end server starting configuration:
     3.  Right-click **Update Services**, and then click **Start**.
 9.  On the front end server: Verify that the database migration was successful by opening the WSUS administrative console. (Click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0**).
  
-    <table style="border:1px solid black;">
-    <colgroup>
-    <col width="100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939918.note(WS.10).gif" />Poznámka</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">You might have to restart the front end server in order for these settings to take effect.
-    </td>
-    </tr>
-    </tbody>
-    </table>
- 
-
+    | ![](images/Dd939918.note(WS.10).gif)Poznámka  |
+    |-----------------------------------------------|
+    |You might have to restart the front end server in order for these settings to take effect.|
+    
     For more information about the databases that you can use with WSUS, see the following:
     -   In this guide, see [Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22).
     -   In [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=79983), see "Choose the Database Used for WSUS 3.0."
