@@ -15,7 +15,7 @@ Publikováno: 13. července 2004
 
 **Verze:** 1.0
 
-**Vydáno:** 13. července 2004
+**Vydáno:** 13. července 2004  
 **Číslo verze:** 1.0
 
 Verze tohoto článku pro koncové uživatele je k dispozici na následujícím [webu](http://www.microsoft.com/security/default.mspx).
@@ -427,11 +427,11 @@ V této tabulce zjistíte, které aktualizace zabezpečení bude třeba nainstal
   
 **Poznámky**
   
-**<sup>[1]</sup>** Ve výchozí instalaci není tento operační systém touto chybou ohrožen. Jestliže jsou v něm však nainstalovány další programy nebo součásti, může tuto chybu obsahovat. V tomto konkrétním případě je systém Windows NT4 ohrožen, pokud je v něm nainstalována aplikace Internet Explorer 6 s aktualizací Service Pack 1. Další informace získáte v příslušném bulletinu zabezpečení.
+**\[1\]** Ve výchozí instalaci není tento operační systém touto chybou ohrožen. Jestliže jsou v něm však nainstalovány další programy nebo součásti, může tuto chybu obsahovat. V tomto konkrétním případě je systém Windows NT4 ohrožen, pokud je v něm nainstalována aplikace Internet Explorer 6 s aktualizací Service Pack 1. Další informace získáte v příslušném bulletinu zabezpečení.
   
-**<sup>[2]</sup>** Tento operační systém je touto chybou zabezpečení ohrožen. Není však ohrožen kriticky. Pro tento operační systém nejsou obvykle vyvíjeny aktualizace zabezpečení pro nekritické potíže. Další informace o Zásadách společnosti Microsoft pro poskytování technické podpory pro operační systém naleznete na tomto[webu](http://support.microsoft.com/default.aspx?pr=lifean1). Další informace získáte v příslušném bulletinu zabezpečení.
+**\[2\]** Tento operační systém je touto chybou zabezpečení ohrožen. Není však ohrožen kriticky. Pro tento operační systém nejsou obvykle vyvíjeny aktualizace zabezpečení pro nekritické potíže. Další informace o Zásadách společnosti Microsoft pro poskytování technické podpory pro operační systém naleznete na tomto[webu](http://support.microsoft.com/default.aspx?pr=lifean1). Další informace získáte v příslušném bulletinu zabezpečení.
   
-**<sup>[3]</sup>** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace získáte v tabulce u součásti, která tuto chybu obsahuje (Microsoft Outlook Express), a v příslušném bulletinu zabezpečení.
+**\[3\]** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace získáte v tabulce u součásti, která tuto chybu obsahuje (Microsoft Outlook Express), a v příslušném bulletinu zabezpečení.
   
 **\[4\]** Aktualizace zabezpečení obsažená v tomto bulletinu neřeší žádné chyby zabezpečení této verze aplikace Outlook Express, ale omezuje výchozí nastavení zabezpečení aplikace Outlook Express 5.5 s aktualizací Service Pack 2 a řeší chování aplikace uvedené v bulletinu MS04-013 pro aplikaci Outlook Express 6 s aktualizací SP1 a vyšší, kde vytváří kopii Adresáře systému Windows v předvídatelném umístění s názvem souboru “~”.
   

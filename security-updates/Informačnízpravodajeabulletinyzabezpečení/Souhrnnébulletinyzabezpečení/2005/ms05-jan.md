@@ -15,7 +15,7 @@ Publikováno: 11. ledna 2005
 
 **Verze:** 1.0
 
-**Vydáno:** 11. ledna 2005
+**Vydáno:** 11. ledna 2005  
 **Číslo verze:** 1.0
 
 Verze tohoto článku pro koncové uživatele je k dispozici na následujícím [webu](http://www.microsoft.com/cze/security/).
@@ -209,12 +209,12 @@ V této tabulce zjistíte, které aktualizace zabezpečení bude třeba nainstal
   
 **Poznámky**
   
-**<sup>[1]</sup>** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace naleznete v bulletinu zabezpečení určeném pro aplikaci Microsoft Internet Explorer 6 Service Pack 1.
+**[1]** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace naleznete v bulletinu zabezpečení určeném pro aplikaci Microsoft Internet Explorer 6 Service Pack 1.
   
-**<sup>[2]</sup>** Kritické aktualizace zabezpečení pro tyto platformy jsou k dispozici jako součást tohoto bulletinu zabezpečení a lze je stáhnout z [webu Windows Update](http://go.microsoft.com/fwlink/?linkid=21130).  
+**[2]** Kritické aktualizace zabezpečení pro tyto platformy jsou k dispozici jako součást tohoto bulletinu zabezpečení a lze je stáhnout z [webu Windows Update](http://go.microsoft.com/fwlink/?linkid=21130).  
 **Poznámka:** Aktualizace pro slovinskou, slovenskou a thajskou verzi systému Microsoft Windows 98 a Microsoft Windows 98 Druhé vydání, které nejsou systémem Windows Update podporovány. Aktualizace jsou k dispozici ke stažení v následujícím [umístění](http://www.microsoft.com/downloads/details.aspx?familyid=89f5412e-b7a6-4346-b7b6-5ae7095ac6bf).
   
-**<sup>[3]</sup>** Kritické aktualizace zabezpečení pro tyto platformy nebudou k dispozici souběžně s jinými aktualizacemi zabezpečení obsaženými v tomto bulletinu zabezpečení. Budou dány k dispozici co nejdříve po vydání. Po vydání těchto aktualizací zabezpečení je bude možné stáhnout pouze z webu [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130).
+**[3]** Kritické aktualizace zabezpečení pro tyto platformy nebudou k dispozici souběžně s jinými aktualizacemi zabezpečení obsaženými v tomto bulletinu zabezpečení. Budou dány k dispozici co nejdříve po vydání. Po vydání těchto aktualizací zabezpečení je bude možné stáhnout pouze z webu [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130).
   
 Instalace  
 ---------

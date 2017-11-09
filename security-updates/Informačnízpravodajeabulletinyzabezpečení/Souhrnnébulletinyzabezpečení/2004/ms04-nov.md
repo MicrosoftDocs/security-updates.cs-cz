@@ -15,7 +15,7 @@ Publikováno: 9. listopadu 2004
 
 **Verze:** 1.0
 
-**Vydáno:** 9. listopadu 2004
+**Vydáno:** 9. listopadu 2004  
 **Číslo verze:** 1.0
 
 Verze tohoto článku pro koncové uživatele je k dispozici na následujícím [webu](http://www.microsoft.com/security/default.mspx).

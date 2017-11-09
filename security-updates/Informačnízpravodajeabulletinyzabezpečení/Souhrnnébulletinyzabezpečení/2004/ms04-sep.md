@@ -15,7 +15,7 @@ Publikováno: 14. září 2004
 
 **Verze:** 1.0
 
-**Vydáno:** 14. září 2004
+**Vydáno:** 14. září 2004  
 **Číslo verze:** 1.0
 
 Verze tohoto článku pro koncové uživatele je [k dispozici na následujícím](http://go.microsoft.com/fwlink/?linkid=34583) webu.
@@ -225,17 +225,17 @@ Bulletin zabezpečení **MS04-028** například obsahuje několik aktualizací z
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft .NET Framework, version 1.0</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Kritický</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Kritický</a> <strong>[2]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Microsoft .NET Framework, verze 1.1</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Kritický</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Kritický</a> <strong>[2]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Internet Explorer 6 s aktualizací Service Pack 1</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Kritický</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Kritický</a> <strong>[2]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"></td>
@@ -311,57 +311,57 @@ Bulletin zabezpečení **MS04-028** například obsahuje několik aktualizací z
 <tr class="even">
 <td style="border:1px solid black;">Visual Studio 2003 .NET</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Visual Basic .NET Standard 2003</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Visual C# .NET Standard 2003</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Visual C++ .NET Standard 2003</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Visual J# .NET Standard 2003</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Visual Studio 2002 .NET</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Visual Basic .NET Standard 2002</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Visual C# .NET Standard 2002</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Visual C++ .NET Standard 2002</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Microsoft.NET Framework, verze 1.0 SDK</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Platform SDK Redistributable:</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[3]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[3]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"></td>
@@ -376,53 +376,53 @@ Bulletin zabezpečení **MS04-028** například obsahuje několik aktualizací z
 <tr class="odd">
 <td style="border:1px solid black;">Picture It!® 2002 (všechny verze)</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[2]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Greetings 2002</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[2]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Picture It!, verze 7.0 (všechny verze)</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[2]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Digital Image Pro, verze 7.0</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[2]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Picture It!, verze 9 (všechny verze, včetně knihovny Picture It! ® Library)</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[2]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Digital Image Pro, verze 9</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[2]</strong></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Digital Image Suite, verze 9</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[2]</strong></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Producer for Microsoft Office PowerPoint (všechny verze)</td>
 <td style="border:1px solid black;"></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a><strong>[2]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7f1713fc-f95c-43e5-b825-3cf72c1a0a3e&amp;displaylang=en">Vysoký</a> <strong>[2]</strong></td>
 </tr>
 </tbody>
 </table>
   
 **Poznámky**
   
-**<sup>[1]</sup>** Ve výchozím nastavení není tento operační systém touto chybou zabezpečení ohrožen. K jeho ohrožení by však mohlo dojít v případě instalace dalších softwarových programů nebo součástí. Další informace získáte v příslušném bulletinu zabezpečení.
+**\[1\]</sup>** Ve výchozím nastavení není tento operační systém touto chybou zabezpečení ohrožen. K jeho ohrožení by však mohlo dojít v případě instalace dalších softwarových programů nebo součástí. Další informace získáte v příslušném bulletinu zabezpečení.
   
-**<sup>[2]</sup>** Tato aktualizace není nutná, jestliže používáte systém Windows XP nebo Windows Server 2003. Další informace získáte v příslušném [bulletinu zabezpečení](http://technet.microsoft.com/security/bulletin/ms04-028).
+**\[2\]</sup>** Tato aktualizace není nutná, jestliže používáte systém Windows XP nebo Windows Server 2003. Další informace získáte v příslušném [bulletinu zabezpečení](http://technet.microsoft.com/security/bulletin/ms04-028).
   
-**<sup>[3]</sup>** Tato aktualizace není nutná, jestliže používáte systémy Windows XP nebo Windows Server 2003 za předpokladu, že nevyvíjíte aplikace opětovně distribuující soubor Gdiplus.dll pomocí následujících produktů: .NET Framework, verze 1.0 SDK, Visual Studio nebo Platform SDK Redistributable: GDI+. Další informace získáte v příslušném [bulletinu zabezpečení](http://technet.microsoft.com/security/bulletin/ms04-028).
+**\[3\]</sup>** Tato aktualizace není nutná, jestliže používáte systémy Windows XP nebo Windows Server 2003 za předpokladu, že nevyvíjíte aplikace opětovně distribuující soubor Gdiplus.dll pomocí následujících produktů: .NET Framework, verze 1.0 SDK, Visual Studio nebo Platform SDK Redistributable: GDI+. Další informace získáte v příslušném [bulletinu zabezpečení](http://technet.microsoft.com/security/bulletin/ms04-028).
   
 Instalace  
 ---------
