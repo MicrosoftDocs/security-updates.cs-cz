@@ -15,7 +15,7 @@ Publikováno: 8. června 2004
 
 **Verze:** 1.0
 
-**Vydáno:** 8. června 2004
+**Vydáno:** 8. června 2004  
 **Číslo verze:** 1.0
 
 Verze tohoto informačního zpravodaje pro koncové uživatele je k dispozici na následujícím webu.
