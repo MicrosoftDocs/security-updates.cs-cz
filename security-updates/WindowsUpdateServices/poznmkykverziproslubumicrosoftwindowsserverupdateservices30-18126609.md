@@ -25,9 +25,8 @@ Tento dokument poznámek k verzi popisuje známé problémy spojené se službou
 -   Služba WSUS 3.0 v systému Windows Server® 2008
 -   Služba WSUS 3.0 na serveru Windows Small Business Server 2003
 
-| ![](images/Cc708491.note(WS.10).gif)Poznámka                                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kopie tohoto dokumentu je k dispozici ke stažení na webu služby [Stažení softwaru](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). |
+> [!NOTE]
+> Kopie tohoto dokumentu je k dispozici ke stažení na webu služby [Stažení softwaru](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). 
 
 Důležité problémy týkající se konfigurace: Je třeba přepsat heslo proxy serveru v průvodci konfigurací.
 -------------------------------------------------------------------------------------------------------
@@ -82,9 +81,8 @@ Před provedením úspěšné instalace služby WSUS 3.0 bude možná nutné zak
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Toto řešení může způsobit, že bude počítač nebo síť náchylnější k útokům ze strany uživatele se zlými úmysly nebo škodlivého softwaru, jako jsou například viry. Společnost Microsoft toto řešení nedoporučuje, ale poskytuje tuto informaci, aby mohlo být toto řešení použito podle vlastního uvážení. Používejte toto řešení pouze na vlastní riziko. |
 
-| ![](images/Cc708491.note(WS.10).gif)Poznámka                                                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Antivirový program je navržen k ochraně počítače před viry. Pokud je antivirový program zakázaný, nesmějí být stahovány ani otvírány soubory pocházející ze zdrojů, kterým nedůvěřujete, nesmí být navštěvovány weby, kterým nedůvěřujete, a ani otevírány přílohy e-mailu. |
+> [!NOTE]
+> Antivirový program je navržen k ochraně počítače před viry. Pokud je antivirový program zakázaný, nesmějí být stahovány ani otvírány soubory pocházející ze zdrojů, kterým nedůvěřujete, nesmí být navštěvovány weby, kterým nedůvěřujete, a ani otevírány přílohy e-mailu. 
 
 #### Služba WSUS 3.0 vyžaduje, aby na serveru SQL Server byla zapnutá možnost vnořených aktivačních událostí.
 

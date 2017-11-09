@@ -16,9 +16,8 @@ Grant users permissions for WSUS console access
 
 If users do not have appropriate permissions for the WSUS console, they receive an "access denied" message when trying to access the WSUS console. You must be a member of the Administrators group or the WSUS Administrators group on the server on which WSUS is installed in order to use the WSUS console.
 
-| ![](images/Cc720470.note(WS.10).gif)Poznámka                                              |
-|------------------------------------------------------------------------------------------------------------------------|
-| If WSUS is installed on a domain controller, only a member of the Domain Administrator group can use the WSUS console. |
+> [!NOTE]
+> If WSUS is installed on a domain controller, only a member of the Domain Administrator group can use the WSUS console. 
 
 **To add a user to the WSUS Administrators group**
 1.  On the WSUS server, click **Start**, click **Administrative Tools**, and then click **Computer Management**.
@@ -93,7 +92,7 @@ This occurs if IIS 6.0 and ASP.NET are installed on the server before the server
 
 3.  At the command prompt, type the following, and then press ENTER:
 
-    *drive:***\\windows\\microsoft .net\\framework\\v1.1.4322\\aspnet\_regiis -i**
+    *drive:* **\\windows\\microsoft .net\\framework\\v1.1.4322\\aspnet\_regiis -i**
 
     where *drive* is the drive letter of the disk on which you installed Windows.
 

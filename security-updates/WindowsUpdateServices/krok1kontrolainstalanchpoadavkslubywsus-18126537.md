@@ -28,9 +28,8 @@ Chcete-li instalovat službu WSUS s výchozími možnostmi, musíte mít v poč�
     Další možností je přejít na web http://www.windowsupdate.com a vyhledat důležité aktualizace a aktualizace Service Pack a potom nainstalovat aktualizaci Microsoft .NET Framework 1.1 Service Pack 1 pro Windows Server 2003.
 -   Služba inteligentního přenosu na pozadí (BITS) 2.0: Služba BITS 2.0 pro Windows Server 2003 v současné době není na serveru Download Center k dispozici. Chcete-li získat tento software, přejděte na [web společnosti Microsoft](http://go.microsoft.com/fwlink/?linkid=47357) Windows Server Update Services Open Evaluation na adrese http://go.microsoft.com/fwlink/?LinkId=47357.
 
-| ![](images/Cc720547.note(WS.10).gif)Poznámka                                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ačkoli je k instalaci služby WSUS požadován databázový software, není zde uveden, protože výchozí instalace služby WSUS na serveru Windows 2003 zahrnuje databázový software Windows SQL Server™ 2000 Desktop Engine (WMSDE). |
+> [!NOTE]
+> Ačkoli je k instalaci služby WSUS požadován databázový software, není zde uveden, protože výchozí instalace služby WSUS na serveru Windows 2003 zahrnuje databázový software Windows SQL Server™ 2000 Desktop Engine (WMSDE). 
 
 Požadavky a doporučení týkající se disku
 ----------------------------------------

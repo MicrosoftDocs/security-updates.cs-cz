@@ -15,5 +15,9 @@ The [WsusDBMaintenance](http://go.microsoft.com/fwlink/?linkid=87027) script (ht
 
 If you are using Interní databáze systému Windows, you will need to use the **sqlcmd** utility. For more information about the **sqlcmd** utility, see [sqlcmd Utility](http://go.microsoft.com/fwlink/?linkid=81183) (http://go.microsoft.com/fwlink/?LinkId=81183).
 
-        ```
+To use this script with Interní databáze systému Windows, you should run the following command:
+
+`sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query –i <scriptLocation>\WsusDBMaintenance.sql`
+
+
 where *&lt;scriptLocation&gt;* is the directory where you have copied the WsusDBMaintenance script.
