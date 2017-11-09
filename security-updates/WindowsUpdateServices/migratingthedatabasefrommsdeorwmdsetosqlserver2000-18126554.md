@@ -96,6 +96,7 @@ This procedure migrates the WSUS database to a SQL Server 2000 instance running 
 11. In this step you will verify that the database migration has been successful by opening the WSUS console by using Internet Explorer.
 
     -   In Internet Explorer, in the **Address** box, type **http://\[ServerName\]/WSUSAdmin**.
+
         | ![](images/Cc708529.note(WS.10).gif)Poznámka |
         |---------------------------------------------------------------------------|
         | You might have to restart the server for these settings to take effect.   |
@@ -315,7 +316,7 @@ Viz také
 
 ####  
 
-[Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22)
+[Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22)  
 [Deploying Microsoft Windows Server Update Services 2.0](https://technet.microsoft.com/ace052df-74e7-4d6a-b5d4-f7911bb06b40)
 #### Další zdroje
 

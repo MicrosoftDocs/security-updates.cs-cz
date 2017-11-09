@@ -17,9 +17,6 @@ U následujících postupů se předpokládá, že ve vaší síti je spuštěna
 
 Další informace o zásadách skupiny naleznete na webu Group Policy Tech Center [http://go.microsoft.com/fwlink/?LinkID=47375](http://go.microsoft.com/fwlink/?linkid=47375) (tato stránka může být v angličtině).
 
- 
--
-
 Krok 5 – postupy
 ----------------
 
@@ -53,22 +50,8 @@ První dva postupy budou provedeny na vámi zvoleném objektu GPO založeném na
 2.  Klikněte na přepínač **Povoleno** a zadejte adresu HTTP URL stejného serveru WSUS do pole **Nastavení intranetového serveru pro zjišťování aktualizací** a do pole **Nastavení intranetového serveru pro statistiku**. Do obou polí zadejte například *http://název\_serveru* a potom klikněte na tlačítko **OK**.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Poznámka</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Používáte-li místní objekt zásad skupiny ke směrování počítače na server WSUS, projeví se toto nastavení ihned a tento počítač po krátké době zobrazí v konzole pro správu služby WSUS. Tento proces je možné zrychlit ručním spuštěním cyklu rozpoznávání.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Používáte-li místní objekt zásad skupiny ke směrování počítače na server WSUS, projeví se toto nastavení ihned a tento počítač po krátké době zobrazí v konzole pro správu služby WSUS. Tento proces je možné zrychlit ručním spuštěním cyklu rozpoznávání.
  
 
 Poté, co klientský počítač nastavíte, bude trvat několik minut, než se zobrazí na stránce **Počítače** v konzole pro správu služby WSUS. V případě klientských počítačů konfigurovaných pomocí objektu zásad skupiny založeného na doméně bude aktualizace zásad skupiny (tedy použití jakýchkoli nových nastavení zásad v klientském počítači) trvat asi 20 minut. Při výchozím nastavení se zásady skupiny aktualizují na pozadí každých 90 minut s náhodným posunem od 0 do 30 minut. Pokud chcete aktualizovat zásady skupiny dříve, můžete v klientském počítači přejít do příkazového řádku a zadat příkaz **gpupdate /force**.
