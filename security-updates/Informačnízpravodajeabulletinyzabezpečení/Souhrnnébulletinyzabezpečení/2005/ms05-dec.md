@@ -220,11 +220,11 @@ V této tabulce zjistíte, které aktualizace zabezpečení bude třeba nainsta
   
 **Poznámky**
   
-**<sup>[1]</sup>**Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace získáte v tabulce u postižené součásti (Microsoft Internet Explorer) a v příslušném bulletinu zabezpečení.
+**[1]** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace získáte v tabulce u postižené součásti (Microsoft Internet Explorer) a v příslušném bulletinu zabezpečení.
   
-**<sup>[2]</sup>** Ve výchozím nastavení není tento operační systém touto chybou postižen. Jestliže jsou v něm však nainstalovány další programy nebo součásti, může tuto chybu obsahovat. Další informace získáte v příslušném bulletinu zabezpečení.
+**[2]** Ve výchozím nastavení není tento operační systém touto chybou postižen. Jestliže jsou v něm však nainstalovány další programy nebo součásti, může tuto chybu obsahovat. Další informace získáte v příslušném bulletinu zabezpečení.
   
-**<sup>[3]</sup>** Aktualizace zabezpečení systémů Microsoft Windows Server 2003 Service Pack 1 a Microsoft Windows Server 2003 x64 Edition lze použít také v systému Microsoft Windows Server 2003 R2.
+**[3]** Aktualizace zabezpečení systémů Microsoft Windows Server 2003 Service Pack 1 a Microsoft Windows Server 2003 x64 Edition lze použít také v systému Microsoft Windows Server 2003 R2.
   
 Instalace  
 ---------
