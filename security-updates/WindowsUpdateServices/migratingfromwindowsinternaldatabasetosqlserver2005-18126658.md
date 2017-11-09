@@ -39,7 +39,16 @@ Use the following steps to migrate the WSUS database from a Interní databáze s
     -   Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
     -   Right-click **IIS Admin Service**, and then click **Stop**.
     -   Right-click **Update Services**, and then click **Stop**.
-        ```
+3.  Detach the WSUS database (SUSDB) from the Interní databáze systému Windows instance. You will need to use the sqlcmd utility, which can be downloaded from [Feature Pack for Microsoft SQL Server 2005](http://go.microsoft.com/fwlink/?LinkId=70728) (http://go.microsoft.com/fwlink/?LinkId=70728). For more information about the sqlcmd utility, see [sqlcmd Utility](http://go.microsoft.com/fwlink/?LinkId=81183) (http://go.microsoft.com/fwlink/?LinkId=81183).
+```
+sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query
+use master
+alter database SUSDB set single_user with rollback immediate
+go
+sp_detach_db SUSDB
+go
+```
+
 1.  Attach **SUSDB** to the destination SQL instance.
     -   In SQL Server Management Studio, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
     -   In the **Attach Databases** box, under **Databases to attach**, browse to the location of the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Interní databáze systému Windows), and then click **OK**.
@@ -89,7 +98,16 @@ This step will enable you to use the SQL Server Enterprise Manager on FE.
 -   Right-click **IIS Admin Service**, and then click **Stop**.
 -   Right-click **Update Services**, and then click **Stop**.
 
-        ```
+### Step 3 [on FE]: Detach the WSUS database.
+
+```
+    sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query 
+    use master
+    alter database SUSDB set single_user with rollback immediate
+    go
+    sp_detach_db ‘SUSDB’
+    go
+```
 
 #### Step 4: Copy the SUSDB.mdf and SUSDB\_log.ldf files from FE to BE.
 
