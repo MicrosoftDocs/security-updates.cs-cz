@@ -56,7 +56,15 @@ After installing IIS 7.0 on Windows Server 2008, you will need to update the II
 
 3. In the `<system.webServer><modules>` tag, add `<remove name="CustomErrorModule">`.
 
-        ```
+The resulting tag should look like this:
+
+```
+     <system.webServer>
+<modules>
+<remove name="CustomErrorModule">
+</modules>
+</system.webServer>
+```
 
 Client self-update
 ------------------

@@ -11,10 +11,10 @@ Step 3: Copying Metadata from the Database
 
 Export update metadata from the database on the exporting server and import it into the database on the importing server using the WSUSUtil.exe utility program. For more information about this utility, see the WSUS Operations Guide at [http://go.microsoft.com/fwlink/?LinkId=139838](http://go.microsoft.com/fwlink/?linkid=139838).
 
- 
+
 > [!NOTE]
 > You must be a member of the local Administrators group on the WSUS server to export or import metadata; both operations can be run only on a WSUS server.
- 
+
 
 You should copy updates to a directory on the importing server before you import metadata. If WSUS finds metadata for an update that is not in the file system, the WSUS console shows that the update failed to be downloaded. This type of problem can be fixed by copying the update to a directory on the importing server and then deploying the update again.
 
@@ -37,12 +37,10 @@ Although you can use incremental backups to move update files to the importing s
 </tr>
 </tbody>
 </table>
- 
 
- 
+
 > [!NOTE]
 > During the import or export process, the Update Service, the Windows NT service that underpins the WSUS application, is shut down.
- 
 
 **To export metadata from the database of the exporting server**
 1.  At the command prompt on the exporting server, navigate to the folder that contains WSUSutil.exe (usually …\\Program Files\\Update Services\\Tools).
@@ -71,7 +69,6 @@ Although you can use incremental backups to move update files to the importing s
     **wsusutil.exe import export.cab import.log**
 
     WSUSutil.exe imports the metadata from the exporting server and creates a log file of the operation.
-
  
 > [!NOTE]
 > It can take 3–4 hours for the database to validate content that has just been imported.

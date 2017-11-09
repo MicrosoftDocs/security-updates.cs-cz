@@ -27,7 +27,7 @@ Using the Reports Page
 
 You can generate three kinds of reports as described in the following table.
 
-###  
+
 
  
 <table style="border:1px solid black;">
@@ -213,12 +213,12 @@ The report has four components, which are described in the following table.
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">New Updates</td>
-<td style="border:1px solid black;">Displays the new updates that have been synchronized to the WSUS server during the report's time period.
+<td style="border:1px solid black;">Displays the new updates that have been synchronized to the WSUS server during the report's time period.<br/><br/>
 You can view the properties for each update by clicking the update. An update status report will be generated for that individual report.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Revised Updates</td>
-<td style="border:1px solid black;">Displays the revised updates that have been synchronized to the WSUS server during the report's time period.
+<td style="border:1px solid black;">Displays the revised updates that have been synchronized to the WSUS server during the report's time period.<br/><br/>
 You can view the properties for each update by clicking the update. An update status report will be generated for that individual report.</td>
 </tr>
 <tr class="odd">
@@ -242,22 +242,9 @@ You can print the report in update summary, detailed, or tabular views, dependin
 You can print a report in its original format, or you can export it to Microsoft Excel or PDF formats.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939891.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Exporting a large report can be extremely time-consuming and may exceed your computer's memory resources. If you are planning to export a report, consider limiting the size of the report to 200 pages or fewer. You can use different filters to reduce the size of the report, or you can choose the tabular format rather than the detailed format to reduce the number of pages to export.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Exporting a large report can be extremely time-consuming and may exceed your computer's memory resources. If you are planning to export a report, consider limiting the size of the report to 200 pages or fewer. You can use different filters to reduce the size of the report, or you can choose the tabular format rather than the detailed format to reduce the number of pages to export.
+
  
 
 **To export a report to Excel or PDF format**
