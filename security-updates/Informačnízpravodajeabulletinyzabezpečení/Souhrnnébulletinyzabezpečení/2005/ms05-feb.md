@@ -15,7 +15,7 @@ Publikováno: 8. února 2005
 
 **Verze:** 1.0
 
-**Vydáno:** 8. února 2005
+**Vydáno:** 8. února 2005  
 **Číslo verze:** 1.0
 
 Verze tohoto článku pro koncové uživatele je k dispozici na následujícím [webu](http://www.microsoft.com/security/default.mspx).
@@ -618,7 +618,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;"><strong>Stupeň maximální závažnosti</strong></td>
 <td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritický</strong></a></td>
 <td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritický</strong></a></td>
-<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritický</strong></a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritický</strong></a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritický</strong></a></td>
 <td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritický</strong></a></td>
 <td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140"><strong>Kritický</strong></a></td>
@@ -636,7 +636,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;">Windows Server™ 2003</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=06eaf8e3-ccb7-482b-8b68-340521150113">Mírný</a></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1b703115-54c0-445c-b5ce-e9a53c45b36a">Kritický</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=83b97ece-0010-443e-9353-82ffcaf73771">Vysoký</a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=83b97ece-0010-443e-9353-82ffcaf73771">Vysoký</a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e99f5bdd-8ea8-4837-960e-0d20dea9ac4d">Mírný</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=68c55e18-3a3f-455b-a6c3-bb87b33cfd8e">Kritický</a></td>
@@ -645,7 +645,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;">Windows Server 2003 64-Bit Edition</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ec25ec00-9c08-4555-94c7-21d5a521fdb6">Mírný</a></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8da45dd0-882e-417c-a7f2-4aabad675129">Kritický</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a2c9e842-551c-458e-bf19-1c2ba9f21a06">Vysoký</a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a2c9e842-551c-458e-bf19-1c2ba9f21a06">Vysoký</a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2ce98263-2ab4-4fe3-8b0b-5b3155119730">Mírný</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=558ab19e-a5a3-44a6-99a3-f0d9e7c1f714">Kritický</a></td>
@@ -654,7 +654,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;">Windows XP Service Pack 1</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6df9b2d9-b86e-4924-b677-978ec6b81b54">Kritický</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a0e59d77-8ac1-4ac0-9572-a7e1c2e4a66a">Vysoký</a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a0e59d77-8ac1-4ac0-9572-a7e1c2e4a66a">Vysoký</a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9490e7d2-03c2-463a-b3d0-b949f5295208">Kritický</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6005c5a3-aff2-4765-b26f-be47ed408e0b">Kritický</a></td>
@@ -663,7 +663,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;">Windows XP Service Pack 2</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6df9b2d9-b86e-4924-b677-978ec6b81b54">Kritický</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a0e59d77-8ac1-4ac0-9572-a7e1c2e4a66a">Vysoký</a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a0e59d77-8ac1-4ac0-9572-a7e1c2e4a66a">Vysoký</a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9490e7d2-03c2-463a-b3d0-b949f5295208">Vysoký</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6005c5a3-aff2-4765-b26f-be47ed408e0b">Kritický</a></td>
@@ -672,7 +672,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;">Windows XP 64-Bit Edition Service Pack 1</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e5043926-0b79-489b-8ea1-85512828c6f4">Kritický</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f80eabc3-6d39-4532-9178-7967626977ee">Vysoký</a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f80eabc3-6d39-4532-9178-7967626977ee">Vysoký</a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9e0247b8-240e-416c-9586-acd5ef8578de">Kritický</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=84712902-1c6b-4402-9959-7a51ee319d7f">Kritický</a></td>
@@ -681,7 +681,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;">Windows XP 64-Bit Edition Version 2003</td>
 <td style="border:1px solid black;"></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=8da45dd0-882e-417c-a7f2-4aabad675129">Kritický</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a2c9e842-551c-458e-bf19-1c2ba9f21a06">Vysoký</a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a2c9e842-551c-458e-bf19-1c2ba9f21a06">Vysoký</a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=2ce98263-2ab4-4fe3-8b0b-5b3155119730">Mírný</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=558ab19e-a5a3-44a6-99a3-f0d9e7c1f714">Kritický</a></td>
@@ -690,7 +690,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;">Windows 2000 Service Pack 3</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e9983aa2-2cec-4b62-80d6-8e966a83a5d1">Kritický</a></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=656bdda5-672b-4a6b-b192-24a2171c7355">Kritický</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=84b4f65e-39d5-4521-b692-051f76f2492e">Vysoký</a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=84b4f65e-39d5-4521-b692-051f76f2492e">Vysoký</a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=aea07cba-0e2b-4a22-91ed-1d23bb012c04">Kritický</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9dc37971-9268-4ced-85a3-2cf487eae378">Kritický</a></td>
@@ -699,7 +699,7 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
 <td style="border:1px solid black;">Microsoft Windows 2000 Service Pack 4</td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e9983aa2-2cec-4b62-80d6-8e966a83a5d1">Vysoký</a></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=656bdda5-672b-4a6b-b192-24a2171c7355">Kritický</a></td>
-<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=84b4f65e-39d5-4521-b692-051f76f2492e">Vysoký</a><strong>[6]</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=84b4f65e-39d5-4521-b692-051f76f2492e">Vysoký</a> <strong>[6]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=aea07cba-0e2b-4a22-91ed-1d23bb012c04">Kritický</a></td>
 <td style="border:1px solid black;"><strong>[1]</strong></td>
 <td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9dc37971-9268-4ced-85a3-2cf487eae378">Kritický</a></td>
@@ -844,11 +844,11 @@ Například bulletin zabezpečení **MS05-009** nabízí několik aktualizací z
   
 **Poznámky**
   
-**<sup>[1]</sup>** Ve výchozím nastavení není tento operační systém touto chybou ohrožen. Jestliže jsou v něm však nainstalovány další programy nebo součásti, může tuto chybu obsahovat. Další informace získáte v příslušném bulletinu zabezpečení.
+**\[1\]** Ve výchozím nastavení není tento operační systém touto chybou ohrožen. Jestliže jsou v něm však nainstalovány další programy nebo součásti, může tuto chybu obsahovat. Další informace získáte v příslušném bulletinu zabezpečení.
   
-**<sup>[2]</sup>** Tento operační systém je touto chybou zabezpečení ohrožen. Není však ohrožen kriticky. Pro tento operační systém nejsou obvykle vyvíjeny aktualizace zabezpečení pro nekritické potíže. Další informace o Zásadách společnosti Microsoft pro poskytování technické podpory pro tento operační systém naleznete na tomto [webu](http://go.microsoft.com/fwlink/?linkid=33327). Další informace získáte v příslušném bulletinu zabezpečení.
+**\[2\]** Tento operační systém je touto chybou zabezpečení ohrožen. Není však ohrožen kriticky. Pro tento operační systém nejsou obvykle vyvíjeny aktualizace zabezpečení pro nekritické potíže. Další informace o Zásadách společnosti Microsoft pro poskytování technické podpory pro tento operační systém naleznete na tomto [webu](http://go.microsoft.com/fwlink/?linkid=33327). Další informace získáte v příslušném bulletinu zabezpečení.
   
-**<sup>[3]</sup>** Služba MSN Messenger 6.1 a 6.2 je ohrožena, když je spuštěna v tomto operačním systému. Viz informace pro službu MSN Messenger v části Další software společnosti Microsoft obsahující tuto chybu.
+**\[3\]** Služba MSN Messenger 6.1 a 6.2 je ohrožena, když je spuštěna v tomto operačním systému. Viz informace pro službu MSN Messenger v části Další software společnosti Microsoft obsahující tuto chybu.
   
 **\[4\]** Aplikace Windows Media Player 9 Series je ohrožena, když je spuštěna v tomto operačním systému. Viz informace pro aplikaci Windows Media Player 9 Series v části Součásti systému Windows obsahující tuto chybu.
   
