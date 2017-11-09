@@ -15,8 +15,8 @@ Publikováno: 1. prosince 2004 | Aktualizováno: 14. prosince 2004
 
 **Verze:** 2.0
 
-**Vydáno:** 1. prosince 2004
-**Aktualizace:** 14. prosince 2004
+**Vydáno:** 1. prosince 2004  
+**Aktualizace:** 14. prosince 2004  
 **Číslo verze:** 2.0
 
 Verze tohoto článku pro koncové uživatele je k dispozici na následujícím [webu](http://www.microsoft.com/security/default.mspx).
@@ -39,7 +39,6 @@ Součástí tohoto informačního zpravodaje jsou opravy nově zjištěných chy
 Kritický (1)
 ------------
 
-<span></span>
 
 | Identifikátor bulletinu            | Bulletin zabezpečení společnosti MS04-040                                                                                                  |
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +51,6 @@ Kritický (1)
 Vysoký (5)
 ----------
 
-<span></span>
 
 | Identifikátor bulletinu            | Bulletin zabezpečení společnosti Microsoft MS04-041                                                                                                                                                                                                                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -89,7 +87,6 @@ Vysoký (5)
 Software obsahující tuto chybu a umístění aktualizací ke stažení
 ----------------------------------------------------------------
 
-<span></span>
 **Jak pracovat s touto tabulkou**
 
 V této tabulce zjistíte, které aktualizace zabezpečení bude třeba nainstalovat. Přečtěte si seznam všech programů a součástí a zjistěte, zda jsou u nich uvedeny aktualizace zabezpečení. Pokud se program nebo součást v seznamu nachází, je u nich uveden dopad chyby zabezpečení s odkazem na příslušnou aktualizaci.
@@ -100,6 +97,7 @@ V této tabulce zjistíte, které aktualizace zabezpečení bude třeba nainstal
 
 **Software obsahující tuto chybu a umístění aktualizací ke stažení**
 
+<p> </p>
 <table style="width:100%;">
 <colgroup>
 <col width="14%" />
@@ -307,16 +305,15 @@ V této tabulce zjistíte, které aktualizace zabezpečení bude třeba nainstal
   
 **Poznámky:**
   
-**<sup>[1]</sup>** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace získáte v tabulce u součásti, která tuto chybu obsahuje (Microsoft Internet Explorer), a v příslušném bulletinu zabezpečení.
+**[1]** Pro tento operační systém je k dispozici aktualizace zabezpečení. Další informace získáte v tabulce u součásti, která tuto chybu obsahuje (Microsoft Internet Explorer), a v příslušném bulletinu zabezpečení.
   
-**<sup>[2]</sup>** Tato aktualizace je určena pro systémy používající aplikaci Internet Explorer 6 Service Pack 1 v systému Microsoft Windows 2000 Service Pack 3, Microsoft Windows 2000 Service Pack 4, Microsoft Windows XP a Microsoft Windows XP Service Pack 1.  
+**[2]** Tato aktualizace je určena pro systémy používající aplikaci Internet Explorer 6 Service Pack 1 v systému Microsoft Windows 2000 Service Pack 3, Microsoft Windows 2000 Service Pack 4, Microsoft Windows XP a Microsoft Windows XP Service Pack 1.  
 Odpovídající důležitá aktualizace zabezpečení pro aplikaci Internet Explorer 6 Service Pack 1 v systémech Microsoft Windows NT Server 4.0 Service Pack 6a, Microsoft Windows NT Server 4.0 Terminal Service Edition Service Pack 6, Microsoft Windows 98, Microsoft Windows 98 SE a Microsoft Windows ME lze získat v následujícím [umístění ke stažení](http://www.microsoft.com/downloads/details.aspx?familyid=96de6c13-4f67-4581-8f51-2c8a90e11c57).  
 Tato aktualizace nemusí obsahovat opravy hotfix, které byly vydány od vydání aktualizace [MS04-004](http://go.microsoft.com/fwlink/?linkid=22189) nebo [MS04-038](http://technet.microsoft.com/security/bulletin/ms04-038). Zákazníci, kteří obdrželi opravy hotfix od společnosti Microsoft nebo od svých poskytovatelů technické podpory od doby, kdy byla zveřejněna aktualizace [MS04-004](http://go.microsoft.com/fwlink/?linkid=22189) nebo [MS04-038](http://technet.microsoft.com/security/bulletin/ms04-038), by neměli tuto aktualizaci instalovat. Místo toho by měli nainstalovat aktualizaci [889669](http://support.microsoft.com/kb/889669).
   
 Instalace  
 ---------
-  
-<span></span>
+
 **Služba Software Update Services:**
   
 Pomocí služby Microsoft Software Update Services (SUS) mohou správci systémů rychle a spolehlivě instalovat nejnovější důležité aktualizace zabezpečení pro servery se systémem Windows 2000 a Windows Server 2003 i pro stolní počítače se systémem Windows 2000 Professional nebo Windows XP Professional.
