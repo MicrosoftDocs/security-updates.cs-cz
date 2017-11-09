@@ -227,9 +227,8 @@ You can print the report in update summary, computer group, or computer view, de
 
 2.  Under **Tasks**, click **Print report**.
 
-| ![](images/Cc708481.note(WS.10).gif)Poznámka                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------|
-| You cannot use the **Print report** task to print a dialog box, and the **Print report** task is not enabled if a dialog box is open. |
+> [!NOTE]
+> You cannot use the **Print report** task to print a dialog box, and the **Print report** task is not enabled if a dialog box is open. 
 
 #### Status of Computers Report
 

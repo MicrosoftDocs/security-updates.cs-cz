@@ -51,9 +51,8 @@ V případě, že chcete zobrazit nastavení zásad pro správu služby WSUS, je
 
 4.  Klepněte na tlačítko **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Poznámka                                                                                                      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nastavení **Povolit místnímu správci změnit nastavení** se zobrazí pouze tehdy, pokud je funkce automatických aktualizací aktualizována na verzi kompatibilní se službou WSUS. |
+> [!NOTE]
+> Nastavení **Povolit místnímu správci změnit nastavení** se zobrazí pouze tehdy, pokud je funkce automatických aktualizací aktualizována na verzi kompatibilní se službou WSUS. 
 
 **Směrování klientského počítače na server WSUS**
 1.  V modulu snap-in Editor objektů Zásady skupiny rozbalte položku **Konfigurace počítače**, dále položku **Šablony pro správu**, položku **Součásti systému Windows** a potom klepněte na položku **Windows Update**.
@@ -62,9 +61,8 @@ V případě, že chcete zobrazit nastavení zásad pro správu služby WSUS, je
 
 3.  Klepněte na přepínač **Povoleno** a zadejte adresu HTTP URL stejného serveru WSUS do pole **Nastavení intranetového serveru pro zjišťování aktualizací** a do pole **Nastavení intranetového serveru pro statistiku**. Do obou polí zadejte například *http://název\_serveru* a potom klepněte na tlačítko **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Poznámka                                                                                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Používáte-li místní objekt zásad skupiny ke směrování tohoto počítače na server WSUS, projeví se toto nastavení ihned a tento počítač by se měl po krátké době zobrazit v konzole pro správu služby WSUS. Tento proces je možné zrychlit ručním spuštěním cyklu rozpoznávání. |
+> [!NOTE]
+> Používáte-li místní objekt zásad skupiny ke směrování tohoto počítače na server WSUS, projeví se toto nastavení ihned a tento počítač by se měl po krátké době zobrazit v konzole pro správu služby WSUS. Tento proces je možné zrychlit ručním spuštěním cyklu rozpoznávání. 
 
 Poté, co klientský počítač nastavíte, bude trvat několik minut, než se zobrazí na stránce **Počítače** v konzole služby WSUS. V případě klientských počítačů konfigurovaných pomocí objektu zásad skupiny založeného na doméně bude aktualizace zásad skupiny (tedy použití jakýchkoli nových nastavení zásad v klientském počítači) trvat asi 20 minut. Při výchozím nastavení se zásady skupiny aktualizují na pozadí každých 90 minut s náhodným posunem od 0 do 30 minut. Pokud chcete obnovit zásady skupiny dříve, můžete v klientském počítači přejít na příkazový řádek a zadat následující příkaz: **gpupdate /force**.
 

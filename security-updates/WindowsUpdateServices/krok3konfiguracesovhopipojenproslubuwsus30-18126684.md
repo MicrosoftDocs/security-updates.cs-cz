@@ -21,9 +21,8 @@ Před začátkem procesu konfigurace je třeba znát odpovědi na následující
 
 Ve výchozím nastavení je služba WSUS nakonfigurována tak, že místem pro získávání aktualizací je web Microsoft Update. Pokud máte v síti server proxy, můžete službu WSUS nakonfigurovat tak, aby používala server proxy. Je-li mezi serverem WSUS a Internetem podniková brána firewall, měli byste ji nakonfigurovat tak, aby služba WSUS mohla získávat aktualizace.
 
-| ![](images/Cc708602.note(WS.10).gif)Poznámka                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| I když stahování aktualizací z webu Microsoft Update vyžaduje připojení k Internetu, služba WSUS nabízí možnost importovat aktualizace do sítí, které nejsou připojeny k Internetu. |
+> [!NOTE]
+> I když stahování aktualizací z webu Microsoft Update vyžaduje připojení k Internetu, služba WSUS nabízí možnost importovat aktualizace do sítí, které nejsou připojeny k Internetu. 
 
 **Krok 3 obsahuje následující postupy**:
 
@@ -48,9 +47,8 @@ Ve výchozím nastavení je služba WSUS nakonfigurována tak, že místem pro z
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-| ![](images/Cc708602.note(WS.10).gif)Poznámka                                                                                                                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tyto pokyny pro konfiguraci brány firewall jsou určeny pro podnikovou bránu firewall umístěnou mezi serverem WSUS a Internetem. Protože server WSUS spouští veškeré síťové přenosy, není nutné konfigurovat Bránu firewall systému Windows na serveru WSUS. |
+> [!NOTE]
+> Tyto pokyny pro konfiguraci brány firewall jsou určeny pro podnikovou bránu firewall umístěnou mezi serverem WSUS a Internetem. Protože server WSUS spouští veškeré síťové přenosy, není nutné konfigurovat Bránu firewall systému Windows na serveru WSUS. 
 
 Ačkoli připojení webu Microsoft Update a serveru WSUS vyžaduje, aby byly porty 80 a 443 otevřené, můžete konfigurovat několik serverů WSUS a synchronizovat je s vlastním portem.
 
@@ -81,9 +79,8 @@ V následujících dvou postupech se předpokládá, že při konfiguraci použ�
 **Spuštění konzoly pro správu služby WSUS**
 -   Chcete-li spustit konzolu pro správu služby WSUS, přejděte v nabídce **Start** na příkaz **Všechny programy**, přejděte na příkaz **Nástroje pro správu** a potom klepněte na možnost **Microsoft Windows Server Update Services 3.0**.
 
-| ![](images/Cc708602.note(WS.10).gif)Poznámka                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Všechny funkce konzoly služby WSUS mohou používat pouze členové skupiny WSUS Administrators nebo místní skupiny zabezpečení Administrators na serveru, na kterém je nainstalována služba WSUS. Členové skupiny zabezpečení Zpravodajové služby WSUS mají ke konzole pro správu přístup jen pro čtení. |
+> [!NOTE]
+> Všechny funkce konzoly služby WSUS mohou používat pouze členové skupiny WSUS Administrators nebo místní skupiny zabezpečení Administrators na serveru, na kterém je nainstalována služba WSUS. Členové skupiny zabezpečení Zpravodajové služby WSUS mají ke konzole pro správu přístup jen pro čtení. 
 
 **Zadání zdroje aktualizací a serveru proxy**
 1.  V konzole WSUS klepněte na možnost **Možnosti** pod názvem tohoto serveru v levém panelu a pak klepněte na možnost **Zdroj aktualizací a server proxy** ve středním panelu.
