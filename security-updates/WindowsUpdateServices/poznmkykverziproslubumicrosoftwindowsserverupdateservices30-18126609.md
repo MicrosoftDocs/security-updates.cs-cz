@@ -364,7 +364,8 @@ Následující tabulka uvádí vlastnosti příkazového řádku pro službu WSU
 #### Příklad použití
   
 ```  
-WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
+WSUSSetup.exe /q DEFAULT_WEBSITE=0  (install in quiet mode using port 8530)
+WSUSSetup.exe /q /u (uninstall WSUS)
 ```  
 | ![](images/Cc708491.Important(WS.10).gif)Důležité informace                                                                                                         |  
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -413,7 +414,13 @@ Pomocí následujícího skriptu odeberte a znovu přidejte skupiny ASPNET a WSU
 Bude třeba nahradit řetězec *&lt;DBLocation&gt;* názvem složky, ve které je nainstalovaná databáze, a řetězec *&lt;ContentDirectory&gt;* složkou místního úložiště.
   
 ```  
-sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,@wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "backup database SUSDB to disk=N'*&lt;ContentDirectory&gt;*\\SUSDB.Dat' with init"  
+sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+ 
+sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+ 
+sqlcmd.exe -S <DBLocation> -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
 ```
   
 #### Instalační program může přepsat zálohu předchozí databáze.
@@ -604,7 +611,11 @@ Před spuštěním služby WSUS 3.0 v systému Windows Server 2008 je nutné ak
 Výsledná značka by měla vypadat takto:
   
 ```  
- &lt;System.webServer&gt; &lt;modules&gt; &lt;remove name="CustomErrorMode"&gt; &lt;/modules&gt; &lt;/System.webServer&gt;  
+      <System.webServer>
+<modules>
+<remove name="CustomErrorMode">
+</modules>
+</System.webServer>
 ```
   
 #### Problém 2: Jestliže chcete službu WSUS 3.0 nainstalovat na vlastním portu v systému Windows Server 2008 Beta 3, je potřeba předem vytvořit web.

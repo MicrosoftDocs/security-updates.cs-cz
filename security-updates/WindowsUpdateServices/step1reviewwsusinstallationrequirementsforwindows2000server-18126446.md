@@ -30,6 +30,7 @@ To install WSUS with default options, you must have the following installed on y
 -   Microsoft Internet Explorer 6.0 Service Pack 1: Go [http://go.microsoft.com/fwlink/?LinkId=47359](http://go.microsoft.com/fwlink/?linkid=47359).
 -   Microsoft .NET Framework Version 1.1 Redistributable Package: Go to [http://go.microsoft.com/fwlink/?LinkId=47369](http://go.microsoft.com/fwlink/?linkid=47369).
 -   Microsoft .NET Framework 1.1 Service Pack 1; go to [http://go.microsoft.com/fwlink/?LinkId=47368](http://go.microsoft.com/fwlink/?linkid=47368).
+
     An alternative is to go to [Windows Update](http://go.microsoft.com/fwlink/?linkid=47370) and scan for Critical Updates and Service Packs. Install Microsoft .NET Framework 1.1 Service Pack 1 for Windows Server 2000.
 
 Disk Requirements and Recommendations
