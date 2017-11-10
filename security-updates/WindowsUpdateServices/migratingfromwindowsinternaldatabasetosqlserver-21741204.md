@@ -153,8 +153,6 @@ Back end server starting configuration:
  
      > [!NOTE]  
      > When typing [BEName], do not add the domain name before the name.
-        
- 
 
     3.  Find the following key: **HKLM\\Software\\Microsoft\\Update Services\\Server\\Setup\\wYukonInstalled**. In the **Value** box, type **0**, and then click **OK**. This indicates that Windows Internal Database is not used.
     4.  Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlInstanceIsRemote**. In the **Value** box, change the value to **1**, and then click **OK**.
@@ -167,8 +165,6 @@ Back end server starting configuration:
      > [!NOTE]   
      > You might have to restart the front end server in order for these settings to take effect.
 
-
-    
     For more information about the databases that you can use with WSUS, see the following:
     -   In this guide, see [Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22).
     -   In [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=79983), see "Choose the Database Used for WSUS 3.0."
