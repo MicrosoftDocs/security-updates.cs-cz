@@ -22,9 +22,15 @@ Pokud budete chtít používat softwarovou ochranu soukromého klíče, zabezpe�
 Při implementaci svého systému služby RMS byste měli provést následující kroky:
 
 -   Postupujte podle pokynů úřadu NSA pro kryptografii kompatibilní se standardem FIPS v systému Windows.
+
 -   Zapněte v místních zásadách zabezpečení kryptografii kompatibilní se standardem FIPS.
+
 -   Nasaďte klienty a servery RMS SP1 ve výše uvedeném prostředí.
+
 -   Povolte na svém serveru RMS protokol TLS (Transport Layer Security) v rámci služby IIS.
+
 -   Povolte pro své klienty protokol TLS (Transport Layer Security) v rámci aplikace Internet Explorer.
+
 -   Povolte protokol SQL TDS (Tabular Data Stream), který se používá se zprostředkovatelem zabezpečení Windows TLS/SSL mezi klienty SQL a serverem SQL na databázovém serveru.
+
 -   Nakonfigurujte na serveru SQL vyžadování protokolu TSL/SSL.

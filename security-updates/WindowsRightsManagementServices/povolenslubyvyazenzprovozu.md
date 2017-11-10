@@ -19,8 +19,11 @@ Prvním krokem při odebírání systému RMS je vyřazení serverů v clusteru
 Chcete-li službu vyřazení z provozu povolit, postupujte následujícím způsobem:
 
 1.  Otevřete web pro správu služby RMS v systému Windows.
+
 2.  Klepněte na možnost **Spravovat službu RMS** a potom na možnost **Nastavení zabezpečení**.
+
 3.  Zaškrtněte políčko **Povolit vyřazení instalace RMS z provozu**.
+
 4.  Jakmile se zobrazí dialogové okno s výzvou k potvrzení procesu vyřazení z provozu, klepněte na tlačítko **OK**.
 
 Po vyřazení serveru z provozu nelze obnovit standardní konfiguraci služby RMS. Tento proces je nevratný.
