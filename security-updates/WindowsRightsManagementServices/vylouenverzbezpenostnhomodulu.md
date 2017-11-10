@@ -32,8 +32,7 @@ Vyloučení verzí bezpečnostního modulu
 
 6.  Vložte číslo verze do pole **Minimální požadovaná verze bezpečnostního modulu RM** a pak klepněte na tlačítko **Aktualizovat**.
 
-    | ![](images/Cc720270.note(WS.10).gif)Poznámka                             |
-    |-------------------------------------------------------------------------------------------------------|
-    | Chcete-li vypnout vyloučení založené na verzi bezpečnostního modulu, klepněte na možnost **Zakázat**. |
+    > [!NOTE]
+    > Chcete-li vypnout vyloučení založené na verzi bezpečnostního modulu, klepněte na možnost **Zakázat**. 
 
 Další informace o tomto postupu naleznete v tomto tématu v části [Vyloučení verzí bezpečnostního modulu](https://technet.microsoft.com/e287f026-aab2-43ab-93bc-48087da82f36) uvedené již dříve.

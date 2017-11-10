@@ -45,9 +45,8 @@ Jestliže balíček seznamů odvolání stáhnete na server RMS, bude uložen do
 
 2.  Stáhněte balíček seznamů odvolání společnosti Microsoft a nainstalujte jej do všech klientských počítačů v organizaci pomocí vhodné metody, například zásad skupiny nebo serveru SMS (Systems Management Server). Případně můžete položky zkopírovat ze seznamu odvolání společnosti Microsoft do seznamu organizace a instalovat pouze seznam organizace.
 
-| ![](images/Cc747702.Caution(WS.10).gif)Upozornění                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Společnost Microsoft je zaregistrovaným objektem zabezpečení v posloupnosti důvěryhodných objektů pro všechny certifikáty a licence vydané službou RMS. Seznam odvolání vydaný společností Microsoft má tedy vliv na všechny požadavky na vazbu, pro které je získána licence k použití na základě šablony zásad práv vyžadující seznam odvolání organizace. Kromě toho je seznam odvolání společnosti Microsoft registrován v klientském počítači. |
+> [!CAUTION]
+> Společnost Microsoft je zaregistrovaným objektem zabezpečení v posloupnosti důvěryhodných objektů pro všechny certifikáty a licence vydané službou RMS. Seznam odvolání vydaný společností Microsoft má tedy vliv na všechny požadavky na vazbu, pro které je získána licence k použití na základě šablony zásad práv vyžadující seznam odvolání organizace. Kromě toho je seznam odvolání společnosti Microsoft registrován v klientském počítači. 
 
 **Instalace omezená na seznam odvolání společnosti Microsoft**
 1.  Stáhněte balíček seznamů odvolání společnosti Microsoft.

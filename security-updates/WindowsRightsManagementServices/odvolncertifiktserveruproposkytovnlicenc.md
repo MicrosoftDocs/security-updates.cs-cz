@@ -58,6 +58,5 @@ Je-li certifikát serveru pro poskytování licencí pro cluster kořenové cert
 
 V obou případech (tedy v případě odvolání provedeného společností Microsoft nebo třetí stranou) má seznam odvolání vliv na všechny požadavky na vytvoření vazby, protože byl podepsán soukromým klíčem zaregistrovaného objektu zabezpečení v posloupnosti důvěryhodných objektů licence k použití. Všechny požadavky na vytvoření vazby týkající se licencí vydaných instalací služby RMS prostřednictvím odvolaného certifikátu serveru pro poskytování licencí tedy budou neúspěšné.
 
-| ![](images/Cc747578.note(WS.10).gif)Poznámka                                            |
-|----------------------------------------------------------------------------------------------------------------------|
-| Společnost Microsoft odvolá certifikát serveru pro poskytování licencí pouze v případě, že je k tomu vyzvána soudem. |
+> [!NOTE]
+> Společnost Microsoft odvolá certifikát serveru pro poskytování licencí pouze v případě, že je k tomu vyzvána soudem. 

@@ -22,6 +22,5 @@ Než uživatelé začnou službu vyřazení z provozu používat, je nutné upr
 4.  Potom klepněte na položku pravým tlačítkem myši a po výběru příkazu **Změnit** zadejte údaj hodnoty, která bude odkazovat na službu vyřazení z provozu:
     `http://`*váš-licenční-server*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Poznámka                                       |
-|-----------------------------------------------------------------------------------------------------------------|
-| Pro tento klíč může existovat více položek, pokud je v režimu vyřazování z provozu více serverů RMS organizace. |
+> [!NOTE]
+> Pro tento klíč může existovat více položek, pokud je v režimu vyřazování z provozu více serverů RMS organizace. 

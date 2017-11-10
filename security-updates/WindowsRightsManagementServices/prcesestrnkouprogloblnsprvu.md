@@ -29,6 +29,5 @@ Pokud na stránku **Globální správa** přistupujete ze serveru, který již b
 -   **Změnit účet služby RMS:** Na tento odkaz klepněte, chcete-li určit jiný účet služby RMS, pod nímž má být tato služba spuštěna. Další informace získáte v tomto tématu později v části [Změna účtu služby RMS](https://technet.microsoft.com/f257d66d-b823-41e4-bcb7-7c90eb295238).
 -   **Odebrat službu RMS z tohoto webu:** Na tento odkaz klepněte, chcete-li zrušit zajištění služby RMS. Pokud zrušíte zajištění služby RMS, budou ze serveru odebrány virtuální adresáře a aplikace služby RMS, služba však nebude odinstalována. Další informace získáte v tomto tématu později v části [Odinstalace služby RMS](https://technet.microsoft.com/885e3b4f-ea32-466f-9f7f-d8440b0f7c28).
 
-| ![](images/Cc747575.note(WS.10).gif)Poznámka                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ke konfiguraci některých funkcí využívá web pro správu služby RMS překryvná okna. Jestliže u webového prohlížeče používáte blokování překryvných oken, měli byste nastavení prohlížeče nakonfigurovat tak, aby překryvná okna z tohoto webu povolovalo. |
+> [!NOTE]
+> Ke konfiguraci některých funkcí využívá web pro správu služby RMS překryvná okna. Jestliže u webového prohlížeče používáte blokování překryvných oken, měli byste nastavení prohlížeče nakonfigurovat tak, aby překryvná okna z tohoto webu povolovalo. 

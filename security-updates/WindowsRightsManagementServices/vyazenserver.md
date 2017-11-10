@@ -22,14 +22,12 @@ Před vyřazením serveru by měly být vytvořeny záložní kopie všech datab
 Po vytvoření záložních kopií databází můžete server odebrat. Průběh odebírání serveru služby RMS záleží na roli serveru a topologii instalace služby RMS:
 
 -   **Odebrání jednoho serveru z clusteru**. Pokud je vyřazovaný server RMS zařazen do clusteru s dalšími servery RMS, které jsou stále aktivní a vyžadované, představuje odebrání jednoho serveru RMS z clusteru zrušení zajištění služby RMS na tomto serveru, její odinstalace, odebrání hardwaru z clusteru a archivace databází.
-    | ![](images/Cc747568.note(WS.10).gif)Poznámka                                                                                                  |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Zajištění je nutné před odinstalací služby RMS zrušit pouze u serverů zařazených do clusteru kořenové certifikace. Pro servery správy licencí není tento postup vyžadován. |
+    > [!NOTE]
+    > Zajištění je nutné před odinstalací služby RMS zrušit pouze u serverů zařazených do clusteru kořenové certifikace. Pro servery správy licencí není tento postup vyžadován. 
 
 -   **Vyřazení samostatného serveru**. Pokud je vyřazovaný server RMS samostatný (tj. není součástí clusteru obsahujícího několik serverů) a je třeba jej nahradit novým serverem, proveďte následující postup: Zrušte zajištění a odinstalujte existující server RMS, odeberte jej ze sítě a pak okamžitě nainstalujte službu RMS na nový server a zajistěte ji. Nakonfigurujte nový server RMS tak, aby používal stejnou adresu URL a konfigurační databázi jako původní server. Uvědomte si, že dokud není nový server nainstalován a zajištěn, uživatelé nemohou používat obsah publikovaný vyřazeným serverem.
-    | ![](images/Cc747568.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Pokud vyřazovaný server RMS používá hardwarový modul zabezpečení, je třeba na nový server přenést příslušné prostředky zabezpečení ještě před tím, než na něj nainstalujete službu RMS a zajistíte ji. Popis postupu při této operaci naleznete v dokumentaci dodané s hardwarovým modulem zabezpečení. |
+    > [!IMPORTANT]
+    > Pokud vyřazovaný server RMS používá hardwarový modul zabezpečení, je třeba na nový server přenést příslušné prostředky zabezpečení ještě před tím, než na něj nainstalujete službu RMS a zajistíte ji. Popis postupu při této operaci naleznete v dokumentaci dodané s hardwarovým modulem zabezpečení. 
 
 -   **Nahrazení instalace služby RMS jinou existující instalací služby RMS**. V některých případech je třeba vyřadit instalaci služby RMS a nahradit ji jinou existující instalací, například v případě sloučení dvou společností, kdy službu RMS používají obě dvě.
 

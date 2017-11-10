@@ -17,9 +17,8 @@ Před realizací nasazení služby RMS v organizaci se přesvědčte, zda jsou 
 -   Byla vybrána základní nebo distribuovaná topologie služby RMS.
 -   Na řadičích domény, na kterých je nainstalován systém Windows 2000 s aktualizací Service Pack 3 (SP3) či vyšší, je nainstalována služba Active Directory a všem uživatelům byl nakonfigurován kontaktní objekt s e-mailovým atributem. Je nainstalován systém Windows Server 2003 s nejnovějšími aktualizacemi. Jsou povoleny služby Řízení front zpráv, IIS a ASP.NET verze 1.1.
 
-| ![](images/Cc720185.note(WS.10).gif)Poznámka                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud budete chtít službu RMS instalovat do 64bitového počítače, projděte si část Softwarové požadavky pro službu RMS tématu Plánování nasazení služby RMS v této sadě dokumentace, kde naleznete pokyny pro speciální konfiguraci. |
+> [!NOTE]
+> Pokud budete chtít službu RMS instalovat do 64bitového počítače, projděte si část Softwarové požadavky pro službu RMS tématu Plánování nasazení služby RMS v této sadě dokumentace, kde naleznete pokyny pro speciální konfiguraci. 
 
 -   Jsou definovány způsoby vyrovnávání zatížení a převzetí služeb při selhání serveru.
 -   Je nakonfigurována registrace DNS pro servery RMS.

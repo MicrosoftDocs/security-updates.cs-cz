@@ -143,9 +143,8 @@ Obnovení předchozí instalace služby RMS
 
 Jestliže dojde k selhání hardwaru nebo softwaru serveru RMS, můžete tento server obnovit pomocí již nainstalované konfigurační databáze a zajistit tak novou instanci serveru.
 
-| ![](images/Cc747605.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tento postup platí pouze v případě selhání serveru, na kterém je spuštěna služba RMS. Pokud dojde k selhání serveru, na kterém je spuštěna konfigurační databáze, najdete potřebné informace v tomto tématu v části Obnovení konfigurační databáze uvedené již dříve. Jestliže je server RMS současně databázovým serverem, bude nutné obnovit celý server ze záložní kopie. |
+> [!NOTE]
+> Tento postup platí pouze v případě selhání serveru, na kterém je spuštěna služba RMS. Pokud dojde k selhání serveru, na kterém je spuštěna konfigurační databáze, najdete potřebné informace v tomto tématu v části Obnovení konfigurační databáze uvedené již dříve. Jestliže je server RMS současně databázovým serverem, bude nutné obnovit celý server ze záložní kopie. 
 
 Pomocí následujícího postupu přejděte ke stejné konfigurační databázi, která byla použita pro původní instalaci.
 
@@ -186,9 +185,8 @@ Ve výchozím nastavení jsou součásti (například služba RMS), které jsou
 
 Chcete-li tyto potíže odstranit, můžete pomocí editoru registru upravit klíč registru řídící toto chování.
 
-| ![](images/Cc747605.Caution(WS.10).gif)Upozornění                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nesprávné úpravy registru mohou způsobit závažné poškození systému. Před provedením jakýchkoli změn registru byste měli vytvořit záložní kopii všech důležitých dat v počítači. |
+> [!CAUTION]
+> Nesprávné úpravy registru mohou způsobit závažné poškození systému. Před provedením jakýchkoli změn registru byste měli vytvořit záložní kopii všech důležitých dat v počítači. 
 
 Nastavte následující klíč registru z hodnoty 1 na hodnotu 0 a pak restartuje počítač, aby se změny projevily.
 
@@ -198,8 +196,7 @@ Název: `RestrictGuestAccess`
 
 Typ: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Poznámka                  |
-|--------------------------------------------------------------------------------------------|
-| Uvedeným postupem umožníte všem účtům skupiny Guests zápis do protokolu událostí aplikací. |
+> [!NOTE]
+> Uvedeným postupem umožníte všem účtům skupiny Guests zápis do protokolu událostí aplikací. 
 
 Další informace o příčině této chyby najdete v článku týkajícím se povolení protokolování ze stránek ASP ve znalostní bázi [Microsoft Knowledge Base](http://go.microsoft.com/fwlink/?linkid=44167).

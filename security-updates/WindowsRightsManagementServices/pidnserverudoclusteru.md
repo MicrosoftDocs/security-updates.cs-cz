@@ -26,15 +26,13 @@ Přidání serveru do clusteru
 
 2.  Klepněte na položku **Přidat tento server do clusteru** u webu, pro který chcete zajistit službu RMS. Můžete vybrat výchozí web nebo jiný web, který jste pro tento účel vytvořili v Internetové informační službě (IIS).
 
-    | ![](images/Cc747690.Warning(WS.10).gif)Varování                                                                                                                                                                                                         |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Spouštění dalších webů a webových služeb na společném serveru se službou RMS není podporováno. Výsledkem by mohl být případ, kdy bude pod stejným účtem jako služba RMS pracovat více aplikací a služeb. V takovém případě hrozí provádění nezaručených operací se soukromými klíči. |
+    > [!WARNING]
+    > Spouštění dalších webů a webových služeb na společném serveru se službou RMS není podporováno. Výsledkem by mohl být případ, kdy bude pod stejným účtem jako služba RMS pracovat více aplikací a služeb. V takovém případě hrozí provádění nezaručených operací se soukromými klíči. 
 
 3.  V části **Účet služby RMS** zadejte název účtu ve tvaru název\_domény\\uživatelské\_jméno a heslo účtu služby RMS, pod kterým bude služba RMS zpravidla pracovat za normálního provozu. Musí se jednat o doménový účet. Všechny servery v clusteru by měly pracovat pod stejným účtem služby RMS.
 
-    | ![](images/Cc747690.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                 |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Z důvodů zabezpečení se doporučuje vytvořit speciální účet uživatele domény, který bude sloužit jako účet služby RMS, a nepřidělovat mu žádná zvláštní oprávnění. Jako účet služby RMS nelze použít doménový účet, který byl použit k instalaci služby RMS s aktualizací Service Pack 1. |
+    > [!IMPORTANT]
+    > Z důvodů zabezpečení se doporučuje vytvořit speciální účet uživatele domény, který bude sloužit jako účet služby RMS, a nepřidělovat mu žádná zvláštní oprávnění. Jako účet služby RMS nelze použít doménový účet, který byl použit k instalaci služby RMS s aktualizací Service Pack 1. 
 
 4.  V části **Konfigurační databáze** zadejte název databázového serveru a název konfigurační databáze pro tento cluster. Vybraná databáze určuje cluster, do kterého tento server patří.
 

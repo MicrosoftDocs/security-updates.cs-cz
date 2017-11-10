@@ -19,6 +19,5 @@ Proveďte jednu z následujících akcí:
 
 Pokud je třeba obnovit údaje o šablonách zásad práv v konfigurační databázi, můžete extrahovat identifikátory GUID a informace TemplateData z tabulky DRMS\_RightsTemplate v záložní kopii konfigurační databáze nebo importovat data z textového souboru. Další informace týkající se těchto úloh naleznete v dokumentaci k serveru SQL Server.
 
-| ![](images/Cc747625.note(WS.10).gif)Poznámka             |
-|---------------------------------------------------------------------------------------|
-| Při plánování zálohování šablon zásad práv se poraďte se správcem serveru SQL Server. |
+> [!NOTE]
+> Při plánování zálohování šablon zásad práv se poraďte se správcem serveru SQL Server. 

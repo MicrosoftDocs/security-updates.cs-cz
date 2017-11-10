@@ -136,6 +136,5 @@ V následující tabulce jsou uvedeny položky, které lze použít k potlače
 </tbody>
 </table>
   
-| ![](images/Cc747660.Caution(WS.10).gif)Upozornění                                                                                                  |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Nesprávné úpravy registru mohou způsobit závažné poškození systému. Před provedením jakýchkoli změn registru byste měli vytvořit záložní kopii všech důležitých dat v počítači. |
+> [!CAUTION]
+> Nesprávné úpravy registru mohou způsobit závažné poškození systému. Před provedením jakýchkoli změn registru byste měli vytvořit záložní kopii všech důležitých dat v počítači. 
