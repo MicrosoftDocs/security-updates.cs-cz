@@ -133,7 +133,7 @@ At the command line *%drive%*\\Program Files\\Update Services\\Tools&gt;, type:
 
 The parameters are defined in the following table.
 
-###  
+
 
  
 <table style="border:1px solid black;">
@@ -175,7 +175,7 @@ At the command line *%drive%*\\Program Files\\Update Services\\Tools&gt;, type:
   
 The parameters are defined in the following table:
   
-###  
+
 
  
 <table style="border:1px solid black;">
@@ -217,7 +217,7 @@ At the command line *%drive%*\\Program Files\\Update Services\\Tools&gt;, type:
   
 The parameters are defined in the following table:
   
-###  
+
 
  
 <table style="border:1px solid black;">
@@ -264,9 +264,11 @@ When you run this command, WSUSutil.exe does the following:
   
 The destination folder where update files are moved to must be on an NTFS partition. The content move tool will not try to copy update files if they already exist in the destination folder. WSUSutil.exe sets the same permissions on the destination folder that were set on the original folder.
   
-| ![](images/Cc720466.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                                        |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| You can use **xcopy**, the Backup utility, or other non-WSUS specific methods to copy update files from the old location into the new one. If you copy the files by using a method other than WSUSutil.exe, you still need to run WSUSutil.exe to perform the second part of the move. In this case you would use the **skipcopy** parameter when running WSUSutil.exe. See "Syntax" below for more information. |
+
+> [!NOTE]  
+> You can use **xcopy**, the Backup utility, or other non-WSUS specific methods to copy update files from the old location into the new one. If you copy the files by using a method other than WSUSutil.exe, you still need to run WSUSutil.exe to perform the second part of the move. In this case you would use the **skipcopy** parameter when running WSUSutil.exe. See "Syntax" below for more information.
+
+
   
 There are two scenarios in which you might move update files from one WSUS drive to another:
   
@@ -296,7 +298,7 @@ At the command line *%drive%\\*Program Files\\Update Services\\Tools&gt;, type:
   
 The parameters are defined in the following table.
   
-###  
+
 
  
 <table style="border:1px solid black;">
@@ -348,9 +350,10 @@ With regular use, it is possible that the 2 GB will be reached quickly, as updat
   
 Unneeded revisions are revisions to software or drivers updates that have not been deployed to a computer group in at least one month; they are also the latest revisions to expired driver updates that have not been deployed to a computer group for at least one month. The one-month time period in both of these cases can be changed, indirectly. It automatically gets reduced by 7 to 15 days if you reduce the size of a database that is larger than 1 GB by less than 25 percent in the process of running this command.
   
-| ![](images/Cc720466.note(WS.10).gif)Poznámka                                                                                                                                                                                         |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| For more information about the databases you can use with WSUS, see the "Choose the Database Used for WSUS" topic in [Deploying Microsoft Windows Update Services](http://go.microsoft.com/fwlink/?linkid=41777) at http://go.microsoft.com/fwlink/?LinkID=41777. |
+
+> [!NOTE]  
+> For more information about the databases you can use with WSUS, see the "Choose the Database Used for WSUS" topic in [Deploying Microsoft Windows Update Services](http://go.microsoft.com/fwlink/?linkid=41777) at http://go.microsoft.com/fwlink/?LinkID=41777.
+
   
 #### Syntax
   
@@ -358,9 +361,9 @@ At the command line *%drive%*\\Program Files\\Update Services\\Tools&gt;, type:
   
 **wsusutil deleteunneededrevisions**
   
-| ![](images/Cc720466.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                                                                              |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Before running this command, you must stop the World Wide Web publishing service in IIS. You must restart it only after you have finished running this command. To stop or start the IIS service, open IIS, navigate to and then right-click the Web site where WSUS is is installed (by default this is the Default Web Site), and then click **Stop** or **Start**. |
+> [!IMPORTANT]  
+> Before running this command, you must stop the World Wide Web publishing service in IIS. You must restart it only after you have finished running this command. To stop or start the IIS service, open IIS, navigate to and then right-click the Web site where WSUS is is installed (by default this is the Default Web Site), and then click **Stop** or **Start**.
+
   
 #### Listinactiveapprovals
   
