@@ -26,8 +26,8 @@ IIS vroots
 The following virtual directories (vroots) are created in IIS (in the Default Web Site by default) for client-to-server synchronization, server to server synchronization, reporting, and client self-update.
 
 
+<p></p>
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -103,6 +103,8 @@ Execute Permissions: Scripts Only</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
  
 
 Using the adsutil IIS utility
@@ -178,7 +180,7 @@ These global properties can be retrieved with the following adsutil command:
 
 The properties listed below are a partial list.
 
-
+<p></p>
 
  
 <table style="border:1px solid black;">
@@ -576,6 +578,8 @@ v2.0.50727,ASP.NET v2.0.50727&quot;</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 Global Properties of the WWW Web site  
 -------------------------------------
@@ -586,7 +590,7 @@ These properties can be retrieved with the following adsutil command:
   
 The properties listed below comprise a partial list.
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -655,7 +659,7 @@ The properties listed below comprise a partial list.
 Properties of the API Remoting Web service  
 ------------------------------------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -776,7 +780,7 @@ Properties of the API Remoting Web service
 Properties of the Client Web service  
 ------------------------------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -897,7 +901,7 @@ Properties of the Client Web service
 Properties of the Downstream Server Authentication Web service  
 --------------------------------------------------------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1018,7 +1022,7 @@ Properties of the Downstream Server Authentication Web service
 Properties of the Inventory Collection Web service  
 --------------------------------------------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1139,7 +1143,7 @@ Properties of the Inventory Collection Web service
 Checking the properties of the Reporting Web service  
 ----------------------------------------------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1260,7 +1264,7 @@ Checking the properties of the Reporting Web service
 Properties of the Selfupdate Web service  
 ----------------------------------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1333,7 +1337,7 @@ Properties of the Selfupdate Web service
 Properties of the Server Synchronization Web service  
 ----------------------------------------------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
@@ -1454,7 +1458,7 @@ Properties of the Server Synchronization Web service
 Properties of the Simple Authorization Web service  
 --------------------------------------------------
   
-###  
+ 
 
  
 <table style="border:1px solid black;">
