@@ -28,9 +28,8 @@ Zprostředkovatel databáze musí splňovat následující podmínky:
 
 Pokud službu RMS provozujete při jakékoli jiné konfiguraci, obraťte se na příslušného dodavatele databáze nebo poskytovatele řešení, jehož zprostředkovatele databáze ve vlastním nasazení používáte.
 
-| ![](images/Cc747731.Caution(WS.10).gif)Upozornění                                                                                                                                                                                                                                                                                                                                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| U všech databází služby RMS je při vytváření jako výchozí nastavena možnost úplného obnovení. Nevytvářejí se však žádné úlohy zálohování protokolu transakcí. Z tohoto důvodu může dojít k zaplnění pevného disku serveru, což může vést k chybě databázového serveru. Úplné obnovení se doporučuje u databáze DRMS\_configuration. Ostatní databáze DRMS mohou být nakonfigurovány na jiný model obnovení, který odpovídá potřebám organizace. |
+> [!CAUTION]
+> U všech databází služby RMS je při vytváření jako výchozí nastavena možnost úplného obnovení. Nevytvářejí se však žádné úlohy zálohování protokolu transakcí. Z tohoto důvodu může dojít k zaplnění pevného disku serveru, což může vést k chybě databázového serveru. Úplné obnovení se doporučuje u databáze DRMS\_configuration. Ostatní databáze DRMS mohou být nakonfigurovány na jiný model obnovení, který odpovídá potřebám organizace. 
 
 Tento oddíl se zabývá následujícími tématy:
 

@@ -26,8 +26,7 @@ Zprostředkovatele CSP lze použít dvěma způsoby:
     -nebo-
 -   Použijte softwarového zprostředkovatele kryptografických služeb od jiné společnosti než Microsoft, který je na daném serveru již nainstalován.
 
-| ![](images/Cc720280.note(WS.10).gif)Poznámka                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Chcete-li použít hardwarový modul zabezpečení, zkontrolujte, zda jste vybrali zprostředkovatele CSP, který podporuje hardwarové moduly zabezpečení. |
+> [!NOTE]
+> Chcete-li použít hardwarový modul zabezpečení, zkontrolujte, zda jste vybrali zprostředkovatele CSP, který podporuje hardwarové moduly zabezpečení. 
 
 Pokud se rozhodnete zabezpečit soukromý klíč serveru pomocí zprostředkovatele kryptografických služeb, uloží služba RMS název tohoto zprostředkovatele a název kontejneru klíčů z konfigurační databáze.

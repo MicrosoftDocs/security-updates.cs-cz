@@ -25,6 +25,5 @@ Jestliže služba RMS zjistí, že certifikát účtu práv je založen na ově�
 
 Pokud služba RMS zjistí, že certifikát účtu práv je založen na službě Microsoft® .NET Passport, bude umístění služby publikování představovat účet služby .NET Passport zadaný v obsahu chráněném službou RMS.
 
-| ![](images/Cc747580.note(WS.10).gif)Poznámka                                   |
-|-------------------------------------------------------------------------------------------------------------|
-| Jestliže jste na serveru povolili protokol SSL, budou tyto adresy URL používat protokol připojení https://. |
+> [!NOTE]
+> Jestliže jste na serveru povolili protokol SSL, budou tyto adresy URL používat protokol připojení https://. 
