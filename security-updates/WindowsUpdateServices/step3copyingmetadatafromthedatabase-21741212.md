@@ -21,22 +21,9 @@ You should copy updates to a directory on the importing server before you import
 Although you can use incremental backups to move update files to the importing server, you cannot move update metadata incrementally. WSUSutil.exe exports all the metadata in the WSUS database during the export operation.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939911.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Never import exported data from a source that you do not trust. Importing content from a source you do not trust might compromise the security of your WSUS server.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Never import exported data from a source that you do not trust. Importing content from a source you do not trust might compromise the security of your WSUS server.
+
 
 
 > [!NOTE]

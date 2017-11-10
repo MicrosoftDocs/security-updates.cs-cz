@@ -19,22 +19,8 @@ You can configure different aspects of the way WSUS server information is displa
 3.  Click **OK**.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939895.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Computer and update status will roll up from downstream replica servers only. It is not possible to get rolled-up status from a downstream autonomous server.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Computer and update status will roll up from downstream replica servers only. It is not possible to get rolled-up status from a downstream autonomous server.
  
 
 **To display validation errors as pop-up windows**
