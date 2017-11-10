@@ -85,6 +85,9 @@ Enable audit events to ensure that adequate logs are collected for system activi
 </tr>
 </tbody>
 </table>
+<p></p>
+
+<p></p>
   
 ### Security options
   
@@ -430,6 +433,7 @@ Configure Windows Server security settings to help ensure optional security and 
 </tr>
 </tbody>
 </table>
+<p></p>
 
  
 <p></p>
@@ -523,6 +527,7 @@ Configure Event Log settings to help ensure an adequate level of activity monito
 </tr>
 </tbody>
 </table>
+<p></p>
 
 <p></p>
   
@@ -830,6 +835,7 @@ Enable only services that are required for WSUS.
 </tr>
 </tbody>
 </table>
+<p></p>
 
 <p></p>
   
@@ -892,6 +898,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 </tr>
 </tbody>
 </table>
+<p></p>
 
 <p></p>
   
@@ -985,6 +992,7 @@ System: Full Control</td>
 </tr>
 </tbody>
 </table>
+<p></p>
   
 ### Stored procedures
   
@@ -1153,3 +1161,4 @@ where <em>stored procedure</em> is the name of the stored procedure to be delete
 </tr>
 </tbody>
 </table>
+<p></p>
