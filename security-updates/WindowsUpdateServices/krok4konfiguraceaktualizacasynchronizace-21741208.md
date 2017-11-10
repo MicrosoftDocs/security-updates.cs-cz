@@ -68,24 +68,9 @@ V postupech kroku 3 jste dokončili konfiguraci nadřazeného serveru a proxy se
 
 4.  Klikněte na tlačítko **Dokončit**.
 
- 
-    <table style="border:1px solid black;">
-    <colgroup>
-    <col width="100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Důležité</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">Změny konfigurace provedené během synchronizace serveru nelze uložit. Počkejte na dokončení synchronizace a poté proveďte změny.
-    </td>
-    </tr>
-    </tbody>
-    </table>
- 
+> [!IMPORTANT]  
+> Změny konfigurace provedené během synchronizace serveru nelze uložit. Počkejte na dokončení synchronizace a poté proveďte změny.
+    
 
 Použití konzoly pro správu služby WSUS
 --------------------------------------

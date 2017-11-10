@@ -17,9 +17,6 @@ U následujících postupů se předpokládá, že ve vaší síti je spuštěna
 
 Další informace o zásadách skupiny naleznete na webu Group Policy Tech Center [http://go.microsoft.com/fwlink/?LinkID=47375](http://go.microsoft.com/fwlink/?linkid=47375) (tato stránka může být v angličtině).
 
- 
--
-
 Krok 5 – postupy
 ----------------
 
