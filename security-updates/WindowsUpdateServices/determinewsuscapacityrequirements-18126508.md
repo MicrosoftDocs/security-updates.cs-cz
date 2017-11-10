@@ -14,23 +14,9 @@ Rozsah platnosti: Windows Server 2003, Windows Server 2003 R2, Windows Server 20
 Hardware and database software requirements are driven by the number of client computers being updated in your organization. The following tables offer guidelines for server hardware and database software, based on the number of client computers being serviced. A WSUS server using the recommended hardware can support a maximum number of 30,000 clients. Both the system partition and the partition on which you install WSUS must be formatted with the NTFS file system.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Cc708483.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">WSUS 3.0 cannot be installed on a compressed drive. Please check that the drive you choose is not compressed.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!IMPORTANT]
+> WSUS 3.0 cannot be installed on a compressed drive. Please check that the drive you choose is not compressed.
+
 
 ### Minimum hardware recommendations
 
@@ -62,10 +48,10 @@ Hardware and database software requirements are driven by the number of client c
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Graphics card</td>
-<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
-<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
-<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
-<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24*86*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24\*86\*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24\*86\*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24\*86\*16bpp</td>
+<td style="border:1px solid black;">16 MB hardware accelerated PCI/AGP video card capable of 1-24\*86\*16bpp</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">RAM</td>

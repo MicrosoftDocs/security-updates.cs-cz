@@ -13,9 +13,8 @@ Služba správy licencí, která vydává licence k použití, je spuštěna na
 
 Aplikační soubor služby správy licencí (soubor License.asmx) je uložen ve virtuálním adresáři Licensing, který je součástí Internetové informační služby.
 
-| ![](images/Cc720278.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Můžete nasadit samostatný cluster vyhrazený pro správu licencí, který kořenovému clusteru odebere zatížení způsobené požadavky na licencování. Je také možné implementovat samostatný server nebo cluster správy licencí pro oddělení, například pro oddělení, které definuje vlastní zásady práv. Další informace o těchto aspektech najdete v části Určení hlavních součástí v tématu Plánování a architektura služby RMS v této sadě dokumentace. |
+> [!NOTE]
+> Můžete nasadit samostatný cluster vyhrazený pro správu licencí, který kořenovému clusteru odebere zatížení způsobené požadavky na licencování. Je také možné implementovat samostatný server nebo cluster správy licencí pro oddělení, například pro oddělení, které definuje vlastní zásady práv. Další informace o těchto aspektech najdete v části Určení hlavních součástí v tématu Plánování a architektura služby RMS v této sadě dokumentace. 
 
 V následující tabulce je znázorněn výchozí seznam řízení přístupu k této službě:
 

@@ -11,9 +11,8 @@ Odinstalace a zrušení zajištění služby RMS
 
 Službu RMS může být z různých důvodů nutné ze serveru odebrat. V případě serveru kořenové certifikace je prvním krokem zrušení zajištění služby RMS na serveru. Tuto operaci lze provést ze stránky **Globální správa** serveru, pro který chcete zrušit zajištění, klepnutím na možnost **Odebrat službu RMS z tohoto webu**. Před odinstalací služby RMS ze serveru správy licencí není třeba zrušit zajištění tohoto serveru.
 
-| ![](images/Cc747753.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                              |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud zrušíte zajištění posledního serveru kořenové certifikace v doménové struktuře služby Active Directory, je ze služby Active Directory odebrán spojovací bod služby. Pokud před odinstalací služby RMS nezrušíte zajištění tohoto serveru, nelze zajistit nový server kořenové certifikace v dané doménové struktuře, dokud nebude spojovací bod služby ze služby Active Directory odebrán ručně. |
+> [!NOTE]
+> Pokud zrušíte zajištění posledního serveru kořenové certifikace v doménové struktuře služby Active Directory, je ze služby Active Directory odebrán spojovací bod služby. Pokud před odinstalací služby RMS nezrušíte zajištění tohoto serveru, nelze zajistit nový server kořenové certifikace v dané doménové struktuře, dokud nebude spojovací bod služby ze služby Active Directory odebrán ručně. 
 
 Další krok představuje odinstalace služby RMS.
 

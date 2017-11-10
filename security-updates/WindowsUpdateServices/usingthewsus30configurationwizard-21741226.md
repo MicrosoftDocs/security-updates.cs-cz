@@ -33,7 +33,7 @@ The Configuration Wizard allows you to configure the following areas:
 > You will need to configure the upstream server and proxy server before configuring the updates.
  
 
-<span id="BKMK_upstream"></span>
+
 Choose the upstream server
 --------------------------
 
@@ -50,7 +50,7 @@ Choose the upstream server
 
 6.  At this point you are finished with upstream server configuration. Click **Next**, or select **Specify proxy server** from the left pane.
 
-<span id="BKMK_proxy"></span>
+
 Specify the proxy server
 ------------------------
 
@@ -62,25 +62,12 @@ Specify the proxy server
 3.  At this point you are finished with proxy server configuration. Click **Next** to go to the **Connect to Upstream Server** page.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939915.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">The proxy server should be configured to accept both HTTP and HTTPS resources.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> The proxy server should be configured to accept both HTTP and HTTPS resources.
+
  
 
-<span id="BKMK_connectupstream"></span>
+
 Connect to the upstream server
 ------------------------------
 
@@ -96,7 +83,7 @@ Connect to the upstream server
 > If the connection to your upstream WSUS server (either Microsoft Update or an intranet WSUS server) fails, you will see a message at the bottom of the screen. Typically it will say something like &quot;An HTTP error occurred.&quot; For more information, click the <strong>Details</strong> link.
  
 
-<span id="BKMK_languages"></span>
+
 Choose update languages
 -----------------------
 
@@ -117,25 +104,12 @@ If you are configuring a downstream server, use the following procedure.
 2.  If the upstream server will download update files in all languages, and you want the downstream server to do the same, select **Download updates in all languages supported by the upstream server**. This setting will cause the upstream server to download updates in all languages, including languages that were not originally set up for the upstream server.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939915.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Selecting the <strong>Download updates in all languages</strong> option on a downstream server will modify the upstream server's behavior to download update files in all languages, no matter how the upstream server was originally configured.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> Selecting the <strong>Download updates in all languages</strong> option on a downstream server will modify the upstream server's behavior to download update files in all languages, no matter how the upstream server was originally configured.
+
  
 
-<span id="BKMK_products"></span>
+
 Choose update products
 ----------------------
 
@@ -144,7 +118,7 @@ Choose update products
 
 2.  You may check product categories, such as Windows, or specific products, such as Windows Server 2003. Selecting a product category will cause all of the products under it to be selected. Click **Next** to proceed to the **Choose Classifications** page, or select a different page from the left pane.
 
-<span id="BKMK_classifications"></span>
+
 Choose update classifications
 -----------------------------
 
@@ -165,7 +139,7 @@ There are nine update classifications that you can use to filter the updates you
 
 2.  Click **Next** to proceed to the **Configure Sync Schedule** page, or select a different page from the left pane.
 
-<span id="BKMK_syncschedule"></span>
+
 Configure the synchronization schedule
 --------------------------------------
 

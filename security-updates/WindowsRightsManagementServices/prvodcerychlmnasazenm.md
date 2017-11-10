@@ -56,9 +56,8 @@ Pojmem zajištění označujeme proces konfigurace služby RMS na webovém serve
     Pokud jste v kroku 4 vybrali možnost Offline pro připojení serveru k Internetu, dokončete před provedením dalších kroků postup Ruční zápis serveru kořenové certifikace.
 7.  Na stránce Domovská stránka pro správu klepněte na odkaz **Spojovací bod služby RMS**.
 
-| ![](images/Cc747735.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Další krok tohoto postupu, registrace spojovacího bodu služby, vyžaduje, aby byl použit doménový účet s dostatečnými oprávněními pro vytvoření kontejnerového objektu pod kontejnerem služeb v rámci kontejneru konfigurace doménové struktury Active Directory. Příkladem účtu s potřebnými oprávněními je předdefinovaná skupina zabezpečení **Enterprise Admins**. |
+> [!NOTE]
+> Další krok tohoto postupu, registrace spojovacího bodu služby, vyžaduje, aby byl použit doménový účet s dostatečnými oprávněními pro vytvoření kontejnerového objektu pod kontejnerem služeb v rámci kontejneru konfigurace doménové struktury Active Directory. Příkladem účtu s potřebnými oprávněními je předdefinovaná skupina zabezpečení **Enterprise Admins**. 
 
 1.  Na stránce **spojovacího bodu služby RMS** klepněte na tlačítko **Registrovat adresu URL**. Tímto způsobem bude zaregistrován spojovací bod služby RMS v rámci služby Active Directory. Aplikace s podporou správy přístupových práv potom mohou rozpoznávat správu licencí služby RMS, aktivaci serveru proxy a služby certifikace. 
 

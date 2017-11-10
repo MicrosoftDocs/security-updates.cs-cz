@@ -13,9 +13,8 @@ Klient RMS je integrován do operačního systému Windows Vista® tak, aby ji�
 
 Proces aktivace vytvoří bezpečnostní modul a certifikát počítače pro aktuálně přihlášeného uživatele. Aktivace je místní proces, u kterého není nutné připojení k síti. Po úspěšné aktivaci získá aplikace s podporou služby RMS při první žádosti o licenci na používání certifikát uživatele. Klienta RMS lze nainstalovat do všech klientských počítačů v organizaci pomocí zásad skupiny, služby Windows Update nebo pomocí skriptu pro správu.
 
-| ![](images/Cc720266.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bez ohledu na použitý způsob distribuce klienta komunikuje klient RMS se serverem RMS ve výchozím nastavení buď prostřednictvím portu 80, nebo portu 443. Měli byste se přesvědčit, zda klientský počítač dokáže na těchto portech vytvářet odchozí požadavky na kořenové nebo pouze licencované clustery služby RMS. |
+> [!NOTE]
+> Bez ohledu na použitý způsob distribuce klienta komunikuje klient RMS se serverem RMS ve výchozím nastavení buď prostřednictvím portu 80, nebo portu 443. Měli byste se přesvědčit, zda klientský počítač dokáže na těchto portech vytvářet odchozí požadavky na kořenové nebo pouze licencované clustery služby RMS. 
 
 **Používání zásad skupiny**
 
@@ -29,7 +28,13 @@ Služba Windows Update představuje nejjednodušší způsob instalace klienta R
 
 Chcete-li si nad procesem instalace klienta zajistit maximální kontrolu, můžete software získat a ověřit jeho integritu v každém kroku procesu instalace spuštěním skriptu. Tento skript může být zapsán a přidán do objektu GPO (Group Policy Object) jako spouštěcí skript. U této metody nemusí být uživatel místním správcem v počítači a klient RMS bude automaticky nainstalován při spuštění.
 
-        ```
+Dále uvádíme ukázku skriptu:
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")  
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q"  
+```
+
 Základní informace o distribuci klienta RMS pomocí zásad skupiny získáte v části [Nastavení serveru SMS nebo zásad skupiny na podporu nasazení klientů](https://technet.microsoft.com/9e37c27b-8cc1-40c6-adb7-0937aa64c8db) dále v tomto tématu.
 
 Pokyny pro nasazení klienta RMS získáte v části [Způsob nasazení klienta RMS](https://technet.microsoft.com/c84f1724-cf71-4385-9003-ff68bc23c927) dále v tomto tématu.

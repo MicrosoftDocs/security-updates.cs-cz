@@ -29,14 +29,12 @@ Protože tyto situace vyžadují licence jménem uživatelů, je třeba vyžadov
 
 U každého souboru webových služeb RMS je doporučeno povolit protokol SSL (Secure Sockets Layer) a vyžadovat 128bitové šifrování. Uvedené soubory mají příponu ASMX a najdete je ve virtuálních adresářích Licensing, Certification a Admin. Protokol SSL vyžaduje, aby byl na příslušném serveru nainstalován platný certifikát SSL pro daný web. Pokud použijete protokol SSL pro složku \_wmcs instalace RMS, zdědí toto nastavení také podsložky a soubory. Další informace o souborech a virtuálních adresářích webových služeb získáte v části Internetová informační služba tématu Technické informace týkající se služby RMS v této sadě dokumentace.
 
-| ![](images/Cc720291.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                              |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Chcete-li otevřít webové stránky pro správu služby RMS v systému Windows v prohlížeči vzdáleného počítače, je nutné povolit protokol SSL. Přestože protokol SSL povolíte, nebude možné ze vzdáleného počítače otevřít stránku **Globální správa**. Další informace o vzdálené správě služby RMS získáte v tématu Práce s domovskou stránkou v části RMS: Provoz této sady dokumentace. |
+> [!NOTE]
+> Chcete-li otevřít webové stránky pro správu služby RMS v systému Windows v prohlížeči vzdáleného počítače, je nutné povolit protokol SSL. Přestože protokol SSL povolíte, nebude možné ze vzdáleného počítače otevřít stránku **Globální správa**. Další informace o vzdálené správě služby RMS získáte v tématu Práce s domovskou stránkou v části RMS: Provoz této sady dokumentace. 
 
 **Nastavení silného hesla soukromého klíče**
 
 Heslo soukromého klíče slouží ke generování a zabezpečenému uložení soukromého klíče v konfigurační databázi služby RMS. Za účelem zajištění maximálního zabezpečení se doporučuje silné heslo. Pokud je nutné si heslo poznamenat, uložte ho na fyzicky zabezpečeném místě.
 
-| ![](images/Cc720291.Caution(WS.10).gif)Upozornění                                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud při ztrátě nebo zapomenutí hesla soukromého klíče přejde server RMS neočekávaně do režimu offline, bude nutné dešifrovat všechny dokumenty RMS, znovu vytvořit prostředí RMS a znovu vše zašifrovat pomocí nového soukromého klíče. |
+> [!CAUTION]
+> Pokud při ztrátě nebo zapomenutí hesla soukromého klíče přejde server RMS neočekávaně do režimu offline, bude nutné dešifrovat všechny dokumenty RMS, znovu vytvořit prostředí RMS a znovu vše zašifrovat pomocí nového soukromého klíče. 

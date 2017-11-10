@@ -37,9 +37,8 @@ Podmínkou přidání serveru do clusteru certifikace nebo správy licencí je p
 -   Pokud zajišťujete samostatný server správy licencí, zadejte konfigurační databázi, účet služby RMS, adresu URL clusteru a informace o ochraně soukromého klíče stejným způsobem, jakým jste tyto informace zadali pro server kořenové certifikace. Nebudete však uvádět zásady odvolání certifikátu serveru pro poskytování licencí, tyto zásady jsou řízeny serverem kořenové certifikace.
 -   Pokud zajišťujete server, který bude členem clusteru, je nutné během zajišťování zadat pouze účet služby RMS, konfigurační databázi a heslo pro ochranu soukromého klíče (nebo použijte stejného zprostředkovatele kryptografických služeb a soukromý klíč jako pro existující cluster). Všechny servery v clusteru sdílí stejný certifikát serveru pro poskytování licencí a stejný pár klíčů serveru.
 
-| ![](images/Cc720189.Important(WS.10).gif)Důležité informace                                                                                   |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nespouštějte instalaci služby RMS na žádném jiném serveru, dokud nebude dokončena instalace uvedené služby na prvním serveru, včetně instalace i zajištění tohoto serveru. |
+> [!IMPORTANT]
+> Nespouštějte instalaci služby RMS na žádném jiném serveru, dokud nebude dokončena instalace uvedené služby na prvním serveru, včetně instalace i zajištění tohoto serveru. 
 
 Po instalaci a zajištění dalšího serveru je tento server automaticky nakonfigurován jako člen clusteru. Jestliže jste však implementovali vyrovnávání zatížení, je nutné nakonfigurovat software vyrovnávání zatížení tak, aby s novým serverem spolupracoval.
 

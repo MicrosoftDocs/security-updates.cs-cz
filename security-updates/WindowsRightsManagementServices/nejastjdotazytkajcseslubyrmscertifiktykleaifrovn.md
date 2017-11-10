@@ -79,13 +79,11 @@ Systém služby RMS používá následující certifikáty a licence, které jso
     Předpona názvu souboru: EUL
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Poznámka                                                                                  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uživatelskému účtu je přiřazen jeden certifikát počítače, soubor GIC a soubor CLC a mnoho souborů EUL na každou část obsahu, k němuž je požadován přístup. |
+> [!NOTE]
+> Uživatelskému účtu je přiřazen jeden certifikát počítače, soubor GIC a soubor CLC a mnoho souborů EUL na každou část obsahu, k němuž je požadován přístup. 
 
-| ![](images/Cc747725.note(WS.10).gif)Poznámka                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------|
-| Pro klienta RMS integrovaného se systémem Windows Vista® platí následující umístění: %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
+> [!NOTE]
+> Pro klienta RMS integrovaného se systémem Windows Vista® platí následující umístění: %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. 
 
 <span id="BKMK_17"></span>
 #### Kde je uložen pár privátního a veřejného klíče počítače?

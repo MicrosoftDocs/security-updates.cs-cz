@@ -20,6 +20,5 @@ Na webové stránce pro správu jsou zobrazeny následující vlastnosti aktuál
 -   datum vypršení platnosti certifikátu serveru pro poskytování licencí,
 -   hierarchie klíčů RMS, do níž server náleží.
 
-| ![](images/Cc747677.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Informace zobrazené na webové stránce pro správu jsou shodné pro všechny servery v clusteru, protože všechny tyto servery musí být nakonfigurovány stejně. Další informace týkající se přístupu na webovou stránku pro správu naleznete v tomto tématu později v části [Práce s domovskou stránkou pro správu](https://technet.microsoft.com/6c155977-bd0e-47d6-ac65-1746cddb505e). |
+> [!NOTE]
+> Informace zobrazené na webové stránce pro správu jsou shodné pro všechny servery v clusteru, protože všechny tyto servery musí být nakonfigurovány stejně. Další informace týkající se přístupu na webovou stránku pro správu naleznete v tomto tématu později v části [Práce s domovskou stránkou pro správu](https://technet.microsoft.com/6c155977-bd0e-47d6-ac65-1746cddb505e). 
