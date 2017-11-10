@@ -29,7 +29,9 @@ Chcete-li otevřít webovou stránku **Globální správa**, klepněte na tlač�
 5.  V části **Uživatelé a skupiny** proveďte nejméně jednu z následujících akcí:
 
     -   Chcete-li přidat uživatele nebo skupinu, zadejte v části **Přidat uživatele nebo skupiny** platnou e-mailovou adresu konkrétního uživatele nebo skupiny, které chcete přidat, klepněte na tlačítko **Přidat** a poté vyberte jméno v seznamu **Aktuální uživatelé nebo skupiny**. V části **Práva** vyberte všechna práva, která chcete udělit vybranému uživateli nebo skupině.
+
     -   Chcete-li upravit práva existujícího uživatele nebo skupiny, vyberte příslušné jméno či název v seznamu **Aktuální uživatelé nebo skupiny** a poté podle potřeby zaškrtněte nebo zrušte zaškrtnutí políček u požadovaných práv.
+
     -   Chcete-li odebrat uživatele nebo skupinu, vyberte příslušnou položku v seznamu **Aktuální uživatelé nebo skupiny** a poté klepněte na tlačítko **Odebrat**.
 
 6.  Chcete-li změnit časový limit vypršení platnosti licencí obsahu, po jehož uplynutí je nutné licence obnovit, upravte příslušné informace v části **Zásady vypršení platnosti**.
@@ -39,7 +41,9 @@ Chcete-li otevřít webovou stránku **Globální správa**, klepněte na tlač�
 8.  V části **Zásady odvolání** určete, zda má být pro obsah vytvořený pomocí této šablony vyžadován seznam odvolání. Pokud vyberete možnost **Požadovat odvolání**, proveďte podle potřeby následující nastavení:
 
     -   Do pole **URL** zadejte adresu URL, na kterou bude odeslán soubor se seznamem odvolání. Pokud je třeba podporovat také odpojené nebo externí uživatele, měl by být k této adrese URL umožněn přístup z podnikové sítě i z Internetu. Další informace získáte v tomto tématu v části [Implementace odvolání](https://technet.microsoft.com/4735f060-7197-4ae2-830a-f91bcc4de30a)uvedené již dříve.
+
     -   Do pole **Interval aktualizace seznamu odvolání** zadejte počet dnů, po které zůstává seznam odvolání v platnosti. Uživatel, jehož kopie seznamu odvolání je starší, než určuje tato hodnota, nemůže využívat obsah, dokud nezíská aktualizovaný seznam odvolání.
+    
     -   Do pole **Soubor veřejného klíče** zadejte cestu a název souboru veřejného klíče seznamu odvolání. Další informace o tomto souboru získáte v tomto tématu v části Vložení podpisu do seznamu odvolání uvedené již dříve.
 
     > [!CAUTION]

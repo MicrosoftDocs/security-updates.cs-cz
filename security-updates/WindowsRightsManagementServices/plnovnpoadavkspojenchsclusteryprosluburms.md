@@ -36,7 +36,8 @@ Pokud službu RMS používáte v clusterovém nasazení, nezapomeňte určit zp
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Dva síťové adaptéry využívající vytváření virtuálních adres IP ke zpracování požadavků z extranetu i intranetu</td>
-<td style="border:1px solid black;">Zajistěte, aby byla každá registrace DNS umožňující používání virtuální adresy IP v extranetu zároveň provedena pro používání této adresy v intranetu.
+<td style="border:1px solid black;">Zajistěte, aby byla každá registrace DNS umožňující používání virtuální adresy IP v extranetu zároveň provedena pro používání této adresy v intranetu.  
+<br/><br/>
 Jestliže registraci DNS pro intranet neprovedete, nezdaří se interní požadavky na licence k použití. Pokud nemůžete změnit záznamy o prostředcích DNS, můžete změnit tabulku hostitelů každého serveru v clusteru a namapovat adresu URL daného clusteru na jeho virtuální adresu IP. Registraci DNS je nutné provést před zajištěním služby RMS. Jestliže jste službu RMS již zajistili, je třeba její zajištění zrušit a potom proces zajištění opakovat znovu.</td>
 </tr>
 </tbody>
