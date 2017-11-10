@@ -11,9 +11,8 @@ Vytvoření seznamů odvolání
 
 Při implementaci odvolání je třeba nainstalovat seznam odvolání, což je dokument XML vyhovující syntaxi jazyka XrML (eXtensible Rights Markup Language) obsahující objekty zabezpečení, které nadále nemají přístup k obsahu chráněnému právy. Pomocí nástroje pro podepisování seznamů odvolání (RLsigner.exe), který je součástí služby RMS, je nutné vytvořit seznamy odvolání označené časovým razítkem a podepsané odpovídajícím způsobem.
 
-| ![](images/Cc720208.Important(WS.10).gif)Důležité informace                                      |
-|-------------------------------------------------------------------------------------------------------------------------------|
-| Chcete-li seznam odvolání podepsat pomocí nástroje RLsigner.exe, je nutné soubor seznamu odvolání uložit jako soubor Unicode. |
+> [!IMPORTANT]
+> Chcete-li seznam odvolání podepsat pomocí nástroje RLsigner.exe, je nutné soubor seznamu odvolání uložit jako soubor Unicode. 
 
 Příklad seznamu odvolání
 ------------------------
@@ -31,9 +30,8 @@ Prvek BODY obsahuje čtyři podřízené prvky:
 
 V následující části najdete ukázkový soubor seznamu odvolání.
 
-| ![](images/Cc720208.note(WS.10).gif)Poznámka                                    |
-|--------------------------------------------------------------------------------------------------------------|
-|Prvky ISSUEDTIME, PUBLICKEY a SIGNATURE lze vynechat, protože je vkládá nebo přepisuje nástroj RLsigner.exe.|
+> [!NOTE]
+>Prvky ISSUEDTIME, PUBLICKEY a SIGNATURE lze vynechat, protože je vkládá nebo přepisuje nástroj RLsigner.exe.
         
 ```        
 <?xml version="1.0" ?> 
@@ -60,9 +58,8 @@ V následující části najdete ukázkový soubor seznamu odvolání.
   <SIGNATURE>...</SIGNATURE>
 </XrML>
 ```
-| ![](images/Cc720208.Caution(WS.10).gif)Upozornění                                                                                              |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Při zadávání adresy URL v seznamu odvolání již není ve službě RMS s aktualizací SP1 nebo ve službě RMS s aktualizací SP2 podporována cesta UNC. Je nutné použít adresu URL. |
+> [!CAUTION]
+> Při zadávání adresy URL v seznamu odvolání již není ve službě RMS s aktualizací SP1 nebo ve službě RMS s aktualizací SP2 podporována cesta UNC. Je nutné použít adresu URL. 
 
 Po definici prvků REVOKE je seznam odvolání připraven k podpisu.
 
@@ -171,9 +168,8 @@ V tomto příkladu je odvolána sada certifikátů nebo licencí na základě ID
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Poznámka                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Při určování typu ID se ujistěte, že mezi identifikátorem GUID a uzavírací značkou není žádný znak konce stránky. Pokud dojde k náhodnému přidání znaku konce stránky, klient RMS nebude moci analyzovat seznam odvolání. |
+> [!NOTE]
+> Při určování typu ID se ujistěte, že mezi identifikátorem GUID a uzavírací značkou není žádný znak konce stránky. Pokud dojde k náhodnému přidání znaku konce stránky, klient RMS nebude moci analyzovat seznam odvolání. 
 
 <span id="BKMK_6"></span>
 #### Odvolání obsahu na základě ID obsahu
@@ -186,9 +182,8 @@ V tomto příkladu je odvolán chráněný obsah na základě ID obsahu. Tento z
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Poznámka                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Při určování typu ID se ujistěte, že mezi identifikátorem GUID a uzavírací značkou není žádný znak konce stránky. Pokud dojde k náhodnému přidání znaku konce stránky, klient RMS nebude moci analyzovat seznam odvolání. |
+> [!NOTE]
+> Při určování typu ID se ujistěte, že mezi identifikátorem GUID a uzavírací značkou není žádný znak konce stránky. Pokud dojde k náhodnému přidání znaku konce stránky, klient RMS nebude moci analyzovat seznam odvolání. 
 
 <span id="BKMK_10"></span>
 #### Odvolání objektů zabezpečení na základě účtu systému Windows
@@ -202,9 +197,8 @@ V tomto příkladu je odvolán uživatel nebo povolující objekt zabezpečení 
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Poznámka                                                                                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Při určování typu ID se ujistěte, že mezi identifikátorem SID účtu systému Windows a uzavírací značkou není žádný znak konce stránky. Pokud dojde k náhodnému přidání znaku konce stránky, klient RMS nebude moci analyzovat seznam odvolání. |
+> [!NOTE]
+> Při určování typu ID se ujistěte, že mezi identifikátorem SID účtu systému Windows a uzavírací značkou není žádný znak konce stránky. Pokud dojde k náhodnému přidání znaku konce stránky, klient RMS nebude moci analyzovat seznam odvolání. 
 
 <span id="BKMK_7"></span>
 #### Odvolání objektů zabezpečení na základě identifikátoru služby Windows Live ID
@@ -218,9 +212,8 @@ V tomto příkladu je odvolán uživatel nebo povolující objekt zabezpečení 
       </REVOKE>
 ```
 
-| ![](images/Cc720208.note(WS.10).gif)Poznámka                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Při určování typu ID se ujistěte, že mezi identifikátorem PUID a uzavírací značkou není žádný znak konce stránky. Pokud dojde k náhodnému přidání znaku konce stránky, klient RMS nebude moci analyzovat seznam odvolání. |
+> [!NOTE]
+> Při určování typu ID se ujistěte, že mezi identifikátorem PUID a uzavírací značkou není žádný znak konce stránky. Pokud dojde k náhodnému přidání znaku konce stránky, klient RMS nebude moci analyzovat seznam odvolání. 
 
 <span id="BKMK_8"></span>
 Vložení podpisu do seznamu odvolání
@@ -249,9 +242,8 @@ Soubor seznamu odvolání je nutné uložit jako soubor Unicode, aby jej bylo mo
 
 4.  Pomocí nástroje RLsigner.exe vložte podpis do souboru seznamu odvolání. Tento nástroj je součástí služby RMS. Ve výchozím nastavení je uložen v adresáři %systemdrive%\\Program Files\\Windows Rights Management Services\\Tools.
 
-| ![](images/Cc720208.note(WS.10).gif)Poznámka |
-|---------------------------------------------------------------------------|
-| Nástroj RLsigner.exe nepodporuje názvy souborů obsahující mezery.         |
+> [!NOTE]
+> Nástroj RLsigner.exe nepodporuje názvy souborů obsahující mezery.         
 
 <span id="BKMK_9"></span>
 Použití nástroje RLsigner.exe
@@ -259,9 +251,8 @@ Použití nástroje RLsigner.exe
 
 Nástroj RLsigner.exe po spuštění nejprve vytvoří podpis pomocí privátního klíče získaného ze souboru klíčů. Pak vytvoří výstupní soubor založený na poskytnutém souboru seznamu odvolání.
 
-| ![](images/Cc720208.Important(WS.10).gif)Důležité informace               |
-|--------------------------------------------------------------------------------------------------------|
-| Soubor seznamu odvolání je nutné uložit jako soubor Unicode, aby jej mohl nástroj RLsigner.exe použít. |
+> [!IMPORTANT]
+> Soubor seznamu odvolání je nutné uložit jako soubor Unicode, aby jej mohl nástroj RLsigner.exe použít. 
 
 Chcete-li seznam odvolání podepsat pomocí nástroje RLsigner.exe, zadejte na příkazový řádek následující příkaz:
 

@@ -20,9 +20,8 @@ Databáze protokolování služby RMS obsahuje protokoly, ve kterých můžete n
 
 Pokud k ochraně soukromých klíčů služby RMS používáte hardwarový modul zabezpečení, je třeba zálohovat také konfiguraci tohoto modulu. Další informace týkající se zálohování a obnovení konfigurace hardwarového modulu zabezpečení naleznete v dokumentaci k tomuto modulu.
 
-| ![](images/Cc747745.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud k šifrování soukromých klíčů služby RMS používáte jiného než výchozího softwarového zprostředkovatele kryptografických služeb (CSP), zajistěte v organizaci před použitím tohoto zprostředkovatele ve službě RMS vytvoření postupů při správě klíčů (například postupů při zálohování a obnovení). |
+> [!NOTE]
+> Pokud k šifrování soukromých klíčů služby RMS používáte jiného než výchozího softwarového zprostředkovatele kryptografických služeb (CSP), zajistěte v organizaci před použitím tohoto zprostředkovatele ve službě RMS vytvoření postupů při správě klíčů (například postupů při zálohování a obnovení). 
 
 Plánování obnovení systému služby RMS
 -------------------------------------

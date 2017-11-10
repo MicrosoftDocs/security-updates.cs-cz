@@ -21,6 +21,5 @@ V případě, že klient požádá o certifikát účtu práv, připojí k adr
 
 http://*název\_serveru*/\_wmcs/Certification/Certification.asmx
 
-| ![](images/Cc720224.note(WS.10).gif)Poznámka                                   |
-|-------------------------------------------------------------------------------------------------------------|
-| Jestliže jste na serveru povolili protokol SSL, budou tyto adresy URL používat protokol připojení https://. |
+> [!NOTE]
+> Jestliže jste na serveru povolili protokol SSL, budou tyto adresy URL používat protokol připojení https://. 

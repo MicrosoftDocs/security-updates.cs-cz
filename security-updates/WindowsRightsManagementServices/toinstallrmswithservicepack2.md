@@ -13,13 +13,11 @@ To perform this procedure, you must be logged on locally to the administration W
 
 The computer on which you are installing RMS must be a member server in a domain, or it must be a domain controller. You cannot deploy RMS on a stand-alone server in a workgroup.
 
-| ![](images/Cc720217.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Do not provision RMS on any other servers until you have completed both the installation and provisioning of the first server in the root cluster. For instructions, see [Zajištění prvního serveru kořenové certifikace](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2), [Zajištění serveru správy licencí](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e), or [Přidání serveru do clusteru](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733) later in this subject. |
+> [!IMPORTANT]
+> Do not provision RMS on any other servers until you have completed both the installation and provisioning of the first server in the root cluster. For instructions, see [Zajištění prvního serveru kořenové certifikace](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2), [Zajištění serveru správy licencí](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e), or [Přidání serveru do clusteru](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733) later in this subject. 
 
-| ![](images/Cc720217.Important(WS.10).gif)Důležité informace                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| If you are upgrading from a previous version of RMS, you must install RMS with Service Pack 1 (SP1) before installing RMS with Service Pack 2 (SP2). |
+> [!IMPORTANT]
+> If you are upgrading from a previous version of RMS, you must install RMS with Service Pack 1 (SP1) before installing RMS with Service Pack 2 (SP2). 
 
 Installing RMS with Service Pack 2
 ----------------------------------

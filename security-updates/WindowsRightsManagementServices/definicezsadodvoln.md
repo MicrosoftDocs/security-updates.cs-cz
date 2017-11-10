@@ -18,9 +18,8 @@ Vzhledem k tomu, že vydavatelem certifikátu serveru pro poskytování licencí
 
 Kromě služby Microsoft Enrollment Services je možné určit třetí stranu, která může certifikát serveru pro poskytování licencí pro server služby RMS odvolat. Touto stranou může být entita mimo danou organizaci nebo pár veřejných či soukromých klíčů generovaných správcem jménem organizace. Určený soukromý klíč třetí strany může být použit k podpisu seznamu odvolání, jehož prostřednictvím je odvolán certifikát serveru pro poskytování licencí. Třetí strana je v průběhu zajištění služby RMS určena svým veřejným klíčem. Šablonu zásad práv serveru je také možné konfigurovat tak, aby třetí straně umožňovala odvolat obsah, manifesty aplikací a certifikáty vydané instalací služby RMS. Další informace získáte v tomto tématu později v části [Vytvoření a změna šablon zásad práv](https://technet.microsoft.com/6014176f-ef71-4d29-b3e3-da129c18563d).
 
-| ![](images/Cc747782.Important(WS.10).gif)Důležité informace                                                                                                            |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud se rozhodnete generovat vlastní pár klíčů, který budete chtít použít k odvolání certifikátu serveru pro poskytování licencí pro server kořenové certifikace, uložte jej na zabezpečené místo. |
+> [!IMPORTANT]
+> Pokud se rozhodnete generovat vlastní pár klíčů, který budete chtít použít k odvolání certifikátu serveru pro poskytování licencí pro server kořenové certifikace, uložte jej na zabezpečené místo. 
 
 Odvolání certifikátu serveru pro poskytování licencí je důležité rozhodnutí, protože všechny certifikáty a licence vydané instalací služby RMS budou po jeho odvolání neplatné. Další informace týkající se odvolání certifikátů serverů pro poskytování licencí získáte v tomto tématu později v části [Odvolání certifikátů serveru pro poskytování licencí](https://technet.microsoft.com/8020861d-d196-4431-8282-044675ef5616).
 

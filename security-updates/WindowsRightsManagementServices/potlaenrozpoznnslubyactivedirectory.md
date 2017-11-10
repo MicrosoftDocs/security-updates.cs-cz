@@ -11,9 +11,8 @@ Potlačení rozpoznání služby Active Directory
 
 Služby RMS a klienti zjišťují umístění služeb tak, že nejprve hledají v místním registru. Pokud určité klíče v registru nemají hodnotu, služby RMS a klienti hledají v adresáři služby Active Directory spojovací bod služby. To znamená, že můžete přepsat výchozí nastavení zjišťování služby Active Directory, pokud zadáte určité klíče v registru serveru nebo klienta.
 
-| ![](images/Cc747614.note(WS.10).gif)Poznámka                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jestliže je váš kořenový cluster služby RMS nakonfigurován tak, že spojovací bod služby není publikován v adresáři služby Active Directory, můžete pomocí těchto klíčů směrovat své klienty služby RMS na správné umístění. |
+> [!NOTE]
+> Jestliže je váš kořenový cluster služby RMS nakonfigurován tak, že spojovací bod služby není publikován v adresáři služby Active Directory, můžete pomocí těchto klíčů směrovat své klienty služby RMS na správné umístění. 
 
 Tato část popisuje položky registru a podrobnosti o tom, jak je můžete vytvořit.
 

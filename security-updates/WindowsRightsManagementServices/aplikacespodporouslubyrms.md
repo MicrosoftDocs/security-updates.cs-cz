@@ -21,9 +21,8 @@ Uživatelé, kteří nemají k dispozici další aplikaci s podporou služby R
 
 Doplněk Správa práv pro aplikaci Internet Explorer můžete stáhnout z [webu společnosti Microsoft](http://go.microsoft.com/fwlink/?linkid=14450) (http://go.microsoft.com/fwlink/?LinkId=14450).
 
-| ![](images/Cc720231.note(WS.10).gif)Poznámka                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud uvedený doplněk používáte v systému s aktualizací Windows XP Service Pack 2, může rozšířená konfigurace zabezpečení způsobit určité potíže s kompatibilitou aplikace. |
+> [!NOTE]
+> Pokud uvedený doplněk používáte v systému s aktualizací Windows XP Service Pack 2, může rozšířená konfigurace zabezpečení způsobit určité potíže s kompatibilitou aplikace. 
 
 Jestliže adresa URL připojení k extranetu pro každou doménu v organizaci není přidána na weby místního intranetu v aplikaci Internet Explorer, bude se uživatelům využívajícím doplněk Správa práv pro aplikaci Internet Explorer opakovaně zobrazovat zpráva s dotazem, zda se opravdu chtějí k těmto webům připojit. Nesprávná odpověď na tyto zprávy by mohla způsobit, že klient RMS získá pro účet daného uživatele nový certifikát účtu práv.
 

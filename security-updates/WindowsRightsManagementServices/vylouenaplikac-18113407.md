@@ -19,6 +19,5 @@ Podobně jako v případě dalších typů vyloučení je třeba vyloučení apl
 
 Pokud uvedené zásady vyloučení nastavíte na serveru, nebudou klienti moci použít vyloučenou aplikaci k zadání požadavku na obsah chráněný správou přístupových práv a k svázání nových licencí k použití s tímto obsahem. Vyloučené aplikace ovšem budou moci použít k práci se soubory licencovanými dříve.
 
-| ![](images/Cc747644.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Server RMS vyžaduje zadání verze aplikace ve formátu čtyřmístného čísla odděleného tečkami (\#.\#.\#.\# ). U některých aplikací je však číslo verze určeno dvoumístnými nebo třímístnými čísly oddělenými tečkou. V takovém případě je vhodné přidat hodnotu .0, aby číslo verze odpovídalo formátu vyžadovanému serverem RMS. |
+> [!NOTE]
+> Server RMS vyžaduje zadání verze aplikace ve formátu čtyřmístného čísla odděleného tečkami (\#.\#.\#.\# ). U některých aplikací je však číslo verze určeno dvoumístnými nebo třímístnými čísly oddělenými tečkou. V takovém případě je vhodné přidat hodnotu .0, aby číslo verze odpovídalo formátu vyžadovanému serverem RMS. 
