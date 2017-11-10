@@ -83,6 +83,5 @@ Nepovinný parametr. Určuje adresář, do kterého má být služba RMS s aktu
 </tbody>
 </table>
   
-| ![](images/Cc747733.note(WS.10).gif)Poznámka                                                                                                                                                   |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Bez ohledu na to, který způsob instalace zvolíte, je nutné úspěšně nainstalovat oba soubory MSI. Pokud by došlo k chybě, která by znemožnila instalaci souboru MSDrmClient.msi, neinstalujte soubor RMClientBackCompat.msi. |
+> [!NOTE]
+> Bez ohledu na to, který způsob instalace zvolíte, je nutné úspěšně nainstalovat oba soubory MSI. Pokud by došlo k chybě, která by znemožnila instalaci souboru MSDrmClient.msi, neinstalujte soubor RMClientBackCompat.msi. 

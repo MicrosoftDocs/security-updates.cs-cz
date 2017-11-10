@@ -19,9 +19,8 @@ Pokud velikost databáze protokolování výrazně vzroste, můžete ji kdykoli 
     -   Změňte hodnotu zásady LoggingDatabaseServer podle nového názvu databázového serveru.
     -   Změňte hodnotu zásady LoggingDatabaseName podle nového názvu databáze.
 
-    | ![](images/Cc720238.note(WS.10).gif)Poznámka                                                                                                                                                                          |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Správce SQL Server Enterprise Manager nepracuje s poli typu db\_variant, k provedení této úlohy jej tedy nelze použít. Je však možné použít nástroj Query Analyzer dodávaný se serverem SQL Server nebo jiný nástroj pro provádění úprav databáze. |
+    > [!NOTE]
+    > Správce SQL Server Enterprise Manager nepracuje s poli typu db\_variant, k provedení této úlohy jej tedy nelze použít. Je však možné použít nástroj Query Analyzer dodávaný se serverem SQL Server nebo jiný nástroj pro provádění úprav databáze. 
 
 4.  Restartujte službu IIS na všech serverech v clusteru.
 5.  Znovu zapněte protokolování.

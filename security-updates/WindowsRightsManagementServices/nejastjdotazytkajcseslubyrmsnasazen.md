@@ -77,9 +77,8 @@ Chcete-li zcela odstranit instalaci služby RMS, proveďte následující postup
 
 6.  Jestliže klienti RMS používají systém Windows XP a Windows 2000, odeberte je z klientských počítačů.
 
-| ![](images/Cc720274.Important(WS.10).gif)Důležité informace                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Po dokončení tohoto postupu již nebudete moci otevírat obsah chráněný právy. Pokud jste pomocí služby RMS zabezpečili cenná data, vyřaďte před odstraněním instalace služby RMS nejprve tuto službu z provozu. |
+> [!IMPORTANT]
+> Po dokončení tohoto postupu již nebudete moci otevírat obsah chráněný právy. Pokud jste pomocí služby RMS zabezpečili cenná data, vyřaďte před odstraněním instalace služby RMS nejprve tuto službu z provozu. 
 
 <span id="BKMK_27"></span>
 #### Je nutné po odinstalaci klienta RMS pomocí panelu Přidat nebo odebrat programy odebrat ještě nějaké další soubory?

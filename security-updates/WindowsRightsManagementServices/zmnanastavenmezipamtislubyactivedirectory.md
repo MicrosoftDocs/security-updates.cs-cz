@@ -79,10 +79,8 @@ V následující tabulce jsou uvedeny položky, které řídí chování mezipa
 </tbody>
 </table>
   
-| ![](images/Cc747586.Caution(WS.10).gif)Upozornění                                                                                                  |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Nesprávné úpravy registru mohou způsobit závažné poškození systému. Před provedením jakýchkoli změn registru byste měli vytvořit záložní kopii všech důležitých dat v počítači. |
+> [!CAUTION]
+> Nesprávné úpravy registru mohou způsobit závažné poškození systému. Před provedením jakýchkoli změn registru byste měli vytvořit záložní kopii všech důležitých dat v počítači. 
   
-| ![](images/Cc747586.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                  |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Položky registru **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** a **ContactMembersofGroupCacheExpireMinutes** také řídí vypršení platnosti místní mezipaměti služby Active Directory uložené v databázi adresářových služeb na databázovém serveru. |
+> [!NOTE]
+> Položky registru **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** a **ContactMembersofGroupCacheExpireMinutes** také řídí vypršení platnosti místní mezipaměti služby Active Directory uložené v databázi adresářových služeb na databázovém serveru. 

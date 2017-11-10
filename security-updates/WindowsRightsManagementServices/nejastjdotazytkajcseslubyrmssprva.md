@@ -101,9 +101,8 @@ Trasování je možné implementovat, jestliže změníte soubor Web.config nebo
 
 4.  Restartujte službu IIS spuštěním příkazu IISRESET na příkazovém řádku.
 
-| ![](images/Cc747547.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                 |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud na serveru RMS nastavíte trasování, může dojít k problémům s výkonem, jako jsou například delší prodlevy při získávání licencí k použití nebo při vydávání certifikátů účtů práv. Používejte trasování pouze výjimečně, a to pouze ke zjištění a odstranění existujících problémů. |
+> [!IMPORTANT]
+> Pokud na serveru RMS nastavíte trasování, může dojít k problémům s výkonem, jako jsou například delší prodlevy při získávání licencí k použití nebo při vydávání certifikátů účtů práv. Používejte trasování pouze výjimečně, a to pouze ke zjištění a odstranění existujících problémů. 
 
 <span id="BKMK_9"></span>
 #### Co je posunutí hodin a jak je vyřešit?
