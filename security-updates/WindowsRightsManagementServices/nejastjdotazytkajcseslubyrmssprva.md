@@ -85,6 +85,7 @@ Trasování je možné implementovat, jestliže změníte soubor Web.config nebo
 
 **Povolení trasování**
 1.  Otevřete soubor Machine.config nebo Web.config a přidejte do něj v části &lt;system.diagnostics&gt; následující řádky:
+
     ```
     <system.diagnostics>
     <switches>
