@@ -18,9 +18,8 @@ Před zahájením migrace konfigurační databáze je potřeba zajistit, abyste 
 -   název a heslo účtu, který byl původně použit k zajištění serverů v clusteru služby RMS používajícím tuto databázi;
 -   heslo privátního klíče služby RMS, které bylo původně zadáno během zajišťování (pokud se používá softwarový zprostředkovatel kryptografických služeb pro ukládání privátního klíče služby RMS); jestliže se k uložení hesla privátního klíče služby RMS používá hardwarový modul zabezpečení, není tento krok nutný.
 
-| ![](images/Cc747607.note(WS.10).gif)Poznámka                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Při migraci konfigurační databáze není nutný nový certifikátu serveru pro poskytování licencí nebo nový privátní klíč serveru, protože služba RMS uchovává nastavení z původní konfigurační databáze. |
+> [!NOTE]
+> Při migraci konfigurační databáze není nutný nový certifikátu serveru pro poskytování licencí nebo nový privátní klíč serveru, protože služba RMS uchovává nastavení z původní konfigurační databáze. 
 
 Před prováděním jakýchkoli operací na databázovém serveru byste měli zazálohovat databáze služby RMS. Pokud to není možné, vyexportujte aspoň certifikát serveru pro poskytování licencí. Další informace o exportu certifikátu serveru pro poskytování licencí naleznete v tématu týkajícím se [Export certifikátu serveru pro poskytování licencí do souboru](https://technet.microsoft.com/d683a629-71b3-4b11-932b-4ab0317334af). Jestliže při migraci databází dojde k chybě, můžete certifikát serveru pro poskytování licencí naimportovat do nové instalace služby RMS a použít obsah, který byl chráněn právy, se starší instalací.
 
@@ -29,9 +28,8 @@ Konfigurační databázi můžete migrovat provedením následujících kroků:
 -   Aktualizujte konfigurační databázi služby RMS tak, aby obsahovala nový název databázového serveru.
 -   Aktualizujte soubory web.config a registr každého serveru v clusteru RMS tak, aby používaly nový název databázového serveru.
 
-| ![](images/Cc747607.Important(WS.10).gif)Důležité informace                                                   |
-|--------------------------------------------------------------------------------------------------------------------------------------------|
-| V tomto tématu se předpokládá, že databáze RMS již byly zkopírovány na nový databázový server, na kterém jsou uloženy databáze služby RMS. |
+> [!IMPORTANT]
+> V tomto tématu se předpokládá, že databáze RMS již byly zkopírovány na nový databázový server, na kterém jsou uloženy databáze služby RMS. 
 
 Aktualizace konfigurační databáze služby RMS tak, aby používala nový název databázového serveru
 -----------------------------------------------------------------------------------------------
@@ -130,9 +128,8 @@ Aktualizace souborů web.config na každém serveru v clusteru služby RMS:
 
 Nakonec aktualizujte registr na každém serveru v clusteru služby RMS tak, aby používal nový název databázového serveru.
 
-| ![](images/Cc747607.Caution(WS.10).gif)Upozornění                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------------|
-| Nesprávná úprava registru může vážně poškodit systém. Před prováděním změn registru byste měli v počítači zálohovat veškerá cenná data. |
+> [!CAUTION]
+> Nesprávná úprava registru může vážně poškodit systém. Před prováděním změn registru byste měli v počítači zálohovat veškerá cenná data. 
 
 **Aktualizace registru na každém serveru v clusteru služby RMS**
 1.  Přihlaste se k serveru v clusteru služby RMS jako člen místní skupiny Administrators.

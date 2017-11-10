@@ -13,7 +13,7 @@ Tato část obsahuje informace, které vám usnadní instalaci Služby správy p
 
 Službu RMS s aktualizací SP2 je možné nainstalovat, aniž byste odebrali existující instalaci služby RMS s aktualizací SP1. Instalační program služby RMS s aktualizací SP2 zjistí, že je nainstalována služba RMS s aktualizací SP1 a podle potřeby přidá další funkce a nastavení.
 
-| ![](images/Cc720225.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                            |
+| ![](images/Cc720225.note(WS.10).gif) Poznámka                                                                                                                                                                                                                                            |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Upgrade serveru RMS bez aktualizace Service Pack na službu RMS s aktualizací SP2 není podporován. Pokud používáte server RMS bez aktualizace Service Pack, je nutné před upgradem na službu RMS s aktualizací SP2 upgradovat na službu RMS s aktualizací SP1. Klienta RMS lze upgradovat z jakékoli předchozí verze. |
 

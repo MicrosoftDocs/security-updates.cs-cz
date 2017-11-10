@@ -16,7 +16,7 @@ Prerequisites Schema
 
 The elements of the prerequisites schema are listed in the following table.
 
-
+<p></p>
 
  
 <table style="border:1px solid black;">
@@ -65,6 +65,8 @@ The elements of the prerequisites schema are listed in the following table.
 </tr>
 </tbody>
 </table>
+
+<p></p>
   
 In addition, the **Result** element has an attribute **StatusCode**. The possible values of **StatusCode** are 0 (success), 1 (error), 2 (warning).
   
