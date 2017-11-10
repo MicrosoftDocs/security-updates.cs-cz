@@ -13,9 +13,8 @@ Před instalací serveru kořenové certifikace nebo serveru správy licencí zk
 
 Pomocí následujících kroků nastavíte řadič domény a databázový server v jednom počítači v izolované síti pro účely testování na serveru.
 
-| ![](images/Cc747681.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                        |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| V tomto příkladu je databázový server na řadiči domény. V provozním prostředí se obecně nedoporučuje používat řadič domény jako hostitele dalších součástí. Služba Active Directory a databázový server jsou v tomto příkladu nainstalovány ve stejném počítači, aby bylo možné nainstalovat celou infrastrukturu do minimálního počtu počítačů. |
+> [!NOTE]
+> V tomto příkladu je databázový server na řadiči domény. V provozním prostředí se obecně nedoporučuje používat řadič domény jako hostitele dalších součástí. Služba Active Directory a databázový server jsou v tomto příkladu nainstalovány ve stejném počítači, aby bylo možné nainstalovat celou infrastrukturu do minimálního počtu počítačů. 
 
 Pokud se rozhodnete jako databázový server používat součást MSDE 2000, měli byste vědět, že nepodporuje žádná síťová rozhraní a že v podmínkách používání součásti MSDE 2000 je uvedeno, že pro obsluhu databáze MSDE 2000 nelze použít klientské nástroje serveru SQL Server. Vzhledem k tomuto omezení by nebylo možné zobrazit informace obsažené v protokolech a změnit data uložená v konfigurační databázi. Doporučujeme proto součást MSDE 2000 používat pouze pro podporu databází služby RMS v testovacích prostředích.
 

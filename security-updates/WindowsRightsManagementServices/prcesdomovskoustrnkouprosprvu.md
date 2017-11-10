@@ -38,6 +38,5 @@ Na stránce **Domovská stránka pro správu** se zobrazí informace o clusteru,
 
 Ve zbývajících tématech této části je popsáno, jak s těmito vlastnostmi pracovat. Podrobné pokyny naleznete v tomto tématu později v části [Postupy pro službu RMS...](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff).
 
-| ![](images/Cc720290.note(WS.10).gif)Poznámka                                                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ke konfiguraci některých funkcí využívá web pro správu služby RMS překryvná okna. Jestliže u webového prohlížeče používáte blokování překryvných oken, měli byste nastavení prohlížeče nakonfigurovat tak, aby překryvná okna z tohoto webu povolovalo. |
+> [!NOTE]
+> Ke konfiguraci některých funkcí využívá web pro správu služby RMS překryvná okna. Jestliže u webového prohlížeče používáte blokování překryvných oken, měli byste nastavení prohlížeče nakonfigurovat tak, aby překryvná okna z tohoto webu povolovalo. 

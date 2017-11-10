@@ -33,9 +33,8 @@ Umístění šablon je určeno aplikací s podporou služby RMS. U sady Office�
 
 **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\12.0\\Common\\DRM\\AdminTemplatePath** v případě sady Microsoft Office 2007.
 
-| ![](images/Cc720175.note(WS.10).gif)Poznámka                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud tato položka odkazuje na místní složku v klientovi, je nutné soubory šablon do klienta zkopírovat. Jestliže položka odkazuje na síťovou sdílenou složku, nebude k dispozici v případě, že uživatel pracuje offline. |
+> [!NOTE]
+> Pokud tato položka odkazuje na místní složku v klientovi, je nutné soubory šablon do klienta zkopírovat. Jestliže položka odkazuje na síťovou sdílenou složku, nebude k dispozici v případě, že uživatel pracuje offline. 
 
 <span id="BKMK_59"></span>
 #### Při vytvoření jsou se šablonami svázány aliasy uživatelů a distribuční seznamy. Jak může organizace s mnoha odděleními vytvořit šablony se stejnými základními právy a zároveň udělit tato práva různým skupinám v závislosti na obsahu?

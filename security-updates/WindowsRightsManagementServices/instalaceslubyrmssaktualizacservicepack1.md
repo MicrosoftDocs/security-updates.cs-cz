@@ -13,13 +13,11 @@ Provedení tohoto postupu vyžaduje, aby byl uživatel místně přihlášen k 
 
 Počítač, na který instalujete službu RMS, musí být členským serverem domény nebo řadičem domény. Službu RMS nelze instalovat na samostatný server v rámci pracovní skupiny.
 
-| ![](images/Cc747689.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nezajišťujte službu RMS na jiných serverech, dokud nedokončíte instalaci i zajištění prvního serveru kořenové certifikace. Pokyny naleznete v tomto tématu později v částech [Zajištění prvního serveru kořenové certifikace](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2), [Zajištění serveru správy licencí](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e) a [Přidání serveru do clusteru](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733). |
+> [!IMPORTANT]
+> Nezajišťujte službu RMS na jiných serverech, dokud nedokončíte instalaci i zajištění prvního serveru kořenové certifikace. Pokyny naleznete v tomto tématu později v částech [Zajištění prvního serveru kořenové certifikace](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2), [Zajištění serveru správy licencí](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e) a [Přidání serveru do clusteru](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733). 
 
-| ![](images/Cc747689.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Službu RMS s aktualizací SP1 lze nainstalovat na server, na kterém je aktuálně spuštěna předchozí verze služby RMS. Pokud jste však službu RMS vyřadili z provozu, je třeba před instalací služby RMS s aktualizací SP1 původní službu zcela odebrat pomocí ovládacího panelu Přidat nebo odebrat programy. |
+> [!IMPORTANT]
+> Službu RMS s aktualizací SP1 lze nainstalovat na server, na kterém je aktuálně spuštěna předchozí verze služby RMS. Pokud jste však službu RMS vyřadili z provozu, je třeba před instalací služby RMS s aktualizací SP1 původní službu zcela odebrat pomocí ovládacího panelu Přidat nebo odebrat programy. 
 
 Instalace služby RMS s aktualizací Service Pack 1
 -------------------------------------------------

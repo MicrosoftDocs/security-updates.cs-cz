@@ -11,9 +11,8 @@ Nastavení klíče registru služby RMS
 
 Změnou nastavení klíče registru můžete otestovat určité aspekty nasazení a také zajistit správu výkonu.
 
-| ![](images/Cc747740.Caution(WS.10).gif)Upozornění                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nesprávné úpravy registru mohou způsobit závažné poškození systému. Před provedením jakýchkoli změn registru byste měli vytvořit záložní kopii všech důležitých dat v počítači. |
+> [!CAUTION]
+> Nesprávné úpravy registru mohou způsobit závažné poškození systému. Před provedením jakýchkoli změn registru byste měli vytvořit záložní kopii všech důležitých dat v počítači. 
 
 Tento oddíl se zabývá následujícími tématy:
 

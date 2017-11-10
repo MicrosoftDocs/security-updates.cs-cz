@@ -101,9 +101,8 @@ Softwarové požadavky pro servery používající službu RMS s aktualizací S
 </table>
  
 
-| ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                                                                                 |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud u služby RMS s aktualizací SP2 povolíte vzdálenou správu, pak počítač, který se připojuje ke službě správy služby RMS s aktualizací SP2, musí používat aplikaci Internet Explorer 6.0 nebo novější. |
+> [!NOTE]
+> Pokud u služby RMS s aktualizací SP2 povolíte vzdálenou správu, pak počítač, který se připojuje ke službě správy služby RMS s aktualizací SP2, musí používat aplikaci Internet Explorer 6.0 nebo novější. 
 
 Požadavky na infrastrukturu pro servery používající službu RMS s aktualizací SP2 jsou uvedeny v následující tabulce.
 

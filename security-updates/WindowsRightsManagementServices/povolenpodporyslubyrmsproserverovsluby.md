@@ -26,14 +26,12 @@ Jakmile služba RMS tyto soubory vytvoří, jsou seznamy DACL těchto souborů n
 
 Po vytvoření skupiny můžete změnit seznam DACL pro soubor ServerCertification.asmx tak, aby této skupině poskytoval oprávnění pro čtení & spouštění dané služby. Zároveň je nutné do seznamu DACL přidat skupinu RMS Service Group s oprávněními pro čtení & spouštění.
 
-| ![](images/Cc747593.note(WS.10).gif)Poznámka                                                              |
-|----------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud cluster obsahuje více serverů RMS, je třeba seznam DACL pro soubor ServerCertification.asmx změnit u každého serveru v clusteru. |
+> [!NOTE]
+> Pokud cluster obsahuje více serverů RMS, je třeba seznam DACL pro soubor ServerCertification.asmx změnit u každého serveru v clusteru. 
 
 Pro Microsoft Exchange Server 2007 je do této skupiny serverových služeb nutné přidat objekt počítače služby Active Directory pro každý server Exchange předmostí. Pokud tento krok nepovedete, nebude server Exchange předmostí moci požádat o licence jménem uživatelů, kteří obdrželi e-mail.
 
 Pro Office SharePoint Server 2007 je třeba do skupiny serverových služeb přidat objekt počítače služby Active Directory serveru, na němž je Office SharePoint Server 2007 spuštěn. Jestliže je Office SharePoint Server 2007 konfigurován na používání výchozího serveru ve službě Active Directory, je nutné přidat skupinu RMS Service Group a skupinu vytvořenou pro serverové služby do souboru ServiceLocater.asmx a povolit oprávnění ke čtení & spouštění.
 
-| ![](images/Cc747593.Important(WS.10).gif)Důležité informace                                                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Po změně seznamu DACL pro soubory ServerCertification.asmx a ServiceLocater.asmx. je třeba restartovat Internetovou informační službu (IIS). Tuto službu restartujete spuštěním příkazu **iisreset** na příkazovém řádku. |
+> [!IMPORTANT]
+> Po změně seznamu DACL pro soubory ServerCertification.asmx a ServiceLocater.asmx. je třeba restartovat Internetovou informační službu (IIS). Tuto službu restartujete spuštěním příkazu **iisreset** na příkazovém řádku. 
