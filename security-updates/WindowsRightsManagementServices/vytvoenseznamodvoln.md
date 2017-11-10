@@ -294,9 +294,8 @@ Parametry příkazu zadejte na základě následujících informací:
 </tbody>
 </table>
   
-| ![](images/Cc720208.note(WS.10).gif)Poznámka |  
-|---------------------------------------------------------------------------|  
-| Nástroj RLsigner.exe nepodporuje názvy souborů obsahující mezery.         |
+> [!NOTE]
+> Nástroj RLsigner.exe nepodporuje názvy souborů obsahující mezery.         
   
 V následujících příkladech je popsáno, jak lze nástroj RLsigner.exe použít na příkazovém řádku pro různé zprostředkovatele kryptografických služeb:
   

@@ -73,9 +73,8 @@ Nasazení klienta RMS pomocí serveru SMS
     -   Na **příkazový řádek** zadejte následující příkaz:
 
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
-        | ![](images/Cc747749.note(WS.10).gif)Poznámka                                                                                               |
-        |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-        | MSIDGHOG je náhodná hodnota. Hodnotu &lt;název\_souboru&gt; nahraďte názvem souboru Instalační služby systému Windows, který se bude v rámci tohoto balíčku instalovat. |
+        > [!NOTE]
+        > MSIDGHOG je náhodná hodnota. Hodnotu &lt;název\_souboru&gt; nahraďte názvem souboru Instalační služby systému Windows, který se bude v rámci tohoto balíčku instalovat.
 
     -   U možnosti **Spustit** vyberte položku **Skryté**.
     -   U možnosti **Po spuštění** vyberte položku **Není požadována žádná akce**.

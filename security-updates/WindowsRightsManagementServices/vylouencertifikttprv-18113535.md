@@ -31,12 +31,10 @@ Vyloučení certifikátů účtů práv
     -   Chcete-li vyloučit certifikát účtu podle uživatelského jména, klepněte na pole **Uživatelské jméno** pro certifikát účtu práv, který má být vyloučen, zadejte jméno uživatele, kterého chcete vyloučit (ve tvaru *uživatelské\_jméno*@*název\_domény*.com), a klepněte na tlačítko **Přidat**. Tato možnost slouží k vyloučení certifikátů účtů interních uživatelů, kteří mají uživatelské účty služby Active Directory.
     -   Chcete-li vyloučit certifikát účtu podle veřejného klíče, klepněte na pole **Řetězec veřejného klíče** pro certifikát účtu práv, který má být vyloučen, zadejte řetězec veřejného klíče požadovaného certifikátu účtu práv a poté klepněte na tlačítko **Přidat**. Tato možnost slouží k vyloučení certifikátů externích uživatelů, kteří nemají uživatelské účty služby Active Directory.
 
-    | ![](images/Cc747785.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                             |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Chcete-li odstranit vyloučený certifikát účtu práv ze seznamu vyloučení, klepněte na něj v seznamu a poté klepněte na odkaz **Odstranit vybrané veřejné klíče ze seznamu vyloučení**. Uživatel s daným certifikátem účtu nyní bude moci získat z tohoto serveru licenci pro obsah chráněný správou přístupových práv. |
+    > [!NOTE]
+    > Chcete-li odstranit vyloučený certifikát účtu práv ze seznamu vyloučení, klepněte na něj v seznamu a poté klepněte na odkaz **Odstranit vybrané veřejné klíče ze seznamu vyloučení**. Uživatel s daným certifikátem účtu nyní bude moci získat z tohoto serveru licenci pro obsah chráněný správou přístupových práv. 
 
-    | ![](images/Cc747785.note(WS.10).gif)Poznámka           |
-    |-------------------------------------------------------------------------------------|
-    | Chcete-li zakázat vyloučení certifikátů účtů práv, klepněte na možnost **Zakázat**. |
+    > [!NOTE]
+    > Chcete-li zakázat vyloučení certifikátů účtů práv, klepněte na možnost **Zakázat**. 
 
 Další informace o tomto postupu naleznete v tomto tématu v části [Vyloučení certifikátů účtů práv](https://technet.microsoft.com/cba5e901-942c-4d06-9865-e6c4648c95e6) uvedené již dříve.
