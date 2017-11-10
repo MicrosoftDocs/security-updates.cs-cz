@@ -36,8 +36,7 @@ Instalace služby RMS s aktualizací Service Pack 1
 
 6.  Po zobrazení dialogového okna **Instalace je dokončena** klepněte na tlačítko **Zavřít**.
 
-    | ![](images/Cc747689.note(WS.10).gif)Poznámka                                                                |
-    |------------------------------------------------------------------------------------------------------------------------------------------|
-    | Zobrazí-li se chybová zpráva o restartování aplikace, aktualizujte stránku **Globální správa** v prohlížeči Microsoft Internet Explorer. |
+    > [!NOTE]
+    > Zobrazí-li se chybová zpráva o restartování aplikace, aktualizujte stránku **Globální správa** v prohlížeči Microsoft Internet Explorer. 
 
 Službu RMS můžete také nainstalovat z příkazového řádku. Příslušné pokyny získáte v tomto tématu později v části [Instalace serveru RMS z příkazového řádku](https://technet.microsoft.com/b55b1e2a-dd14-4168-a37f-9cdedbec660b).

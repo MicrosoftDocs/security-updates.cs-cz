@@ -32,9 +32,8 @@ Ruční zápis serveru kořenové certifikace
 
 4.  Klepněte na tlačítko **Uložit**. Zobrazí se dialogové okno **Uložit jako**.
 
-    | ![](images/Cc747727.note(WS.10).gif)Poznámka                                                                                                          |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | V dialogovém okně **Stažení souboru** neklepejte na tlačítko **Otevřít**. Při klepnutí na tlačítko **Otevřít** se zobrazí chybová zpráva a soubor s žádostí o zápis nebude uložen. |
+    > [!NOTE]
+    > V dialogovém okně **Stažení souboru** neklepejte na tlačítko **Otevřít**. Při klepnutí na tlačítko **Otevřít** se zobrazí chybová zpráva a soubor s žádostí o zápis nebude uložen. 
 
 5.  Klepnutím na tlačítko **Uložit** exportujte žádost o zápis do souboru. Ve výchozím nastavení bude soubor uložen na plochu pod názvem *název\_serveru*EnrollRequest.xml, kde hodnota *název\_serveru* bude nahrazena názvem serveru RMS. Výběrem požadovaného umístění v rozevíracím seznamu **Uložit do** můžete soubor uložit jinam. Zadáním nového názvu do pole **Název souboru** můžete také změnit výchozí název souboru.
 

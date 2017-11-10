@@ -75,9 +75,8 @@ Konfigurace jiného nastavení zjišťování služby na straně klienta pro pub
   
 Jestliže budou vaši uživatelé publikovat obsah ze svých počítačů, můžete nakonfigurovat jiné nastavení umístění serverů používaných pro publikování v závislosti na topologii používané v podniku. Umístění serverů používaných pro publikování jsou standardně zjišťována klientem pomocí služby Active Directory. Přidáním odpovídajících klíčů registru do klientských počítačů klienti tyto metody obejdou a místo toho použijí adresy URL, které zadáte v hodnotě položky registru.
   
-| ![](images/Cc747614.note(WS.10).gif)Poznámka                                                                                                                          |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Jiné hodnoty použité klientem uvedené v těchto částech je potřeba vytvořit jako klíče, nikoli jako jednotlivé položky. Hodnotu těchto klíčů je potřeba vytvořit ve výchozí položce pro každý klíč. |
+> [!NOTE]
+> Jiné hodnoty použité klientem uvedené v těchto částech je potřeba vytvořit jako klíče, nikoli jako jednotlivé položky. Hodnotu těchto klíčů je potřeba vytvořit ve výchozí položce pro každý klíč. 
   
 #### Popisy klíčů registru
   
@@ -132,9 +131,8 @@ Následující tabulka uvádí klíče registru, které můžete přidat do klie
   
 Doporučujeme implementovat tyto položky registru buď pomocí serveru SMS (Systems Management Server) nebo pomocí zásad skupiny, a zajistit tak, aby všichni klienti ve vašem podniku používali správné servery pro publikování.
   
-| ![](images/Cc747614.Caution(WS.10).gif)Upozornění                                                          |  
-|-----------------------------------------------------------------------------------------------------------------------------------------|  
-| Nesprávná úprava registru může vážně poškodit systém. Před prováděním změn registru byste měli v počítači zálohovat veškerá cenná data. |
+> [!CAUTION]
+> Nesprávná úprava registru může vážně poškodit systém. Před prováděním změn registru byste měli v počítači zálohovat veškerá cenná data. 
   
 K importu správných klíčů registru na každém serveru v clusteru služby RMS lze používat ukázkový soubor registru (REG).
   

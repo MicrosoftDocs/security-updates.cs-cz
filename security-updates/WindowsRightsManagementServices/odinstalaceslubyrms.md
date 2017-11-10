@@ -20,9 +20,8 @@ Odinstalace služby RMS
 
 1.  Přihlaste se k serveru, na kterém chcete odinstalovat službu RMS.
 
-    | ![](images/Cc747587.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                              |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Pokud službu RMS odebíráte ze serveru v clusteru kořenové certifikace, je nejprve nutné zrušit jeho zajištění přechodem na stránku **Globální správa** a klepnutím na možnost **Odebrat službu RMS z tohoto webu**. Před odinstalací služby RMS ze serveru správy licencí není třeba zrušit zajištění tohoto serveru. |
+    > [!IMPORTANT]
+    > Pokud službu RMS odebíráte ze serveru v clusteru kořenové certifikace, je nejprve nutné zrušit jeho zajištění přechodem na stránku **Globální správa** a klepnutím na možnost **Odebrat službu RMS z tohoto webu**. Před odinstalací služby RMS ze serveru správy licencí není třeba zrušit zajištění tohoto serveru. 
 
 2.  V **Ovládacích panelech** otevřete panel **Přidat nebo odebrat programy**.
 

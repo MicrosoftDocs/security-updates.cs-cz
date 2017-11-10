@@ -30,9 +30,8 @@ First, follow these steps to install ADSI Edit:
 
 2.  Insert the Windows Server 2003 product CD and navigate to Support\\Tools.
 
-    | ![](images/Cc720282.Caution(WS.10).gif)Upozornění                                                            |
-    |-------------------------------------------------------------------------------------------------------------------------------------------|
-    | In a production environment, the Windows Server 2003 Support Tools should be installed on a client computer that is joined to the domain. |
+    > [!CAUTION]
+    > In a production environment, the Windows Server 2003 Support Tools should be installed on a client computer that is joined to the domain. 
 
 3.  Double-click suptools.msi to start the installation.
 
