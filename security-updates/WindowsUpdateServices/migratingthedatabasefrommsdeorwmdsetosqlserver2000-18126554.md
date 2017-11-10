@@ -162,11 +162,8 @@ This section contains two procedures. The first procedure installs WSUS on the b
     \[SQLServerName\\InstaceName\] is the name of the SQL Server instance that holds the SUSDB database on Server2. Note that \\InstanceName is not necessary if you are using the default instance.
 
     \[LocalContentCacheLocationValue\] is the path to the folder on Server 1 where update files are stored. For example, C:\\WSUS\\WSUSContent.
-
-    
      > [!IMPORTANT]  
      > Do not use a network location or a UNC path. Do not add a trailing backslash (\\).      
-
      
 3.  If you chose remote storage on Microsoft Update, at a command prompt, type
 
@@ -313,10 +310,11 @@ In this section you will detach the WSUS database on Server 1 and on Server 2, a
 Viz také
 --------
 
-####  
+
 
 [Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22)  
 [Deploying Microsoft Windows Server Update Services 2.0](https://technet.microsoft.com/ace052df-74e7-4d6a-b5d4-f7911bb06b40)
+
 #### Další zdroje
 
 [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=41777)

@@ -13,10 +13,8 @@ V průběhu instalace vytvoří služba RMS v místním počítači skupinu RMS 
 
 Účet služby RMS je možné kdykoli změnit. Pokud účet změníte, bude předchozí zadaný účet automaticky ze skupiny RMS Service Group odebrán a jejím členem se stane nový účet.
 
-| ![](images/Cc747736.Important(WS.10).gif)Důležité informace                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Z bezpečnostních důvodů je doporučeno vytvořit pro účet služby RMS zvláštní uživatelský účet a používat jej pouze k tomuto účelu. Tomuto účtu byste zároveň neměli udělovat žádná další oprávnění. |
+> [!IMPORTANT]
+> Z bezpečnostních důvodů je doporučeno vytvořit pro účet služby RMS zvláštní uživatelský účet a používat jej pouze k tomuto účelu. Tomuto účtu byste zároveň neměli udělovat žádná další oprávnění. 
 
-| ![](images/Cc747736.note(WS.10).gif)Poznámka                            |
-|------------------------------------------------------------------------------------------------------|
-| Účtem služby RMS nemůže být účet domény použitý k instalaci služby RMS s aktualizací Service Pack 1. |
+> [!NOTE]
+> Účtem služby RMS nemůže být účet domény použitý k instalaci služby RMS s aktualizací Service Pack 1. 

@@ -13,6 +13,5 @@ Při zajišťování vytvoří služba RMS soukromý klíč pro server RMS. Souk
 
 Jestliže byl pomocí daného serveru chráněn obsah, měli by být upozorněni všichni vlastníci obsahu a obsah by měl být znovu publikován prostřednictvím serveru RMS s novým soukromým klíčem. Všechny kopie obsahu chráněného odhaleným soukromým klíčem by měly být zničeny, protože již nemají dostatečnou ochranu.
 
-| ![](images/Cc747765.Important(WS.10).gif)Důležité informace                                                                                                                                                                           |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bez ohledu na to, zda byl daný server zapsán ke službě Microsoft Enrollment Services, je nutné u něj opakovat proces zajištění, aby bylo možné získat nový soukromý klíč. Pokud budete server RMS pouze znovu zapisovat, bude použit jeho předchozí soukromý klíč. |
+> [!IMPORTANT]
+> Bez ohledu na to, zda byl daný server zapsán ke službě Microsoft Enrollment Services, je nutné u něj opakovat proces zajištění, aby bylo možné získat nový soukromý klíč. Pokud budete server RMS pouze znovu zapisovat, bude použit jeho předchozí soukromý klíč. 

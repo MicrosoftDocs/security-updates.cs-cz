@@ -32,9 +32,8 @@ Vyloučení aplikací nebo ukončení vyloučení aplikací
 
     Chcete-li ze seznamu vyloučení odstranit určitou aplikaci (nebo součást), vyberte název souboru a poté klepněte na možnost **Odstranit vybrané aplikace ze seznamu vyloučení**.
 
-    | ![](images/Cc720262.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                      |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Server RMS vyžaduje zadání verze aplikace ve formátu čtyřmístného čísla odděleného tečkami (\#.\#.\#.\# ). U některých aplikací je však číslo verze určeno dvoumístnými nebo třímístnými čísly oddělenými tečkou. V takovém případě je vhodné přidat hodnotu .0, aby číslo verze odpovídalo formátu vyžadovanému serverem RMS. |
+    > [!NOTE]
+    > Server RMS vyžaduje zadání verze aplikace ve formátu čtyřmístného čísla odděleného tečkami (\#.\#.\#.\# ). U některých aplikací je však číslo verze určeno dvoumístnými nebo třímístnými čísly oddělenými tečkou. V takovém případě je vhodné přidat hodnotu .0, aby číslo verze odpovídalo formátu vyžadovanému serverem RMS. 
 
 #### Ukončení vyloučení aplikací
 

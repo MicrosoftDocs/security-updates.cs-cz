@@ -26,9 +26,8 @@ Instalace součásti Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) pro 
 
     **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD***=heslo*
 
-    | ![](images/Cc747667.Important(WS.10).gif)Důležité informace                                                                                                                                                                        |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Po instalaci je třeba službu MSDE spustit. Službu můžete spustit pomocí panelu **Služby** v **Ovládacích panelech**. Doporučujeme nastavit automatické spuštění této služby, aby byla při spuštění služby RMS vždy zajištěna dostupnost databáze součásti MSDE. |
+    > [!IMPORTANT]
+    > Po instalaci je třeba službu MSDE spustit. Službu můžete spustit pomocí panelu **Služby** v **Ovládacích panelech**. Doporučujeme nastavit automatické spuštění této služby, aby byla při spuštění služby RMS vždy zajištěna dostupnost databáze součásti MSDE. 
 
 Nezajišťujte službu RMS na serveru, dokud není nainstalován databázový systém, který bude poskytovat podporu konfigurační databázi služby RMS.
 

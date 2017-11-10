@@ -11,9 +11,8 @@ Nastavení základní infrastruktury
 
 Způsob nastavování infrastruktury závisí na požadavcích na systém pro instalaci služby RMS a také na doporučených postupech pro takové nastavování. Základním serverovým prostředím požadovaným pro podporu služby RMS je řadič domény, databázový server a server RMS nakonfigurovaný jako server kořenové certifikace. V následujících tématech jsou uvedeny postupy nastavení pro tyto součásti infrastruktury a také doplňkové informace související s nasazením těchto součástí.
 
-| ![](images/Cc720243.note(WS.10).gif)Poznámka                                                                                                                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| K nasazení služby RMS je nutné, aby byl v klientských počítačích, které se budou používat se serverem RMS, nainstalován klientský software RMS. Klienta RMS je možné stáhnout z [webu společnosti Microsoft](http://go.microsoft.com/fwlink/?linkid=18134). |
+> [!NOTE]
+> K nasazení služby RMS je nutné, aby byl v klientských počítačích, které se budou používat se serverem RMS, nainstalován klientský software RMS. Klienta RMS je možné stáhnout z [webu společnosti Microsoft](http://go.microsoft.com/fwlink/?linkid=18134). 
 
 Tento oddíl se zabývá následujícími tématy:
 
