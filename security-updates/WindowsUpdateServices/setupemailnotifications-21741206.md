@@ -54,8 +54,8 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 
 7.  Enter the user name and password in the respective boxes.
 
-    > [!NOTE]                                                                                                                                                                                                                                                  |
-    > You can change authentication credentials only on a WSUS server, not from a remote administration console.
+  > [!NOTE]                                                                                                                                                                                                                           
+  > You can change authentication credentials only on a WSUS server, not from a remote administration console.
     
 8.  Click **Apply** to save this information.
 
