@@ -16,13 +16,17 @@ Externí uživatel obvykle získává ke službě RMS přístup prostřednictví
 Vyžadovány jsou pouze následující podmínky:
 
 -   Uživatel má k dispozici platný certifikát účtu práv.
+
 -   Uživatel může získat přístup k serveru správy licencí RMS, který vydal licenci k publikování a který je umístěn na intranetu nebo extranetu.
+
 -   Instalace služby RMS, která vydala certifikát účtu daného uživatele, je uvedena na seznamu důvěryhodných domén uživatelů instalace služby RMS vydávající licenci k použití.
 
 Licenci k použití mohou obdržet následující typy externích uživatelů:
 
 -   Uživatelé, jejichž účty jsou součástí jiné doménové struktury služby Active Directory s další instalací služby RMS. Instalace služby RMS v této jiné doménové struktuře musí být pro první instalaci služby definována jako důvěryhodná doména uživatelů.
+
 -   Uživatelé z jiné organizace, ve které je také spuštěna instalace služby RMS uvedená na seznamu důvěryhodných domén uživatelů pro instalaci první organizace.
+
 -   Uživatelé s certifikátem účtu práv služby .NET Passport v případě, že je služba certifikace RMS společnosti Microsoft uvedena na seznamu důvěryhodných domén uživatelů pro danou instalaci.
 
 Do seznamu důvěryhodných domén je možné přidat jinou organizaci nebo jinou instalaci služby RMS ve vaší organizaci. Po přidání domény můžete definovat, které e-mailové domény mají být v této doméně považovány za důvěryhodné a také určit, zda mají být považovány za důvěryhodné identifikátory zabezpečení (SID) obsažené v této doméně, či nikoli.

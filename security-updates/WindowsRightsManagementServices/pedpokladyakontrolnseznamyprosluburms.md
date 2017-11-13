@@ -132,11 +132,13 @@ Plánování infrastruktury databázového serveru tématu <a href="http://go.mi
 <tr class="odd">
 <td style="border:1px solid black;">Instalace a konfigurace služby RMS na serverech v clusteru kořenové certifikace</td>
 <td style="border:1px solid black;">Nastavení služby certifikace a správy licencí na prvním serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a>
+<br/><br/>
 Přidání serverů pro podporu certifikace a správy licencí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Instalace a konfigurace služby RMS na serverech v clusterech správy licencí</td>
 <td style="border:1px solid black;">Nastavení služby certifikace a správy licencí na prvním serveru tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a>
+<br/><br/>
 Přidání serverů pro podporu certifikace a správy licencí tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a></td>
 </tr>
 <tr class="odd">
@@ -267,7 +269,7 @@ Pro nasazení nové verze klienta RMS použijte následující kontrolní seznam
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Nastudování příslušných základních pojmů</td>
-<td style="border:1px solid black;">Plánování distribuce klientů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a>
+<td style="border:1px solid black;">Plánování distribuce klientů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42494">Nasazení systému služby RMS</a><br/><br/>
 Vyloučení verzí bezpečnostního modulu tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 <tr class="even">
@@ -301,6 +303,7 @@ Pro přidání důvěryhodných domén uživatelů použijte následující kont
 <tr class="odd">
 <td style="border:1px solid black;">Nastudování příslušných základních pojmů</td>
 <td style="border:1px solid black;">Důvěryhodné domény uživatelů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technické informace týkající se služby RMS</a>
+<br/><br/>
 Přidání a odebrání důvěryhodných domén uživatelů tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 <tr class="even">
@@ -334,6 +337,7 @@ Pro přidání důvěryhodných domén publikování použijte následující ko
 <tr class="odd">
 <td style="border:1px solid black;">Nastudování příslušných základních pojmů</td>
 <td style="border:1px solid black;">Důvěryhodné domény publikování tématu <a href="http://go.microsoft.com/fwlink/?linkid=42496">Technické informace týkající se služby RMS</a>
+<br/><br/>
 Přidání a odebrání důvěryhodných domén publikování tématu <a href="http://go.microsoft.com/fwlink/?linkid=42495">Provoz serveru RMS</a></td>
 </tr>
 <tr class="even">
