@@ -23,6 +23,5 @@ http://*název\_serveru*/\_wmcs/Certification/Activation.asmx
 
 Klienti spuštění mimo podnikovou síť vyhledávají aktivační službu pomocí specifikace UDDI pro rozpoznání služby. Další informace získáte v tomto tématu v části [Publikování služeb, jejichž hostitelem je společnost Microsoft](https://technet.microsoft.com/7ee8cb4d-1b46-48be-8a4c-5ff6a458231a) uvedené již dříve.
 
-| ![](images/Cc747697.note(WS.10).gif)Poznámka                                   |
-|-------------------------------------------------------------------------------------------------------------|
-| Jestliže jste na serveru povolili protokol SSL, budou tyto adresy URL používat protokol připojení https://. |
+> [!NOTE]
+> Jestliže jste na serveru povolili protokol SSL, budou tyto adresy URL používat protokol připojení https://. 

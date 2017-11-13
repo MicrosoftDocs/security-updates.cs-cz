@@ -13,9 +13,8 @@ Služba RMS ve výchozím nastavení nevydává licence k použití uživatelů
 
 Službu RMS můžete nakonfigurovat na zpracování tohoto typu požadavků, jestliže naimportujete certifikát serveru pro poskytování licencí jiné domény uživatelů a přidáte jej do seznamu důvěryhodných domén uživatelů. Pokud je provedena tato operace, mohou uživatelé, jejichž certifikáty účtů byly vydány důvěryhodnou uživatelskou doménou, odesílat požadavky na licence k použití do vaší instalace. Tyto licence k použití budou zpracovány stejným způsobem, jako kdyby byly požadovány interními uživateli.
 
-| ![](images/Cc747618.note(WS.10).gif)Poznámka                                                            |
-|--------------------------------------------------------------------------------------------------------------------------------------|
-| Cluster kořenové certifikace je do seznamu důvěryhodných domén uživatelů přidán automaticky u všech serverů RMS ve stejné instalaci. |
+> [!NOTE]
+> Cluster kořenové certifikace je do seznamu důvěryhodných domén uživatelů přidán automaticky u všech serverů RMS ve stejné instalaci. 
 
 Uživatelům z jiných uživatelských domén můžete povolit sdílení chráněného obsahu. Tato možnost je ilustrována v následujících příkladech:
 
