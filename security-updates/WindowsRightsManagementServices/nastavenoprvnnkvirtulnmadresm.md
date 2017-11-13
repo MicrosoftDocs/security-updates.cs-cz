@@ -16,11 +16,16 @@ Ve výchozím nastavení je pro virtuální adresář povoleno integrované ově
 Než uživatelé začnou službu vyřazení z provozu používat, je nutné upravit jejich aplikace tak, aby požadavky na licence k použití bylo možné odesílat do tohoto nového kanálu pro vyřazování z provozu. Pro sadu Microsoft Office System 2003 lze uvedený krok provést přidáním položky registru v počítači uživatele. Pokud sadu Office 2003 používáte, lze tento krok provést pomocí následujícího postupu:
 
 1.  Spusťte Editor registru.
-2.  Přejděte ke klíči `HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\DRM` a přidejte nový klíč s názvem `Decommissioning`.
+
+2.  Přejděte ke klíči HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\DRM a přidejte nový klíč s názvem Decommissioning.
+
 3.  V klíči Decommissioning přidejte následující novou **řetězcovou hodnotu**, přičemž nahraďte hodnotu *váš-licenční-server* názvem svého serveru RMS:
-    `http://`*váš-licenční-server*`/_wmcs/licensing`
+
+    `http://váš-licenční-server/_wmcs/licensing`
+
 4.  Potom klepněte na položku pravým tlačítkem myši a po výběru příkazu **Změnit** zadejte údaj hodnoty, která bude odkazovat na službu vyřazení z provozu:
-    `http://`*váš-licenční-server*`/_wmcs/decommission`
+
+    `http://váš-licenční-server/_wmcs/decommission`
 
 > [!NOTE]
 > Pro tento klíč může existovat více položek, pokud je v režimu vyřazování z provozu více serverů RMS organizace. 

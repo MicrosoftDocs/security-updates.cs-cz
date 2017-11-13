@@ -66,17 +66,28 @@ Ne. Služba RMS vydává certifikáty XrML, které by měly reprezentovat vyjád
 
 Systém služby RMS používá následující certifikáty a licence, které jsou uloženy ve formátu XrML v klientském počítači.
 
--   Certifikát počítače
+-   Certifikát počítače 
+
     Název souboru: CERT-Machine.drm
+
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM\\
+
 -   Certifikát účtu práv
+
     Předpona názvu souboru: GIC
+
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM
+
 -   Klientský certifikát pro poskytování licencí
+
     Předpona názvu souboru: CLC
+
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM
+
 -   Licence k použití
+
     Předpona názvu souboru: EUL
+    
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM
 
 > [!NOTE]

@@ -16,8 +16,11 @@ Při každém pokusu uživatele o využití chráněného obsahu odešle přísl
 Při zpracování požadavku na vazbu provádí klient RMS následující kroky:
 
 1.  Vyhodnotí licenci k použití pro všechny požadavky seznamu odvolání.
+
 2.  Pokud licence k použití vyžaduje odvolání, klientská komponenta ověří, zda je určený seznam odvolání k dispozici, zda je registrován a zda je aktuální vzhledem k intervalu aktualizace určenému v licenci k použití, či nikoli.
+
 3.  Ověří, zda je zaregistrovaný objekt, který podepsal seznam odvolání, uveden v licenci k použití jako zaregistrovaný objekt, který povolil odejmutí licence.
+
 4.  Proběhnou-li tyto kontroly úspěšně, určí pak klientská součást, zda byly všechny zaregistrované objekty obsažené v původním požadavku na vazbu odvolány, či nikoli. Pokud ano, bude požadavek na vazbu odmítnut.
 
 Seznamy odvolání může klientským počítačům distribuovat správce nebo je může do počítače stáhnout aplikace s podporou služby RMS v okamžiku, kdy to vyžaduje licence k použití. Pokud je seznam odvolání použit ke svázání části obsahu, je zaregistrován a může být po dobu otevření dané aplikace použit pro požadavky na vazbu u dalších licencí k použití. Po ukončení činnosti aplikace je registrace seznamu odvolání zrušena.

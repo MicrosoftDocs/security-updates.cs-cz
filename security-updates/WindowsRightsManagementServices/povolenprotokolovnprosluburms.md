@@ -14,4 +14,5 @@ Události a zprávy služby RMS lze protokolovat do tabulky na databázovém ser
 Naleznete zde popis následujících operací:
 
 -   [Zapnutí a vypnutí protokolování](https://technet.microsoft.com/8e672f95-566f-4070-9a2a-2f70f087148f)
+
 -   [Přejmenování databáze protokolování](https://technet.microsoft.com/e0e8dc95-767f-4b84-8966-914ab083471b)
