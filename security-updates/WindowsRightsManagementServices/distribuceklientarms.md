@@ -13,9 +13,8 @@ Klient RMS je integrován do operačního systému Windows Vista® tak, aby ji�
 
 Proces aktivace vytvoří bezpečnostní modul a certifikát počítače pro aktuálně přihlášeného uživatele. Aktivace je místní proces, u kterého není nutné připojení k síti. Po úspěšné aktivaci získá aplikace s podporou služby RMS při první žádosti o licenci na používání certifikát uživatele. Klienta RMS lze nainstalovat do všech klientských počítačů v organizaci pomocí zásad skupiny, služby Windows Update nebo pomocí skriptu pro správu.
 
-| ![](images/Cc720266.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                             |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bez ohledu na použitý způsob distribuce klienta komunikuje klient RMS se serverem RMS ve výchozím nastavení buď prostřednictvím portu 80, nebo portu 443. Měli byste se přesvědčit, zda klientský počítač dokáže na těchto portech vytvářet odchozí požadavky na kořenové nebo pouze licencované clustery služby RMS. |
+> [!NOTE]
+> Bez ohledu na použitý způsob distribuce klienta komunikuje klient RMS se serverem RMS ve výchozím nastavení buď prostřednictvím portu 80, nebo portu 443. Měli byste se přesvědčit, zda klientský počítač dokáže na těchto portech vytvářet odchozí požadavky na kořenové nebo pouze licencované clustery služby RMS. 
 
 **Používání zásad skupiny**
 

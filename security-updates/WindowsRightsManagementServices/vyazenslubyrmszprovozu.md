@@ -13,13 +13,11 @@ Provedení tohoto postupu vyžaduje, aby byl uživatel místně přihlášen k 
 
 Chcete-li otevřít webovou stránku **Globální správa**, klepněte na tlačítko **Start**, přejděte na příkaz **Všechny programy**, přejděte na položku **Služba RMS v systému Windows** a klepněte na položku **Správa služby RMS v systému Windows**.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Varování                             |
-|----------------------------------------------------------------------------------------------------------|
-| Po vyřazení serveru z provozu nelze obnovit standardní konfiguraci služby RMS. Tento proces je nevratný. |
+> [!WARNING]
+> Po vyřazení serveru z provozu nelze obnovit standardní konfiguraci služby RMS. Tento proces je nevratný. 
 
-| ![](images/Cc747665.Warning(WS.10).gif)Varování                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Po vyřazení služby RMS z provozu je třeba před instalací jiné instance služby RMS tuto službu zcela odebrat pomocí ovládacího panelu Přidat nebo odebrat programy. |
+> [!WARNING]
+> Po vyřazení služby RMS z provozu je třeba před instalací jiné instance služby RMS tuto službu zcela odebrat pomocí ovládacího panelu Přidat nebo odebrat programy. 
 
 Vyřazení služby RMS z provozu
 -----------------------------

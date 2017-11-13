@@ -50,9 +50,8 @@ Hardwarové požadavky na spuštění služby RMS s aktualizací SP2 jsou uvede
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                |  
-|------------------------------------------------------------------------------------------------------------------------------------------|  
-| Server RMS s aktualizací SP2 byl navržen pro 32bitový počítač. V případě instalace do 64bitového počítače bude spuštěn v režimu emulace. |
+> [!NOTE]
+> Server RMS s aktualizací SP2 byl navržen pro 32bitový počítač. V případě instalace do 64bitového počítače bude spuštěn v režimu emulace. 
   
 Softwarové požadavky pro servery používající službu RMS s aktualizací SP2 jsou uvedeny v následující tabulce.
   
@@ -101,9 +100,8 @@ Softwarové požadavky pro servery používající službu RMS s aktualizací S
 </table>
  
 
-| ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                                                                                 |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokud u služby RMS s aktualizací SP2 povolíte vzdálenou správu, pak počítač, který se připojuje ke službě správy služby RMS s aktualizací SP2, musí používat aplikaci Internet Explorer 6.0 nebo novější. |
+> [!NOTE]
+> Pokud u služby RMS s aktualizací SP2 povolíte vzdálenou správu, pak počítač, který se připojuje ke službě správy služby RMS s aktualizací SP2, musí používat aplikaci Internet Explorer 6.0 nebo novější. 
 
 Požadavky na infrastrukturu pro servery používající službu RMS s aktualizací SP2 jsou uvedeny v následující tabulce.
 
@@ -188,9 +186,8 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění poža
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                 |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Další informace o konfiguraci serveru Windows Server, službě Active Directory, službě Řízení front zpráv, službě IIS a systémech souborů naleznete na webu Windows Server 2003 TechCenter ([http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135)) (stránka může být v angličtině). |
+> [!NOTE]
+> Další informace o konfiguraci serveru Windows Server, službě Active Directory, službě Řízení front zpráv, službě IIS a systémech souborů naleznete na webu Windows Server 2003 TechCenter ([http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135)) (stránka může být v angličtině). 
   
 Používáte-li Službu správy přístupových práv při nasazení clusterů, zajistěte vyřešení bodů uvedených v následující tabulce.
   
@@ -224,17 +221,15 @@ Používáte-li Službu správy přístupových práv při nasazení clusterů, 
 </tbody>
 </table>
   
-| ![](images/Cc747637.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                                                                                                                                                                                                                 |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Není-li provedena registrace DNS pro intranet, nebude možné zpracovávat požadavky na licence od interních klientů. Potřebujete-li namapovat adresu URL clusteru na jeho virtuální IP adresu a nemůžete upravit nastavení DNS, můžete potřebné položky doplnit do tabulky hostitelů na jednotlivých serverech v clusteru. Registraci DNS je třeba provést před zajištěním služby RMS. Pokud jste již provedli zajištění služby, je nutné odinstalovat službu RMS ze serveru a zopakovat proces zajištění. |
+> [!IMPORTANT]  
+> Není-li provedena registrace DNS pro intranet, nebude možné zpracovávat požadavky na licence od interních klientů. Potřebujete-li namapovat adresu URL clusteru na jeho virtuální IP adresu a nemůžete upravit nastavení DNS, můžete potřebné položky doplnit do tabulky hostitelů na jednotlivých serverech v clusteru. Registraci DNS je třeba provést před zajištěním služby RMS. Pokud jste již provedli zajištění služby, je nutné odinstalovat službu RMS ze serveru a zopakovat proces zajištění.
   
 #### Podporovaní klienti pro tuto verzi
   
 Klienta RMS bez aktualizace Service Pack, klienta RMS s aktualizací SP1 nebo klienta RMS s aktualizací SP2 lze nainstalovat do libovolného počítače se systémem Microsoft Windows 2000, Windows XP nebo Windows Server 2003. Starší verze operačních systémů Windows nejsou touto verzí podporovány.
   
-| ![](images/Cc747637.Caution(WS.10).gif)Upozornění                                                                              |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Pokud používáte klienta RMS bez aktualizace Service Pack, nebude tento klient moci využívat online publikování na serveru RMS s aktualizací SP1 nebo vyšší. |
+> [!CAUTION]  
+> Pokud používáte klienta RMS bez aktualizace Service Pack, nebude tento klient moci využívat online publikování na serveru RMS s aktualizací SP1 nebo vyšší. 
   
 Změny funkcí  
 ------------
@@ -265,17 +260,15 @@ Tento nový protokol rozšíření důvěryhodnosti doménové struktury zvýš�
   
 Před verzí služby RMS s aktualizací SP2 bylo rozšíření skupiny v doménových strukturách prováděno pomocí vzdálených volání služby .NET. V této verzi byl protokol rozšíření skupiny v doménových strukturách změněn na webovou službu ASP.NET používající požadavky protokolu SOAP/HTTP odesílané do kanálu rozšíření důvěryhodných skupin doménové struktury.
   
-| ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                                                                                                                                                                            |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Z důvodu zpětné kompatibility služba RMS s aktualizací SP2 stále podporuje vzdálená volání služby .NET. Abyste však mohli plně využívat výhody nového protokolu rozšíření skupiny v doménových strukturách, musí být na všech clusterech služby RMS spuštěna minimálně služba RMS s aktualizací SP2. |
+> [!NOTE]
+> Z důvodu zpětné kompatibility služba RMS s aktualizací SP2 stále podporuje vzdálená volání služby .NET. Abyste však mohli plně využívat výhody nového protokolu rozšíření skupiny v doménových strukturách, musí být na všech clusterech služby RMS spuštěna minimálně služba RMS s aktualizací SP2. 
   
 #### Jaké možnosti nastavení jsou přidány nebo změněny ve službě RMS s aktualizací SP2?
   
 Nový kanál rozšíření skupiny služby RMS je ve výchozím nastavení služby RMS s aktualizací SP2 konfigurován s maximálním zabezpečením, kdy je přístup povolen pouze pro místní skupiny RMS Service a Administrators. Chcete-li poskytnout přístup pro účet, je nutné změnit seznam řízení přístupu u kanálu rozšíření skupiny v umístění wwwroot\\\_wmcs\\GroupExpansion\\GroupExpansion.asmx.
   
-| ![](images/Cc747637.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                                                                                                                              |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Zajistěte, aby měl účet služby RMS v každé doménové struktuře služby Active Directory přístup ke kanálu rozšíření skupiny na každém serveru RMS v clusteru. Pokud účty nemají přístup povolen, rozšíření skupiny se nezdaří. Druhou možností je vytvořit stejný účet v každé doménové struktuře a přiřadit všem účtům stejná hesla. V takovém případě bude nutné přidat do kanálu rozšíření skupiny pouze jeden účet. |
+> [!IMPORTANT]                                                                                    
+> Zajistěte, aby měl účet služby RMS v každé doménové struktuře služby Active Directory přístup ke kanálu rozšíření skupiny na každém serveru RMS v clusteru. Pokud účty nemají přístup povolen, rozšíření skupiny se nezdaří. Druhou možností je vytvořit stejný účet v každé doménové struktuře a přiřadit všem účtům stejná hesla. V takovém případě bude nutné přidat do kanálu rozšíření skupiny pouze jeden účet.
   
 Do služby RMS s aktualizací SP2 byly přidány nové události informující o problémových zprávách, které nebyly přidány do služby Řízení front zpráv. Tyto nové protokoly událostí zahrnují události, které vás upozorní, pokud zprávu nelze digitálně podepsat nebo pokud zprávu nelze ověřit. Mezi příklady problémů s ověřením patří chybně vytvořené zprávy, chybějící algoritmus hash či podpis nebo nesprávný algoritmus hash či podpis.
   
@@ -321,9 +314,8 @@ Dávkování ve službě RMS umožňuje vydání jediného požadavku pro kanál
   
 Ve verzích předcházejících službě RMS s aktualizací SP2 podporoval cluster RMS maximální velikost dávky 1. Pokud byla maximální velikost nastavena na hodnotu větší než 1, cluster ji ignoroval. U služby RMS s aktualizací SP2 může mít maximální velikost dávky hodnotu 100.
   
-| ![](images/Cc747637.note(WS.10).gif)Poznámka |  
-|---------------------------------------------------------------------------|  
-| Dávkové požadavky podporuje pouze kanál AcquireLicense služby RMS.        |
+> [!NOTE]
+> Dávkové požadavky podporuje pouze kanál AcquireLicense služby RMS.        
   
 Zasílání zpráv o chybách bylo ve službě RMS s aktualizací SP2 zdokonaleno tak, aby zahrnovalo dávkové požadavky. Pokud například odešlete dávku deseti požadavků a druhý a třetí požadavek je chybný, bude do protokolu událostí zapsána událost pro každou chybu.
   
@@ -346,9 +338,8 @@ V předchozích verzích služby RMS nebyly datové typy některých parametrů
   
 Ve verzích předcházejících verzi RMS s aktualizací SP2 se příkazy SQL RAISERROR používaly k upozornění uživatele služby RMS, že došlo k chybě. Příkaz RAISERROR odesílá dotaz do tabulky sysmessages za účelem načtení chybových zpráv služby RMS uložených v této tabulce. Služba RMS s aktualizací SP2 používá k předávání chyb SQL jiné postupy, proto již nezávisí na tabulce sysmessages.
   
-| ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                     |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Pokud upgradujete ze služby RMS s aktualizací SP1 na službu RMS s aktualizací SP2, není již tabulka sysmessages dotazována na chybové zprávy, avšak samotné chybové zprávy zůstanou v tabulce sysmessages uloženy. Při čisté instalaci služby RMS s aktualizací SP2 nejsou do tabulky sysmessages přidány žádné nové položky. |
+> [!NOTE]
+> Pokud upgradujete ze služby RMS s aktualizací SP1 na službu RMS s aktualizací SP2, není již tabulka sysmessages dotazována na chybové zprávy, avšak samotné chybové zprávy zůstanou v tabulce sysmessages uloženy. Při čisté instalaci služby RMS s aktualizací SP2 nejsou do tabulky sysmessages přidány žádné nové položky. 
   
 Známé problémy  
 --------------
@@ -387,9 +378,8 @@ Pokud nasazujete službu RMS v prostředí, kde byla úroveň infrastruktury sl
   
 Existují případy (například při vypnutí databáze, problémech s připojením atd.), kdy služba naslouchání protokolování nemůže k databázi získat přístup. V takovém případě bude zpráva odeslána do fronty nedoručených zpráv. Jediným způsobem, jak tyto zprávy obnovit (to znamená odeslat je do databáze protokolování) je použít nástroj RMS Queue Recovery dodávaný v rámci sady RMS Administration Toolkit. Chcete-li stáhnout sadu RMS Administration Toolkit, navštivte web [http://go.microsoft.com/fwlink/?LinkId=33841](http://go.microsoft.com/fwlink/?linkid=33841) (stránka může být v angličtině).
   
-| ![](images/Cc747637.note(WS.10).gif)Poznámka                                                                                                                                         |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Příkazy Recover a RecoverandPurge byly odebrány z procesu LogRecoveryCmd. Tak zajistíte, že všechny zprávy budou před odesláním do databáze protokolování směrovány zpět do služby Řízení fronty zpráv a ověřeny. |
+> [!NOTE]
+> Příkazy Recover a RecoverandPurge byly odebrány z procesu LogRecoveryCmd. Tak zajistíte, že všechny zprávy budou před odesláním do databáze protokolování směrovány zpět do služby Řízení fronty zpráv a ověřeny. 
   
 #### Před upgradem na Microsoft SQL Server 2005 je třeba upgradovat na službu RMS s aktualizací SP2
   

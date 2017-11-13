@@ -66,26 +66,35 @@ Ne. Služba RMS vydává certifikáty XrML, které by měly reprezentovat vyjád
 
 Systém služby RMS používá následující certifikáty a licence, které jsou uloženy ve formátu XrML v klientském počítači.
 
--   Certifikát počítače
+-   Certifikát počítače 
+
     Název souboru: CERT-Machine.drm
+
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM\\
+
 -   Certifikát účtu práv
+
     Předpona názvu souboru: GIC
+
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM
+
 -   Klientský certifikát pro poskytování licencí
+
     Předpona názvu souboru: CLC
+
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM
+
 -   Licence k použití
+
     Předpona názvu souboru: EUL
+    
     Umístění: %USERPROFILE%\\Local Settings\\Data aplikací\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Poznámka                                                                                  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uživatelskému účtu je přiřazen jeden certifikát počítače, soubor GIC a soubor CLC a mnoho souborů EUL na každou část obsahu, k němuž je požadován přístup. |
+> [!NOTE]
+> Uživatelskému účtu je přiřazen jeden certifikát počítače, soubor GIC a soubor CLC a mnoho souborů EUL na každou část obsahu, k němuž je požadován přístup. 
 
-| ![](images/Cc747725.note(WS.10).gif)Poznámka                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------|
-| Pro klienta RMS integrovaného se systémem Windows Vista® platí následující umístění: %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
+> [!NOTE]
+> Pro klienta RMS integrovaného se systémem Windows Vista® platí následující umístění: %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. 
 
 <span id="BKMK_17"></span>
 #### Kde je uložen pár privátního a veřejného klíče počítače?

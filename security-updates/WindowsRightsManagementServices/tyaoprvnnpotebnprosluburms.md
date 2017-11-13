@@ -43,6 +43,5 @@ U nasazení na jediný server, kde se databáze nachází ve stejném počítač
 </tbody>
 </table>
   
-| ![](images/Cc720178.note(WS.10).gif)Poznámka                                                                                                                                                                                                         |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Účet použitý pro přihlášení k serveru RMS nemusí být členem žádných dalších doménových skupin, jako je skupina Domain Admins. Některé úlohy správy, jako je například registrace spojovacího bodu služby nebo úpravy zásad zabezpečení, však vyžadují účet s dalšími oprávněními. |
+> [!NOTE]
+> Účet použitý pro přihlášení k serveru RMS nemusí být členem žádných dalších doménových skupin, jako je skupina Domain Admins. Některé úlohy správy, jako je například registrace spojovacího bodu služby nebo úpravy zásad zabezpečení, však vyžadují účet s dalšími oprávněními. 

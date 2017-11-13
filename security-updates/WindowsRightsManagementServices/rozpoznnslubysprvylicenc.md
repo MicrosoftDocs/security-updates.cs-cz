@@ -23,6 +23,5 @@ http://*název\_serveru*/\_wmcs/Licensing/License.asmx
 
 Umístění služby představuje server RMS nebo účet služby .NET Passport, který vydal licenci k publikování. Příslušnou adresu URL obsahuje daná licence k publikování.
 
-| ![](images/Cc720269.note(WS.10).gif)Poznámka                                   |
-|-------------------------------------------------------------------------------------------------------------|
-| Jestliže jste na serveru povolili protokol SSL, budou tyto adresy URL používat protokol připojení https://. |
+> [!NOTE]
+> Jestliže jste na serveru povolili protokol SSL, budou tyto adresy URL používat protokol připojení https://. 
