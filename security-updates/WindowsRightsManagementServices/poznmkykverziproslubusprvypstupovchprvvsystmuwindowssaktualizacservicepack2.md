@@ -221,15 +221,14 @@ Používáte-li Službu správy přístupových práv při nasazení clusterů, 
 </tbody>
 </table>
   
-| ![](images/Cc747637.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                                                                                                                                                                                                                 |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Není-li provedena registrace DNS pro intranet, nebude možné zpracovávat požadavky na licence od interních klientů. Potřebujete-li namapovat adresu URL clusteru na jeho virtuální IP adresu a nemůžete upravit nastavení DNS, můžete potřebné položky doplnit do tabulky hostitelů na jednotlivých serverech v clusteru. Registraci DNS je třeba provést před zajištěním služby RMS. Pokud jste již provedli zajištění služby, je nutné odinstalovat službu RMS ze serveru a zopakovat proces zajištění. |
+> [!IMPORTANT]  
+> Není-li provedena registrace DNS pro intranet, nebude možné zpracovávat požadavky na licence od interních klientů. Potřebujete-li namapovat adresu URL clusteru na jeho virtuální IP adresu a nemůžete upravit nastavení DNS, můžete potřebné položky doplnit do tabulky hostitelů na jednotlivých serverech v clusteru. Registraci DNS je třeba provést před zajištěním služby RMS. Pokud jste již provedli zajištění služby, je nutné odinstalovat službu RMS ze serveru a zopakovat proces zajištění.
   
 #### Podporovaní klienti pro tuto verzi
   
 Klienta RMS bez aktualizace Service Pack, klienta RMS s aktualizací SP1 nebo klienta RMS s aktualizací SP2 lze nainstalovat do libovolného počítače se systémem Microsoft Windows 2000, Windows XP nebo Windows Server 2003. Starší verze operačních systémů Windows nejsou touto verzí podporovány.
   
-> [!CAUTION]
+> [!CAUTION]  
 > Pokud používáte klienta RMS bez aktualizace Service Pack, nebude tento klient moci využívat online publikování na serveru RMS s aktualizací SP1 nebo vyšší. 
   
 Změny funkcí  
@@ -268,9 +267,8 @@ Před verzí služby RMS s aktualizací SP2 bylo rozšíření skupiny v domé
   
 Nový kanál rozšíření skupiny služby RMS je ve výchozím nastavení služby RMS s aktualizací SP2 konfigurován s maximálním zabezpečením, kdy je přístup povolen pouze pro místní skupiny RMS Service a Administrators. Chcete-li poskytnout přístup pro účet, je nutné změnit seznam řízení přístupu u kanálu rozšíření skupiny v umístění wwwroot\\\_wmcs\\GroupExpansion\\GroupExpansion.asmx.
   
-| ![](images/Cc747637.Important(WS.10).gif)Důležité informace                                                                                                                                                                                                                                                                                                                              |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Zajistěte, aby měl účet služby RMS v každé doménové struktuře služby Active Directory přístup ke kanálu rozšíření skupiny na každém serveru RMS v clusteru. Pokud účty nemají přístup povolen, rozšíření skupiny se nezdaří. Druhou možností je vytvořit stejný účet v každé doménové struktuře a přiřadit všem účtům stejná hesla. V takovém případě bude nutné přidat do kanálu rozšíření skupiny pouze jeden účet. |
+> [!IMPORTANT]                                                                                    
+> Zajistěte, aby měl účet služby RMS v každé doménové struktuře služby Active Directory přístup ke kanálu rozšíření skupiny na každém serveru RMS v clusteru. Pokud účty nemají přístup povolen, rozšíření skupiny se nezdaří. Druhou možností je vytvořit stejný účet v každé doménové struktuře a přiřadit všem účtům stejná hesla. V takovém případě bude nutné přidat do kanálu rozšíření skupiny pouze jeden účet.
   
 Do služby RMS s aktualizací SP2 byly přidány nové události informující o problémových zprávách, které nebyly přidány do služby Řízení front zpráv. Tyto nové protokoly událostí zahrnují události, které vás upozorní, pokud zprávu nelze digitálně podepsat nebo pokud zprávu nelze ověřit. Mezi příklady problémů s ověřením patří chybně vytvořené zprávy, chybějící algoritmus hash či podpis nebo nesprávný algoritmus hash či podpis.
   

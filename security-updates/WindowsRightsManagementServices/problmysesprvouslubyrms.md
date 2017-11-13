@@ -100,9 +100,12 @@ Záložní databázi můžete obnovit pomocí následujícího postupu.
 
 4.  Je-li obnovovaná databáze určena pro jeden server kořenové certifikace, upravte před novým zajištěním služby následující klíč registru:
 
-    -   Počítače s 32bitovou verzí systému Windows Server 2003
+    -   Počítače s 32bitovou verzí systému Windows Server 2003  
+    
         `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0\`
+    
     -   Počítače s 64bitovou verzí systému Windows Server 2003
+    
         `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0\`
 
     Přidejte následující položku jako hodnotu řetězce a ponechte danou hodnotu prázdnou:
