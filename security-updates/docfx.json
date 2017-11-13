@@ -1,49 +1,46 @@
 {
-  "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.svg",
-          "**/*.gif"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
-    ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "layout": "Conceptual",
-      "breadcrumb_path": "/security-updates/breadcrumb/toc.json",
-      "ms.date": "10/11/2017",
-      "ms.topic": "article",
-      "ms.service": "Security",
-      "author": "BetaFred",
-      "ms.author": "BetaFred",
-      "contributors_to_exclude": ["kexugit","v-kents","jmgsworld","v-savila","v-yijwan","v-hearya","PrashobNambiar","LolsonGitHub","KimTapia"]
-    },
-    "fileMetadata": {},
-    "template": [],
-    "dest": "security-updates"
-  }
+    "build": {
+        "content": [{
+            "files": [
+                "**/*.md",
+                "**/*.yml"
+            ],
+            "exclude": [
+                "**/obj/**",
+                "**/includes/**",
+                "README.md",
+                "LICENSE",
+                "LICENSE-CODE",
+                "ThirdPartyNotices"
+            ]
+        }],
+        "resource": [{
+            "files": [
+                "**/*.png",
+                "**/*.jpg",
+                "**/*.svg",
+                "**/*.gif"
+            ],
+            "exclude": [
+                "**/obj/**",
+                "**/includes/**"
+            ]
+        }],
+        "overwrite": [],
+        "externalReference": [],
+        "globalMetadata": {
+            "layout": "Conceptual",
+            "breadcrumb_path": "/security-updates/breadcrumb/toc.json",
+            "extendBreadcrumb": true,
+            "ms.date": "10/11/2017",
+            "ms.topic": "article",
+            "ms.service": "Security",
+            "author": "BetaFred",
+            "ms.author": "BetaFred",
+            "contributors_to_exclude": ["kexugit", "v-kents", "jmgsworld", "v-savila", "v-yijwan", "v-hearya", "PrashobNambiar", "LolsonGitHub", "KimTapia"]
+        },
+        "fileMetadata": {},
+        "template": [],
+        "dest": "security-updates"
+    }
 }
