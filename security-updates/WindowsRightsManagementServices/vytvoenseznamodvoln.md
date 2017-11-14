@@ -24,8 +24,11 @@ Seznam odvolání představuje soubor XML, který používá jazyk XrML.
 Prvek BODY obsahuje čtyři podřízené prvky:
 
 -   **ISSUEDTIME:** Obsahuje datum a čas vydání seznamu odvolání. Nástroj RLsigner.exe vloží uvedený prvek do souboru. Prvek je v příkladu uveden pouze z důvodu znázornění celé struktury souboru seznamu odvolání.
+
 -   **DESCRIPTOR:** Obsahuje data, která soubor identifikují jako seznam odvolání.
+
 -   **ISSUER:** Obsahuje data identifikující entitu, která seznam odvolání vydává.
+
 -   **REVOCATIONLIST:** Obsahuje podřízené prvky REVOKE, které určují entity odvolané daným seznamem.
 
 V následující části najdete ukázkový soubor seznamu odvolání.
