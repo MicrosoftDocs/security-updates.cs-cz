@@ -33,7 +33,9 @@ V následující tabulce jsou uvedena uživatelská práva a oprávnění, kter�
 <tr class="even">
 <td style="border:1px solid black;">Zajištění služby RMS</td>
 <td style="border:1px solid black;">Přihlaste se pomocí doménového účtu, který je členem místní skupiny Administrators. Použitý účet musí mít navíc u databáze serveru SQL Server udělenu roli pro přihlášení k serveru SQL jako správce systému, aby mohla služba RMS zřizovat databáze.
+<br/><br/>
 Při zajištění je nutné zadat účet služby RMS a tento účet již musí existovat. Mělo by jít o standardní účet uživatele domény bez jakýchkoli dalších oprávnění. Tento účet bude přidán do skupiny RMS Service Group a služba RMS pod ním bude pracovat za běžného provozu.
+<br/><br/>
 U nasazení na jediný server, kde se databáze nachází ve stejném počítači jako server kořenové certifikace, můžete zadat místní systémový účet. Z důvodů zabezpečení se doporučuje používat vždy účet služby RMS, nikoli místní systémový účet. Pokud je databáze umístěna na samostatném serveru, je nutné zadat účet služby RMS.</td>
 </tr>
 <tr class="odd">

@@ -14,7 +14,9 @@ Aby byly důležité šablony zásad práv chráněny, pravidelně vytvářejte 
 Proveďte jednu z následujících akcí:
 
 -   Vytvořte záložní kopii celé konfigurační databáze obsahující údaje o šablonách zásad práv. Další informace týkající se zálohování databáze serveru SQL Server naleznete v dokumentaci k serveru SQL Server.
+
     -nebo-
+    
 -   Vytvořte záložní kopii údajů o šablonách zásad práv uložených v konfigurační databázi. To lze provést exportováním identifikátorů GUID a informací TemplateData z tabulky DRMS\_RightsTemplate do nového textového souboru. Další informace týkající se exportování dat z databáze serveru SQL Server naleznete v dokumentaci k serveru SQL Server.
 
 Pokud je třeba obnovit údaje o šablonách zásad práv v konfigurační databázi, můžete extrahovat identifikátory GUID a informace TemplateData z tabulky DRMS\_RightsTemplate v záložní kopii konfigurační databáze nebo importovat data z textového souboru. Další informace týkající se těchto úloh naleznete v dokumentaci k serveru SQL Server.

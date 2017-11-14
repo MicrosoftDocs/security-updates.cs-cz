@@ -12,7 +12,9 @@ Zabezpečení databází používaných službou RMS
 Služba RMS vytváří a používá následující tři databáze, pro něž je vyžadována různá úroveň zabezpečení:
 
 -   **Adresářové služby**: V této databázi jsou uloženy výsledky dotazů na členství ve skupině služby Active Directory. Vzhledem k tomu, že obsahuje pouze informace služby Active Directory, není kromě zabezpečení automaticky konfigurovaného při zajištění služby RMS třeba další zabezpečení.
+
 -   **Protokolování**: Informace uložené v této databázi jsou citlivější než informace uložené v databázi adresářových služeb, protože jejich zveřejnění by mohlo ohrozit ochranu osobních údajů uživatelů. Společnost Microsoft věnuje zvláštní pozornost tomu, aby nebyly zaznamenávány žádné informace umožňující identifikaci osoby a aby veškeré informace zaznamenané do této databáze byly chráněny vhodnými prostředky zabezpečení. Není-li tato databáze přesunuta na jiný počítač se serverem SQL Server, není třeba provádět žádné změny jejího zabezpečení. Pokud je databáze přesunuta na jiný server, ověřte, že v novém prostředí je použit stejný způsob zabezpečení.
+
 -   **Konfigurace**: Tato databáze je kromě soukromých klíčů serveru nejdůležitějším a nejhodnotnějším prostředkem nasazení služby RMS. Obsahuje citlivé a klíčové informace, které je třeba chránit. Kromě konfiguračních informací tato databáze obsahuje všechny certifikáty a klíče, šifrovaný soukromý klíč serveru (v případě, že nepoužíváte doporučené hardwarové šifrování) a hodnotu hash hesla soukromého klíče.
 
 Při vytvoření konfigurační databáze služba RMS nastaví oprávnění pro omezení přístupu a zabezpečení databáze.
