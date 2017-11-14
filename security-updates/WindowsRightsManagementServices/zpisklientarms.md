@@ -16,6 +16,9 @@ Služba publikování RMS vydává klientské certifikáty pro poskytování lic
 Zápis klienta obsahuje následující kroky:
 
 1.  Klientský počítač odešle požadavek na zápis s certifikátem účtu práv daného uživatele službě publikování, která je spuštěna na serveru/clusteru kořenové certifikace nebo na serveru/clusteru správy licencí.
+
 2.  Server na základě nastavení správce sítě ověří, zda je zápis klienta povolen, a zkontroluje, zda není certifikát účtu práv uveden na seznamu vyloučení v konfigurační databázi. Další informace o vytváření seznamů vyloučení získáte v této sadě dokumentace v části Správa zásad vyloučení tématu Provoz serveru RMS.
+
 3.  Služba publikování vytvoří pro klientský počítač pár klíčů. Vytvoří klientský certifikát pro poskytování licencí a vloží do něj veřejný klíč. Zašifruje soukromý klíč pomocí veřejného klíče certifikátu účtu práv a vloží jej do certifikátu.
+
 4.  Služba publikování vydá klientský certifikát pro poskytování licencí pro klientský počítač.

@@ -14,19 +14,25 @@ Každá instalace služby RMS musí obsahovat nejméně jeden server kořenové 
 Certifikát serveru pro poskytování licencí je možné pro server kořenové certifikace získat některým z následujících způsobů. Požadovaný způsob můžete vybrat při zadávání informací týkajících se zajištění serveru RMS:
 
 -   **Zápis online**. Pokud se může server kořenové certifikace připojit k Internetu, je možné získat certifikát serveru pro poskytování licencí automaticky během zajišťování. Tento způsob je výchozí.
+
 -   **Zápis offline**. Pokud je server kořenové certifikace izolován od Internetu, je možné provést zápis ručně po dokončení zajišťování. Tento krok provedete, jestliže z daného serveru exportujete požadavek na zápis do souboru, který lze přenést do jiného počítače s připojením k Internetu, a odešlete jej službě Microsoft Enrollment Services za účelem získání certifikátu serveru pro poskytování licencí. Pokud je při zajišťování vybrán zápis offline, dokončí služba RMS zajišťování, ale nebude ji možné používat, dokud nebude importován certifikát serveru pro poskytování licencí získaný uvedeným počítačem s připojením. Další informace získáte později v tomto tématu v části [Ruční zápis serveru kořenové certifikace](https://technet.microsoft.com/aecdebb5-b28b-4b58-937a-392bb6ce9643).
 
 Žádost o zápis obsahuje následující informace:
 
 -   Informace o odvolání: Údaje o tom, zda bude instalace služby RMS používat standardní nebo vlastní odvolání (třetích stran). V případě použití odvolání třetích stran nebo odvolání společnosti Microsoft je součástí těchto informací veřejný klíč odvolacího úřadu.
+
 -   Veřejný klíč certifikátu: Veřejný klíč certifikátu poskytovatele licence serveru. Tento veřejný klíč je generován na serveru RMS a odeslán službě Microsoft Enrollment Services za účelem získání certifikátu poskytovatele licence serveru.
+
 -   Skladová položka: Oficiální název skladové položky služby RMS.
+
 -   Verze: Číslo verze sestavení služby RMS.
+
 -   Adresa URL: Základní adresa clusteru serverů RMS.
 
 Pokud služba Microsoft Enrollment Services poskytne odpověď na žádost o zápis, vrátí serveru RMS následující informace ve formátu XML:
 
 -   Certifikát serveru pro poskytování licencí:
+
 -   Řetěz certifikátů podepisujících úřadů.
 
 Stejné informace jsou přeneseny také v případě, že je server kořenové certifikace služby RMS zapsán způsobem online nebo offline. Při použití těchto způsobů nejsou shromážděny žádné další informace.
