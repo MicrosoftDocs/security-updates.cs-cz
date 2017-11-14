@@ -22,6 +22,9 @@ Pokud je šablona zásad práv odstraněna, je odebrána z konfigurační datab
 Při práci se šablonami zásad práv lze provádět následující úlohy:
 
 -   **Určení sdílené složky:** Před vytvořením první šablony zásad práv je třeba určit sdílenou složku, ve které budou všechny šablony zásad práv uloženy. Další informace získáte v tomto tématu později v části [Zadání umístění šablon zásad práv](https://technet.microsoft.com/e1bee46d-33db-424f-ba45-1dcedcb883ab).
+
 -   **Vytvoření a úprava šablon zásad práv:** Můžete vytvořit tolik šablon zásad práv, kolik vyžaduje správa práv v organizaci. Při vytvoření šablon zásad práv jsou definováni uživatelé a práva, na něž se šablona vztahuje. Dále je definován způsob, jakým má být šablona použita u obsahu. V případě potřeby aktualizace lze šablony zásad práv později upravit. Další informace získáte v tomto tématu později v části [Vytvoření a změna šablon zásad práv](https://technet.microsoft.com/6014176f-ef71-4d29-b3e3-da129c18563d).
+
 -   **Distribuce šablon zásad práv:** Aby mohl autor danou šablonu zásad práv použít na obsah, musí být v jeho počítači uložena kopie této šablony. Prostřednictvím správy distribuce šablon lze řídit, kteří autoři budou používat konkrétní šablony zásad práv. Další informace získáte v tomto tématu později v části [Distribuce šablon zásad práv](https://technet.microsoft.com/ae6fa26f-d744-4ac9-9eb1-728ffab87bfe).
+
 -   **Vyřazení šablon zásad práv:** Pokud šablona zásad práv není nadále vyhovující, může být odstraněna. V takovém případě by šablona měla být odstraněna také z počítačů uživatelů, aby bylo zabráněno potížím, které by měli uživatelé při pokusu o práci s obsahem publikovaným pomocí vyřazené šablony zásad práv. Další informace získáte v tomto tématu později v části [Vyřazení šablon zásad práv](https://technet.microsoft.com/32bf98c7-edda-4507-a4b8-4c11bddd6e60).

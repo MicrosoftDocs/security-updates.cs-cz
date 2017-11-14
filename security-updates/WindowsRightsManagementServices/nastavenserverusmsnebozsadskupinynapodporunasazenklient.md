@@ -19,10 +19,15 @@ Aplikace službu RMS podporuje pouze v případě, že integruje klienta RMS do
 Distribuce klienta RMS pomocí serveru SMS vyžaduje následující kroky:
 
 -   Vytvořte nový definiční soubor balíku.
+
 -   Extrahujte soubory Instalační služby systému Windows ze souboru WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe. Pro tento účel je třeba soubor WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe nejprve uložit. Neinstalujte ho. U tohoto příkladu budeme předpokládat, že je soubor uložen ve složce c:\\název\_složky. Otevřete okno příkazového řádku a zadejte následující příkaz:
+
     `c:\folder_name\WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x/t:c:\folder_name`
+
     Tento příkaz extrahuje soubory MSDrmClient.msi a RMClientBackCompat.msi ze souboru EXE a umístí je do složky c:\\*název\_složky*.
+
 -   Použijte soubory Instalační služby systému Windows pro definici a zdroj balíčku.
+
 -   Inzerujte dostupnost balíčků v síti.
 
 > [!NOTE]

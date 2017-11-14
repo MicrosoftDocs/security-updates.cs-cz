@@ -57,15 +57,18 @@ Pokud se rozhodnete jako databázový server používat součást MSDE 2000, mě
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;">Klepněte na tlačítko <strong>Start</strong>, na příkaz <strong>Spustit</strong>, do pole <strong>Otevřít</strong> zadejte příkaz <code>dcpromo</code> a potom klepněte na tlačítko <strong>OK</strong>.</td>
+<td style="border:1px solid black;">Klepněte na tlačítko <strong>Start</strong>, na příkaz <strong>Spustit</strong>, do pole <strong>Otevřít</strong> zadejte příkaz dcpromo a potom klepněte na tlačítko <strong>OK</strong>.</td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;">Pomocí spuštěného Průvodce instalací služby Active Directory vytvořte novou doménu v nové doménové struktuře. Ponechejte zvolené výchozí nastavení, kromě následujících možností:
+<br/><br/>
 Zadejte název domény, například contoso.com.
+<br/><br/>
 Nechte průvodce konfigurovat v počítači službu DNS.
 Pokud je na všech řadičích domény spuštěn systém Windows 2000 nebo vyšší, vyberte možnost <strong>Oprávnění kompatibilní pouze s operačními systémy řady Windows 2000 Server nebo Windows Server 2003</strong>.
+<br/><br/>
 Nastavte silné heslo pro místního správce.</td>
 <td style="border:1px solid black;">Pokud je nutné v nových doménách implementovat službu RMS, nastavte je v adresáři služby Active Directory.
 U všech účtů používejte vždy silná hesla.</td>

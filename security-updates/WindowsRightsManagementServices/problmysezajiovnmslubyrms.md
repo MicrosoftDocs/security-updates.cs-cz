@@ -58,9 +58,12 @@ Pokud se při zajišťování prvního serveru kořenové certifikace doménové
 -nebo-
 
 1.  Stáhněte a nainstalujte sadu RMS Administration Toolkit. Můžete si ji stáhnout z [webu společnosti Microsoft](http://go.microsoft.com/fwlink/?linkid=33841).
+
 2.  Otevřete příkazový řádek klepnutím na tlačítko **Start** a na příkaz **Spustit**. V dialogovém okně **Spustit** zadejte příkaz **cmd** a klepněte na tlačítko **OK**.
+
 3.  Na příkazovém řádku zadejte následující příkaz:
     **ADSCPRegister.exeunregisterscp** &lt;*adresa\_URL\_pro\_zrušení\_registrace*&gt;
+    
 4.  Jako položku &lt;*adresa\_URL\_pro\_zrušení\_registrace*&gt; zadejte adresu URL příslušného spojovacího bodu služby RMS, například https://doména/\_wmcs/Certification.
 
 Po provedení těchto kroků můžete zajistit server kořenové certifikace.
