@@ -175,9 +175,8 @@ Před spuštěním instalačního programu aktualizace WSUS 3.0 SP1 se ujistěte
 </tbody>
 </table>
   
-| ![](images/Cc708525.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                                         |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Pokud již máte nainstalovanou službu WSUS 2.0 používající aplikaci SQL Server 2000, SQL Server Desktop Engine 2000 nebo jinou databázi serveru SQL Server starší než SQL Server 2005 SP1 (nebo starší než SQL Server 2005 SP2, pokud je použit systém Windows Server 2008), nainstaluje instalační program aktualizace WSUS 3.0 SP1 databázi Interní databáze systému Windows® a migruje do ní použitou databázi. |
+> [!NOTE]
+> Pokud již máte nainstalovanou službu WSUS 2.0 používající aplikaci SQL Server 2000, SQL Server Desktop Engine 2000 nebo jinou databázi serveru SQL Server starší než SQL Server 2005 SP1 (nebo starší než SQL Server 2005 SP2, pokud je použit systém Windows Server 2008), nainstaluje instalační program aktualizace WSUS 3.0 SP1 databázi Interní databáze systému Windows® a migruje do ní použitou databázi.
   
 Požadavky na místo na disku pro instalaci serveru aktualizace WSUS 3.0 SP1  
 --------------------------------------------------------------------------
