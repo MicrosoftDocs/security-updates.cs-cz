@@ -56,22 +56,8 @@ Tato část popisuje softwarové a hardwarové požadavky pro instalaci aktualiz
     -   Windows Server 2008 R2
     -   Windows Server 2008 SP1 nebo novější
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="100%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Upozornění</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Jestliže bude aktualizace WSUS 3.0 SP2 nainstalovaná v systému Windows Server 2008 před provedením upgradu na systém Windows Server 2008 R2, upgrade na systém Windows Server 2008 R2 se nezdaří. Další informace naleznete v tématu <a href="#bkmk_knownissues">Známé problémy</a>.
-        </td>
-        </tr>
-        </tbody>
-        </table>
+        > [!WARNING]
+		> Jestliže bude aktualizace WSUS 3.0 SP2 nainstalovaná v systému Windows Server 2008 před provedením upgradu na systém Windows Server 2008 R2, upgrade na systém Windows Server 2008 R2 se nezdaří. Další informace naleznete v tématu <a href="#bkmk_knownissues">Známé problémy</a>.
  
 
     -   Windows Server 2003 SP1 nebo novější
@@ -239,8 +225,6 @@ Pokud provádíte upgrade z předchozí verze služby WSUS na verzi WSUS 3.0 SP
 Pokud změníte název počítače po instalaci služby WSUS 2.0 a před provedením upgradu na službu WSUS 3.0 SP2, nemusí se upgrade zdařit.
 
 Pomocí následujícího skriptu odeberte a znovu přidejte skupiny ASPNET a WSUS Administrators. Poté spusťte upgrade znovu.
-
-        ```
 
 ### Pokud jste ve službě WSUS 2.0 provedli migraci ze serveru MSDE na SQL Server 2008 nebo SQL Server 2005, bude potřeba změnit hodnotu registru.
 
