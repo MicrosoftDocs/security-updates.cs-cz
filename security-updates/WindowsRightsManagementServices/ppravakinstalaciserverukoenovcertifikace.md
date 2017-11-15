@@ -59,7 +59,9 @@ Po instalaci řadiče domény a databázových serverů (viz informace v předc
 <tr class="even">
 <td style="border:1px solid black;">Uživatel a přihlášení</td>
 <td style="border:1px solid black;">Klepněte pravým tlačítkem myši na ikonu <strong>Tento počítač</strong>, klepněte na příkaz <strong>Spravovat</strong>, rozbalte položku <strong>Místní uživatelé a skupiny</strong>, klepněte na položku <strong>Skupiny</strong> a poklepejte na položku <strong>Správci</strong>.
+<br/><br/>
 Klepněte na tlačítko <strong>Přidat</strong>, zadejte název uživatelského účtu, který chcete přidat (například Michael@contoso.com), a klepněte na tlačítko <strong>OK</strong>. Poskytněte uživatelskému účtu oprávnění správce. Po zobrazení výzvy zadejte odpovídající pověření, jako například Contoso\Administrator.
+<br/><br/>
 Přihlaste se jako uživatel domény s oprávněními správce daného počítače.</td>
 <td style="border:1px solid black;">Pro přidávání součástí do tohoto počítače je třeba mít práva správce. Některé kroky instalace nelze provést z účtu místního správce. Na tomto serveru musí existovat alespoň jeden uživatel domény, který je zároveň správcem. Služba SQL Server kromě toho vyžaduje práva správce systému pro vytváření nových databází.</td>
 </tr>

@@ -12,7 +12,9 @@ Povolení podpory služby RMS pro serverové služby
 Služba RMS může poskytovat certifikáty účtu práv a licence na používání také serverovým aplikacím s podporou služby RMS. Při konfiguraci serverových služeb byste si měli uvědomit několik věcí:
 
 -   Volitelné seznamy řízení přístupu (DACL) u kanálů RMS používají ve výchozím nastavení nejvíce zabezpečené nastavení. Při používání serverových služeb RMS je třeba seznamy DACL změnit.
+
 -   Pokud je klient RMS nainstalován na serveru se systémem Windows Server 2003 a je povolena Konfigurace rozšířeného zabezpečení aplikace Internet Explorer, je třeba přidat adresu URL clusteru RMS do zóny Důvěryhodné servery aplikace Internet Explorer.
+
 -   Mnoho serverových služeb používá rozšířené funkce adresářových služeb Active Directory, které jsou k dispozici, pouze pokud všechny řadiče domény služby Active Directory používají systém Windows Server 2003. Jestliže používáte některé serverové služby (například Microsoft Office SharePoint Server 2007 nebo Microsoft Exchange Server 2007), doporučujeme používat systém Windows Server 2003 na všech řadičích domény a nastavit úroveň funkčnosti domény i doménové struktury služby Active Directory na úroveň systému Windows Sever 2003.
 
 Výchozí volitelný seznam řízení přístupu (DACL) u kanálu certifikace serverů

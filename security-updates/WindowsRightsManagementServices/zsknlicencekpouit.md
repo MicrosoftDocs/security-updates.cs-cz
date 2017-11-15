@@ -16,9 +16,15 @@ Jestliže chce uživatel používat obsah chráněný službou RMS, musí od slu
 Proces získání licence k použití zahrnuje následující kroky:
 
 1.  Uživatel obdrží chráněný soubor obvyklým distribučním kanálem a otevře jej v aplikaci s podporou služby RMS. Jestliže v aktuálním počítači nebo zařízení uživatele není k dispozici certifikát účtu práv, je nutné, aby jej uživatel získal.
+
 2.  Aplikace s podporou služby RMS odešle požadavek na licenci k použití na server, který pro daný chráněný obsah vydal licenci k publikování. Požadavek obsahuje certifikát účtu práv daného uživatele (zahrnující veřejný klíč uživatele) a licenci k publikování (zahrnující symetrický klíč obsahu).
+
     Licence k publikování vydaná pomocí certifikátu poskytovatele licence klienta obsahuje adresu URL serveru, který vydal certifikát. V daném příkladu je požadavek na licenci k použití odeslána na server, který vydal klientský certifikát pro poskytování licencí, a nikoli do počítače, který vydal licenci k publikování.
+
 3.  Server správy licencí zkontroluje ověření uživatele, dále zkontroluje, zda je uživatel uveden v licenci k publikování, a poté vytvoří licenci k použití. Server ověří certifikát účtu uživatele a poté určí, která oprávnění byla uživateli udělena, ať už přímo či nepřímo prostřednictvím členství ve skupině s udělenými oprávněními.
+
     Server dešifruje symetrický klíč obsahu s použitím soukromého klíče serveru, znovu jej zašifruje s použitím veřejného klíče příjemce a přidá jej do licence k použití. V tomto kroku je zajištěno, že klíč obsahu může dešifrovat a přístup k chráněnému obsahu může získat pouze oprávněný uživatel.
+
     Server přidá do licence k použití všechny relevantní podmínky, jako například vyloučení některé verze systému Windows nebo aplikace. Uvedené podmínky jsou vynuceny klientem v době, kdy je licence k použití svázána s obsahem chráněným službou RMS.
+
 4.  Pokud je ověření úplné, server správy licencí navrátí licenci k použití klientskému počítači uživatele.
