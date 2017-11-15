@@ -197,9 +197,8 @@ Viz problém 1: Musí být nainstalovaná Internetová informační služba.</td
 </tbody>
 </table>
   
-| ![](images/Cc708491.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                             |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Pokud již byla dříve nainstalována služba WSUS 2.0 a používá databázi serveru SQL Server 2000, SQL Server Desktop Engine 2000 nebo jakoukoli databázi serveru SQL Server před verzí SQL Server 2005 SP1 (nebo SQL Server 2005 SP2 v systému Windows Server 2008), nainstaluje instalační program služby WSUS 3.0 software Interní databáze systému Windows® a provede migraci databáze na tuto verzi. |
+> [!NOTE]
+> Pokud již byla dříve nainstalována služba WSUS 2.0 a používá databázi serveru SQL Server 2000, SQL Server Desktop Engine 2000 nebo jakoukoli databázi serveru SQL Server před verzí SQL Server 2005 SP1 (nebo SQL Server 2005 SP2 v systému Windows Server 2008), nainstaluje instalační program služby WSUS 3.0 software Interní databáze systému Windows® a provede migraci databáze na tuto verzi.
   
 Požadavky na místo na disku pro instalaci serveru WSUS 3.0  
 ----------------------------------------------------------
