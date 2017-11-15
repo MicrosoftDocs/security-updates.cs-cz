@@ -16,9 +16,7 @@ Následující postup používá výchozí možnosti instalace služby WSUS pro 
 **Instalace služby WSUS na serveru Windows Server 2003**
 1.  Poklepejte na instalační soubor **WSUSSetup.exe**.
 
-    | ![](images/Cc708622.note(WS.10).gif)Poznámka                                                                                                                                                                                                       |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Nejnovější verze souboru WSUSSetup.exe pro službu Windows Server Update Services je k dispozici na [webu společnosti Microsoft](http://go.microsoft.com/fwlink/?linkid=47374) pro službu Windows Server Update Services na adrese http://go.microsoft.com/fwlink/?LinkId=47374. |
+    >Poznámka                                                                                                                               >Nejnovější verze souboru WSUSSetup.exe pro službu Windows Server Update Services je k dispozici na [webu společnosti Microsoft](http://go.microsoft.com/fwlink/?linkid=47374) pro službu Windows Server Update Services na adrese http://go.microsoft.com/fwlink/?LinkId=47374. 
 
 2.  Na stránce **Vítáme vás** v průvodci klepněte na tlačítko **Další**.
 
