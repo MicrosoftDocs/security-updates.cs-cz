@@ -77,9 +77,8 @@ Pokud na portu 80 běží dva nebo více webů (například služba Windows® Sh
 
 Před provedením úspěšné instalace služby WSUS 3.0 bude možná nutné zakázat antivirové programy. Jakmile zakážete antivirový program, restartujte počítač. Teprve potom spusťte instalaci služby WSUS. Restartováním počítače předejdete zamčení souborů, ke kterým instalační proces bude potřebovat přístup. Po dokončení instalace znovu povolte antivirový program. Přesné kroky k zakázání a opětovnému povolení antivirového programu naleznete na webu poskytovatele antivirového programu.
 
-| ![](images/Cc708491.Caution(WS.10).gif)Upozornění                                                                                                                                                                                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Toto řešení může způsobit, že bude počítač nebo síť náchylnější k útokům ze strany uživatele se zlými úmysly nebo škodlivého softwaru, jako jsou například viry. Společnost Microsoft toto řešení nedoporučuje, ale poskytuje tuto informaci, aby mohlo být toto řešení použito podle vlastního uvážení. Používejte toto řešení pouze na vlastní riziko. |
+> [!CAUTION]
+> Toto řešení může způsobit, že bude počítač nebo síť náchylnější k útokům ze strany uživatele se zlými úmysly nebo škodlivého softwaru, jako jsou například viry. Společnost Microsoft toto řešení nedoporučuje, ale poskytuje tuto informaci, aby mohlo být toto řešení použito podle vlastního uvážení. Používejte toto řešení pouze na vlastní riziko.
 
 > [!NOTE]
 > Antivirový program je navržen k ochraně počítače před viry. Pokud je antivirový program zakázaný, nesmějí být stahovány ani otvírány soubory pocházející ze zdrojů, kterým nedůvěřujete, nesmí být navštěvovány weby, kterým nedůvěřujete, a ani otevírány přílohy e-mailu. 
@@ -211,9 +210,8 @@ K instalaci služby Windows Server Update Services musejí být splněny tyto mi
 -   2 GB na svazku, kde budou uloženy databázové soubory,  
 -   20 GB na svazku, na který bude ukládán obsah.
   
-| ![](images/Cc708491.Important(WS.10).gif)Důležité informace                           |  
-|--------------------------------------------------------------------------------------------------------------------|  
-| Službu WSUS 3.0 nelze nainstalovat na komprimované jednotky. Zkontrolujte, zda vybraná jednotka není komprimovaná. |
+> [!IMPORTANT]
+> Službu WSUS 3.0 nelze nainstalovat na komprimované jednotky. Zkontrolujte, zda vybraná jednotka není komprimovaná.
   
 Požadavky na upgrade služby WSUS 3.0  
 ------------------------------------
@@ -367,9 +365,9 @@ Následující tabulka uvádí vlastnosti příkazového řádku pro službu WSU
 WSUSSetup.exe /q DEFAULT_WEBSITE=0  (install in quiet mode using port 8530)
 WSUSSetup.exe /q /u (uninstall WSUS)
 ```  
-| ![](images/Cc708491.Important(WS.10).gif)Důležité informace                                                                                                         |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Pokud je instalace služby WSUS 3.0 provedena v tichém režimu (/q) a počítač nesplňuje všechny nezbytné předpoklady, instalace vytvoří soubor WSUSPreReqCheck.xml a uloží jej do adresáře %TEMP%. |
+
+> [!IMPORTANT]
+> Pokud je instalace služby WSUS 3.0 provedena v tichém režimu (/q) a počítač nesplňuje všechny nezbytné předpoklady, instalace vytvoří soubor WSUSPreReqCheck.xml a uloží jej do adresáře %TEMP%.
   
 Problémy při instalaci  
 ----------------------
@@ -611,7 +609,7 @@ Před spuštěním služby WSUS 3.0 v systému Windows Server 2008 je nutné ak
 Výsledná značka by měla vypadat takto:
   
 ```  
-      <System.webServer>
+<System.webServer>
 <modules>
 <remove name="CustomErrorMode">
 </modules>
