@@ -6,7 +6,7 @@ ms:contentKeyID: 61223990
 ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/ms09-may(v=Security.10)'
 ---
 
-Security Bulletin Summary
+ 
 
 Souhrnný bulletin zabezpečení společnosti Microsoft, květen 2009
 ================================================================

@@ -6,7 +6,7 @@ ms:contentKeyID: 61224011
 ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/ms11-jul(v=Security.10)'
 ---
 
-Security Bulletin Summary
+ 
 
 Souhrnný bulletin zabezpečení společnosti Microsoft, červenec 2011
 ==================================================================

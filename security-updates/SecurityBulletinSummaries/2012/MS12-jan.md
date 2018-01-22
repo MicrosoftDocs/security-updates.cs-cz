@@ -6,7 +6,7 @@ ms:contentKeyID: 61224020
 ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/ms12-jan(v=Security.10)'
 ---
 
-Security Bulletin Summary
+ 
 
 Souhrnný bulletin zabezpečení společnosti Microsoft, leden 2012
 ===============================================================
