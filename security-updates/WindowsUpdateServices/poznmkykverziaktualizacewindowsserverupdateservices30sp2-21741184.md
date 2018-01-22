@@ -56,22 +56,8 @@ Tato část popisuje softwarové a hardwarové požadavky pro instalaci aktualiz
     -   Windows Server 2008 R2
     -   Windows Server 2008 SP1 nebo novější
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="100%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Upozornění</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Jestliže bude aktualizace WSUS 3.0 SP2 nainstalovaná v systému Windows Server 2008 před provedením upgradu na systém Windows Server 2008 R2, upgrade na systém Windows Server 2008 R2 se nezdaří. Další informace naleznete v tématu <a href="#bkmk_knownissues">Známé problémy</a>.
-        </td>
-        </tr>
-        </tbody>
-        </table>
+        > [!WARNING]
+		> Jestliže bude aktualizace WSUS 3.0 SP2 nainstalovaná v systému Windows Server 2008 před provedením upgradu na systém Windows Server 2008 R2, upgrade na systém Windows Server 2008 R2 se nezdaří. Další informace naleznete v tématu <a href="#bkmk_knownissues">Známé problémy</a>.
  
 
     -   Windows Server 2003 SP1 nebo novější
@@ -91,24 +77,8 @@ Tato část popisuje softwarové a hardwarové požadavky pro instalaci aktualiz
 -   Prohlížeč Microsoft Report Viewer Redistributable 2008
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Windows Server 2008 R2 vyžaduje službu WSUS 3.0 SP2. Pokud instalujete Windows Server 2008 R2, měli byste nainstalovat službu WSUS 3.0 SP2. Do systému Windows Server 2008 R2 neinstalujte službu WSUS 3.0 SP1.
-
-U služby WSUS 3.0 SP2 není podporováno použití s Terminálovou službou na front-end serveru ve vzdálené konfiguraci SQL.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Windows Server 2008 R2 vyžaduje službu WSUS 3.0 SP2. Pokud instalujete Windows Server 2008 R2, měli byste nainstalovat službu WSUS 3.0 SP2. Do systému Windows Server 2008 R2 neinstalujte službu WSUS 3.0 SP1.  U služby WSUS 3.0 SP2 není podporováno použití s Terminálovou službou na front-end serveru ve vzdálené konfiguraci SQL.
  
 
 ### Softwarové předpoklady konzoly pro správu služby WSUS
@@ -128,22 +98,8 @@ V následujícím seznamu jsou uvedeny minimální hardwarové požadavky, kter�
 -   Minimálně 20 GB volného místa je vyžadováno ve svazku, ve kterém je uložen obsah. Doporučeno je 30 GB.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Službu WSUS 3.0 SP2 nelze nainstalovat do komprimovaných jednotek.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Službu WSUS 3.0 SP2 nelze nainstalovat do komprimovaných jednotek.
  
 
 Předpoklady pro konfiguraci a doporučení nejvhodnějších postupů pro server WSUS
@@ -170,24 +126,8 @@ Pokud na portu 80 běží dva nebo více webových serverů (například služba
 Aby bylo možné úspěšně nainstalovat službu WSUS 3.0 SP2, bude pravděpodobně nutné zakázat antivirové programy. Po zákazu antivirových programů restartujte počítač a až poté nainstalujte službu WSUS. Restartováním počítače zabráníte uzamčení souborů v okamžiku, kdy instalační proces bude potřebovat získat přístup k těmto souborům. Po dokončení instalace nezapomeňte znovu povolit antivirový software. Přesný postup při zakázání a opětovném povolení používané verze antivirového softwaru naleznete na webu výrobce daného softwaru.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Upozornění</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Uvedený postup může způsobit, že počítač nebo síť budou náchylnější k útokům uživatelů se zlými úmysly nebo k útokům škodlivého softwaru, například virů. Společnost Microsoft toto řešení nedoporučuje, ale poskytuje tuto informaci, aby mohlo být toto řešení použito podle vlastního uvážení. Používejte toto řešení pouze na vlastní riziko.
-
-Antivirový software pomáhá chránit počítač proti virům. V době, kdy je antivirový program zakázaný, nestahujte nebo neotevírejte soubory ze zdrojů, kterým nedůvěřujete, a neotevírejte e-mailové přílohy.
-</td>
-</tr>
-</tbody>
-</table>
+> [!CAUTION]
+> Uvedený postup může způsobit, že počítač nebo síť budou náchylnější k útokům uživatelů se zlými úmysly nebo k útokům škodlivého softwaru, například virů. Společnost Microsoft toto řešení nedoporučuje, ale poskytuje tuto informaci, aby mohlo být toto řešení použito podle vlastního uvážení. Používejte toto řešení pouze na vlastní riziko.  Antivirový software pomáhá chránit počítač proti virům. V době, kdy je antivirový program zakázaný, nestahujte nebo neotevírejte soubory ze zdrojů, kterým nedůvěřujete, a neotevírejte e-mailové přílohy.
  
 
 ### Možnost vnořených aktivačních událostí v systému SQL Server
@@ -285,8 +225,6 @@ Pokud provádíte upgrade z předchozí verze služby WSUS na verzi WSUS 3.0 SP
 Pokud změníte název počítače po instalaci služby WSUS 2.0 a před provedením upgradu na službu WSUS 3.0 SP2, nemusí se upgrade zdařit.
 
 Pomocí následujícího skriptu odeberte a znovu přidejte skupiny ASPNET a WSUS Administrators. Poté spusťte upgrade znovu.
-
-        ```
 
 ### Pokud jste ve službě WSUS 2.0 provedli migraci ze serveru MSDE na SQL Server 2008 nebo SQL Server 2005, bude potřeba změnit hodnotu registru.
 
@@ -440,23 +378,8 @@ Následující tabulka uvádí vlastnosti příkazového řádku pro aktualizaci
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instalovat v tichém režimu s použitím portu 8530) WSUSSetup.exe /q /u (odinstalovat službu WSUS)  
 ```
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Důležité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Pokud instalujete aktualizaci WSUS 3.0 SP2 v tichém režimu (/q) a v počítači nejsou nainstalovány všechny nezbytné předpoklady, vygeneruje se v průběhu instalace soubor WSUSPreReqCheck.xml a uloží se do adresáře %TEMP%.
-</td>
-</tr>
-</tbody>
-</table>
- 
+> [!IMPORTANT]
+> Pokud instalujete aktualizaci WSUS 3.0 SP2 v tichém režimu (/q) a v počítači nejsou nainstalovány všechny nezbytné předpoklady, vygeneruje se v průběhu instalace soubor WSUSPreReqCheck.xml a uloží se do adresáře %TEMP%. 
 
 <span id="BKMK_KnownIssues"></span>
 Známé problémy

@@ -67,9 +67,8 @@ Pokud na portu 80 běží dva nebo více webů (například služba Windows® Sh
 
 Během instalace aktualizace WSUS 3.0 SP1 bude pravděpodobně k úspěšnému provedení instalace potřeba zakázat antivirové programy. Po zakázání antivirových programů restartujte počítač a až poté nainstalujte službu WSUS. Restartováním počítače zabráníte uzamčení souborů v okamžiku, kdy instalační proces bude potřebovat získat přístup k těmto souborům. Po dokončení instalace nezapomeňte znovu povolit antivirový program. Přesný postup při zakázání a opětovném povolení používané verze antivirového programu naleznete na webu výrobce daného programu.
 
-| ![](images/Cc708525.Caution(WS.10).gif)Upozornění                                                                                                                                                                                                                                                 |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uvedený postup může způsobit, že počítač nebo síť budou náchylnější k útokům uživatelů se zlými úmysly nebo k útokům škodlivého softwaru, například virů. Tento postup nedoporučujeme. Uvedené informace poskytujeme, aby uživatel daný postup použil podle vlastního uvážení. Uvedený postup používejte na vlastní nebezpečí. |
+> [!CAUTION]
+> Uvedený postup může způsobit, že počítač nebo síť budou náchylnější k útokům uživatelů se zlými úmysly nebo k útokům škodlivého softwaru, například virů. Tento postup nedoporučujeme. Uvedené informace poskytujeme, aby uživatel daný postup použil podle vlastního uvážení. Uvedený postup používejte na vlastní nebezpečí.
 
 > [!NOTE]
 > Antivirový program slouží k ochraně počítače před viry. V době, kdy je antivirový program zakázaný, nesmíte stahovat nebo otevírat soubory ze zdrojů, kterým nedůvěřujete, a otevírat e-mailové přílohy. 
@@ -176,9 +175,8 @@ Před spuštěním instalačního programu aktualizace WSUS 3.0 SP1 se ujistěte
 </tbody>
 </table>
   
-| ![](images/Cc708525.note(WS.10).gif)Poznámka                                                                                                                                                                                                                                                                                                                                         |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Pokud již máte nainstalovanou službu WSUS 2.0 používající aplikaci SQL Server 2000, SQL Server Desktop Engine 2000 nebo jinou databázi serveru SQL Server starší než SQL Server 2005 SP1 (nebo starší než SQL Server 2005 SP2, pokud je použit systém Windows Server 2008), nainstaluje instalační program aktualizace WSUS 3.0 SP1 databázi Interní databáze systému Windows® a migruje do ní použitou databázi. |
+> [!NOTE]
+> Pokud již máte nainstalovanou službu WSUS 2.0 používající aplikaci SQL Server 2000, SQL Server Desktop Engine 2000 nebo jinou databázi serveru SQL Server starší než SQL Server 2005 SP1 (nebo starší než SQL Server 2005 SP2, pokud je použit systém Windows Server 2008), nainstaluje instalační program aktualizace WSUS 3.0 SP1 databázi Interní databáze systému Windows® a migruje do ní použitou databázi.
   
 Požadavky na místo na disku pro instalaci serveru aktualizace WSUS 3.0 SP1  
 --------------------------------------------------------------------------
@@ -189,9 +187,8 @@ Zde jsou uvedeny požadavky na místo na disku pro instalaci služby Windows Ser
 -   2 GB na svazku, na kterém budou uloženy soubory databáze,  
 -   20 GB na svazku, na kterém bude uložen obsah.
   
-| ![](images/Cc708525.Important(WS.10).gif)Důležité informace                                  |  
-|---------------------------------------------------------------------------------------------------------------------------|  
-| Aktualizaci WSUS 3.0 SP1 nelze nainstalovat na komprimované jednotky. Ujistěte se, že zvolená jednotka není komprimovaná. |
+> [!IMPORTANT]
+> Aktualizaci WSUS 3.0 SP1 nelze nainstalovat na komprimované jednotky. Ujistěte se, že zvolená jednotka není komprimovaná.
   
 Požadavky na upgrade aktualizací WSUS 3.0 SP1  
 ---------------------------------------------
@@ -349,9 +346,9 @@ Následující tabulka obsahuje vlastnosti příkazového řádku pro aktualizac
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-| ![](images/Cc708525.Important(WS.10).gif)Důležité informace                                                                                                                                    |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Pokud instalujete aktualizaci WSUS 3.0 SP1 v tichém režimu (/q) a v počítači nejsou nainstalovány všechny nezbytné předpoklady, vygeneruje se v průběhu instalace soubor WSUSPreReqCheck.xml a uloží se do adresáře %TEMP%. |
+
+> [!IMPORTANT]
+> Pokud instalujete aktualizaci WSUS 3.0 SP1 v tichém režimu (/q) a v počítači nejsou nainstalovány všechny nezbytné předpoklady, vygeneruje se v průběhu instalace soubor WSUSPreReqCheck.xml a uloží se do adresáře %TEMP%. |
   
 Problémy při instalaci  
 ----------------------
@@ -396,8 +393,8 @@ Pomocí následujícího skriptu odstraňte a znovu přidejte skupiny správců 
   
 Řetězec *&lt;umístění\_DB&gt;* nahraďte složkou, ve které je databáze nainstalována, a řetězec *&lt;adresář\_obsahu&gt;* nahraďte místní složkou pro ukládání.
   
-```  
-sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,@wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "backup database SUSDB to disk=N'*&lt;ContentDirectory&gt;*\\SUSDB.Dat' with init"  
+```
+sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,@wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "backup database SUSDB to disk=N'*&lt;ContentDirectory&gt;*\\SUSDB.Dat' with init"
 ```
   
 #### Instalační program přepíše zálohu předchozí databáze.

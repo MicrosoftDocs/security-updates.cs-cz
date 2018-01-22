@@ -40,9 +40,11 @@ Při upgradu z verze WSUS RTM instalační program služby WSUS s aktualizací S
 
 **Určení dostatečné velikosti diskového prostoru**
 1.  Otevřete program Průzkumník Windows a přejděte do složky, v níž je umístěna databáze služby WSUS. Ve výchozím nastavení služba WSUS instaluje databázi sem:
-
     
         ```
+		<DriveLetter>:\WSUS\MSSQL$WSUS\Data\
+		```
+		
 2.  Stiskněte a podržte klávesu **CTRL**, vyberte soubory **SUSDB.MDF** a **SUSDB\_log.LDF**, klepněte na ně pravým tlačítkem myši a zvolte příkaz **Vlastnosti**.
 
 3.  V dialogovém okně **Soubory** se podívejte na hodnotu v poli **Velikost na disku**. Na disku musí být nejméně takové množství volného místa pro instalaci služby WSUS s aktualizací SP1.
@@ -67,9 +69,8 @@ Volání rozhraní API služby WSUS se dostane do konfliktu s instalačním pro
 
 Při upgradu služby WSUS instalací aktualizace WSUS SP1 může být nutné zakázat antivirové programy. Teprve potom bude možné úspěšně provést upgrade nebo nainstalovat aktualizaci Service Pack. Po zakázání antivirových programů restartujte počítač se systémem Windows Server. Pak nainstalujte upgrade nebo aktualizaci Service Pack. Tímto procesem zabráníte uzamknutí souborů, s nimiž musí proces aktualizace pracovat. Po dokončení instalace znovu povolte antivirový program. Na webu dodavatele antivirového programu jsou uvedeny přesné kroky pro zakázání a opětovné povolení antivirového programu a verze.
 
-| ![](images/Cc708486.Caution(WS.10).gif)Upozornění                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Toto zástupné řešení může způsobit, že počítač nebo síť budou zranitelnější vůči útokům uživatelů se zlými úmysly nebo škodlivého softwaru, jako jsou viry. Toto zástupné řešení nedoporučujeme, ale uvádíme tuto informaci pro případ, že byste je chtěli použít. Toto zástupné řešení používáte na vlastní riziko. |
+> [!CAUTION]
+> Toto zástupné řešení může způsobit, že počítač nebo síť budou zranitelnější vůči útokům uživatelů se zlými úmysly nebo škodlivého softwaru, jako jsou viry. Toto zástupné řešení nedoporučujeme, ale uvádíme tuto informaci pro případ, že byste je chtěli použít. Toto zástupné řešení používáte na vlastní riziko.
 
 > [!NOTE]
 > Antivirový program chrání počítač před viry. V době, kdy je antivirový program zakázán, nesmíte stahovat ani otevírat soubory z nedůvěryhodných zdrojů, navštěvovat nedůvěryhodné weby ani otevírat přílohy e-mailů. 
@@ -147,7 +148,16 @@ Pokud změníte název počítače po instalaci služby WSUS RTM a před upgrade
 Pomocí následujícího skriptu odeberte a znovu přidejte skupiny Administrators pro ASPNET a WSUS. Pak znovu spusťte upgrade.
 
         ```
-> [!NOTE]
+		osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+		osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+		 
+		osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+		osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+		 
+		osql.exe -S %computername%\WSUS -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
+		```
+
+		> [!NOTE]
 > Může být nutné nahradit hodnotu &lt;ContentDirectory&gt; na posledním řádku cestou ke skutečnému úložišti obsahu. 
 
 V následující části je uveden původní obsah souboru Readme pro službu WSUS

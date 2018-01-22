@@ -55,13 +55,19 @@ Průvodce instalací služby WSUS je spuštěn pomocí Správce serveru nebo pom
 
 4.  Na stránce Vybrat zdroj aktualizace v průvodci instalací můžete určit, odkud budou klienti získávat aktualizace. Ve výchozím nastavení je zaškrtnuto políčko **Ukládat aktualizace místně** a aktualizace budou ukládány do vámi zadaného umístění na serveru WSUS. Pokud zrušíte zaškrtnutí políčka **Ukládat aktualizace místně**, budou klientské počítače získávat schválené aktualizace připojením ke službě Microsoft Update. Proveďte výběr a klikněte na tlačítko **Další**.
 
+	![](https://i-technet.sec.s-msft.com/dynimg/IC302547.jpeg)
+
 5.  Na stránce Možnosti databáze vyberte software používaný ke správě databáze služby WSUS 3.0. Průvodce instalací ve výchozím nastavení nabídne instalaci interní databáze systému Windows.
 
     Pokud nechcete použít interní databázi systému Windows, zadejte instanci serveru SQL pro službu WSUS výběrem možnosti **Použít existující databázový server v tomto počítači** nebo **Použít existující databázový server ve vzdáleném počítači**. Do příslušného pole zadejte název instance. Název instance se zadává ve formátu &lt;*Název\_Serveru*&gt;\\&lt;*Název\_Instance*&gt;, kde *Název\_Serveru* je název daného serveru a *Název\_Instance* je název instance SQL. Proveďte výběr a klikněte na tlačítko **Další**.
+	
+	![](https://i-technet.sec.s-msft.com/dynimg/IC302548.jpeg)
 
 6.  Pokud jste se rozhodli připojit k serveru SQL, pokusí se služba WSUS na stránce **Připojování k instanci serveru SQL** připojit k příslušné instanci serveru SQL. Až připojení proběhne úspěšně, pokračujte kliknutím na tlačítko **Další**.
 
 7.  Na stránce Výběr webového serveru zadejte webový server, který bude služba WSUS používat. Pokud chcete používat výchozí web na portu 80, vyberte možnost **Použít existující výchozí web služby IIS**. Pokud web na portu 80 již existuje, můžete vytvořit alternativní web na portu 8530 výběrem možnosti **Vytvořit web služby Windows Server Update Services 3.0 SP2**. Klikněte na tlačítko **Další**.
+	
+	![](https://i-technet.sec.s-msft.com/dynimg/IC302549.jpeg)
 
 8.  Na stránce **Instalace služby Microsoft Windows Server Update Services je připravena** zkontrolujte vybrané možnosti a potom klikněte na tlačítko **Další**.
 
