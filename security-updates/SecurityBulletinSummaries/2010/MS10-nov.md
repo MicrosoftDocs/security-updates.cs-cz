@@ -6,7 +6,7 @@ ms:contentKeyID: 61224003
 ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/ms10-nov(v=Security.10)'
 ---
 
-Security Bulletin Summary
+ 
 
 Souhrnný bulletin zabezpečení společnosti Microsoft, listopad 2010
 ==================================================================

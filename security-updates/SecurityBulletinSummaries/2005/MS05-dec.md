@@ -6,7 +6,7 @@ ms:contentKeyID: 61223939
 ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/ms05-dec(v=Security.10)'
 ---
 
-Security Bulletin Summary
+ 
 
 Souhrnný bulletin zabezpečení společnosti Microsoft, prosinec 2005
 ==================================================================

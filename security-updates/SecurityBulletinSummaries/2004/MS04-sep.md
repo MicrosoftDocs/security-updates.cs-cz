@@ -6,7 +6,7 @@ ms:contentKeyID: 61223936
 ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/ms04-sep(v=Security.10)'
 ---
 
-Security Bulletin Summary
+ 
 
 Souhrnný bulletin zabezpečení společnosti Microsoft, září 2004
 ==============================================================

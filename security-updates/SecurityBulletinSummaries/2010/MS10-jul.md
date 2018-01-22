@@ -6,7 +6,7 @@ ms:contentKeyID: 61223999
 ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/ms10-jul(v=Security.10)'
 ---
 
-Security Bulletin Summary
+ 
 
 Souhrnný bulletin zabezpečení společnosti Microsoft, červenec 2010
 ==================================================================
