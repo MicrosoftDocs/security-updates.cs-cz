@@ -6,7 +6,7 @@ ms:contentKeyID: 62123644
 ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/Dn610807(v=Security.10)'
 ---
 
-Šablona dokumentu MSRC ppDocument
+
 
 Informační zpravodaje a bulletiny zabezpečení
 =============================================
