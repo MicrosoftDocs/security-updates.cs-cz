@@ -1,23 +1,22 @@
 ---
-TOCTitle: Security Advisories and Bulletins
-Title: Security Advisories and Bulletins
+TOCTitle: Informační zpravodaje a bulletiny zabezpečení
+Title: Informační zpravodaje a bulletiny zabezpečení
 ms:assetid: 'ac28e14e-994a-4fc5-bf4c-cf15bbde97fc'
-ms:contentKeyID: 61248024
-ms:mtpsurl: 'https://technet.microsoft.com/en-us/library/Dn610807(v=Security.10)'
+ms:contentKeyID: 62123644
+ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/Dn610807(v=Security.10)'
 ---
 
-Security Advisories and Bulletins
-=================================
 
-In this library you will find the following security documents that have been released by the Microsoft Security Response Center (MSRC). The MSRC investigates all reports of security vulnerabilities affecting Microsoft products and services, and releases these documents as part of the ongoing effort to help you manage security risks and help keep your systems protected.
 
--   [Security Bulletins](https://technet.microsoft.com/en-us/library/security/dn631937.aspx)
--   [Security Bulletin Summaries](https://technet.microsoft.com/en-us/library/security/dn631938.aspx)
--   [Security Advisories](https://technet.microsoft.com/en-us/library/security/dn631936.aspx)
--   [Microsoft Vulnerability Research Advisories](https://technet.microsoft.com/en-us/library/security/dn632674.aspx)
--   [Acknowledgments](https://technet.microsoft.com/library/security/dn820091.aspx)
--   [Glossary](https://technet.microsoft.com/library/security/dn848375.aspx)
+Informační zpravodaje a bulletiny zabezpečení
+=============================================
 
-For more information about the MSRC, see [Microsoft Security Response Center](http://technet.microsoft.com/security/dn440717).
+Publikováno:
 
-For more information about security, see [Security TechCenter](http://technet.microsoft.com/security).
+**Verze:**
+
+V této knihovně naleznete bulletiny zabezpečení, souhrnné bulletiny zabezpečení, informační zpravodaje zabezpečení a informační zpravodaje výzkumu chyb zabezpečení společnosti Microsoft, které byly uvedeny centrem Microsoft Security Response Center (MSRC). Centrum MSRC zkoumá veškerá oznámení chyb zabezpečení týkající se produktů a služeb společnosti Microsoft a vydává tyto dokumenty jako součást dlouhotrvajících snah pomoci vám řídit rizika zabezpečení a udržovat vaše systémy chráněné.
+
+Další informace o centru MSRC viz [Centrum Microsoft Security Response Center](http://technet.microsoft.com/security/dn440717).
+
+Další informace o zabezpečení viz [Technické středisko zabezpečení](http://technet.microsoft.com/security).
