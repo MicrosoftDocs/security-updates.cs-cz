@@ -8,16 +8,8 @@ ms:mtpsurl: 'https://technet.microsoft.com/cs-CZ/library/Dn610807(v=Security.10)
 
 
 
-- [Security Bulletins](https://technet.microsoft.com/en-us/library/security/dn631937.aspx)
-- [Security Bulletin Summaries](https://technet.microsoft.com/en-us/library/security/dn631938.aspx)
-- [Security Advisories](https://technet.microsoft.com/en-us/library/security/dn631936.aspx)
-- [Microsoft Vulnerability Research Advisories](https://technet.microsoft.com/en-us/library/security/dn632674.aspx)
-- [Acknowledgments](https://technet.microsoft.com/library/security/dn820091.aspx)
-- [Glossary](https://technet.microsoft.com/library/security/dn848375.aspx)
-
 Informační zpravodaje a bulletiny zabezpečení
 =============================================
-
 
 Publikováno:
 
